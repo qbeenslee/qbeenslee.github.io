@@ -2,6 +2,7 @@ User-agent:  Baiduspider
 Disallow:  /
 
 User-agent: *
+Allow: /
 
 Sitemap: https://qbeenslee.com/sitemap.xml
 
