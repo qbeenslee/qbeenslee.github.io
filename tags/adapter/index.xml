@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adapter on Hey sister</title>
+    <link>https://qbeenslee.com/tags/adapter/</link>
+    <description>Recent content in Adapter on Hey sister</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>&amp;copy; Qbeenslee 2019</copyright>
+    <lastBuildDate>Tue, 15 Dec 2015 11:46:43 +0800</lastBuildDate>
+    
+	<atom:link href="https://qbeenslee.com/tags/adapter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>一种简洁的Adapter模式实现</title>
+      <link>https://qbeenslee.com/article/super-simple-android-adapter-pattern/</link>
+      <pubDate>Tue, 15 Dec 2015 11:46:43 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/article/super-simple-android-adapter-pattern/</guid>
+      <description>&lt;p&gt;鄙人觉得做重复的事情就是浪费生命啊(&lt;a href=&#34;https://en.wikipedia.org/wiki/Don&#39;t_repeat_yourself&#34; target=&#34;_blank&#34;&gt;Don&amp;rsquo;t Repeat Yourself原则&lt;/a&gt;), 在Android中&lt;a href=&#34;http://developer.android.com/reference/android/widget/ListView.html&#34; target=&#34;_blank&#34;&gt;ListView&lt;/a&gt;的Adapter中有大量重复工作可以被取消掉.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

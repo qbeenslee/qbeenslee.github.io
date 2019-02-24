@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithm on Hey sister</title>
+    <link>https://qbeenslee.com/tags/algorithm/</link>
+    <description>Recent content in Algorithm on Hey sister</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>&amp;copy; Qbeenslee 2019</copyright>
+    <lastBuildDate>Sun, 17 Nov 2013 00:22:43 +0800</lastBuildDate>
+    
+	<atom:link href="https://qbeenslee.com/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>sunday算法</title>
+      <link>https://qbeenslee.com/article/algorithm-sunday/</link>
+      <pubDate>Sun, 17 Nov 2013 00:22:43 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/article/algorithm-sunday/</guid>
+      <description>&lt;p&gt;sunday算法是字符串模式匹配算法,是在BM算法上的优化.&lt;br /&gt;
+&lt;strong&gt;提出者&lt;/strong&gt;: Daniel M.Sunday(1990)&lt;br /&gt;
+&lt;strong&gt;核心思想&lt;/strong&gt;:在匹配过程中, 模式串并不被要求一定要按从左向右进行比较还是从右向左进行比较, 它在发现不匹配时, 算法能跳过尽可能多的字符以进行下一步的匹配, 从而提高了匹配效率.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>纯C解决括号匹配问题</title>
+      <link>https://qbeenslee.com/article/deal-brackets-match-problem-by-c/</link>
+      <pubDate>Tue, 15 Oct 2013 00:41:56 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/article/deal-brackets-match-problem-by-c/</guid>
+      <description>&lt;p&gt;先看问题描述&lt;br /&gt;
+描述&lt;br /&gt;
+假设一个算术表达式中可以包含三种括号：圆括号“(”和“)” 、方圆括号“[”和“]”、和花括号“{”和“}”，且这三种括号可按任意的次序嵌套使用(如：…[…{…}…[…]…]…[…]…(…)…)。编写判别给定表达式中所含括号是否正确配对出现的算法。若正确配对则输出yes，否则输出no。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;写的文本颠倒代码</title>
+      <link>https://qbeenslee.com/article/reverse-text-file-by-cpp/</link>
+      <pubDate>Mon, 23 Sep 2013 01:02:46 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/article/reverse-text-file-by-cpp/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;（过程：从名为“in.txt”中读取信息，颠倒输出到“out.txt”中。）&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

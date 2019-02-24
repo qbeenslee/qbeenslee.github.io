@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>分析 on Hey sister</title>
+    <link>https://qbeenslee.com/tags/%E5%88%86%E6%9E%90/</link>
+    <description>Recent content in 分析 on Hey sister</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>&amp;copy; Qbeenslee 2019</copyright>
+    <lastBuildDate>Wed, 28 Oct 2015 15:41:40 +0800</lastBuildDate>
+    
+	<atom:link href="https://qbeenslee.com/tags/%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>微猫Android SDK分析</title>
+      <link>https://qbeenslee.com/article/wemart-android-sdk-analyse/</link>
+      <pubDate>Wed, 28 Oct 2015 15:41:40 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/article/wemart-android-sdk-analyse/</guid>
+      <description>&lt;p&gt;无意中知道&lt;a href=&#34;http://www.wemart.cn&#34; target=&#34;_blank&#34;&gt;微猫&lt;/a&gt;这个网站, 他们是这样介绍自己的&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;我们，致力于社会化电子商务解决方案的实践。&lt;br /&gt;
+我们的创始团队成员，曾在多家国内知名互联网公司和跨国企业担任高管。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

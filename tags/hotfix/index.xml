@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hotfix on Hey sister</title>
+    <link>https://qbeenslee.com/tags/hotfix/</link>
+    <description>Recent content in Hotfix on Hey sister</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>&amp;copy; Qbeenslee 2019</copyright>
+    <lastBuildDate>Wed, 17 Aug 2016 23:13:45 +0800</lastBuildDate>
+    
+	<atom:link href="https://qbeenslee.com/tags/hotfix/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android热修复架构杂谈</title>
+      <link>https://qbeenslee.com/article/building-an-android-hotfix-architecture/</link>
+      <pubDate>Wed, 17 Aug 2016 23:13:45 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/article/building-an-android-hotfix-architecture/</guid>
+      <description>&lt;p&gt;与前后端相比, 移动端对&lt;a href=&#34;https://zh.wikipedia.org/wiki/热修复&#34; target=&#34;_blank&#34;&gt;热修复&lt;/a&gt;的需求更为迫切和复杂. iOS上已有&lt;a href=&#34;http://dev.qq.com/topic/579efa7083355a9a57a1ac5b&#34; target=&#34;_blank&#34;&gt;JSPatch&lt;/a&gt;这套成熟并被官方默许的解决方案. 然而Android上的热修复方案的演进则曲折的多, 简述一下鄙人的心路历程.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
