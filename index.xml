@@ -136,6 +136,13 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
+&lt;td&gt;zoom&lt;/td&gt;
+&lt;td&gt;缩放系数&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;默认16, 范围: 1~18&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
 &lt;td&gt;alt&lt;/td&gt;
 &lt;td&gt;alert, 弹出框文本&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -1962,10 +1969,25 @@ C语言实现:&lt;/p&gt;
       <guid>https://qbeenslee.com/about/</guid>
       <description></description>
       
-      <content>&lt;p&gt;&lt;strong&gt;本来我是想成为一个有幽默感的人, 却是一个小逗比&lt;/strong&gt;&lt;/p&gt;
+      <content>&lt;p&gt;&lt;strong&gt;本来我是想成为一个有幽默感的人, 然而却是一个小逗比&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Android developer 腊肠 @ &lt;a href=&#34;https://www.google.com/maps/place/Hangzhou&#34; target=&#34;_blank&#34;&gt;Hangchow&lt;/a&gt;&lt;br /&gt;
-Email: bWVAcWJlZW5zbGVlLmNvbQ==&lt;br /&gt;
+&lt;div id=&#34;map-120.14502-30.23386&#34; style=&#34;witdh:360px;height:320px;&#34; class=&#34;map-box&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+    var mymap = L.map(&#39;map-120.14502-30.23386&#39;, { attributionControl:false }).setView([&#34;30.23386&#34;,&#34;120.14502&#34;],  17 );
+    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);
+	
+    
+    var marker = L.marker([&#34;30.23386&#34;,&#34;120.14502&#34;]).addTo(mymap);
+	
+	marker.bindPopup(&#34;我住塔里&#34;).openPopup();	
+	
+&lt;/script&gt;
+
+
+
+&lt;p&gt;Android developer 腊肠 @ &lt;a href=&#34;https://www.google.com/maps/place/Hangzhou&#34; target=&#34;_blank&#34;&gt;Hangchow&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Email: bWVAcWJlZW5zbGVlLmNvbQ==&lt;br /&gt;
 github: &lt;a href=&#34;https://github.com/qbeenslee&#34; target=&#34;_blank&#34;&gt;qbeenslee&lt;/a&gt;&lt;br /&gt;
 weibo: &lt;a href=&#34;http://weibo.com/qbeenslee&#34; target=&#34;_blank&#34;&gt;qbeenslee&lt;/a&gt;&lt;/p&gt;
 
