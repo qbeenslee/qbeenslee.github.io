@@ -177,6 +177,20 @@
     </item>
     
     <item>
+      <title>我的内心是崩溃的啦~~</title>
+      <link>https://qbeenslee.com/bb/my-heart-is-breaking/</link>
+      <pubDate>Fri, 12 Oct 2018 16:15:03 +0800</pubDate>
+      <author>qbeenslee</author>
+      <guid>https://qbeenslee.com/bb/my-heart-is-breaking/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;今天本来我是开心的, 但现在我的内心是崩溃的.&lt;br /&gt;
+&lt;img src=&#34;https://i.imgur.com/r0gINyQ.gif&#34; alt=&#34;我的内心是崩溃的&#34; /&gt;&lt;/p&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>Android热修复架构杂谈</title>
       <link>https://qbeenslee.com/article/building-an-android-hotfix-architecture/</link>
       <pubDate>Wed, 17 Aug 2016 23:13:45 +0800</pubDate>
@@ -1272,10 +1286,10 @@
 &lt;span class=&#34;n&#34;&gt;webView&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;loadUrl&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://...&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;//店铺链接
 &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;webView&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;registerEvent&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;nativePay&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;WemartJSBridgeHandler&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
 
-			&lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
-			&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;handler&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;final&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;WemartJSBridgeCallBack&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;callback&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
-				&lt;span class=&#34;n&#34;&gt;pay&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;callback&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
-			&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;handler&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;final&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;WemartJSBridgeCallBack&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;callback&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+		&lt;span class=&#34;n&#34;&gt;pay&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;callback&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+	&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;o&#34;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;调用方式很简单, 就一个&lt;code&gt;WemartJSBridgeWebView&lt;/code&gt;统管全部交互. 这个类主要干的事情是接管了页面状态处理并维持一个回调集合.&lt;/p&gt;
 
@@ -1482,20 +1496,6 @@
 &lt;p&gt;20160415更新:&lt;/p&gt;
 
 &lt;p&gt;网络库封装地址: &lt;a href=&#34;https://github.com/qbeenslee/http-query&#34; target=&#34;_blank&#34;&gt;http-query&lt;/a&gt;&lt;/p&gt;</content>
-      
-    </item>
-    
-    <item>
-      <title>我的内心是崩溃的~~</title>
-      <link>https://qbeenslee.com/article/my-heart-is-breaking/</link>
-      <pubDate>Mon, 12 Oct 2015 16:15:03 +0800</pubDate>
-      <author>qbeenslee</author>
-      <guid>https://qbeenslee.com/article/my-heart-is-breaking/</guid>
-      <description></description>
-      
-      <content>&lt;p&gt;今天本来我是开心的, 但现在我的内心是崩溃的.&lt;br /&gt;
-&lt;img src=&#34;https://i.imgur.com/r0gINyQ.gif&#34; alt=&#34;我的内心是崩溃的&#34; /&gt;&lt;/p&gt;
-</content>
       
     </item>
     

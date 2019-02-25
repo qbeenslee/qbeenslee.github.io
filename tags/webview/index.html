@@ -3,9 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
 <title>Webview | Hey sister</title>
-
 <meta property='og:title' content='Tag: Webview - Hey sister'>
 <meta property='og:description' content=''>
 <meta property='og:url' content='https://qbeenslee.com/tags/webview/'>
@@ -28,13 +26,15 @@
 <body>
 
 <div id="header" class="auto_header noselect">
-    <div class="site"><a href="/">
-            <div class="title">Hey sister</div>
-        </a>
+    <div class="site"><a href="/"><div class="title">Hey sister</div></a>
     </div>
     <div id="nav-bar">
         <nav class="nav-item level is-mobile">
-            <a class="nav-item" href="/about">关于</a>
+            <a href="/bb/">小声bb</a>
+        </nav><nav class="nav-item level is-mobile">
+            <a href="/copyright/">版权</a>
+        </nav><nav class="nav-item level is-mobile">
+            <a href="/about/">关于</a>
         </nav>
     </div>
 </div>
@@ -43,17 +43,21 @@
   <div class="container">
     
     
+    
+    
+    
     <article>
-      <h1 class="index-title"><a href="https://qbeenslee.com/article/android-webview-302-redirect/">Android WebView内处理302重定向</a></h1>
-      <p class="subtitle is-6">2016-02-15</p>
-      <div class="content">
+    <h1 class="index-title"><a href="https://qbeenslee.com/article/android-webview-302-redirect/">Android WebView内处理302重定向</a></h1>
+    <p class="subtitle is-6">2016年2月15日</p>
+    <div class="content">
         开发中处理WebView有面临着以下几个问题:
   H5页面在调用Android系统的WebView.goBack()会在一些特殊情况下失效;
  H5页面如有重定向页面, 无法返回上一页.
    为解决问题1, 我们需要使用WebView.loadUrl()加载上一个页面的链接来替代调用系统APIWebView.goBack(), 但这样会污染系统内部的URL栈, 所以我们还需要自行维护一个URL栈.
 
-      </div>
-    </article>
+    </div>
+</article>
+
     
   </div>
 </section>
