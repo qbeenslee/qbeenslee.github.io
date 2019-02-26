@@ -191,11 +191,22 @@ q {
     quotes: none;
 }
 blockquote:after,
-blockquote:before,
 q:after,
 q:before {
     content: "";
     content: none;
+}
+blockquote:before, .stressed-quote:before{
+    content: "“";
+    display: block;
+    font-family: times;
+    font-style: normal;
+    font-size: 48px;
+    color: #444;
+    font-weight: bold;
+    line-height: 30px;
+    margin-left: -50px;
+    position: absolute;
 }
 .is-clearfix:after,
 .select:after {
@@ -493,9 +504,13 @@ a.box:active {
     margin-bottom: 16px;
 }
 .content blockquote {
-    border-left: 4px solid #d3d3d3;
-    padding: 0.2em 0.8em;
-    margin: 0 0 10px 0;
+    font-style: italic;
+    color: #555;
+    border-left: none;
+    box-sizing: border-box;
+    margin: 2.5em 0;
+    padding: 0 0 0 50px;
+    color: #555;
 }
 .content ol {
     list-style: decimal;
