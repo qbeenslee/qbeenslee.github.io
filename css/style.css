@@ -1,17 +1,4 @@
-﻿@font-face {
-  font-family: 'Kaushan Script';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Kaushan Script'), local('KaushanScript-Regular'),
-    url(fonts/kaushan.woff) format('woff'); 
-}
-.noselect {
-    -webkit-user-select: none;
-    user-select: none;
-    cursor: default !important;
-}
-
-body {
+﻿body {
     color: #444;
     font-size: 1rem;
     /*background: #f9f8fd;*/
@@ -2041,4 +2028,16 @@ img[src$="#r"] {
 
 .map-box {
     margin: 10px 0;
+}
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kaushan Script'), local('KaushanScript-Regular'),
+    url(fonts/kaushan.woff) format('woff'); 
+}
+.noselect {
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default !important;
 }
