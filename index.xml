@@ -1984,9 +1984,9 @@ C语言实现:&lt;/p&gt;
       
       <content>&lt;p&gt;&lt;strong&gt;本来我是想成为一个有幽默感的人, 然而却是一个小逗比&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div id=&#34;map-120.14502-30.23386&#34; style=&#34;witdh:360px;height:240px;&#34; class=&#34;map-box&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;map-120.14502-30.23386&#34; style=&#34;witdh:360px;height:280px;&#34; class=&#34;map-box&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
-    var mymap = L.map(&#39;map-120.14502-30.23386&#39;, { attributionControl:false }).setView([&#34;30.23386&#34;,&#34;120.14502&#34;],  16 );
+    var mymap = L.map(&#39;map-120.14502-30.23386&#39;, { attributionControl:false }).setView([&#34;30.23386&#34;,&#34;120.14502&#34;],  17 );
     L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);
 	
     
