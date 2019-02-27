@@ -1852,7 +1852,7 @@ a.panel-block:hover {
     padding: 20px 20px;
 }
 .section-content {
-    margin: 100px 20px 20px 20px;
+    margin: 100px 0 20px 0;
 }
 @media screen and (min-width: 980px) {
     .section.is-medium {
