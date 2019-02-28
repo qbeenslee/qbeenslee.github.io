@@ -1012,18 +1012,19 @@ a.box:active {
     word-break: break-word;
 }
 .title {
-    font-weight: 400;
-    color: #000;
+    color: #444;
+    font-size: 25px;
+    font-weight: 700;
     word-break: break-word;
-    font-size: 1.75em;
     font-family:  -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
 }
 .index-title{
-    font-weight: 400;
     word-break: break-word;
-    font-size: 1.75em;
     padding: 0;
     margin: 5px 0 5px 0;
+    color: #444;
+    font-size: 25px;
+    font-weight: 700;
 }
 .index-title a {
     color: #333;
