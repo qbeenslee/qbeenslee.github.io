@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>&amp;copy; Qbeenslee 2019</copyright>
-    <lastBuildDate>Wed, 06 Mar 2019 00:27:53 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Mar 2019 10:19:32 +0800</lastBuildDate>
     
 	<atom:link href="https://qbeenslee.com/bb/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>这组数据呀...</title>
+      <link>https://qbeenslee.com/bb/this-series-of-data-really-scared-me/</link>
+      <pubDate>Wed, 06 Mar 2019 10:19:32 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/bb/this-series-of-data-really-scared-me/</guid>
+      <description>离婚率，指离婚的比率，可用于衡量和评价某个国家或地区的婚姻稳定和幸福程度
+—— 摘自百度百科   来源: 婚嫁大明</description>
+    </item>
     
     <item>
       <title>MWeb真是一个写作神器呀!</title>
@@ -23,10 +33,10 @@
     
     <item>
       <title>生きていたんだよな</title>
-      <link>https://qbeenslee.com/bb/music-%E7%94%9F%E3%81%8D%E3%81%A6%E3%81%84%E3%81%9F%E3%82%93%E3%81%9F%E3%82%99%E3%82%88%E3%81%AA/</link>
+      <link>https://qbeenslee.com/bb/music-%E7%94%9F%E3%81%8D%E3%81%A6%E3%81%84%E3%81%9F%E3%82%93%E3%81%A0%E3%82%88%E3%81%AA/</link>
       <pubDate>Sun, 03 Mar 2019 02:52:34 +0800</pubDate>
       
-      <guid>https://qbeenslee.com/bb/music-%E7%94%9F%E3%81%8D%E3%81%A6%E3%81%84%E3%81%9F%E3%82%93%E3%81%9F%E3%82%99%E3%82%88%E3%81%AA/</guid>
+      <guid>https://qbeenslee.com/bb/music-%E7%94%9F%E3%81%8D%E3%81%A6%E3%81%84%E3%81%9F%E3%82%93%E3%81%A0%E3%82%88%E3%81%AA/</guid>
       <description>  </description>
     </item>
     
