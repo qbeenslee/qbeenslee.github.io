@@ -29,7 +29,247 @@
 
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/TG7MgLL.jpg&#34; width=&#34;400px&#34; alt=&#34;结婚数据汇总&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;全国2018年结婚人口数据汇总&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;strong&gt;地区&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;strong&gt;结婚登记&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;strong&gt;涉外及港澳台&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;strong&gt;离婚登记&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;全国合计&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;10108266&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;48110&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;3800674&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;北京市&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;137818&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;847&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;66616&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;天津市&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;97486&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;279&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;60742&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;河北省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;456728&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1219&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;194276&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;山西省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;279133&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;354&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;70803&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;内蒙古自治区&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;176866&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;207&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;82095&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;辽宁省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;280169&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1372&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;151832&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;吉林省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;193094&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;769&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;119928&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;黑龙江省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;278195&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1263&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;175566&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;上海市&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;105112&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1403&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;51820&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;江苏省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;637705&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1449&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;245720&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;浙江省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;337096&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2999&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;129434&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;安徽省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;617942&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1845&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;210244&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;福建省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;273471&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;5353&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;91544&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;江西省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;330817&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1823&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;107403&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;山东省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;599042&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1318&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;224523&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;河南省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;800396&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1316&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;282511&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;湖北省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;437374&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1318&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;176851&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;湖南省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;421551&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1716&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;181539&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;广东省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;713856&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;9256&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;203099&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;广西自治区&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;360152&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4833&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;107351&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;海南省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;72063&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;332&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;16604&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;重庆市&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;258782&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;689&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;136193&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;四川省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;651295&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1485&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;267365&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;贵州省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;401276&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;452&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;120679&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;云南省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;377567&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2989&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;107399&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;西藏自治区&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;33923&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4144&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;陕西省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;300405&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;508&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;100174&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;甘肃省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;210611&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;576&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;40866&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;青海省&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;57332&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;25&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;12210&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;宁夏自治区&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;59355&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;37&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;17264&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;新疆自治区&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;151654&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;78&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;43879&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;近年社会服务发展统计公报&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&#34;https://i.imgur.com/LPwLP8A.jpg&#34; width=&#34;400px&#34; alt=&#34;结婚数据汇总&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;来源: &lt;a href=&#34;https://mp.weixin.qq.com/s/tvMm1qOo_ne97d5bmwnZfg&#34; target=&#34;_blank&#34;&gt;婚嫁大明&lt;/a&gt;&lt;/p&gt;
 </content>
