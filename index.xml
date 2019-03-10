@@ -470,7 +470,7 @@
 &lt;td&gt;alt&lt;/td&gt;
 &lt;td&gt;alert, 弹出框文本&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;没有制定位置则为中心点&lt;/td&gt;
+&lt;td&gt;没有指定位置则为中心点&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
