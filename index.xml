@@ -745,31 +745,24 @@
 &lt;p&gt;基于Yilia做的主要工作是删减, 包括:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;左侧栏删除导航切换和下方的icon链接;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;&lt;p&gt;左侧栏删除导航切换和下方的icon链接;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;私以为: 这些都可以放到 &lt;code&gt;关于我&lt;/code&gt; 页面没必要在每个左侧栏都显示.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
 
-&lt;ol&gt;
-&lt;li&gt;删除一些不必要的修饰元素, 比如文章信息标签前的树叶icon, 日期icon, 包裹文章整体的边框, &lt;code&gt;more&lt;/code&gt;链接;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;&lt;p&gt;删除一些不必要的修饰元素, 比如文章信息标签前的树叶icon, 日期icon, 包裹文章整体的边框, &lt;code&gt;more&lt;/code&gt;链接;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;一些不必要的修饰元素会干扰文章的阅读, 在列表页点击文章标题已经可以到达文章正文了就没必要再添加一个&lt;code&gt;more&lt;/code&gt;链接.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
 
-&lt;ol&gt;
-&lt;li&gt;删除手机端的顶部固定导航菜单;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;&lt;p&gt;删除手机端的顶部固定导航菜单;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;一是Yilia本身处理有触摸冲突问题, 二是干扰阅读.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;当然除了删减外还是做了一点表面工作:&lt;/p&gt;
 
