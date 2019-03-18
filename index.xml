@@ -312,7 +312,7 @@
 
 &lt;div id=&#34;map-33.0791-68.9692&#34; style=&#34;witdh:360px;height:360px;&#34; class=&#34;map-box&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
-    var mymap = L.map(&#39;map-33.0791-68.9692&#39;, { attributionControl:false }).setView([&#34;68.9692&#34;,&#34;33.0791&#34;],  12 );
+    var mymap = L.map(&#39;map-33.0791-68.9692&#39;, { attributionControl:false }).setView([&#34;68.9692&#34;,&#34;33.0791&#34;],  5 );
     L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);
 	
     
