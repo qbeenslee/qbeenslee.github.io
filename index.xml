@@ -140,6 +140,23 @@
 &lt;center&gt;&lt;strong&gt;迈进北极圈&lt;/strong&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;莫斯科&#34;&gt;莫斯科&lt;/h2&gt;
+
+
+
+
+&lt;div id=&#34;map-37.6180-55.7503&#34; style=&#34;witdh:360px;height:360px;&#34; class=&#34;map-box&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+    var mymap = L.map(&#39;map-37.6180-55.7503&#39;, { attributionControl:false }).setView([&#34;55.7503&#34;,&#34;37.6180&#34;],  12 );
+    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);
+	
+    
+    var marker = L.marker([&#34;55.7503&#34;,&#34;37.6180&#34;]).addTo(mymap);
+	
+	marker.bindPopup(&#34;莫斯科&#34;).openPopup();	
+	
+&lt;/script&gt;
+
+
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;俄文: Москва
 英文: Moscow&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;住&#34;&gt;住&lt;/h3&gt;
@@ -289,6 +306,23 @@
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;摩尔曼斯克&#34;&gt;摩尔曼斯克&lt;/h2&gt;
+
+
+
+
+&lt;div id=&#34;map-33.0791-68.9692&#34; style=&#34;witdh:360px;height:360px;&#34; class=&#34;map-box&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+    var mymap = L.map(&#39;map-33.0791-68.9692&#39;, { attributionControl:false }).setView([&#34;68.9692&#34;,&#34;33.0791&#34;],  12 );
+    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);
+	
+    
+    var marker = L.marker([&#34;68.9692&#34;,&#34;33.0791&#34;]).addTo(mymap);
+	
+	marker.bindPopup(&#34;摩尔曼斯克&#34;).openPopup();	
+	
+&lt;/script&gt;
+
+
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;俄文: Мурманск
 英文: Murmansk&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;看极光的时机: 每年冬半年(9月 至 次年4月)都有机会看到极光，其中 &lt;strong&gt;11月&lt;/strong&gt; 到 &lt;strong&gt;2月&lt;/strong&gt;极光出现几率最大&lt;/p&gt;
