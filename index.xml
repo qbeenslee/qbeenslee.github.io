@@ -670,28 +670,6 @@
     </item>
     
     <item>
-      <title>生きていたんだよな</title>
-      <link>https://qbeenslee.com/bb/music-%E7%94%9F%E3%81%8D%E3%81%A6%E3%81%84%E3%81%9F%E3%82%93%E3%81%9F%E3%82%99%E3%82%88%E3%81%AA/</link>
-      <pubDate>Sun, 03 Mar 2019 02:52:34 +0800</pubDate>
-      <author>qbeenslee</author>
-      <guid>https://qbeenslee.com/bb/music-%E7%94%9F%E3%81%8D%E3%81%A6%E3%81%84%E3%81%9F%E3%82%93%E3%81%9F%E3%82%99%E3%82%88%E3%81%AA/</guid>
-      <description></description>
-      
-      <content>  &lt;iframe style=&#34;max-width: 100%&#34;
-      class=&#34;music163&#34;
-      frameborder=&#34;no&#34;
-      border=&#34;0&#34;
-      marginwidth=&#34;0&#34;
-      marginheight=&#34;0&#34;
-      width=&#34;330&#34;
-      height=&#34;86&#34;
-      src=&#34;//music.163.com/outchain/player?type=2&amp;id=443875380&amp;auto=0&amp;height=66&#34;&gt;
-    &lt;/iframe&gt;
-</content>
-      
-    </item>
-    
-    <item>
       <title>《绿皮书》</title>
       <link>https://qbeenslee.com/bb/%E7%BB%BF%E7%9A%AE%E4%B9%A6/</link>
       <pubDate>Sun, 03 Mar 2019 02:27:46 +0800</pubDate>
@@ -2676,8 +2654,16 @@ C语言实现:&lt;/p&gt;
       
       <content>&lt;p&gt;&lt;strong&gt;本来我是想成为一个有幽默感的人, 然而却是一个小逗比&lt;/strong&gt;&lt;/p&gt;
 
+&lt;p&gt;Developer 腊肠(sausage) @ &lt;a href=&#34;https://www.google.com/maps/place/Hangzhou&#34; target=&#34;_blank&#34;&gt;Hangchow&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
 &lt;div class=&#34;map-box&#34;&gt;
-&lt;div id=&#34;map-120.14502-30.23386&#34; style=&#34;max-width:600px;height:240px;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;map-120.14502-30.23386&#34; style=&#34;max-width:400px;height:240px;&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
     var mymap = L.map(&#39;map-120.14502-30.23386&#39;, { attributionControl:false }).setView([&#34;30.23386&#34;,&#34;120.14502&#34;],  16 );
@@ -2692,7 +2678,9 @@ C语言实现:&lt;/p&gt;
 
 
 
-&lt;p&gt;Android developer 腊肠 @ &lt;a href=&#34;https://www.google.com/maps/place/Hangzhou&#34; target=&#34;_blank&#34;&gt;Hangchow&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;联系方式&#34;&gt;联系方式&lt;/h3&gt;
 
 &lt;p&gt;Email: bWVAcWJlZW5zbGVlLmNvbQ==&lt;br /&gt;
 github: &lt;a href=&#34;https://github.com/qbeenslee&#34; target=&#34;_blank&#34;&gt;qbeenslee&lt;/a&gt;&lt;br /&gt;
@@ -2700,15 +2688,38 @@ weibo: &lt;a href=&#34;http://weibo.com/qbeenslee&#34; target=&#34;_blank&#34;&g
 
 &lt;hr /&gt;
 
+&lt;h3 id=&#34;職人の技&#34;&gt;職人の技&lt;/h3&gt;
+
+&lt;p&gt;编程：java / python / kotlin / c/c++&lt;br /&gt;
+创作: vim / mweb / photoshop / premiere / sai&lt;br /&gt;
+爱好: snowboarding&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/03/21/5c93ad3f0af51.jpg&#34; width=&#34;400px&#34; height=&#34;250px&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
 &lt;h3 id=&#34;一些想法&#34;&gt;一些想法&lt;/h3&gt;
 
-&lt;p&gt;&lt;em&gt;为什么有这个博客网站?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么有这个博客网站 ?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;生活中每个人都是一座孤岛, 等待被发现&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;行为上的勤奋, 可以降低心理上的负罪感&lt;br /&gt;
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么网站名叫&amp;rdquo;Hey sister&amp;rdquo; ?&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;iframe style=&#34;max-width: 100%&#34;
+      class=&#34;music163&#34;
+      frameborder=&#34;no&#34;
+      border=&#34;0&#34;
+      marginwidth=&#34;0&#34;
+      marginheight=&#34;0&#34;
+      width=&#34;330&#34;
+      height=&#34;86&#34;
+      src=&#34;//music.163.com/outchain/player?type=2&amp;id=32717505&amp;auto=0&amp;height=66&#34;&gt;
+    &lt;/iframe&gt;
 
 &lt;hr /&gt;
 
