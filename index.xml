@@ -144,7 +144,12 @@
 
 
 
-&lt;div id=&#34;map-37.6180-55.7503&#34; style=&#34;witdh:360px;height:360px;&#34; class=&#34;map-box&#34;&gt;&lt;/div&gt;
+
+
+
+&lt;div class=&#34;map-box&#34;&gt;
+&lt;div id=&#34;map-37.6180-55.7503&#34; style=&#34;max-width:360px;height:360px;&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;script&gt;
     var mymap = L.map(&#39;map-37.6180-55.7503&#39;, { attributionControl:false }).setView([&#34;55.7503&#34;,&#34;37.6180&#34;],  12 );
     L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);
@@ -310,7 +315,12 @@
 
 
 
-&lt;div id=&#34;map-33.0791-68.9692&#34; style=&#34;witdh:360px;height:360px;&#34; class=&#34;map-box&#34;&gt;&lt;/div&gt;
+
+
+
+&lt;div class=&#34;map-box&#34;&gt;
+&lt;div id=&#34;map-33.0791-68.9692&#34; style=&#34;max-width:360px;height:360px;&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;script&gt;
     var mymap = L.map(&#39;map-33.0791-68.9692&#39;, { attributionControl:false }).setView([&#34;68.9692&#34;,&#34;33.0791&#34;],  5 );
     L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);
@@ -739,7 +749,12 @@
 
 
 
-&lt;div id=&#34;map-120.12887-30.26833&#34; style=&#34;witdh:180px;height:420px;&#34; class=&#34;map-box&#34;&gt;&lt;/div&gt;
+
+
+
+&lt;div class=&#34;map-box&#34;&gt;
+&lt;div id=&#34;map-120.12887-30.26833&#34; style=&#34;max-width:180px;height:420px;&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;script&gt;
     var mymap = L.map(&#39;map-120.12887-30.26833&#39;, { attributionControl:false }).setView([&#34;30.26833&#34;,&#34;120.12887&#34;],  16 );
     L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);
@@ -767,7 +782,7 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{ if .IsNamedParams }}
 {{$mapPosition := (split (.Get &amp;#34;pos&amp;#34;) &amp;#34;,&amp;#34;)}}
 {{$mapLon := default 120 (index $mapPosition 0)}}{{$mapLat := default 30 (index $mapPosition 1)}}{{$mapWidth := default &amp;#34;360px&amp;#34; (.Get &amp;#34;w&amp;#34;)}}{{$mapHeight := default &amp;#34;360px&amp;#34; (.Get &amp;#34;h&amp;#34;)}}
-&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;map-{{$mapLon}}-{{$mapLat}}&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;witdh:{{$mapWidth}};height:{{$mapHeight}};&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;map-box&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;map-{{$mapLon}}-{{$mapLat}}&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;width:{{$mapWidth}};height:{{$mapHeight}};&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;map-box&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
     &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;mymap&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;L&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;map-{{$mapLon}}-{{$mapLat}}&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setView&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([{{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;$mapLat&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}},{{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;$mapLon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}}],&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;zoom&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}{{&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;zoom&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;end&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}});&lt;/span&gt;
     &lt;span class=&#34;nx&#34;&gt;L&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;tileLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{}).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addTo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mymap&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
@@ -822,7 +837,7 @@
 &lt;td&gt;w&lt;/td&gt;
 &lt;td&gt;width, 容器的宽度&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;暂不生效&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -2661,7 +2676,9 @@ C语言实现:&lt;/p&gt;
       
       <content>&lt;p&gt;&lt;strong&gt;本来我是想成为一个有幽默感的人, 然而却是一个小逗比&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div id=&#34;map-120.14502-30.23386&#34; style=&#34;witdh:360px;height:240px;&#34; class=&#34;map-box&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;map-box&#34;&gt;
+&lt;div id=&#34;map-120.14502-30.23386&#34; style=&#34;max-width:600px;height:240px;&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;script&gt;
     var mymap = L.map(&#39;map-120.14502-30.23386&#39;, { attributionControl:false }).setView([&#34;30.23386&#34;,&#34;120.14502&#34;],  16 );
     L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);
@@ -2680,6 +2697,18 @@ C语言实现:&lt;/p&gt;
 &lt;p&gt;Email: bWVAcWJlZW5zbGVlLmNvbQ==&lt;br /&gt;
 github: &lt;a href=&#34;https://github.com/qbeenslee&#34; target=&#34;_blank&#34;&gt;qbeenslee&lt;/a&gt;&lt;br /&gt;
 weibo: &lt;a href=&#34;http://weibo.com/qbeenslee&#34; target=&#34;_blank&#34;&gt;qbeenslee&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;一些想法&#34;&gt;一些想法&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;为什么有这个博客网站?&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;生活中每个人都是一座孤岛, 等待有心人去发现&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;行为上勤奋可以降低心理上负罪感&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 
