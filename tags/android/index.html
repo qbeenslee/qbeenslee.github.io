@@ -1,1 +1,188 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Android | Hey sister</title><meta property="og:title" content="Tag: Android - Hey sister"><meta property="og:description" content=""><meta property="og:url" content="https://qbeenslee.com/tags/android/"><meta property="og:site_name" content="Hey sister"><meta property="og:type" content="website"><meta property="article:section" content="Tags"><meta property="og:updated_time" content="2019-03-17T22:34:50&#43;08:00"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@"><meta name="twitter:creator" content="@"><link href="https://qbeenslee.com/index.xml" rel="alternate" type="application/rss+xml" title="Hey sister"><link rel="stylesheet" href="https://qbeenslee.com/css/main.css"><link rel="stylesheet" href="https://qbeenslee.com/css/custom.css"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="manifest" href="/site.webmanifest"><meta name="msapplication-TileColor" content="#da532c"><meta name="theme-color" content="#ffffff"><script src="https://qbeenslee.com/js/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="https://qbeenslee.com/js/leaflet.js"></script><link rel="stylesheet" href="https://qbeenslee.com/css/leaflet.css"></head><body><header id="header" class="auto_header noselect" style="transition:top .3s ease-in-out;top:0;position:fixed;z-index:9999"><div class="site"><a href="/"><div class="title">Hey sister</div></a></div><div id="nav-bar"><nav class="nav-item level is-mobile"> <a href="/gallery/" class="nav-color-normal">相册</a></nav><nav class="nav-item level is-mobile"> <a href="/bb/" class="nav-color-normal">小声BB</a></nav><nav class="nav-item level is-mobile"> <a href="/about/" class="nav-color-normal">关于</a></nav></div></header><main><div class="container"><article><h1 class="index-title"><a href="https://qbeenslee.com/article/building-an-android-hotfix-architecture/">Android热修复架构杂谈</a></h1><p class="subtitle">2016年8月17日</p><div class="content"> 与前后端相比, 移动端对热修复的需求更为迫切和复杂. iOS上已有JSPatch这套成熟并被官方默许的解决方案. 然而Android上的热修复方案的演进则曲折的多, 简述一下鄙人的心路历程.</div></article><article><h1 class="index-title"><a href="https://qbeenslee.com/article/android-webview-302-redirect/">Android WebView内处理302重定向</a></h1><p class="subtitle">2016年2月15日</p><div class="content"> 开发中处理WebView有面临着以下几个问题: H5页面在调用Android系统的WebView.goBack()会在一些特殊情况下失效; H5页面如有重定向页面, 无法返回上一页. 为解决问题1, 我们需要使用WebView.loadUrl()加载上一个页面的链接来替代调用系统APIWebView.goBack(), 但这样会污染系统内部的URL栈, 所以我们还需要自行维护一个URL栈.</div></article><article><h1 class="index-title"><a href="https://qbeenslee.com/article/about-wandoujia-proguard-config/">豌豆荚Android混淆字典, 眼睛要瞎了</a></h1><p class="subtitle">2016年1月27日</p><div class="content"> 作为Android开发者, 时常会下载一些制作精良的App学习借鉴(反编译看源码^_^). 豌豆荚一览是一款很棒的产品, 它的Android客户端用户体验也优秀, 比如文章的浏览交互, 排版优化, 离线, 以及和其他相关应用的衔接等等.</div></article><article><h1 class="index-title"><a href="https://qbeenslee.com/article/super-simple-android-adapter-pattern/">一种简洁的Adapter模式实现</a></h1><p class="subtitle">2015年12月15日</p><div class="content"> 鄙人觉得做重复的事情就是浪费生命啊(Don&rsquo;t Repeat Yourself原则), 在Android中ListView的Adapter中有大量重复工作可以被取消掉.</div></article><article><h1 class="index-title"><a href="https://qbeenslee.com/article/wemart-android-sdk-analyse/">微猫Android SDK分析</a></h1><p class="subtitle">2015年10月28日</p><div class="content"> 无意中知道微猫这个网站, 他们是这样介绍自己的 我们，致力于社会化电子商务解决方案的实践。 我们的创始团队成员，曾在多家国内知名互联网公司和跨国企业担任高管。</div></article><article><h1 class="index-title"><a href="https://qbeenslee.com/article/thinking-of-net-framework-on-android/">Android网络框架封装的认知</a></h1><p class="subtitle">2015年10月27日</p><div class="content"> 在开发应用中网络模块是项目中很重要和复杂的一部分. 从零开始写一个网络请求框架是一件吃力不讨好的事情, 也有重复造轮子的嫌疑. github上有很多优秀的开源网络请求框架例如: retrofit okhttp volley 我们需要在这些第三方框架的基础上再封装, 目的是为了实现: 统一处理, 简化调度. 下面就是年青人对网络框架封装一些粗鄙的认知.</div></article></div><div class="container clearfix"><nav class="pager-items"><div class="pager-prev"><div class="pager-item"></div></div><div class="pager-next"><div class="pager-item"></div></div></nav></div></main><footer class="section site_footer_grap noselect"><div class="has-text-centered"><p>&copy; Qbeenslee 2019</p></div></footer></body><script type="text/javascript" src="/js/auto_header.js"></script></html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="zh-cn">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Android | Hey sister</title>
+<meta property='og:title' content='Tag: Android - Hey sister'>
+<meta property='og:description' content=''>
+<meta property='og:url' content='https://qbeenslee.com/tags/android/'>
+<meta property='og:site_name' content='Hey sister'>
+<meta property='og:type' content='website'><meta property='article:section' content='Tags'><meta property='og:updated_time' content='2019-03-17T22:34:50&#43;08:00'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@'><meta name='twitter:creator' content='@'>
+
+<link href="https://qbeenslee.com/index.xml" rel="alternate" type="application/rss+xml" title="Hey sister" />
+
+<link rel="stylesheet" href="https://qbeenslee.com/css/main.css"><link rel='stylesheet'  href="https://qbeenslee.com/css/custom.css"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<script src="https://qbeenslee.com/js/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="https://qbeenslee.com/js/leaflet.js"></script>
+<link rel="stylesheet" href="https://qbeenslee.com/css/leaflet.css"/>
+</head>
+
+<body>
+<header id="header" class="auto_header noselect" style="transition: top 0.3s ease-in-out; top: 0px; position: fixed; z-index: 9999;">
+    
+    <div class="site"><a href="/"><div class="title">Hey sister</div></a>
+    </div>
+    <div id="nav-bar">
+        
+        
+        
+        
+        
+        <nav class="nav-item level is-mobile">
+            
+            <a href="/gallery/" class="nav-color-normal">相册</a>
+            
+        </nav>
+        
+        
+        
+        <nav class="nav-item level is-mobile">
+            
+            <a href="/bb/" class="nav-color-normal">小声BB</a>
+            
+        </nav>
+        
+        
+        
+        <nav class="nav-item level is-mobile">
+            
+            <a href="/about/" class="nav-color-normal">关于</a>
+            
+        </nav>
+        
+        
+    </div>
+</header>
+
+<main>
+  <div class="container">
+    
+
+    
+
+
+    
+    
+        
+        
+            
+        
+    
+        
+        
+            
+        
+    
+        
+        
+    
+
+
+
+
+    <article>
+    <h1 class="index-title"><a href="https://qbeenslee.com/article/building-an-android-hotfix-architecture/">Android热修复架构杂谈</a></h1>
+    <p class="subtitle">2016年8月17日</p>
+    <div class="content">
+        与前后端相比, 移动端对热修复的需求更为迫切和复杂. iOS上已有JSPatch这套成熟并被官方默许的解决方案. 然而Android上的热修复方案的演进则曲折的多, 简述一下鄙人的心路历程.
+
+    </div>
+</article>
+
+
+    <article>
+    <h1 class="index-title"><a href="https://qbeenslee.com/article/android-webview-302-redirect/">Android WebView内处理302重定向</a></h1>
+    <p class="subtitle">2016年2月15日</p>
+    <div class="content">
+        开发中处理WebView有面临着以下几个问题:
+  H5页面在调用Android系统的WebView.goBack()会在一些特殊情况下失效;
+ H5页面如有重定向页面, 无法返回上一页.
+   为解决问题1, 我们需要使用WebView.loadUrl()加载上一个页面的链接来替代调用系统APIWebView.goBack(), 但这样会污染系统内部的URL栈, 所以我们还需要自行维护一个URL栈.
+
+    </div>
+</article>
+
+
+    <article>
+    <h1 class="index-title"><a href="https://qbeenslee.com/article/about-wandoujia-proguard-config/">豌豆荚Android混淆字典, 眼睛要瞎了</a></h1>
+    <p class="subtitle">2016年1月27日</p>
+    <div class="content">
+        作为Android开发者, 时常会下载一些制作精良的App学习借鉴(反编译看源码^_^).
+豌豆荚一览是一款很棒的产品, 它的Android客户端用户体验也优秀, 比如文章的浏览交互, 排版优化, 离线, 以及和其他相关应用的衔接等等.
+
+    </div>
+</article>
+
+
+    <article>
+    <h1 class="index-title"><a href="https://qbeenslee.com/article/super-simple-android-adapter-pattern/">一种简洁的Adapter模式实现</a></h1>
+    <p class="subtitle">2015年12月15日</p>
+    <div class="content">
+        鄙人觉得做重复的事情就是浪费生命啊(Don&rsquo;t Repeat Yourself原则), 在Android中ListView的Adapter中有大量重复工作可以被取消掉.
+
+    </div>
+</article>
+
+
+    <article>
+    <h1 class="index-title"><a href="https://qbeenslee.com/article/wemart-android-sdk-analyse/">微猫Android SDK分析</a></h1>
+    <p class="subtitle">2015年10月28日</p>
+    <div class="content">
+        无意中知道微猫这个网站, 他们是这样介绍自己的
+ 我们，致力于社会化电子商务解决方案的实践。
+我们的创始团队成员，曾在多家国内知名互联网公司和跨国企业担任高管。
+
+    </div>
+</article>
+
+
+    <article>
+    <h1 class="index-title"><a href="https://qbeenslee.com/article/thinking-of-net-framework-on-android/">Android网络框架封装的认知</a></h1>
+    <p class="subtitle">2015年10月27日</p>
+    <div class="content">
+        在开发应用中网络模块是项目中很重要和复杂的一部分. 从零开始写一个网络请求框架是一件吃力不讨好的事情, 也有重复造轮子的嫌疑. github上有很多优秀的开源网络请求框架例如:
+ retrofit
+ okhttp
+ volley
+  我们需要在这些第三方框架的基础上再封装, 目的是为了实现: 统一处理, 简化调度. 下面就是年青人对网络框架封装一些粗鄙的认知.
+
+    </div>
+</article>
+
+
+
+  </div>
+  <div class="container clearfix">
+    <nav class="pager-items">
+        <div class="pager-prev">
+            <div class="pager-item">
+                
+            </div>
+        </div>
+        <div class="pager-next">
+            <div class="pager-item">
+                
+            </div>
+        </div>
+    </nav>
+</div>
+
+</main>
+<footer class="section site_footer_grap noselect">
+  <div class="has-text-centered">
+    <p>&copy; Qbeenslee 2019</p>
+  </div>
+</footer>
+</body>
+<script type="text/javascript" src="/js/auto_header.js"></script>
+
+</html>
+
+
