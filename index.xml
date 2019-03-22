@@ -141,27 +141,12 @@
 
 &lt;h2 id=&#34;莫斯科&#34;&gt;莫斯科&lt;/h2&gt;
 
-
-
-
-
-
-
 &lt;div class=&#34;map-box&#34;&gt;
-&lt;div id=&#34;map-37.6180-55.7503&#34; style=&#34;max-width:360px;height:360px;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;map-37.6180-55.7503&#34; style=&#34;max-width:100%;height:360px;&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
     var mymap = L.map(&#39;map-37.6180-55.7503&#39;, { attributionControl:false }).setView([&#34;55.7503&#34;,&#34;37.6180&#34;],  12 );
-    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);
-	
-    
-    var marker = L.marker([&#34;55.7503&#34;,&#34;37.6180&#34;]).addTo(mymap);
-	
-	marker.bindPopup(&#34;莫斯科&#34;).openPopup();	
-	
-&lt;/script&gt;
-
-
+    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;55.7503&#34;,&#34;37.6180&#34;]).addTo(mymap);marker.bindPopup(&#34;莫斯科&#34;).openPopup();&lt;/script&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;俄文: Москва
 英文: Moscow&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;住&#34;&gt;住&lt;/h3&gt;
@@ -312,27 +297,12 @@
 
 &lt;h2 id=&#34;摩尔曼斯克&#34;&gt;摩尔曼斯克&lt;/h2&gt;
 
-
-
-
-
-
-
 &lt;div class=&#34;map-box&#34;&gt;
-&lt;div id=&#34;map-33.0791-68.9692&#34; style=&#34;max-width:360px;height:360px;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;map-33.0791-68.9692&#34; style=&#34;max-width:100%;height:360px;&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
     var mymap = L.map(&#39;map-33.0791-68.9692&#39;, { attributionControl:false }).setView([&#34;68.9692&#34;,&#34;33.0791&#34;],  5 );
-    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);
-	
-    
-    var marker = L.marker([&#34;68.9692&#34;,&#34;33.0791&#34;]).addTo(mymap);
-	
-	marker.bindPopup(&#34;摩尔曼斯克&#34;).openPopup();	
-	
-&lt;/script&gt;
-
-
+    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;68.9692&#34;,&#34;33.0791&#34;]).addTo(mymap);marker.bindPopup(&#34;摩尔曼斯克&#34;).openPopup();&lt;/script&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;俄文: Мурманск
 英文: Murmansk&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;看极光的时机: 每年冬半年(9月 至 次年4月)都有机会看到极光，其中 &lt;strong&gt;11月&lt;/strong&gt; 到 &lt;strong&gt;2月&lt;/strong&gt;极光出现几率最大&lt;/p&gt;
@@ -737,30 +707,15 @@
  实现方式: hugo shortcode&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&#34;效果&#34;&gt;效果&lt;/h2&gt;
 
-
-
-
-
-
-
 &lt;div class=&#34;map-box&#34;&gt;
-&lt;div id=&#34;map-120.12887-30.26833&#34; style=&#34;max-width:180px;height:420px;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;map-120.12887-30.26833&#34; style=&#34;max-width:100%;height:320px;&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
     var mymap = L.map(&#39;map-120.12887-30.26833&#39;, { attributionControl:false }).setView([&#34;30.26833&#34;,&#34;120.12887&#34;],  16 );
-    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);
-	
-    
-    var marker = L.marker([&#34;30.26833&#34;,&#34;120.12887&#34;]).addTo(mymap);
-	
-	marker.bindPopup(&#34;这里是黄龙体育馆&#34;).openPopup();	
-	
-&lt;/script&gt;
-
-
+    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;30.26833&#34;,&#34;120.12887&#34;]).addTo(mymap);marker.bindPopup(&#34;这里是黄龙体育馆&#34;).openPopup();&lt;/script&gt;
 
 &lt;p&gt;&lt;strong&gt;markdown文档插入语句&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-hugo&#34; data-lang=&#34;hugo&#34;&gt;{{ &amp;lt;map h=&amp;#34;420px&amp;#34; pos=&amp;#34;120.12887,30.26833&amp;#34; alt=&amp;#34;这里是黄龙体育馆&amp;#34;&amp;gt; }}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-hugo&#34; data-lang=&#34;hugo&#34;&gt;{{ &amp;lt;map h=&amp;#34;320px&amp;#34; pos=&amp;#34;120.12887,30.26833&amp;#34; zoom=&amp;#34;16&amp;#34; alt=&amp;#34;这里是黄龙体育馆&amp;#34;&amp;gt; }}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;{{&lt;/code&gt;和&lt;code&gt;}}&lt;/code&gt;内两端的空格去掉&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -770,12 +725,17 @@
 &lt;h3 id=&#34;模板文件&#34;&gt;模板文件&lt;/h3&gt;
 
 &lt;p&gt;创建&lt;code&gt;shortcodes&lt;/code&gt;模板文件 &lt;code&gt;layouts/shortcodes/map.html&lt;/code&gt;, 如下:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{ if .IsNamedParams }}
-{{$mapPosition := (split (.Get &amp;#34;pos&amp;#34;) &amp;#34;,&amp;#34;)}}
-{{$mapLon := default 120 (index $mapPosition 0)}}{{$mapLat := default 30 (index $mapPosition 1)}}{{$mapWidth := default &amp;#34;360px&amp;#34; (.Get &amp;#34;w&amp;#34;)}}{{$mapHeight := default &amp;#34;360px&amp;#34; (.Get &amp;#34;h&amp;#34;)}}
-&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;map-{{$mapLon}}-{{$mapLat}}&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;width:{{$mapWidth}};height:{{$mapHeight}};&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;map-box&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{- if .IsNamedParams -}}
+{{- $mapPosition := (split (.Get &amp;#34;pos&amp;#34;) &amp;#34;,&amp;#34;) -}}
+{{- $mapLon := default 120 (index $mapPosition 0) -}}
+{{- $mapLat := default 30 (index $mapPosition 1) -}}
+{{- $mapWidth := default &amp;#34;100%&amp;#34; (.Get &amp;#34;w&amp;#34;) -}}
+{{- $mapHeight := default &amp;#34;360px&amp;#34; (.Get &amp;#34;h&amp;#34;) -}}
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;map-box&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;map-{{$mapLon}}-{{$mapLat}}&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;max-width:{{$mapWidth}};height:{{$mapHeight}};&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;mymap&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;L&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;map-{{$mapLon}}-{{$mapLat}}&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setView&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([{{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;$mapLat&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}},{{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;$mapLon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}}],&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;zoom&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}{{&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;zoom&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;end&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}});&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;mymap&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;L&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;map-{{$mapLon}}-{{$mapLat}}&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;attributionControl&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setView&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([{{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;$mapLat&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}},{{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;$mapLon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}}],&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;zoom&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}{{&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;zoom&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;end&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}});&lt;/span&gt;
     &lt;span class=&#34;nx&#34;&gt;L&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;tileLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{}).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addTo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mymap&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 	&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;alt&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;
     &lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;altLat&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;altLon&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;
@@ -786,7 +746,7 @@
 	&lt;span class=&#34;nx&#34;&gt;marker&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;bindPopup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;{{.Get &amp;#34;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;alt&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34; }}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;openPopup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;	
 	&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;end&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-{{ end }}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+{{- end -}}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;依赖&#34;&gt;依赖&lt;/h3&gt;
 
 &lt;p&gt;在 leafletjs下载页&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:leafletjs&#34;&gt;&lt;a href=&#34;#fn:leafletjs&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;获取相应的&lt;code&gt;js&lt;/code&gt;, &lt;code&gt;css&lt;/code&gt;, &lt;code&gt;image&lt;/code&gt;文件, 存放在主题&lt;code&gt;static&lt;/code&gt;目录下:&lt;/p&gt;
@@ -2669,27 +2629,12 @@ C语言实现:&lt;/p&gt;
 
 &lt;p&gt;Developer 腊肠(qbeenslee) @ &lt;a href=&#34;https://www.google.com/maps/place/Hangzhou&#34; target=&#34;_blank&#34;&gt;Hangchow&lt;/a&gt;&lt;/p&gt;
 
-
-
-
-
-
-
 &lt;div class=&#34;map-box&#34;&gt;
 &lt;div id=&#34;map-120.14502-30.23386&#34; style=&#34;max-width:400px;height:240px;&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
     var mymap = L.map(&#39;map-120.14502-30.23386&#39;, { attributionControl:false }).setView([&#34;30.23386&#34;,&#34;120.14502&#34;],  16 );
-    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);
-	
-    
-    var marker = L.marker([&#34;30.23386&#34;,&#34;120.14502&#34;]).addTo(mymap);
-	
-	marker.bindPopup(&#34;我住塔里&#34;).openPopup();	
-	
-&lt;/script&gt;
-
-
+    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;30.23386&#34;,&#34;120.14502&#34;]).addTo(mymap);marker.bindPopup(&#34;我住塔里&#34;).openPopup();&lt;/script&gt;
 
 &lt;hr /&gt;
 
