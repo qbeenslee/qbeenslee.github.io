@@ -2345,13 +2345,10 @@ C语言实现:&lt;/p&gt;
 
 &lt;p&gt;但在实用性和易懂性上讲,我还是比较喜欢sunday算法的.&lt;/p&gt;
 
-&lt;p&gt;推荐阅读:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.inf.fh-flensburg.de/lang/algorithmen/pattern/sundayen.htm&#34; target=&#34;_blank&#34;&gt;Sunday algorithm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www-igm.univ-mlv.fr/~lecroq/string/node19.html&#34; target=&#34;_blank&#34;&gt;Quick Search algorithm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://d.wanfangdata.com.cn/periodical_jsjgc200907042.aspx&#34; target=&#34;_blank&#34;&gt;改进的Sunday模式匹配算法&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;推荐阅读:&lt;br /&gt;
+&lt;a href=&#34;http://www.inf.fh-flensburg.de/lang/algorithmen/pattern/sundayen.html&#34; target=&#34;_blank&#34;&gt;Sunday algorithm&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www-igm.univ-mlv.fr/~lecroq/string/node19.html&#34; target=&#34;_blank&#34;&gt;Quick Search algorithm&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://d.wanfangdata.com.cn/periodical_jsjgc200907042.aspx&#34; target=&#34;_blank&#34;&gt;改进的Sunday模式匹配算法&lt;/a&gt;&lt;/p&gt;</content>
       
     </item>
     
