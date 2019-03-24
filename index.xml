@@ -2264,27 +2264,30 @@
 &lt;strong&gt;提出者&lt;/strong&gt;: Daniel M.Sunday(1990)&lt;br /&gt;
 &lt;strong&gt;核心思想&lt;/strong&gt;:在匹配过程中, 模式串并不被要求一定要按从左向右进行比较还是从右向左进行比较, 它在发现不匹配时, 算法能跳过尽可能多的字符以进行下一步的匹配, 从而提高了匹配效率.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;&lt;strong&gt;简单匹配过程&lt;/strong&gt;:&lt;br /&gt;
 文本为:&amp;ldquo;substring searching algorithm&amp;rdquo;&lt;br /&gt;
 字串为:&amp;ldquo;search&amp;rdquo;&lt;br /&gt;
-刚开始时, 把子串与文本左边对齐:&lt;br /&gt;
-substring searching algorithm&lt;br /&gt;
-search&lt;br /&gt;
-结果在第二个字符处发现不匹配, 于是要把子串往后移动. 但是该移动多少呢？&lt;br /&gt;
-这就是各种算法各显神通的地方了, 最简单的做法是移动一个字符位置;&lt;br /&gt;
-KMP是利用已经匹配部分的信息来移动;&lt;br /&gt;
-BM算法是做反向比较, 并根据已经匹配的部分来确定移动量.&lt;br /&gt;
+刚开始时, 把子串与文本左边对齐:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;substring searching algorithm
+search&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;结果在第二个字符处发现不匹配, 于是要把子串往后移动. 但是该移动多少呢？&lt;br /&gt;
+这就是各种算法各显神通的地方了, 最简单的做法是移动一个字符位置;&lt;/p&gt;
+
+&lt;p&gt;KMP是利用已经匹配部分的信息来移动;BM算法是做反向比较, 并根据已经匹配的部分来确定移动量.&lt;br /&gt;
 这里要介绍的方法是看紧跟在当前子串之后的那个字符 （第一个字符串中的&amp;rsquo;i&amp;rsquo;).&lt;br /&gt;
 显然, 不管移动多少, 这个字符是肯定要参加下一步的比较的.&lt;br /&gt;
-也就是说, 如果下一步匹配到了, 这个字符必须在子串内.&lt;br /&gt;
-所以, 可以移动子串, 使子串中的最右边的这个字符与它对齐. 现在子串&amp;rsquo;search&amp;rsquo;中并不存在&amp;rsquo;i&amp;rsquo;, 则说明可以直接跳过一大片, 从&amp;rsquo;i&amp;rsquo;之后的那个字符开始作下一步的比较, 如下:&lt;br /&gt;
-substring searching algorithm&lt;br /&gt;
-search&lt;br /&gt;
-比较的结果, 第一个字符就不匹配, 再看子串后面的那个字符, 是&amp;rsquo;r&amp;rsquo;,它在子&lt;br /&gt;
-串中出现在倒数第三位, 于是把子串向后移动三位, 使两个&amp;rsquo;r&amp;rsquo;对齐, 如下:&lt;br /&gt;
-substring searching algorithm&lt;br /&gt;
-search&lt;br /&gt;
-这次匹配成功了！&lt;br /&gt;
+也就是说, 如果下一步匹配到了, 这个字符必须在子串内.&lt;/p&gt;
+
+&lt;p&gt;所以, 可以移动子串, 使子串中的最右边的这个字符与它对齐. 现在子串&amp;rsquo;search&amp;rsquo;中并不存在&amp;rsquo;i&amp;rsquo;, 则说明可以直接跳过一大片, 从&amp;rsquo;i&amp;rsquo;之后的那个字符开始作下一步的比较, 如下:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;substring searching algorithm
+search&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;比较的结果, 第一个字符就不匹配, 再看子串后面的那个字符, 是&amp;rsquo;r&amp;rsquo;,它在子&lt;br /&gt;
+串中出现在倒数第三位, 于是把子串向后移动三位, 使两个&amp;rsquo;r&amp;rsquo;对齐, 如下:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;substring searching algorithm
+search&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;这次匹配成功了！&lt;br /&gt;
 上面一段例子摘自:&lt;a href=&#34;http://blog.chinaunix.net/uid-25513153-id-225240.html&#34; target=&#34;_blank&#34;&gt;http://blog.chinaunix.net/uid-25513153-id-225240.html&lt;/a&gt;&lt;br /&gt;
 C语言实现:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/*************************** 
