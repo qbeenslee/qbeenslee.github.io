@@ -350,9 +350,7 @@
 
 &lt;h2 id=&#34;纪念品&#34;&gt;纪念品&lt;/h2&gt;
 
-&lt;p&gt;俄罗斯套娃&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/QisYRdN.jpg&#34; width=&#34;500px&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/QisYRdN.jpg&#34; alt=&#34;俄罗斯套娃&#34; width=&#34;500px&#34;/&gt;&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 
 &lt;hr /&gt;
@@ -689,7 +687,7 @@
       <guid>https://qbeenslee.com/article/hugo-support-map-shortcodes/</guid>
       <description></description>
       
-      <content>&lt;p&gt;&lt;img src=&#34;https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg&#34; width=&#34;400px&#34; alt=&#34;Hugo Logo&#34;&gt;&lt;/p&gt;
+      <content>&lt;p&gt;&lt;img src=&#34;https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg&#34; alt=&#34;Hugo logo&#34; width=&#34;400px&#34; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Hugo是什么? 本博客网站就是使用有Hugo渲染, 关于Hugo的介绍可以看&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;这里&lt;/a&gt;&lt;/p&gt;
@@ -849,7 +847,7 @@
       <description></description>
       
       <content>&lt;p&gt;今天本来我是开心的, 但现在我的内心是崩溃的.&lt;br /&gt;
-&lt;img src=&#34;https://i.imgur.com/r0gINyQ.gif&#34; alt=&#34;我的内心是崩溃的&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://i.imgur.com/r0gINyQ.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content>
       
     </item>
