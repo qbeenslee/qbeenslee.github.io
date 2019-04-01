@@ -7,9 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy; Qbeenslee 2019</copyright>
+    <lastBuildDate>Wed, 27 Mar 2019 14:46:52 +0800</lastBuildDate>
     
 	<atom:link href="https://qbeenslee.com/gallery/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>相册插件测试</title>
+      <link>https://qbeenslee.com/gallery/gallery-plugins-test/</link>
+      <pubDate>Wed, 27 Mar 2019 14:46:52 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/gallery/gallery-plugins-test/</guid>
+      <description>             景色对比 </description>
+    </item>
     
   </channel>
 </rss>

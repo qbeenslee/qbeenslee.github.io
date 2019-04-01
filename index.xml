@@ -13,6 +13,72 @@
     
     
     <item>
+      <title>相册插件测试</title>
+      <link>https://qbeenslee.com/gallery/gallery-plugins-test/</link>
+      <pubDate>Wed, 27 Mar 2019 14:46:52 +0800</pubDate>
+      <author>qbeenslee</author>
+      <guid>https://qbeenslee.com/gallery/gallery-plugins-test/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/04/01/5ca0e8f200a4b.jpg&#34; alt=&#34;IMG_0824&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;https://i.loli.net/2019/04/01/5ca0e8f253876.jpg&#34; alt=&#34;IMG_0815&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;https://i.loli.net/2019/04/01/5ca0e8f1e64aa.jpg&#34; alt=&#34;IMG_0812&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;https://i.loli.net/2019/04/01/5ca0e8f253f23.jpg&#34; alt=&#34;IMG_0818&#34; /&gt;&lt;/p&gt;
+
+
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://qbeenslee.com/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://i.loli.net/2019/04/01/5ca0e8f200a4b.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://i.loli.net/2019/04/01/5ca0e8f200a4b.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://i.loli.net/2019/04/01/5ca0e8f200a4b.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://i.loli.net/2019/04/01/5ca0e8f253876.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://i.loli.net/2019/04/01/5ca0e8f253876.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://i.loli.net/2019/04/01/5ca0e8f253876.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://i.loli.net/2019/04/01/5ca0e8f1e64aa.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://i.loli.net/2019/04/01/5ca0e8f1e64aa.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://i.loli.net/2019/04/01/5ca0e8f1e64aa.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+&lt;figure class=&#34;no-photoswipe&#34;&gt;&lt;div class=&#34;twentytwenty-container&#34;&gt;
+    
+    &lt;img class=&#34;image-compare-item&#34; src=&#34;https://i.loli.net/2019/04/01/5ca0e8f200a4b.jpg&#34; /&gt;
+    
+    &lt;img class=&#34;image-compare-item&#34; src=&#34;https://i.loli.net/2019/04/01/5ca0e8f253876.jpg&#34; /&gt;
+&lt;/div&gt;&lt;figcaption&gt;景色对比&lt;/figcaption&gt;&lt;/figure&gt;
+
+</content>
+      
+    </item>
+    
+    <item>
       <title>终是去不了: 2019年俄罗斯极光之旅筹划文档</title>
       <link>https://qbeenslee.com/article/a-sad-story-about-russia/</link>
       <pubDate>Sun, 17 Mar 2019 22:34:50 +0800</pubDate>
@@ -646,7 +712,7 @@
       <guid>https://qbeenslee.com/bb/mweb-is-an-artifact/</guid>
       <description></description>
       
-      <content>&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/IffjZDJ.png&#34; alt=&#34;screen-shot&#34; /&gt;&lt;/p&gt;
+      <content>&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/03/27/5c9b1930d2836.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content>
       
     </item>
@@ -674,7 +740,7 @@
       <guid>https://qbeenslee.com/bb/%E8%B1%86%E7%93%A3%E6%88%BE%E6%B0%94%E5%A4%AA%E9%87%8D/</guid>
       <description></description>
       
-      <content>&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/TjpYiBb.jpg&#34; alt=&#34;豆瓣戾气太重&#34; width=&#34;300px&#34;&gt;&lt;/p&gt;
+      <content>&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/03/27/5c9b19b9a5134.jpg&#34; alt=&#34;豆瓣戾气太重&#34; width=&#34;300px&#34;&gt;&lt;/p&gt;
 </content>
       
     </item>
@@ -846,8 +912,9 @@
       <guid>https://qbeenslee.com/bb/my-heart-is-breaking/</guid>
       <description></description>
       
-      <content>&lt;p&gt;今天本来我是开心的, 但现在我的内心是崩溃的.&lt;br /&gt;
-&lt;img src=&#34;https://i.imgur.com/r0gINyQ.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+      <content>&lt;p&gt;今天本来我是开心的, 但现在我的内心是崩溃的.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/03/27/5c9b19f31bce8.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content>
       
     </item>
