@@ -7,22 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy; Qbeenslee 2019</copyright>
-    <lastBuildDate>Sun, 17 Mar 2019 22:34:50 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 22 Feb 2019 20:10:40 +0800</lastBuildDate>
     
 	<atom:link href="https://qbeenslee.com/article/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>终是去不了: 2019年俄罗斯极光之旅筹划文档</title>
-      <link>https://qbeenslee.com/article/a-sad-story-about-russia/</link>
-      <pubDate>Sun, 17 Mar 2019 22:34:50 +0800</pubDate>
-      
-      <guid>https://qbeenslee.com/article/a-sad-story-about-russia/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;因为尴尬的原因, 没能去成俄罗斯看极光.&lt;br /&gt;
-下面是一个未完成的攻略, 希望有那么一丢丢的借鉴价值 !&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
     
     <item>
       <title>Hugo支持插入地图的shortcode</title>
