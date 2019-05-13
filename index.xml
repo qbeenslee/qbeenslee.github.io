@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hey sister</title>
@@ -32,7 +33,7 @@
 &lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
 	  
   
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://qbeenslee.com/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://i.loli.net/2019/04/01/5ca0e8f200a4b.jpg&#39;);&#34;&gt;
@@ -875,13 +876,13 @@
 &lt;tr&gt;
 &lt;td&gt;CDN_PATH&lt;/td&gt;
 &lt;td&gt;链接(可选)&lt;/td&gt;
-&lt;td&gt;CDN仓库的地址, 比如&lt;a href=&#34;http://xxxx.clouddn.com/static/&#34; target=&#34;_blank&#34;&gt;http://xxxx.clouddn.com/static/&lt;/a&gt; 下保存了和&lt;code&gt;public&lt;/code&gt;(E)目录里生成全部静态资源&lt;/td&gt;
+&lt;td&gt;CDN仓库的地址, 比如&lt;a href=&#34;http://xxxx.clouddn.com/static/&#34; target=&#34;_blank&#34;&gt;http://xxxx.clouddn.com/static/&lt;/a&gt; &lt;br/&gt;下保存了和&lt;code&gt;public&lt;/code&gt;(E)目录里生成全部静态资源&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;theme_version&lt;/td&gt;
 &lt;td&gt;字符串(可选)&lt;/td&gt;
-&lt;td&gt;避免CDN缓存造成的样式更新不及时, 现在仅支持style.css文件&lt;/td&gt;
+&lt;td&gt;避免CDN缓存造成的样式更新不及时, 现在仅支持&lt;br/&gt;style.css文件&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -937,17 +938,17 @@
 &lt;p&gt;单篇文章属性配置&lt;/p&gt;
 
 &lt;p&gt;举个例子:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;title: 技术博客整理
-date: 2015-10-24 01:29:12
-updated: 2015-10-24 01:29:12
-original: false
-top: true
-categories: mobile
-selectable: true
-tags:
- &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; android
- &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 技术博客
- - 整理&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;title: 技术博客整理&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;date: 2015-10-24 01:29:12&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;updated: 2015-10-24 01:29:12&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;original: false&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;top: true&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;categories: mobile&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;selectable: true&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;tags:
+ &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; android&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 技术博客&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt; - 整理&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;主要的几个参数说明&lt;/p&gt;
 
 &lt;table&gt;
@@ -963,7 +964,7 @@ tags:
 &lt;tr&gt;
 &lt;td&gt;original&lt;/td&gt;
 &lt;td&gt;true/false&lt;/td&gt;
-&lt;td&gt;是否为原创文章, 为true是会在文章的右下方显示&lt;code&gt;本文为原创，转载请遵守本站版权声明&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;是否为原创文章, 为true是会在文章的右下方显示 &lt;br/&gt;&lt;code&gt;本文为原创，转载请遵守本站版权声明&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -991,13 +992,13 @@ tags:
 &lt;p&gt;需要手动生成一个page, &lt;code&gt;hexo new page &#39;tag&#39;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;编辑markdown文件内容如下:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;title: 标签
-original: false
-comments: false
-noDate: true
-layout: post
-selectable: false
----&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;title: 标签&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;original: false&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;comments: false&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;noDate: true&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;layout: post&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;selectable: false&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;---&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
       
     </item>
     
@@ -1914,8 +1915,7 @@ selectable: false
 		&lt;span class=&#34;n&#34;&gt;ReleaseCapture&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
 		&lt;span class=&#34;n&#34;&gt;SendMessage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Handle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;WM_SYSCOMMAND&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;SC_MOVE&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;HTCAPTION&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; 
 	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; 
-&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;如何截取图片缩略图&lt;/p&gt;
 
@@ -1958,8 +1958,7 @@ selectable: false
     &lt;span class=&#34;n&#34;&gt;pictrue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Dispose&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
     &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;newPic&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-    
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+    &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;具体可以参考本人源代码.&lt;/p&gt;
