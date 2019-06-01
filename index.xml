@@ -1891,13 +1891,10 @@ selectable: false
 
 &lt;p&gt;前段日子编写了一个图片库的小程序,遇到了很多问题.这里罗列一下:&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;无标题栏窗口如何实现拖动&lt;br /&gt;
-&amp;mdash;&lt;br /&gt;
-即当form的FormBorderStyle=None时,窗口如何响应鼠标拖动事件.&lt;br /&gt;
-实现代码如下:&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2 id=&#34;1-如何实现拖动无标题栏窗口&#34;&gt;1. 如何实现拖动无标题栏窗口&lt;/h2&gt;
+
+&lt;p&gt;即当form的FormBorderStyle=None时,窗口如何响应鼠标拖动事件.&lt;br /&gt;
+实现代码如下:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span class=&#34;k&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;WM_SYSCOMMAND&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x0112&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;k&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;SC_MOVE&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xF010&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;/*移动信息*/&lt;/span&gt; 
 &lt;span class=&#34;cm&#34;&gt;/*表示鼠标在窗口标题栏时的系统信息*/&lt;/span&gt;
@@ -1916,63 +1913,55 @@ selectable: false
 	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; 
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;如何截取图片缩略图&lt;/p&gt;
+&lt;h2 id=&#34;2-如何截取图片缩略图&#34;&gt;2. 如何截取图片缩略图&lt;/h2&gt;
 
 &lt;p&gt;在网上查到两种资料,&lt;br /&gt;
 一种是Image newPic = pictrue.GetThumbnailImage(Width, Height, null, IntPtr.Zero);&lt;br /&gt;
 另一种是Image newPic = new System.Drawing.Bitmap(pictrue, Width, Height)&lt;br /&gt;
 其中pictrue为原图片,Width和Height为裁剪后图片的宽高&lt;br /&gt;
-经过实际操作发现当原图为高清图的时候,使用pictrue.GetThumbnailImage()截取的缩略图会严重失真,&lt;br /&gt;
-而使用System.Drawing.Bitmap()可以较为真实的反映原图的效果&lt;/p&gt;&lt;/li&gt;
+经过实际操作发现当原图为高清图的时候,使用pictrue.GetThumbnailImage()截取的缩略图会严重失真,而使用System.Drawing.Bitmap()可以较为真实的反映原图的效果&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;如何缩放图片&lt;/p&gt;
+&lt;h2 id=&#34;3-如何缩放图片&#34;&gt;3. 如何缩放图片&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;使用何种尺寸去裁剪才能尽量的反映原图的效果.我的目标是不改变原图的宽高比例,在外框的限制下成比例缩小,若原图的宽高都小于外框则不进行裁剪.
+具体代码如下:
 
-&lt;p&gt;使用何种尺寸去裁剪才能尽量的反映原图的效果.我的目标是不改变原图的宽高比例,在外框的限制下成比例缩小,若原图的宽高都小于外框则不进行裁剪.&lt;br /&gt;
-具体代码如下:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span class=&#34;k&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dealPic&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;picPath&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pictrue&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;FromFile&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;picPath&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tmpW&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PIC_WIDTH&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tmpH&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PIC_HEIGHT&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;cm&#34;&gt;/*PIC_WIDTH为外框的限制宽度,PIC_HEIGHT为外框的限制高度,为全局变量*/&lt;/span&gt;
-    &lt;span class=&#34;kt&#34;&gt;double&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;rate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//缩放比例
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;width&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pictrue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Width&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;height&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pictrue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Height&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;n&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pictrue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;cm&#34;&gt;/*图像裁剪处理*/&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;width&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PIC_WIDTH&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;||&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;height&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PIC_HEIGHT&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-        &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;double&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;width&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1.0&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//过高
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-            &lt;span class=&#34;n&#34;&gt;rate&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;height&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1.0&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tmpH&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-            &lt;span class=&#34;n&#34;&gt;tmpW&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;width&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1.0&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;rate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-        &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//过宽
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-            &lt;span class=&#34;n&#34;&gt;rate&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;width&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1.0&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tmpW&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-            &lt;span class=&#34;n&#34;&gt;tmpH&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;height&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1.0&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;rate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pictrue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;newPic&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pictrue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;GetThumbnailImage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tmpW&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tmpH&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;IntPtr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Zero&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//绘制底质量图 
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;cm&#34;&gt;/*释放图片内存*/&lt;/span&gt;
-    &lt;span class=&#34;n&#34;&gt;pictrue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Dispose&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;newPic&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-    
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;/ol&gt;
+```cs
+private Image dealPic(String picPath) {
+    Image pictrue = Image.FromFile(picPath);
+    int tmpW = PIC_WIDTH, tmpH = PIC_HEIGHT;
+    /*PIC_WIDTH为外框的限制宽度,PIC_HEIGHT为外框的限制高度,为全局变量*/
+    double rate;//缩放比例
+    int width = pictrue.Size.Width;
+    int height = pictrue.Size.Height;
+    size = pictrue.Size;
+    /*图像裁剪处理*/
+    if (width &amp;gt; PIC_WIDTH || height &amp;gt; PIC_HEIGHT)
+    {
+        if ((double)(width * 1.0 / height) &amp;lt; 1.5)//过高
+        {
+            rate = height * 1.0 / tmpH;
+            tmpW = (int)(width * 1.0 / rate);
+        }
+        else//过宽
+        {
+            rate = width * 1.0 / tmpW;
+            tmpH = (int)(height * 1.0 / rate);
+        }
+    } else
+    return pictrue;
+    Image newPic = pictrue.GetThumbnailImage(tmpW, tmpH, null, IntPtr.Zero);//绘制底质量图 
+    /*释放图片内存*/
+    pictrue.Dispose();
+    return newPic;
+}
 
-&lt;p&gt;具体可以参考本人源代码.&lt;/p&gt;
-
-&lt;p&gt;新手写C#,代码不是很好,如有什么意见请留言.&lt;/p&gt;
-
-&lt;p&gt;个人认为本程序中最大的一个问题是载入大量图片的时候比较卡顿,可以考虑多线程解决.Ps:本人多线程没学好&lt;/p&gt;
-
-&lt;p&gt;还有图片还不支持鼠标滚动条缩放大小,这个我还没有头绪&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;知道的朋友可以提醒一下,谢谢&lt;/p&gt;
-
-&lt;p&gt;源代码及程序,下载链接 &lt;a href=&#34;http://sdrv.ms/IPchCt&#34; target=&#34;_blank&#34;&gt;http://sdrv.ms/IPchCt&lt;/a&gt;&lt;/p&gt;</content>
+```&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;具体可以参考本人源代码.&lt;br /&gt;
+新手写C#,代码不是很好,如有什么意见请留言.&lt;br /&gt;
+个人认为本程序中最大的一个问题是载入大量图片的时候比较卡顿,可以考虑多线程解决.Ps:本人多线程没学好&lt;br /&gt;
+还有图片还不支持鼠标滚动条缩放大小,这个我还没有头绪&amp;hellip;&lt;br /&gt;
+知道的朋友可以提醒一下,谢谢&lt;br /&gt;
+源代码及程序,下载链接 &lt;a href=&#34;http://sdrv.ms/IPchCt&#34; target=&#34;_blank&#34;&gt;http://sdrv.ms/IPchCt&lt;/a&gt;&lt;/p&gt;</content>
       
     </item>
     
@@ -2377,7 +2366,7 @@ weibo: &lt;a href=&#34;http://weibo.com/qbeenslee&#34; target=&#34;_blank&#34;&g
 创作: vim / mweb / photoshop / premiere / sai&lt;br /&gt;
 爱好: snowboarding&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/03/21/5c93ad3f0af51.jpg&#34; width=&#34;400px&#34; height=&#34;250px&#34; class=&#34;nozoom&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2019/05/5c93ad3f0af51-15592964474793.jpg&#34; width=&#34;400px&#34; height=&#34;250px&#34; class=&#34;nozoom&#34;&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -2408,7 +2397,7 @@ weibo: &lt;a href=&#34;http://weibo.com/qbeenslee&#34; target=&#34;_blank&#34;&g
 
 &lt;h3 id=&#34;版权声明&#34;&gt;版权声明&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://qbeenslee.com/copyright/&#34;&gt;&lt;img src=&#34;https://i.loli.net/2019/04/01/5ca231ff8e40f.jpg&#34; height=&#34;35px&#34; width=&#34;100&#34; class=&#34;nozoom&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://qbeenslee.com/copyright/&#34;&gt;&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2019/05/15541334630276-15592964474801.jpg&#34; height=&#34;35px&#34; width=&#34;100&#34; class=&#34;nozoom&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;本站&lt;a href=&#34;http://qbeenslee.com/&#34; target=&#34;_blank&#34;&gt;Hey sister&lt;/a&gt;采用&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-nd/4.0/&#34; target=&#34;_blank&#34;&gt;「署名-非商业性使用-禁止演绎 4.0 国际许可协议」&lt;/a&gt;进行许可.&lt;/p&gt;
 
