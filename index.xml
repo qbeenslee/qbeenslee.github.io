@@ -12,6 +12,19 @@
     
     
     <item>
+      <title>街灯下的文三路</title>
+      <link>https://qbeenslee.com/bb/wen3-street/</link>
+      <pubDate>Thu, 06 Jun 2019 21:43:26 +0800</pubDate>
+      <author>qbeenslee</author>
+      <guid>https://qbeenslee.com/bb/wen3-street/</guid>
+      <description></description>
+      
+      <content>&lt;p&gt;&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/201906/wen3-street-ngiht-sense.jpg&#34; alt=&#34;街道被移植的文三路夜景&#34; height=&#34;800px&#34;/&gt;&lt;/p&gt;
+</content>
+      
+    </item>
+    
+    <item>
       <title>相册插件测试</title>
       <link>https://qbeenslee.com/gallery/gallery-plugins-test/</link>
       <pubDate>Wed, 27 Mar 2019 14:46:52 +0800</pubDate>
@@ -2373,14 +2386,14 @@ weibo: &lt;a href=&#34;http://weibo.com/qbeenslee&#34; target=&#34;_blank&#34;&g
 &lt;/li&gt;
     &lt;li class=&#34;friend&#34; style=&#34;float: left;width:50%;position: relative; list-style: none;&#34;&gt;
     &lt;a href=&#34;https://zeeyang.com/&#34; title=&#34;小宫泽洋&#34; target=&#34;_blank&#34; &gt;
-        &lt;img class=&#34;nozoom friend-logo&#34; src=&#34;https://zeeyang.com/CaptainAmerica.jpg&#34;/&gt;
+        &lt;img class=&#34;nozoom friend-logo&#34; src=&#34;https://avatars3.githubusercontent.com/u/12770548?s=460&amp;amp;v=4&#34;/&gt;
         &lt;h4 class=&#34;friend-name&#34;&gt;小宫泽洋&lt;/h4&gt;
         &lt;p class=&#34;friend-slogan&#34;&gt;Talk is cheap, show me the code.&lt;/p&gt;
     &lt;/a&gt;
 &lt;/li&gt;
     &lt;li class=&#34;friend&#34; style=&#34;float: left;width:50%;position: relative; list-style: none;&#34;&gt;
     &lt;a href=&#34;http://blog.alexwan.cn&#34; title=&#34;alex&#34; target=&#34;_blank&#34; &gt;
-        &lt;img class=&#34;nozoom friend-logo&#34; src=&#34;http://blog.alexwan.cn/img/avatar.jpg&#34;/&gt;
+        &lt;img class=&#34;nozoom friend-logo&#34; src=&#34;https://avatars2.githubusercontent.com/u/8053520?s=460&amp;amp;v=4&#34;/&gt;
         &lt;h4 class=&#34;friend-name&#34;&gt;alex&lt;/h4&gt;
         &lt;p class=&#34;friend-slogan&#34;&gt;To Be A Lean Developer&lt;/p&gt;
     &lt;/a&gt;
