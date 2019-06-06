@@ -2355,31 +2355,72 @@ weibo: &lt;a href=&#34;http://weibo.com/qbeenslee&#34; target=&#34;_blank&#34;&g
 
 &lt;h3 id=&#34;友情链接&#34;&gt;友情链接&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://ruidada.info&#34; target=&#34;_blank&#34;&gt;熊猫大哥&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://francisshi.github.io&#34; target=&#34;_blank&#34;&gt;石头&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.liangfei.me&#34; target=&#34;_blank&#34;&gt;梁老师&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://broccoliii.me&#34; target=&#34;_blank&#34;&gt;金刚&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://zeeyang.com&#34; target=&#34;_blank&#34;&gt;小宫泽洋&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.alexwan.cn&#34; target=&#34;_blank&#34;&gt;alex&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://co5.me&#34; target=&#34;_blank&#34;&gt;†少女癌†&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.xianmin.org&#34; target=&#34;_blank&#34;&gt;贤民&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;ul class=&#34;friend-links&#34; style=&#34;list-style:none; overflow: hidden; margin:0; padding:0;&#34;&gt;
+    
+    &lt;li class=&#34;friend&#34; style=&#34;float: left;width:33%;position: relative; list-style: none;&#34;&gt;
+    &lt;a href=&#34;http://ruidada.info&#34; title=&#34;熊猫大哥&#34; target=&#34;_blank&#34; &gt;
+        &lt;img class=&#34;nozoom friend-logo&#34; src=&#34;http://ruidada.info/assets/rui.JPG&#34;/&gt;
+        &lt;h4 class=&#34;friend-name&#34;&gt;熊猫大哥&lt;/h4&gt;
+        &lt;p class=&#34;friend-slogan&#34;&gt;Rui,.....。&lt;/p&gt;
+    &lt;/a&gt;
+&lt;/li&gt;
+    &lt;li class=&#34;friend&#34; style=&#34;float: left;width:33%;position: relative; list-style: none;&#34;&gt;
+    &lt;a href=&#34;http://www.liangfei.me&#34; title=&#34;梁老师&#34; target=&#34;_blank&#34; &gt;
+        &lt;img class=&#34;nozoom friend-logo&#34; src=&#34;http://liangfei.me/img/avatar.jpg&#34;/&gt;
+        &lt;h4 class=&#34;friend-name&#34;&gt;梁老师&lt;/h4&gt;
+        &lt;p class=&#34;friend-slogan&#34;&gt;職人になる男だ&lt;/p&gt;
+    &lt;/a&gt;
+&lt;/li&gt;
+    &lt;li class=&#34;friend&#34; style=&#34;float: left;width:33%;position: relative; list-style: none;&#34;&gt;
+    &lt;a href=&#34;https://zeeyang.com/&#34; title=&#34;小宫泽洋&#34; target=&#34;_blank&#34; &gt;
+        &lt;img class=&#34;nozoom friend-logo&#34; src=&#34;https://zeeyang.com/CaptainAmerica.jpg&#34;/&gt;
+        &lt;h4 class=&#34;friend-name&#34;&gt;小宫泽洋&lt;/h4&gt;
+        &lt;p class=&#34;friend-slogan&#34;&gt;Talk is cheap, show me the code.&lt;/p&gt;
+    &lt;/a&gt;
+&lt;/li&gt;
+    &lt;li class=&#34;friend&#34; style=&#34;float: left;width:33%;position: relative; list-style: none;&#34;&gt;
+    &lt;a href=&#34;http://blog.alexwan.cn&#34; title=&#34;alex&#34; target=&#34;_blank&#34; &gt;
+        &lt;img class=&#34;nozoom friend-logo&#34; src=&#34;http://blog.alexwan.cn/img/avatar.jpg&#34;/&gt;
+        &lt;h4 class=&#34;friend-name&#34;&gt;alex&lt;/h4&gt;
+        &lt;p class=&#34;friend-slogan&#34;&gt;To Be A Lean Developer&lt;/p&gt;
+    &lt;/a&gt;
+&lt;/li&gt;
+    &lt;li class=&#34;friend&#34; style=&#34;float: left;width:33%;position: relative; list-style: none;&#34;&gt;
+    &lt;a href=&#34;https://co5.me&#34; title=&#34;†少女癌†&#34; target=&#34;_blank&#34; &gt;
+        &lt;img class=&#34;nozoom friend-logo&#34; src=&#34;https://co5.me/images/avatar.png&#34;/&gt;
+        &lt;h4 class=&#34;friend-name&#34;&gt;†少女癌†&lt;/h4&gt;
+        &lt;p class=&#34;friend-slogan&#34;&gt;大声 BB，小声填坑。&lt;/p&gt;
+    &lt;/a&gt;
+&lt;/li&gt;
+    &lt;li class=&#34;friend&#34; style=&#34;float: left;width:33%;position: relative; list-style: none;&#34;&gt;
+    &lt;a href=&#34;https://www.xianmin.org&#34; title=&#34;贤民&#34; target=&#34;_blank&#34; &gt;
+        &lt;img class=&#34;nozoom friend-logo&#34; src=&#34;https://avatars0.githubusercontent.com/u/2177570?s=460&amp;amp;v=4&#34;/&gt;
+        &lt;h4 class=&#34;friend-name&#34;&gt;贤民&lt;/h4&gt;
+        &lt;p class=&#34;friend-slogan&#34;&gt;贤民的比特记忆&lt;/p&gt;
+    &lt;/a&gt;
+&lt;/li&gt;
+
 &lt;/ul&gt;
 
-&lt;!--[胖哥](http://stonepyy.cn)--&gt;
 
-&lt;!--[旋子](http://rotonlin.cn)--&gt;
+&lt;!-- 
+* [熊猫大哥](http://ruidada.info)
+* [梁老师](http://www.liangfei.me)
+* [金刚](http://broccoliii.me)
+* [小宫泽洋](http://zeeyang.com)
+* [alex](http://blog.alexwan.cn)
+* [†少女癌†](https://co5.me)
+* [贤民](https://www.xianmin.org)
 
-&lt;!-- njliangfei@gmail.com --&gt;
-
-&lt;!-- [JP](https://porval.github.io) --&gt;
-
-&lt;!-- [壮阳阳](http://duanyytop.github.io) --&gt;
-
-&lt;!-- [SongNick](http://www.jianshu.com/users/071991caaf4e/latest_articles) --&gt;
-
-&lt;!-- [卧蚕](http://olivercai.me) --&gt;</content>
+[石头](http://francisshi.github.io)
+[胖哥](http://stonepyy.cn)
+[旋子](http://rotonlin.cn)
+njliangfei@gmail.com
+[JP](https://porval.github.io)
+[壮阳阳](http://duanyytop.github.io)
+[SongNick](http://www.jianshu.com/users/071991caaf4e/latest_articles)
+[卧蚕](http://olivercai.me) 
+--&gt;</content>
       
     </item>
     
