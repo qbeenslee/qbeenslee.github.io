@@ -2305,7 +2305,9 @@ C语言实现:&lt;/p&gt;
       <guid>https://qbeenslee.com/about/</guid>
       <description></description>
       
-      <content>&lt;p&gt;&lt;strong&gt;本来我是想成为一个有幽默感的人, 然而却是一个小逗比&lt;/strong&gt;&lt;/p&gt;
+      <content>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;本来我是想成为一个有幽默感的人, 然而却是一个小逗比&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Developer 腊肠(qbeenslee) @ &lt;a href=&#34;https://www.google.com/maps/place/Hangzhou&#34; target=&#34;_blank&#34;&gt;Hangchow&lt;/a&gt;&lt;/p&gt;
 
