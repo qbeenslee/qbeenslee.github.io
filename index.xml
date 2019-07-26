@@ -719,14 +719,14 @@
 
 &lt;p&gt;整体运行架构如图:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/GlpiIPl.png&#34; alt=&#34;hotfix architecture&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/picgo-sync/master/mNVlDAt.jpg&#34; alt=&#34;hotfix architecture&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;安全策略&#34;&gt;安全策略&lt;/h3&gt;
 
 &lt;p&gt;想起微信团队对&lt;a href=&#34;http://dev.qq.com/topic/579efa7083355a9a57a1ac5b&#34; target=&#34;_blank&#34;&gt;JSPatch&lt;/a&gt;安全处理方式是采用RSA签名验证, 并且Android发布release包的时候也是需要签名的. 所以何不利用Android keystore对补丁签名, 然后在下发时进行校验.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ell6mKJ.png&#34; alt=&#34;jspatch safe&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/picgo-sync/master/GlpiIPl.png&#34; alt=&#34;jspatch safe&#34; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;所以需要在生成补丁后通过&lt;code&gt;SigningConfig&lt;/code&gt;获取本地keystore签名信息并使用&lt;a href=&#34;http://docs.oracle.com/javase/7/docs/technotes/tools/windows/jarsigner.html&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;jarsigner&lt;/code&gt;&lt;/a&gt;对补丁进行签名. 为了方便, 使用中直接修改RocooFix的gradle插件模块的代码, 并发布到内网maven服务器上使用.&lt;/p&gt;
