@@ -1,1 +1,1 @@
-$(document).ready(function(){$("main").find("img").lazyload()});
+$(document).ready(function(){$("main").find("img").lazyload(),$('#content-toc-tree a[href*="#"]').click(function(e){e.preventDefault();$.smoothScroll({offset:-60,scrollTarget:decodeURI(this.hash),speed:500})})});
