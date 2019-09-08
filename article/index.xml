@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy; Qbeenslee 2019</copyright>
-    <lastBuildDate>Sun, 17 Mar 2019 22:34:50 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2019 11:21:23 +0800</lastBuildDate>
     
 	<atom:link href="https://qbeenslee.com/article/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>黑苹果硬/软件搭建</title>
+      <link>https://qbeenslee.com/article/hackintosh-machine-build/</link>
+      <pubDate>Wed, 10 Jul 2019 11:21:23 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/article/hackintosh-machine-build/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;折腾黑苹果本身对于普通使用者并不是一件有意义事情, 做这个选择的根本原因还是&lt;strong&gt;&lt;ruby&gt;穷&lt;rt&gt;qióng&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt;呀!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;笔者本身拥有一款2015款的13寸rMBP的定制版, 经过4年多的战斗在处理代码编译或者视频渲染时就捉襟见肘了. 根据自己的需求 &amp;amp; 荷包最终选择搭建一套黑苹果.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>终是去不了: 2019年俄罗斯极光之旅筹划文档</title>

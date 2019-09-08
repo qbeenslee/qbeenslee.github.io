@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>Android WebView内处理302重定向 | Hey sister</title><meta name="description" content="开发中处理WebView有面临着以下几个问题:H5页面在调用Android系统的WebView.goBack()会在一些特殊情况下失效; H5页面如有重定向页面, 无法返回上一页.为解决问题1, 我们需要使用WebView.loadUrl()加载上一个页面的链接来替代调用系统APIWebView.goBack(), 但这样会污染系统内部的URL栈, 所以我们还需要自行维护一个URL栈."><meta name="keywords" content="android,webview,重定向"><meta name="author" content="qbeenslee"><meta name="msapplication-TileColor" content="#da532c"><meta name="theme-color" content="#ffffff"><meta property="og:title" content="Android WebView内处理302重定向 | Hey sister"><meta property="og:description" content="开发中处理WebView有面临着以下几个问题:H5页面在调用Android系统的WebView.goBack()会在一些特殊情况下失效; H5页面如有重定向页面, 无法返回上一页.为解决问题1, 我们需要使用WebView.loadUrl()加载上一个页面的链接来替代调用系统APIWebView.goBack(), 但这样会污染系统内部的URL栈, 所以我们还需要自行维护一个URL栈."><meta property="og:url" content="https://qbeenslee.com/article/android-webview-302-redirect/"><meta property="og:site_name" content="Hey sister"><meta property="og:type" content="article"><meta property="article:section" content="Article"><meta property="article:tag" content="android"><meta property="article:tag" content="webview"><meta property="article:tag" content="重定向"><meta property="article:published_time" content="2016-02-15T16:28:51&#43;08:00"><meta property="article:modified_time" content="2016-02-15T16:28:51&#43;08:00"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@"><meta name="twitter:creator" content="@"><link rel="alternate" type="application/rss+xml" title="Hey sister" href="https://qbeenslee.com/index.xml"><link rel="stylesheet" href="https://qbeenslee.com/css/main.css"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="manifest" href="/site.webmanifest"><script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" type="text/javascript"></script><script src="https://cdn.jsdelivr.net/jquery.lazyload/1.9.3/jquery.lazyload.min.js" type="text/javascript"></script></head><body><header id="header" class="auto_header unselectable opaqueHeader" style="top:0;position:fixed;z-index:9999"><div class="site"><a href="/"><div class="title">Hey sister</div></a></div><div id="nav-bar"><nav class="nav-item dropdown"> <a class="dropbtn nav-color-normal" href="/gallery/">相册</a></nav><nav class="nav-item dropdown"> <a class="dropbtn nav-color-normal" href="/bb/">小声BB</a></nav><nav class="nav-item dropdown"> <a class="dropbtn nav-color-normal" href="/about/">关于<span class="caret"></span></a><div class="dropdown-content"> <a href="/about/">关于我</a> <a href="/about/friends/">友情链接</a> <a href="/copyright/">版权声明</a></div></nav></div></header><main style="background-color:#fff"><div id="page" class="vertical-safe"><div class="page-wrap"><div class="middle-side horizontal-safe"><article><div class="article-header"><h1 class="title">ANDROID WEBVIEW内处理302重定向</h1><span class="subtitle">2016年2月15日 16:28</span></div><div class="content"><p>开发中处理WebView有面临着以下几个问题:</p><blockquote><ol><li>H5页面在调用Android系统的<code>WebView.goBack()</code>会在一些特殊情况下失效;<br></li><li>H5页面如有重定向页面, 无法返回上一页.<br></li></ol></blockquote><p>为解决问题1, 我们需要使用<code>WebView.loadUrl()</code>加载上一个页面的链接来替代调用系统API<code>WebView.goBack()</code>, 但这样会污染系统内部的URL栈, 所以我们还需要自行维护一个URL栈.</p><p>解决问题2, 则需要判断当前链接的状态码, 但WebView中没显式的API来获取当前链接的HTTP Response Code. 但也可以通过一些黑技术来解决.</p><p>首先, 需要着重一下WebViewClient这几个方法:</p><ul><li><p>onPageStarted</p><div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="cm">/**
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>Android WebView内处理302重定向 | Hey sister</title><meta name="description" content="开发中处理WebView有面临着以下几个问题:H5页面在调用Android系统的WebView.goBack()会在一些特殊情况下失效; H5页面如有重定向页面, 无法返回上一页.为解决问题1, 我们需要使用WebView.loadUrl()加载上一个页面的链接来替代调用系统APIWebView.goBack(), 但这样会污染系统内部的URL栈, 所以我们还需要自行维护一个URL栈."><meta name="keywords" content="android,webview,重定向"><meta name="author" content="qbeenslee"><meta name="msapplication-TileColor" content="#da532c"><meta name="theme-color" content="#ffffff"><meta property="og:title" content="Android WebView内处理302重定向 | Hey sister"><meta property="og:description" content="开发中处理WebView有面临着以下几个问题:H5页面在调用Android系统的WebView.goBack()会在一些特殊情况下失效; H5页面如有重定向页面, 无法返回上一页.为解决问题1, 我们需要使用WebView.loadUrl()加载上一个页面的链接来替代调用系统APIWebView.goBack(), 但这样会污染系统内部的URL栈, 所以我们还需要自行维护一个URL栈."><meta property="og:url" content="https://qbeenslee.com/article/android-webview-302-redirect/"><meta property="og:site_name" content="Hey sister"><meta property="og:type" content="article"><meta property="article:section" content="Article"><meta property="article:tag" content="android"><meta property="article:tag" content="webview"><meta property="article:tag" content="重定向"><meta property="article:published_time" content="2016-02-15T16:28:51&#43;08:00"><meta property="article:modified_time" content="2016-02-15T16:28:51&#43;08:00"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@"><meta name="twitter:creator" content="@"><link rel="alternate" type="application/rss+xml" title="Hey sister" href="https://qbeenslee.com/index.xml"><link rel="stylesheet" href="https://qbeenslee.com/css/main.css"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="manifest" href="/site.webmanifest"><script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" type="text/javascript"></script><script src="https://cdn.jsdelivr.net/jquery.lazyload/1.9.3/jquery.lazyload.min.js" type="text/javascript"></script></head><body><header id="header" class="auto_header unselectable opaqueHeader" style="top:0;position:fixed;z-index:9999"><div class="site"><a href="/"><div class="title">Hey sister</div></a></div><div id="nav-bar"><nav class="nav-item"> <a class="nav-color-normal" href="/gallery/">相册</a></nav><nav class="nav-item"> <a class="nav-color-normal" href="/bb/">小声BB</a></nav><nav class="nav-item dropdown"> <a class="dropbtn nav-color-normal">关于<span class="caret"></span></a><div class="dropdown-content"> <a href="/about/">关于我</a> <a href="/about/friends/">友情链接</a> <a href="/copyright/">版权声明</a></div></nav></div></header><main style="background-color:#fff"><div id="page" class="vertical-safe"><div class="page-wrap"><div class="middle-side horizontal-safe"><article><div class="article-header"><h1 class="title">ANDROID WEBVIEW内处理302重定向</h1><span class="subtitle">2016年2月15日 16:28</span></div><div class="content"><p>开发中处理WebView有面临着以下几个问题:</p><blockquote><ol><li>H5页面在调用Android系统的<code>WebView.goBack()</code>会在一些特殊情况下失效;<br></li><li>H5页面如有重定向页面, 无法返回上一页.<br></li></ol></blockquote><p>为解决问题1, 我们需要使用<code>WebView.loadUrl()</code>加载上一个页面的链接来替代调用系统API<code>WebView.goBack()</code>, 但这样会污染系统内部的URL栈, 所以我们还需要自行维护一个URL栈.</p><p>解决问题2, 则需要判断当前链接的状态码, 但WebView中没显式的API来获取当前链接的HTTP Response Code. 但也可以通过一些黑技术来解决.</p><p>首先, 需要着重一下WebViewClient这几个方法:</p><ul><li>onPageStarted<br><br></li></ul><div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="cm">/**
 </span><span class="cm">* Notify the host application that a page has started loading. This method
 </span><span class="cm">* is called once for each main frame load so a page with iframes or
 </span><span class="cm">* framesets will call onPageStarted one time for the main frame. This also
@@ -10,8 +10,8 @@
 </span><span class="cm">* @param favicon The favicon for this page if it already exists in the
 </span><span class="cm">*            database.
 </span><span class="cm">*/</span>
-<span class="kd">public</span> <span class="nf">void</span> <span class="n">onPageStarted</span><span class="p">(</span><span class="n">WebView</span> <span class="nf">view</span><span class="p">,</span> <span class="n">String</span> <span class="nf">url</span><span class="p">,</span> <span class="n">Bitmap</span> <span class="nf">favicon</span><span class="p">)</span> <span class="p">{</span>
-<span class="p">}</span></code></pre></div></li><li><p>onPageFinished</p><div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="cm">/**
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">onPageStarted</span><span class="o">(</span><span class="n">WebView</span> <span class="n">view</span><span class="o">,</span> <span class="n">String</span> <span class="n">url</span><span class="o">,</span> <span class="n">Bitmap</span> <span class="n">favicon</span><span class="o">)</span> <span class="o">{</span>
+<span class="o">}</span></code></pre></div><ul><li>onPageFinished<br><br></li></ul><div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="cm">/**
 </span><span class="cm">* Notify the host application that a page has finished loading. This method
 </span><span class="cm">* is called only for main frame. When onPageFinished() is called, the
 </span><span class="cm">* rendering picture may not be updated yet. To get the notification for the
@@ -20,8 +20,8 @@
 </span><span class="cm">* @param view The WebView that is initiating the callback.
 </span><span class="cm">* @param url The url of the page.
 </span><span class="cm">*/</span>
-<span class="kd">public</span> <span class="nf">void</span> <span class="n">onPageFinished</span><span class="p">(</span><span class="n">WebView</span> <span class="nf">view</span><span class="p">,</span> <span class="n">String</span> <span class="nf">url</span><span class="p">)</span> <span class="p">{</span>
-<span class="p">}</span></code></pre></div></li><li><p>shouldOverrideUrlLoading</p><div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="cm">/**
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">onPageFinished</span><span class="o">(</span><span class="n">WebView</span> <span class="n">view</span><span class="o">,</span> <span class="n">String</span> <span class="n">url</span><span class="o">)</span> <span class="o">{</span>
+<span class="o">}</span></code></pre></div><ul><li>shouldOverrideUrlLoading<br><br></li></ul><div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="cm">/**
 </span><span class="cm">* Give the host application a chance to take over the control when a new
 </span><span class="cm">* url is about to be loaded in the current WebView. If WebViewClient is not
 </span><span class="cm">* provided, by default WebView will ask Activity Manager to choose the
@@ -35,93 +35,93 @@
 </span><span class="cm">* @return True if the host application wants to leave the current WebView
 </span><span class="cm">*         and handle the url itself, otherwise return false.
 </span><span class="cm">*/</span>
-<span class="kd">public</span> <span class="nf">boolean</span> <span class="n">shouldOverrideUrlLoading</span><span class="p">(</span><span class="n">WebView</span> <span class="nf">view</span><span class="p">,</span> <span class="n">String</span> <span class="nf">url</span><span class="p">)</span> <span class="p">{</span>
-<span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div></li></ul><blockquote><p>可以在这几个方法中添加打印标记, 来加深对调用顺序的理解</p></blockquote><p>首先确定不可以在<code>onPageFinished</code>中记录URL, 然后在<code>onPageStarted</code>中记录会出现多次记录的问题. 通过打印日志发现, 当链接出现一次重定向时方法<code>shouldOverrideUrlLoading</code>和<code>onPageStarted</code>都会再次被调用, 但<code>onPageFinished</code>只会被调用一次, 所以我们可以根据这一点来记录URL栈.</p><p>以下为代码实例:</p><div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="nf">class</span> <span class="n">WebClient</span> <span class="nf">extends</span> <span class="n">WebViewClient</span> <span class="p">{</span>
+<span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">shouldOverrideUrlLoading</span><span class="o">(</span><span class="n">WebView</span> <span class="n">view</span><span class="o">,</span> <span class="n">String</span> <span class="n">url</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+<span class="o">}</span></code></pre></div><blockquote><p>可以在这几个方法中添加打印标记, 来加深对调用顺序的理解</p></blockquote><p>首先确定不可以在<code>onPageFinished</code>中记录URL, 然后在<code>onPageStarted</code>中记录会出现多次记录的问题. 通过打印日志发现, 当链接出现一次重定向时方法<code>shouldOverrideUrlLoading</code>和<code>onPageStarted</code>都会再次被调用, 但<code>onPageFinished</code>只会被调用一次, 所以我们可以根据这一点来记录URL栈.</p><p>以下为代码实例:</p><div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">WebClient</span> <span class="kd">extends</span> <span class="n">WebViewClient</span> <span class="o">{</span>
    <span class="cm">/**
 </span><span class="cm">    * 记录URL的栈
 </span><span class="cm">    * 规则:
 </span><span class="cm">    * 1.不可在{@code WebView.onPageFinished();}中开始记录URL;
 </span><span class="cm">    * 2.记录需要屏蔽重定向URL.
 </span><span class="cm">    */</span>
-    <span class="kd">private</span> <span class="nf">final</span> <span class="n">Stack</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span> <span class="nf">mUrls</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Stack</span><span class="o">&lt;&gt;</span><span class="p">();</span>
+    <span class="kd">private</span> <span class="kd">final</span> <span class="n">Stack</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span> <span class="n">mUrls</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Stack</span><span class="o">&lt;&gt;();</span>
    <span class="cm">/**
 </span><span class="cm">    * 判断页面是否加载完成
 </span><span class="cm">    */</span>
-    <span class="kd">private</span> <span class="nf">boolean</span> <span class="n">mIsLoading</span><span class="p">;</span>
-    <span class="kd">private</span> <span class="nf">String</span> <span class="n">mUrlBeforeRedirect</span><span class="p">;</span>
+    <span class="kd">private</span> <span class="kt">boolean</span> <span class="n">mIsLoading</span><span class="o">;</span>
+    <span class="kd">private</span> <span class="n">String</span> <span class="n">mUrlBeforeRedirect</span><span class="o">;</span>
 
     <span class="nd">@Override</span>
-    <span class="kd">public</span> <span class="nf">void</span> <span class="n">onPageStarted</span><span class="p">(</span><span class="n">WebView</span> <span class="nf">view</span><span class="p">,</span> <span class="n">String</span> <span class="nf">url</span><span class="p">,</span> <span class="n">Bitmap</span> <span class="nf">favicon</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">super</span><span class="p">.</span><span class="na">onPageStarted</span><span class="p">(</span><span class="n">view</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">favicon</span><span class="p">);</span>
-        <span class="k">if</span> <span class="p">(</span><span class="n">mIsLoading</span> <span class="o">&amp;&amp;</span> <span class="n">mUrls</span><span class="p">.</span><span class="na">size</span><span class="p">()</span> <span class="o">&gt;</span> <span class="n">0</span><span class="p">)</span> <span class="p">{</span>
-            <span class="n">mUrlBeforeRedirect</span> <span class="o">=</span> <span class="n">mUrls</span><span class="p">.</span><span class="na">pop</span><span class="p">();</span>
-        <span class="p">}</span>
-        <span class="n">recordUrl</span><span class="p">(</span><span class="n">url</span><span class="p">);</span>
-        <span class="k">this</span><span class="p">.</span><span class="na">mIsLoading</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
-    <span class="p">}</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onPageStarted</span><span class="o">(</span><span class="n">WebView</span> <span class="n">view</span><span class="o">,</span> <span class="n">String</span> <span class="n">url</span><span class="o">,</span> <span class="n">Bitmap</span> <span class="n">favicon</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kd">super</span><span class="o">.</span><span class="na">onPageStarted</span><span class="o">(</span><span class="n">view</span><span class="o">,</span> <span class="n">url</span><span class="o">,</span> <span class="n">favicon</span><span class="o">);</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">mIsLoading</span> <span class="o">&amp;&amp;</span> <span class="n">mUrls</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">&gt;</span> <span class="n">0</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">mUrlBeforeRedirect</span> <span class="o">=</span> <span class="n">mUrls</span><span class="o">.</span><span class="na">pop</span><span class="o">();</span>
+        <span class="o">}</span>
+        <span class="n">recordUrl</span><span class="o">(</span><span class="n">url</span><span class="o">);</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">mIsLoading</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+    <span class="o">}</span>
 
    <span class="cm">/**
 </span><span class="cm">    * 记录非重定向链接, 避免刷新页面造成的重复入栈
 </span><span class="cm">    *
 </span><span class="cm">    * @param url 链接
 </span><span class="cm">    */</span>
-    <span class="kd">private</span> <span class="nf">void</span> <span class="n">recordUrl</span><span class="p">(</span><span class="n">String</span> <span class="nf">url</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">private</span> <span class="kt">void</span> <span class="nf">recordUrl</span><span class="o">(</span><span class="n">String</span> <span class="n">url</span><span class="o">)</span> <span class="o">{</span>
     	<span class="c1">//这里还可以根据自身业务来屏蔽一些链接被放入URL栈
-</span><span class="c1"></span>     	<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">TextUtils</span><span class="p">.</span><span class="na">isEmpty</span><span class="p">(</span><span class="n">url</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="n">url</span><span class="p">.</span><span class="na">equalsIgnoreCase</span><span class="p">(</span><span class="n">getLastPageUrl</span><span class="p">()))</span> <span class="p">{</span>
-            <span class="n">mUrls</span><span class="p">.</span><span class="na">push</span><span class="p">(</span><span class="n">url</span><span class="p">);</span>
-        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">TextUtils</span><span class="p">.</span><span class="na">isEmpty</span><span class="p">(</span><span class="n">mUrlBeforeRedirect</span><span class="p">))</span> <span class="p">{</span>
-            <span class="n">mUrls</span><span class="p">.</span><span class="na">push</span><span class="p">(</span><span class="n">mUrlBeforeRedirect</span><span class="p">);</span>
-            <span class="n">mUrlBeforeRedirect</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
+</span><span class="c1"></span>     	<span class="k">if</span> <span class="o">(!</span><span class="n">TextUtils</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">(</span><span class="n">url</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="n">url</span><span class="o">.</span><span class="na">equalsIgnoreCase</span><span class="o">(</span><span class="n">getLastPageUrl</span><span class="o">()))</span> <span class="o">{</span>
+            <span class="n">mUrls</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">url</span><span class="o">);</span>
+        <span class="o">}</span> <span class="k">else</span> <span class="k">if</span> <span class="o">(!</span><span class="n">TextUtils</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">(</span><span class="n">mUrlBeforeRedirect</span><span class="o">))</span> <span class="o">{</span>
+            <span class="n">mUrls</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">mUrlBeforeRedirect</span><span class="o">);</span>
+            <span class="n">mUrlBeforeRedirect</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
 
    <span class="cm">/**
 </span><span class="cm">    * 获取上一页的链接
 </span><span class="cm">    **/</span>
-    <span class="kd">private</span> <span class="nf">synchronized</span> <span class="n">String</span> <span class="nf">getLastPageUrl</span><span class="p">()</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="n">mUrls</span><span class="p">.</span><span class="na">size</span><span class="p">()</span> <span class="o">&gt;</span> <span class="n">0</span> <span class="o">?</span> <span class="n">mUrls</span><span class="p">.</span><span class="na">peek</span><span class="p">()</span> <span class="o">:</span> <span class="kc">null</span><span class="p">;</span>
-    <span class="p">}</span>
+    <span class="kd">private</span> <span class="kd">synchronized</span> <span class="n">String</span> <span class="nf">getLastPageUrl</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="n">mUrls</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">&gt;</span> <span class="n">0</span> <span class="o">?</span> <span class="n">mUrls</span><span class="o">.</span><span class="na">peek</span><span class="o">()</span> <span class="o">:</span> <span class="kc">null</span><span class="o">;</span>
+    <span class="o">}</span>
 
    <span class="cm">/**
 </span><span class="cm">    * 推出上一页链接
 </span><span class="cm">    */</span>
-    <span class="kd">public</span> <span class="nf">String</span> <span class="n">popLastPageUrl</span><span class="p">()</span> <span class="p">{</span>
-        <span class="k">if</span> <span class="p">(</span><span class="n">mUrls</span><span class="p">.</span><span class="na">size</span><span class="p">()</span> <span class="o">&gt;=</span> <span class="n">2</span><span class="p">)</span> <span class="p">{</span>
-            <span class="n">mUrls</span><span class="p">.</span><span class="na">pop</span><span class="p">();</span><span class="c1">//pop current page url
-</span><span class="c1"></span>            <span class="k">return</span> <span class="n">mUrls</span><span class="p">.</span><span class="na">pop</span><span class="p">();</span>
-        <span class="p">}</span>
-        <span class="k">return</span> <span class="kc">null</span><span class="p">;</span>
-    <span class="p">}</span>
+    <span class="kd">public</span> <span class="n">String</span> <span class="nf">popLastPageUrl</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">mUrls</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">&gt;=</span> <span class="n">2</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">mUrls</span><span class="o">.</span><span class="na">pop</span><span class="o">();</span><span class="c1">//pop current page url
+</span><span class="c1"></span>            <span class="k">return</span> <span class="n">mUrls</span><span class="o">.</span><span class="na">pop</span><span class="o">();</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="kc">null</span><span class="o">;</span>
+    <span class="o">}</span>
     
     <span class="nd">@Override</span>
-    <span class="kd">public</span> <span class="nf">void</span> <span class="n">onPageFinished</span><span class="p">(</span><span class="n">WebView</span> <span class="nf">view</span><span class="p">,</span> <span class="n">String</span> <span class="nf">url</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">super</span><span class="p">.</span><span class="na">onPageFinished</span><span class="p">(</span><span class="n">view</span><span class="p">,</span> <span class="n">url</span><span class="p">);</span>
-        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">mIsLoading</span> <span class="o">||</span> <span class="n">url</span><span class="p">.</span><span class="na">startsWith</span><span class="p">(</span><span class="s">&#34;about:&#34;</span><span class="p">))</span> <span class="p">{</span>
-            <span class="k">this</span><span class="p">.</span><span class="na">mIsLoading</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">onPageFinished</span><span class="o">(</span><span class="n">WebView</span> <span class="n">view</span><span class="o">,</span> <span class="n">String</span> <span class="n">url</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kd">super</span><span class="o">.</span><span class="na">onPageFinished</span><span class="o">(</span><span class="n">view</span><span class="o">,</span> <span class="n">url</span><span class="o">);</span>
+        <span class="k">if</span> <span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">mIsLoading</span> <span class="o">||</span> <span class="n">url</span><span class="o">.</span><span class="na">startsWith</span><span class="o">(</span><span class="s">&#34;about:&#34;</span><span class="o">))</span> <span class="o">{</span>
+            <span class="k">this</span><span class="o">.</span><span class="na">mIsLoading</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
 
     <span class="nd">@Override</span>
-    <span class="kd">public</span> <span class="nf">boolean</span> <span class="n">shouldOverrideUrlLoading</span><span class="p">(</span><span class="n">WebView</span> <span class="nf">view</span><span class="p">,</span> <span class="n">String</span> <span class="nf">url</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
-    <span class="p">}</span>
+    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">shouldOverrideUrlLoading</span><span class="o">(</span><span class="n">WebView</span> <span class="n">view</span><span class="o">,</span> <span class="n">String</span> <span class="n">url</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+    <span class="o">}</span>
     
     
-<span class="p">}</span></code></pre></div><p>调用方式</p><div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="n">WebView</span> <span class="nf">web</span><span class="o">=</span><span class="n">getWebView</span><span class="p">();</span>
-<span class="n">WebClient</span> <span class="nf">client</span> <span class="o">=</span> <span class="k">new</span> <span class="n">WebClient</span><span class="p">();</span>
-<span class="n">web</span><span class="p">.</span><span class="na">setWebViewClient</span><span class="p">(</span><span class="n">client</span><span class="p">);</span>
+<span class="o">}</span></code></pre></div><p>调用方式</p><div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="n">WebView</span> <span class="n">web</span><span class="o">=</span><span class="n">getWebView</span><span class="o">();</span>
+<span class="n">WebClient</span> <span class="n">client</span> <span class="o">=</span> <span class="k">new</span> <span class="n">WebClient</span><span class="o">();</span>
+<span class="n">web</span><span class="o">.</span><span class="na">setWebViewClient</span><span class="o">(</span><span class="n">client</span><span class="o">);</span>
 
 
 <span class="cm">/**
 </span><span class="cm">* 返回上一页
 </span><span class="cm">* return True表示处理的网页中返回, False表示没有处理返回需要另行处理
 </span><span class="cm">**/</span>
-<span class="kd">public</span> <span class="nf">boolean</span> <span class="n">pageGoBack</span><span class="p">(</span><span class="n">WebView</span> <span class="nf">web</span><span class="p">,</span> <span class="n">WebClient</span> <span class="nf">client</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kd">final</span> <span class="nf">String</span> <span class="n">url</span> <span class="o">=</span> <span class="n">client</span><span class="p">.</span><span class="na">popLastPageUrl</span><span class="p">();</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">url</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
-        <span class="n">web</span><span class="p">.</span><span class="na">loadUrl</span><span class="p">(</span><span class="n">url</span><span class="p">);</span>
-        <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
-    <span class="p">}</span>
-    <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div><div class="article-copyright"><p>文章作者: <a href="https://qbeenslee.com/article/android-webview-302-redirect/"><i>qbeenslee</i></a></p> <a href="/copyright/"><img src="/img/cc-by-nc-nd.svg" height="20px" width="93px" class="nozoom"></a></div></div></article></div><div class="comment-wrap horizontal-safe" style="padding-left:20px;padding-right:20px"><script src="https://utteranc.es/client.js" repo="qbeenslee/comments.qbeenslee.com" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script></div></div></div></main><footer class="section site_footer_grap unselectable"><div class="has-text-centered"><p>&copy; Qbeenslee 2019</p></div></footer><script type="text/javascript" src="https://qbeenslee.com/js/main.js"></script><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?58b3c65a09f5aacd0e62efe29897c7e4";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script></body></html>
+<span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">pageGoBack</span><span class="o">(</span><span class="n">WebView</span> <span class="n">web</span><span class="o">,</span> <span class="n">WebClient</span> <span class="n">client</span><span class="o">)</span> <span class="o">{</span>
+    <span class="kd">final</span> <span class="n">String</span> <span class="n">url</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="na">popLastPageUrl</span><span class="o">();</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">url</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">web</span><span class="o">.</span><span class="na">loadUrl</span><span class="o">(</span><span class="n">url</span><span class="o">);</span>
+        <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+    <span class="o">}</span>
+    <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+<span class="o">}</span></code></pre></div><div class="article-copyright"><p>文章作者: <a href="https://qbeenslee.com/article/android-webview-302-redirect/"><i>qbeenslee</i></a></p> <a href="/copyright/"><img src="/img/cc-by-nc-nd.svg" height="20px" width="93px" class="nozoom"></a></div></div></article></div><div class="comment-wrap horizontal-safe" style="padding-left:20px;padding-right:20px"><script src="https://utteranc.es/client.js" repo="qbeenslee/comments.qbeenslee.com" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script></div></div></div></main><footer class="section site_footer_grap unselectable"><div class="has-text-centered"><p>&copy; Qbeenslee 2019</p></div></footer><script type="text/javascript" src="https://qbeenslee.com/js/main.js"></script><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?58b3c65a09f5aacd0e62efe29897c7e4";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script></body></html>
