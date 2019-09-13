@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>黑苹果硬/软件搭建</title>
+      <title>黑苹果搭建之旅 / hackintosh:i7-9700K&#43;RX580&#43;z390-itx&#43;NZXT-H200</title>
       <link>https://qbeenslee.com/article/hackintosh-machine-build/</link>
       <pubDate>Wed, 10 Jul 2019 11:21:23 +0800</pubDate>
       <author>qbeenslee</author>
@@ -20,16 +20,18 @@
       <description></description>
       
       <content>&lt;blockquote&gt;
-&lt;p&gt;折腾黑苹果本身对于普通使用者并不是一件有意义事情, 做这个选择的根本原因还是&lt;strong&gt;&lt;ruby&gt;穷&lt;rt&gt;qióng&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt;呀!&lt;/p&gt;
+&lt;p&gt;折腾黑苹果对于普通使用者是一件有啥意义的事情, 做这个选择的根本原因还是&lt;strong&gt;&lt;ruby&gt;穷&lt;rt&gt;qióng&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt;呀!&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;笔者本身拥有一款2015款的13寸rMBP的定制版, 经过4年多的战斗在处理代码编译或者视频渲染时就捉襟见肘了. 根据自己的需求 &amp;amp; 荷包最终选择搭建一套黑苹果.&lt;/p&gt;
+&lt;p&gt;笔者本身拥有一台2015款的13寸rMBP的定制版, 经过4年多的战斗后在处理代码编译或者视频渲染时已经捉襟见肘了. 所以根据自己的需求&amp;amp;荷包最终选择搭建一套黑苹果(实力不允许为所欲为呀).&lt;/p&gt;
 
 &lt;h2 id=&#34;硬件&#34;&gt;硬件&lt;/h2&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&#34;需求&#34;&gt;需求&lt;/h3&gt;
+
+&lt;p&gt;首先摆一下笔者的需求, 不然脱离需求谈装机都是耍流氓呀,&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;预算&lt;strong&gt;1w以内&lt;/strong&gt;(划重点)&lt;br /&gt;&lt;/li&gt;
@@ -39,13 +41,13 @@
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;清单&#34;&gt;清单&lt;/h3&gt;
+&lt;h3 id=&#34;硬件清单&#34;&gt;硬件清单&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-echarts&#34; data-lang=&#34;echarts&#34;&gt;option = {
     animation:false,
     title : {
         show:true,
         text: &amp;#39;&amp;#39;,
-        subtext: &amp;#39;黑苹果组装成本构成&amp;#39;,
+        subtext: &amp;#39;硬件成本构成&amp;#39;,
         x:&amp;#39;center&amp;#39;
     },
     tooltip : {
@@ -208,19 +210,19 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;p&gt;&lt;small&gt;以上配件购买时间在2019年7月初左右(&lt;em&gt;直接列出了配件的型号和购买地址, 但声明不存在利益, 对发生的购买行为不负任何责任&lt;/em&gt;)&lt;/small&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;硬件选择和限制&#34;&gt;硬件选择和限制&lt;/h3&gt;
+
 &lt;blockquote&gt;
-&lt;p&gt;直接列出了配件的型号和购买地址, 但声明不存在利益, 对发生的购买行为不负任何责任&lt;/p&gt;
+&lt;p&gt;组装黑苹果的原则: &lt;strong&gt;硬件选对可以少走很多弯路&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&#34;硬件选择的心路历程&#34;&gt;硬件选择的心路历程&lt;/h3&gt;
+&lt;h4 id=&#34;处理器-cpu&#34;&gt;处理器/CPU&lt;/h4&gt;
 
-&lt;p&gt;组装黑苹果的原则: 1. 硬件选对可以少走很多弯路;&lt;/p&gt;
+&lt;p&gt;CPU优先或者必须是选牙膏厂的(intel), 关于不同型号的性能可以参考&lt;a href=&#34;https://www.mydrivers.com/zhuanti/tianti/cpu/index.html&#34; target=&#34;_blank&#34;&gt;CPU天梯图&lt;/a&gt;. 笔者选择了i7-9700K其性能基本满足需求, 而且超频可以应付更多场景.&lt;/p&gt;
 
-&lt;h4 id=&#34;cpu&#34;&gt;CPU&lt;/h4&gt;
-
-&lt;p&gt;CPU必须是选牙膏厂的(intel), 根据&lt;a href=&#34;https://www.mydrivers.com/zhuanti/tianti/cpu/index.html&#34; target=&#34;_blank&#34;&gt;CPU天梯图&lt;/a&gt;选择了i7-9700K, 能超频可以应付更多场景.&lt;/p&gt;
-
-&lt;h4 id=&#34;gpu&#34;&gt;GPU&lt;/h4&gt;
+&lt;h4 id=&#34;显卡-gpu&#34;&gt;显卡/GPU&lt;/h4&gt;
 
 &lt;p&gt;GPU优先选择A卡(amd),一般都是可以免驱的. 根据&lt;a href=&#34;https://www.mydrivers.com/zhuanti/tianti/gpu/index.html&#34; target=&#34;_blank&#34;&gt;GPU天梯图&lt;/a&gt;和&lt;a href=&#34;https://blog.daliansky.net/Mojave-Hardware-Support-List.html&#34; target=&#34;_blank&#34;&gt;Mojave硬件支持列表&lt;/a&gt;备选显卡有:&lt;/p&gt;
 
@@ -257,7 +259,7 @@
 &lt;td&gt;1249&lt;/td&gt;
 &lt;td&gt;261*131*44&lt;/td&gt;
 &lt;td&gt;79.8&lt;/td&gt;
-&lt;td&gt;避开&lt;code&gt;xfx&lt;/code&gt;这个牌子&lt;/td&gt;
+&lt;td&gt;避开&lt;code&gt;讯景(XFX)&lt;/code&gt;这个牌子&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -278,48 +280,72 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;em&gt;性能测试数据来自《古墓丽影》2560×1080&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;em&gt;性能测试数据来自《古墓丽影》2560×1080&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
 
-&lt;p&gt;由于机箱选择的是机箱选择了&lt;strong&gt;NZXT H200&lt;/strong&gt;可以容纳的最大显卡高度需小于50mm, 就剩下Vega56, RX590, RX580, RX480, 在价格和性能间取了一个中间点, 选了RX580.&lt;/p&gt;
+&lt;p&gt;由于机箱选择的是机箱选择了NZXT H200可以容纳的最大显卡高度需小于50mm, 就剩下Vega56, RX590, RX580, RX480, 在价格和性能间取了一个中间点, 选了RX580.&lt;/p&gt;
 
-&lt;h4 id=&#34;主板&#34;&gt;主板&lt;/h4&gt;
+&lt;h4 id=&#34;主板-motherboard&#34;&gt;主板/motherboard&lt;/h4&gt;
 
-&lt;p&gt;因为想要要组装ITX&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/09/13/fIveWdD1V9XqpOb.jpg&#34; height=&#34;400px&#34; alt=&#34;Intel CPU发展天梯图(cpu和主板的搭配参考)&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;机身不能太大, 为了搭配i7-9700K使用也赶个时髦, 决定选择z390系列的ITX主板. 当下可以选择包括:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技嘉(Gigabyte) Z390I AORUS PRO WIFI&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;华擎(asrock) Z390 Phantom Gaming itx/ac&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;微星(MSI) MPG Z390I GAMING EDGE AC&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;搜索网上黑苹果成功案例, 使用华擎和技嘉的主板比较多, 然后华擎便宜就选华擎了.&lt;/p&gt;
+
+&lt;h3 id=&#34;硬件搭建&#34;&gt;硬件搭建&lt;/h3&gt;
+
+&lt;p&gt;这是我第一次搭建PC主机, 基本上就是一步步查教程搞定的.过程中我碰到一些需要注意的点记录如下:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;安装intel cpu&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;全模组电源如何连线&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;最小系统故障排除法&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;BCM94360CS2无线模块(&lt;a href=&#34;https://www.bilibili.com/video/av34030474&#34; target=&#34;_blank&#34;&gt;拆装视频&lt;/a&gt;)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;海妖x62在NZXT H200上安装的方式&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;成果&#34;&gt;成果&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;现状&#34;&gt;现状&lt;/h3&gt;
+
+&lt;p&gt;先说一下装机完成后的成果, 功能基本完美和macbook pro使用apple的服务在体验没有太大区别.&lt;/p&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; app store, iCloud&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; airdrop, handoff, bluetooth 耳机, magic trackpad 2&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; wifi (无线路由为网件r8000, 下载速度可以达到30M/s左右)&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 显卡 (DP/HDMI口都正常, &lt;a href=&#34;https://blog.alex4d.com/2013/10/30/brucex-a-new-fcpx-benchmark/&#34; target=&#34;_blank&#34;&gt;Bruce X测试&lt;/a&gt;15s)&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 唤醒/睡眠 正常&lt;br /&gt;
+&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;存在问题&#34;&gt;存在问题&lt;/h3&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 大量文件I/O时(和移动硬盘对拷), 偶尔会出现卡顿&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 播放本地视频文件时, 会偶儿出现&amp;rdquo;冻屏&amp;rdquo;现象&lt;br /&gt;
+&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;软件&#34;&gt;软件&lt;/h2&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;成果&#34;&gt;成果&lt;/h2&gt;
-
-&lt;h3 id=&#34;现状&#34;&gt;现状&lt;/h3&gt;
-
-&lt;p&gt;功能完美&lt;/p&gt;
-
+&lt;p&gt;购买相应的硬件后, 可以在&lt;a href=&#34;https://www.tonymacx86.com&#34; target=&#34;_blank&#34;&gt;tonymacx86&lt;/a&gt;上寻找相对应的硬件成功案例.&lt;br /&gt;
+以笔者的硬件为例, 可以直接google输入以下内容搜索, 基本上就可以找到合适的成功案例了.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;site:tonymacx86.com I7-9700K RX580 asrock Z390-ITX&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;macos系统 版本: mojave 10.14.5&lt;br /&gt;
 BIOS 版本: 4.00&lt;/p&gt;
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; airdrop, handoff, bluetooth 耳机, magic trackpad 2&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; wifi (无线路由为网件r8000, 下载速度可以达到30M/s左右)&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 显卡 (DP/HDMI口都正常, &lt;a href=&#34;https://blog.alex4d.com/2013/10/30/brucex-a-new-fcpx-benchmark/&#34; target=&#34;_blank&#34;&gt;Bruce X测试&lt;/a&gt;15s)&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 唤醒/睡眠 正常&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 大量文件I/O时(和移动硬盘对拷), 偶尔会出现卡顿&lt;br /&gt;
-&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;存在问题&#34;&gt;存在问题:&lt;/h3&gt;
-
-&lt;h2 id=&#34;过程&#34;&gt;过程&lt;/h2&gt;
-
-&lt;h3 id=&#34;硬件搭建&#34;&gt;硬件搭建&lt;/h3&gt;
-
-&lt;p&gt;这是我第一次搭建PC主机, 基本上就是一步步查教程搞定的.过程中我碰到一些需要注意的点记录如下:&lt;br /&gt;
-* 安装intel cpu&lt;br /&gt;
-* 全模组电源如何连线&lt;br /&gt;
-* 最小系统故障排除法&lt;br /&gt;
-* BCM94360CS2无线模块(&lt;a href=&#34;https://www.bilibili.com/video/av34030474&#34; target=&#34;_blank&#34;&gt;拆装视频&lt;/a&gt;)&lt;br /&gt;
-* 海妖x62在NZXT H200上安装的方式&lt;/p&gt;
 
 &lt;h3 id=&#34;软件搭建&#34;&gt;软件搭建&lt;/h3&gt;
 
