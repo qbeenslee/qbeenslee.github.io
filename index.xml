@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>黑苹果搭建之旅(hackintosh tutorial)/i7-9700K RX580 z390-itx NZXT-H200</title>
+      <title>黑苹果搭建之旅(hackintosh tutorial)/i7-9700K RX580 z390-itx</title>
       <link>https://qbeenslee.com/article/hackintosh-machine-build-tutorial/</link>
       <pubDate>Wed, 10 Jul 2019 11:21:23 +0800</pubDate>
       <author>qbeenslee</author>
@@ -342,7 +342,8 @@
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; airdrop, handoff, bluetooth 耳机, magic trackpad 2&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; wifi (无线路由为网件r8000, 下载速度可以达到30M/s左右)&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 显卡 (DP/HDMI口都正常, &lt;a href=&#34;https://blog.alex4d.com/2013/10/30/brucex-a-new-fcpx-benchmark/&#34; target=&#34;_blank&#34;&gt;Bruce X测试&lt;/a&gt;15s)&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 唤醒/睡眠 正常&lt;br /&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 唤醒/睡眠&lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; usb 2.0 / 3.0&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
