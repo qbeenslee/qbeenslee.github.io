@@ -3,36 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://qbeenslee.com/bb/share-quantumultx-conf/</loc>
-    <lastmod>2019-10-16T11:39:00+08:00</lastmod>
+    <loc>https://qbeenslee.com/tags/</loc>
+    <lastmod>2019-10-24T20:33:26+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://qbeenslee.com/article/</loc>
+    <lastmod>2019-10-24T20:33:26+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://qbeenslee.com/article/rxjava-custom-operator-with-bracode-gun/</loc>
+    <lastmod>2019-10-24T20:33:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qbeenslee.com/tags/</loc>
+    <lastmod>2019-10-24T20:33:26+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://qbeenslee.com/tags/android/</loc>
+    <lastmod>2019-10-24T20:33:26+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/</loc>
+    <lastmod>2019-10-24T20:33:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qbeenslee.com/bb/share-quantumultx-conf/</loc>
     <lastmod>2019-10-16T11:39:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/bb/</loc>
     <lastmod>2019-10-16T11:39:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qbeenslee.com/tags/</loc>
-    <lastmod>2019-07-10T11:21:23+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://qbeenslee.com/article/</loc>
-    <lastmod>2019-07-10T11:21:23+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://qbeenslee.com/tags/</loc>
-    <lastmod>2019-07-10T11:21:23+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -152,12 +163,6 @@
   <url>
     <loc>https://qbeenslee.com/article/building-an-android-hotfix-architecture/</loc>
     <lastmod>2016-08-17T23:13:45+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qbeenslee.com/tags/android/</loc>
-    <lastmod>2016-08-17T23:13:45+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
