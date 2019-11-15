@@ -3,15 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://qbeenslee.com/tags/</loc>
+    <loc>https://qbeenslee.com/tags/android/</loc>
     <lastmod>2019-10-24T20:33:26+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/article/</loc>
     <lastmod>2019-10-24T20:33:26+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -22,13 +20,6 @@
   <url>
     <loc>https://qbeenslee.com/tags/</loc>
     <lastmod>2019-10-24T20:33:26+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://qbeenslee.com/tags/android/</loc>
-    <lastmod>2019-10-24T20:33:26+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -49,13 +40,11 @@
   <url>
     <loc>https://qbeenslee.com/tags/hackintosh/</loc>
     <lastmod>2019-07-10T11:21:23+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/mac/</loc>
     <lastmod>2019-07-10T11:21:23+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -81,7 +70,6 @@
   <url>
     <loc>https://qbeenslee.com/tags/%E6%97%85%E6%B8%B8/</loc>
     <lastmod>2019-03-17T22:34:50+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -115,38 +103,33 @@
   </url>
   
   <url>
+    <loc>https://qbeenslee.com/tags/hugo/</loc>
+    <lastmod>2019-02-22T20:10:40+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://qbeenslee.com/article/hugo-support-map-shortcodes/</loc>
     <lastmod>2019-02-22T20:10:40+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qbeenslee.com/tags/hugo/</loc>
-    <lastmod>2019-02-22T20:10:40+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://qbeenslee.com/tags/shortcodes/</loc>
     <lastmod>2019-02-22T20:10:40+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2019-02-22T20:10:40+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/%E5%9C%B0%E5%9B%BE/</loc>
     <lastmod>2019-02-22T20:10:40+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/%E5%90%90%E6%A7%BD/</loc>
     <lastmod>2018-10-12T16:15:03+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -157,7 +140,6 @@
   <url>
     <loc>https://qbeenslee.com/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2018-10-12T16:15:03+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -168,7 +150,6 @@
   <url>
     <loc>https://qbeenslee.com/tags/hotfix/</loc>
     <lastmod>2016-08-17T23:13:45+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -189,25 +170,21 @@
   <url>
     <loc>https://qbeenslee.com/tags/webview/</loc>
     <lastmod>2016-02-15T16:28:51+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/%E9%87%8D%E5%AE%9A%E5%90%91/</loc>
     <lastmod>2016-02-15T16:28:51+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/proguard/</loc>
     <lastmod>2016-01-27T10:49:38+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/%E6%B7%B7%E6%B7%86/</loc>
     <lastmod>2016-01-27T10:49:38+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -223,13 +200,11 @@
   <url>
     <loc>https://qbeenslee.com/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2016-01-26T10:07:16+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/adapter/</loc>
     <lastmod>2015-12-15T11:46:43+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -240,7 +215,11 @@
   <url>
     <loc>https://qbeenslee.com/tags/%E7%AE%80%E6%B4%81/</loc>
     <lastmod>2015-12-15T11:46:43+08:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://qbeenslee.com/tags/osx/</loc>
+    <lastmod>2015-11-07T21:45:58+08:00</lastmod>
   </url>
   
   <url>
@@ -249,33 +228,23 @@
   </url>
   
   <url>
-    <loc>https://qbeenslee.com/tags/osx/</loc>
-    <lastmod>2015-11-07T21:45:58+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://qbeenslee.com/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2015-11-07T21:45:58+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2015-11-07T21:45:58+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/%E5%88%86%E6%9E%90/</loc>
     <lastmod>2015-10-28T15:41:40+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/%E5%BE%AE%E7%8C%AB/</loc>
     <lastmod>2015-10-28T15:41:40+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -291,25 +260,21 @@
   <url>
     <loc>https://qbeenslee.com/tags/%E5%B0%81%E8%A3%85/</loc>
     <lastmod>2015-10-27T15:04:09+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6/</loc>
     <lastmod>2015-10-27T15:04:09+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/csharp/</loc>
     <lastmod>2013-12-11T23:50:01+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/gallery/</loc>
     <lastmod>2013-12-11T23:50:01+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -320,13 +285,11 @@
   <url>
     <loc>https://qbeenslee.com/tags/algorithm/</loc>
     <lastmod>2013-11-17T00:22:43+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/sunday/</loc>
     <lastmod>2013-11-17T00:22:43+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -337,25 +300,21 @@
   <url>
     <loc>https://qbeenslee.com/tags/%E5%8C%B9%E9%85%8D/</loc>
     <lastmod>2013-11-17T00:22:43+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/</loc>
     <lastmod>2013-11-17T00:22:43+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/c/</loc>
     <lastmod>2013-10-15T00:41:56+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/%E6%8B%AC%E5%8F%B7%E5%8C%B9%E9%85%8D/</loc>
     <lastmod>2013-10-15T00:41:56+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -371,13 +330,11 @@
   <url>
     <loc>https://qbeenslee.com/tags/cpp/</loc>
     <lastmod>2013-09-23T01:02:46+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://qbeenslee.com/tags/%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86/</loc>
     <lastmod>2013-09-23T01:02:46+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
