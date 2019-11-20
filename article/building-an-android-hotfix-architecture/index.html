@@ -12,7 +12,7 @@
         <span class="k">return</span> <span class="kc">false</span>
     <span class="o">}</span>
     
-    <span class="kt">def</span> <span class="n">patchFile</span> <span class="o">=</span> <span class="k">new</span> <span class="n">File</span><span class="o">(</span><span class="n">patchDir</span><span class="o">,</span> <span class="s2">&#34;patch.jar&#34;</span><span class="o">)</span>
+    <span class="kt">def</span> <span class="n">patchFile</span> <span class="o">=</span> <span class="k">new</span> <span class="nf">File</span><span class="o">(</span><span class="n">patchDir</span><span class="o">,</span> <span class="s2">&#34;patch.jar&#34;</span><span class="o">)</span>
     <span class="k">if</span> <span class="o">(</span><span class="n">patchFile</span><span class="o">.</span><span class="na">exists</span><span class="o">())</span> <span class="o">{</span>
         <span class="kt">def</span> <span class="n">exec</span> <span class="o">=</span> <span class="n">JavaEnvUtils</span><span class="o">.</span><span class="na">getJdkExecutable</span><span class="o">(</span><span class="s1">&#39;jarsigner&#39;</span><span class="o">)</span>
         <span class="k">if</span> <span class="o">(</span><span class="s2">&#34;jarsigner&#34;</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">exec</span><span class="o">))</span> <span class="o">{</span>
@@ -24,7 +24,7 @@
         <span class="kt">def</span> <span class="n">keyAlias</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="na">getKeyAlias</span><span class="o">()</span>
         <span class="kt">def</span> <span class="n">keyPassword</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="na">getKeyPassword</span><span class="o">()</span>
         
-        <span class="kt">def</span> <span class="n">signPatchFile</span> <span class="o">=</span> <span class="k">new</span> <span class="n">File</span><span class="o">(</span><span class="n">patchDir</span><span class="o">,</span> <span class="s2">&#34;patch_signed.jar&#34;</span><span class="o">)</span>
+        <span class="kt">def</span> <span class="n">signPatchFile</span> <span class="o">=</span> <span class="k">new</span> <span class="nf">File</span><span class="o">(</span><span class="n">patchDir</span><span class="o">,</span> <span class="s2">&#34;patch_signed.jar&#34;</span><span class="o">)</span>
         <span class="n">copyJarFile</span><span class="o">(</span><span class="n">patchFile</span><span class="o">,</span> <span class="n">signPatchFile</span><span class="o">)</span>
 
         <span class="kt">def</span> <span class="n">command</span> <span class="o">=</span> <span class="s2">&#34;${exec} -tsa http://timestamp.digicert.com -keystore ${storeFile.absolutePath} -storepass ${storePassword} -keypass ${keyPassword} ${signPatchFile.absolutePath} ${keyAlias}&#34;</span>
