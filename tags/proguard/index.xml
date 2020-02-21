@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>proguard on Hey sister</title>
@@ -6,7 +6,7 @@
     <description>Recent content in proguard on Hey sister</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>&amp;copy; Qbeenslee 2019</copyright>
+    <copyright>&amp;copy; Qbeenslee 2020</copyright>
     <lastBuildDate>Wed, 27 Jan 2016 10:49:38 +0800</lastBuildDate>
     
 	<atom:link href="https://qbeenslee.com/tags/proguard/index.xml" rel="self" type="application/rss+xml" />
@@ -19,8 +19,7 @@
       
       <guid>https://qbeenslee.com/article/about-wandoujia-proguard-config/</guid>
       <description>&lt;p&gt;作为Android开发者, 时常会下载一些制作精良的App学习借鉴(反编译看源码^_^).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.wandoujia.com/yilan&#34; target=&#34;_blank&#34;&gt;豌豆荚一览&lt;/a&gt;是一款很棒的产品, 它的Android客户端用户体验也优秀, 比如文章的浏览交互, 排版优化, 离线, 以及和其他相关应用的衔接等等.&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://www.wandoujia.com/yilan&#34;&gt;豌豆荚一览&lt;/a&gt;是一款很棒的产品, 它的Android客户端用户体验也优秀, 比如文章的浏览交互, 排版优化, 离线, 以及和其他相关应用的衔接等等.&lt;/p&gt;</description>
     </item>
     
   </channel>
