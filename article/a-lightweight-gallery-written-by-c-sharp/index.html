@@ -10,7 +10,7 @@
 <span style="color:#007020;font-weight:700">private</span> <span style="color:#007020;font-weight:700">void</span> Form1_MouseDown(<span style="color:#902000">object</span> sender, MouseEventArgs e) 
 { 
 	<span style="color:#60a0b0;font-style:italic">/*鼠标相对于窗体的坐标*/</span>
-	<span style="color:#007020;font-weight:700">if</span> (e.Location.Y &lt;= <span style="color:#40a070">3</span><span style="color:#40a070">6</span>) {
+	<span style="color:#007020;font-weight:700">if</span> (e.Location.Y &lt;= <span style="color:#40a070">36</span>) {
 		ReleaseCapture();
 		SendMessage(<span style="color:#007020;font-weight:700">this</span>.Handle, WM_SYSCOMMAND, SC_MOVE + HTCAPTION, <span style="color:#40a070">0</span>); 
 	} 

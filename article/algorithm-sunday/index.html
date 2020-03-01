@@ -9,10 +9,10 @@ search
 </span><span style="color:#60a0b0;font-style:italic">By: QbeensLee
 </span><span style="color:#60a0b0;font-style:italic">Date:2013/11/17
 </span><span style="color:#60a0b0;font-style:italic">****************************/</span>
-<span style="color:#007020">#</span><span style="color:#007020">include</span><span style="color:#007020">&lt;cstdio&gt;</span><span style="color:#007020">
-</span><span style="color:#007020"></span><span style="color:#007020">#</span><span style="color:#007020">include</span><span style="color:#007020">&lt;cstring&gt;</span><span style="color:#007020">
-</span><span style="color:#007020"></span><span style="color:#007020">#</span><span style="color:#007020">include</span><span style="color:#007020">&lt;cstdlib&gt;</span><span style="color:#007020">
-</span><span style="color:#007020"></span><span style="color:#007020">#</span><span style="color:#007020">define LIMITED 1000000</span><span style="color:#007020">
+<span style="color:#007020">#include</span><span style="color:#007020">&lt;cstdio&gt;</span><span style="color:#007020">
+</span><span style="color:#007020">#include</span><span style="color:#007020">&lt;cstring&gt;</span><span style="color:#007020">
+</span><span style="color:#007020">#include</span><span style="color:#007020">&lt;cstdlib&gt;</span><span style="color:#007020">
+</span><span style="color:#007020">#define LIMITED 1000000
 </span><span style="color:#007020"></span><span style="color:#902000">char</span> a[LIMITED],b[LIMITED];
 <span style="color:#007020;font-weight:700">inline</span> <span style="color:#902000">int</span> <span style="color:#06287e">sunday</span>(<span style="color:#902000">char</span> <span style="color:#666">*</span>text, <span style="color:#902000">char</span> <span style="color:#666">*</span>key)
 {
@@ -22,22 +22,22 @@ search
 	<span style="color:#007020;font-weight:700">if</span>(len_key<span style="color:#666">&gt;</span>len_text)
 		<span style="color:#007020;font-weight:700">return</span> <span style="color:#40a070">0</span>;
 	<span style="color:#902000">char</span> <span style="color:#666">*</span>match;
-	<span style="color:#007020;font-weight:700">for</span>(i<span style="color:#666">=</span><span style="color:#40a070">0</span>;i<span style="color:#666">&lt;</span><span style="color:#40a070">256</span>;i<span style="color:#666">+</span><span style="color:#666">+</span>)
+	<span style="color:#007020;font-weight:700">for</span>(i<span style="color:#666">=</span><span style="color:#40a070">0</span>;i<span style="color:#666">&lt;</span><span style="color:#40a070">256</span>;i<span style="color:#666">++</span>)
 		shift[i]<span style="color:#666">=</span>len_key<span style="color:#666">+</span><span style="color:#40a070">1</span>;
-	<span style="color:#007020;font-weight:700">for</span>(i<span style="color:#666">=</span><span style="color:#40a070">0</span>;i<span style="color:#666">&lt;</span>len_key;<span style="color:#666">+</span><span style="color:#666">+</span>i)
+	<span style="color:#007020;font-weight:700">for</span>(i<span style="color:#666">=</span><span style="color:#40a070">0</span>;i<span style="color:#666">&lt;</span>len_key;<span style="color:#666">++</span>i)
 		shift[<span style="color:#666">*</span>(key<span style="color:#666">+</span>i)]<span style="color:#666">=</span>len_key<span style="color:#666">-</span>i;
 	limit<span style="color:#666">=</span>len_text<span style="color:#666">-</span>len_key<span style="color:#666">+</span><span style="color:#40a070">1</span>;
-	<span style="color:#007020;font-weight:700">for</span>(i<span style="color:#666">=</span><span style="color:#40a070">0</span>;i<span style="color:#666">&lt;</span>limit;i<span style="color:#666">+</span><span style="color:#666">=</span>shift[text[len_key<span style="color:#666">+</span>i]])
+	<span style="color:#007020;font-weight:700">for</span>(i<span style="color:#666">=</span><span style="color:#40a070">0</span>;i<span style="color:#666">&lt;</span>limit;i<span style="color:#666">+=</span>shift[text[len_key<span style="color:#666">+</span>i]])
 	{
-		<span style="color:#007020;font-weight:700">if</span>(<span style="color:#666">*</span>(text<span style="color:#666">+</span>i)<span style="color:#666">=</span><span style="color:#666">=</span><span style="color:#666">*</span>key)
+		<span style="color:#007020;font-weight:700">if</span>(<span style="color:#666">*</span>(text<span style="color:#666">+</span>i)<span style="color:#666">==*</span>key)
 		{
 			match<span style="color:#666">=</span>text<span style="color:#666">+</span>i<span style="color:#666">+</span><span style="color:#40a070">1</span>;
 			size_match<span style="color:#666">=</span><span style="color:#40a070">1</span>;
 			<span style="color:#007020;font-weight:700">do</span>
 			{
-				<span style="color:#007020;font-weight:700">if</span>(size_match<span style="color:#666">=</span><span style="color:#666">=</span>len_key)
-					ans<span style="color:#666">+</span><span style="color:#666">+</span>;
-			}<span style="color:#007020;font-weight:700">while</span>((<span style="color:#666">*</span>match<span style="color:#666">+</span><span style="color:#666">+</span>)<span style="color:#666">=</span><span style="color:#666">=</span>key[size_match<span style="color:#666">+</span><span style="color:#666">+</span>]);
+				<span style="color:#007020;font-weight:700">if</span>(size_match<span style="color:#666">==</span>len_key)
+					ans<span style="color:#666">++</span>;
+			}<span style="color:#007020;font-weight:700">while</span>((<span style="color:#666">*</span>match<span style="color:#666">++</span>)<span style="color:#666">==</span>key[size_match<span style="color:#666">++</span>]);
 		}
 	}
 	<span style="color:#007020;font-weight:700">return</span> ans;
@@ -47,12 +47,12 @@ search
 {
 	<span style="color:#60a0b0;font-style:italic">//freopen(&#34;a.in&#34;,&#34;r&#34;,stdin);
 </span><span style="color:#60a0b0;font-style:italic"></span>	<span style="color:#902000">int</span> n;
-	scanf(<span style="color:#4070a0"></span><span style="color:#4070a0">&#34;</span><span style="color:#4070a0">%d%*c</span><span style="color:#4070a0">&#34;</span>,<span style="color:#666">&amp;</span>n);
-	<span style="color:#007020;font-weight:700">while</span>(n<span style="color:#666">-</span><span style="color:#666">-</span>)
+	scanf(<span style="color:#4070a0">&#34;%d%*c&#34;</span>,<span style="color:#666">&amp;</span>n);
+	<span style="color:#007020;font-weight:700">while</span>(n<span style="color:#666">--</span>)
 	{
 		gets(a);
 		gets(b);
-		printf(<span style="color:#4070a0"></span><span style="color:#4070a0">&#34;</span><span style="color:#4070a0">%d</span><span style="color:#4070a0;font-weight:700">\n</span><span style="color:#4070a0">&#34;</span>,sunday(b,a));
+		printf(<span style="color:#4070a0">&#34;%d</span><span style="color:#4070a0;font-weight:700">\n</span><span style="color:#4070a0">&#34;</span>,sunday(b,a));
 	}
 	<span style="color:#007020;font-weight:700">return</span> <span style="color:#40a070">0</span>; 
 }
