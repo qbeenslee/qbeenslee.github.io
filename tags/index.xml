@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Hey sister</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>&amp;copy; Qbeenslee 2020</copyright>
+    <copyright>&amp;copy;Qbeenslee 2020</copyright>
     <lastBuildDate>Thu, 24 Oct 2019 20:33:26 +0800</lastBuildDate>
     
 	<atom:link href="https://qbeenslee.com/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -238,6 +238,15 @@
     </item>
     
     <item>
+      <title>c</title>
+      <link>https://qbeenslee.com/tags/c/</link>
+      <pubDate>Wed, 11 Dec 2013 23:50:01 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>csharp</title>
       <link>https://qbeenslee.com/tags/csharp/</link>
       <pubDate>Wed, 11 Dec 2013 23:50:01 +0800</pubDate>
@@ -288,15 +297,6 @@
       <pubDate>Sun, 17 Nov 2013 00:22:43 +0800</pubDate>
       
       <guid>https://qbeenslee.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>c</title>
-      <link>https://qbeenslee.com/tags/c/</link>
-      <pubDate>Tue, 15 Oct 2013 00:41:56 +0800</pubDate>
-      
-      <guid>https://qbeenslee.com/tags/c/</guid>
       <description></description>
     </item>
     

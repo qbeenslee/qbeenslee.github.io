@@ -47,7 +47,7 @@
 </span><span style="color:#60a0b0;font-style:italic">    * 1.不可在{@code WebView.onPageFinished();}中开始记录URL;
 </span><span style="color:#60a0b0;font-style:italic">    * 2.记录需要屏蔽重定向URL.
 </span><span style="color:#60a0b0;font-style:italic">    */</span>
-    <span style="color:#007020;font-weight:700">private</span> <span style="color:#007020;font-weight:700">final</span> Stack<span style="color:#666">&lt;</span>String<span style="color:#666">&gt;</span> mUrls <span style="color:#666">=</span> <span style="color:#007020;font-weight:700">new</span> Stack<span style="color:#666">&lt;</span><span style="color:#666">&gt;</span><span style="color:#666">(</span><span style="color:#666">)</span><span style="color:#666">;</span>
+    <span style="color:#007020;font-weight:700">private</span> <span style="color:#007020;font-weight:700">final</span> Stack<span style="color:#666">&lt;</span>String<span style="color:#666">&gt;</span> mUrls <span style="color:#666">=</span> <span style="color:#007020;font-weight:700">new</span> Stack<span style="color:#666">&lt;&gt;();</span>
    <span style="color:#60a0b0;font-style:italic">/**
 </span><span style="color:#60a0b0;font-style:italic">    * 判断页面是否加载完成
 </span><span style="color:#60a0b0;font-style:italic">    */</span>
@@ -56,11 +56,11 @@
 
     <span style="color:#555;font-weight:700">@Override</span>
     <span style="color:#007020;font-weight:700">public</span> <span style="color:#902000">void</span> <span style="color:#06287e">onPageStarted</span><span style="color:#666">(</span>WebView view<span style="color:#666">,</span> String url<span style="color:#666">,</span> Bitmap favicon<span style="color:#666">)</span> <span style="color:#666">{</span>
-        <span style="color:#007020;font-weight:700">super</span><span style="color:#666">.</span><span style="color:#4070a0">onPageStarted</span><span style="color:#666">(</span>view<span style="color:#666">,</span> url<span style="color:#666">,</span> favicon<span style="color:#666">)</span><span style="color:#666">;</span>
-        <span style="color:#007020;font-weight:700">if</span> <span style="color:#666">(</span>mIsLoading <span style="color:#666">&amp;</span><span style="color:#666">&amp;</span> mUrls<span style="color:#666">.</span><span style="color:#4070a0">size</span><span style="color:#666">(</span><span style="color:#666">)</span> <span style="color:#666">&gt;</span> 0<span style="color:#666">)</span> <span style="color:#666">{</span>
-            mUrlBeforeRedirect <span style="color:#666">=</span> mUrls<span style="color:#666">.</span><span style="color:#4070a0">pop</span><span style="color:#666">(</span><span style="color:#666">)</span><span style="color:#666">;</span>
+        <span style="color:#007020;font-weight:700">super</span><span style="color:#666">.</span><span style="color:#4070a0">onPageStarted</span><span style="color:#666">(</span>view<span style="color:#666">,</span> url<span style="color:#666">,</span> favicon<span style="color:#666">);</span>
+        <span style="color:#007020;font-weight:700">if</span> <span style="color:#666">(</span>mIsLoading <span style="color:#666">&amp;&amp;</span> mUrls<span style="color:#666">.</span><span style="color:#4070a0">size</span><span style="color:#666">()</span> <span style="color:#666">&gt;</span> 0<span style="color:#666">)</span> <span style="color:#666">{</span>
+            mUrlBeforeRedirect <span style="color:#666">=</span> mUrls<span style="color:#666">.</span><span style="color:#4070a0">pop</span><span style="color:#666">();</span>
         <span style="color:#666">}</span>
-        recordUrl<span style="color:#666">(</span>url<span style="color:#666">)</span><span style="color:#666">;</span>
+        recordUrl<span style="color:#666">(</span>url<span style="color:#666">);</span>
         <span style="color:#007020;font-weight:700">this</span><span style="color:#666">.</span><span style="color:#4070a0">mIsLoading</span> <span style="color:#666">=</span> <span style="color:#007020;font-weight:700">true</span><span style="color:#666">;</span>
     <span style="color:#666">}</span>
 
@@ -71,10 +71,10 @@
 </span><span style="color:#60a0b0;font-style:italic">    */</span>
     <span style="color:#007020;font-weight:700">private</span> <span style="color:#902000">void</span> <span style="color:#06287e">recordUrl</span><span style="color:#666">(</span>String url<span style="color:#666">)</span> <span style="color:#666">{</span>
     	<span style="color:#60a0b0;font-style:italic">//这里还可以根据自身业务来屏蔽一些链接被放入URL栈
-</span><span style="color:#60a0b0;font-style:italic"></span>     	<span style="color:#007020;font-weight:700">if</span> <span style="color:#666">(</span><span style="color:#666">!</span>TextUtils<span style="color:#666">.</span><span style="color:#4070a0">isEmpty</span><span style="color:#666">(</span>url<span style="color:#666">)</span> <span style="color:#666">&amp;</span><span style="color:#666">&amp;</span> <span style="color:#666">!</span>url<span style="color:#666">.</span><span style="color:#4070a0">equalsIgnoreCase</span><span style="color:#666">(</span>getLastPageUrl<span style="color:#666">(</span><span style="color:#666">)</span><span style="color:#666">)</span><span style="color:#666">)</span> <span style="color:#666">{</span>
-            mUrls<span style="color:#666">.</span><span style="color:#4070a0">push</span><span style="color:#666">(</span>url<span style="color:#666">)</span><span style="color:#666">;</span>
-        <span style="color:#666">}</span> <span style="color:#007020;font-weight:700">else</span> <span style="color:#007020;font-weight:700">if</span> <span style="color:#666">(</span><span style="color:#666">!</span>TextUtils<span style="color:#666">.</span><span style="color:#4070a0">isEmpty</span><span style="color:#666">(</span>mUrlBeforeRedirect<span style="color:#666">)</span><span style="color:#666">)</span> <span style="color:#666">{</span>
-            mUrls<span style="color:#666">.</span><span style="color:#4070a0">push</span><span style="color:#666">(</span>mUrlBeforeRedirect<span style="color:#666">)</span><span style="color:#666">;</span>
+</span><span style="color:#60a0b0;font-style:italic"></span>     	<span style="color:#007020;font-weight:700">if</span> <span style="color:#666">(!</span>TextUtils<span style="color:#666">.</span><span style="color:#4070a0">isEmpty</span><span style="color:#666">(</span>url<span style="color:#666">)</span> <span style="color:#666">&amp;&amp;</span> <span style="color:#666">!</span>url<span style="color:#666">.</span><span style="color:#4070a0">equalsIgnoreCase</span><span style="color:#666">(</span>getLastPageUrl<span style="color:#666">()))</span> <span style="color:#666">{</span>
+            mUrls<span style="color:#666">.</span><span style="color:#4070a0">push</span><span style="color:#666">(</span>url<span style="color:#666">);</span>
+        <span style="color:#666">}</span> <span style="color:#007020;font-weight:700">else</span> <span style="color:#007020;font-weight:700">if</span> <span style="color:#666">(!</span>TextUtils<span style="color:#666">.</span><span style="color:#4070a0">isEmpty</span><span style="color:#666">(</span>mUrlBeforeRedirect<span style="color:#666">))</span> <span style="color:#666">{</span>
+            mUrls<span style="color:#666">.</span><span style="color:#4070a0">push</span><span style="color:#666">(</span>mUrlBeforeRedirect<span style="color:#666">);</span>
             mUrlBeforeRedirect <span style="color:#666">=</span> <span style="color:#007020;font-weight:700">null</span><span style="color:#666">;</span>
         <span style="color:#666">}</span>
     <span style="color:#666">}</span>
@@ -82,25 +82,25 @@
    <span style="color:#60a0b0;font-style:italic">/**
 </span><span style="color:#60a0b0;font-style:italic">    * 获取上一页的链接
 </span><span style="color:#60a0b0;font-style:italic">    **/</span>
-    <span style="color:#007020;font-weight:700">private</span> <span style="color:#007020;font-weight:700">synchronized</span> String <span style="color:#06287e">getLastPageUrl</span><span style="color:#666">(</span><span style="color:#666">)</span> <span style="color:#666">{</span>
-        <span style="color:#007020;font-weight:700">return</span> mUrls<span style="color:#666">.</span><span style="color:#4070a0">size</span><span style="color:#666">(</span><span style="color:#666">)</span> <span style="color:#666">&gt;</span> 0 <span style="color:#666">?</span> mUrls<span style="color:#666">.</span><span style="color:#4070a0">peek</span><span style="color:#666">(</span><span style="color:#666">)</span> <span style="color:#666">:</span> <span style="color:#007020;font-weight:700">null</span><span style="color:#666">;</span>
+    <span style="color:#007020;font-weight:700">private</span> <span style="color:#007020;font-weight:700">synchronized</span> String <span style="color:#06287e">getLastPageUrl</span><span style="color:#666">()</span> <span style="color:#666">{</span>
+        <span style="color:#007020;font-weight:700">return</span> mUrls<span style="color:#666">.</span><span style="color:#4070a0">size</span><span style="color:#666">()</span> <span style="color:#666">&gt;</span> 0 <span style="color:#666">?</span> mUrls<span style="color:#666">.</span><span style="color:#4070a0">peek</span><span style="color:#666">()</span> <span style="color:#666">:</span> <span style="color:#007020;font-weight:700">null</span><span style="color:#666">;</span>
     <span style="color:#666">}</span>
 
    <span style="color:#60a0b0;font-style:italic">/**
 </span><span style="color:#60a0b0;font-style:italic">    * 推出上一页链接
 </span><span style="color:#60a0b0;font-style:italic">    */</span>
-    <span style="color:#007020;font-weight:700">public</span> String <span style="color:#06287e">popLastPageUrl</span><span style="color:#666">(</span><span style="color:#666">)</span> <span style="color:#666">{</span>
-        <span style="color:#007020;font-weight:700">if</span> <span style="color:#666">(</span>mUrls<span style="color:#666">.</span><span style="color:#4070a0">size</span><span style="color:#666">(</span><span style="color:#666">)</span> <span style="color:#666">&gt;</span><span style="color:#666">=</span> 2<span style="color:#666">)</span> <span style="color:#666">{</span>
-            mUrls<span style="color:#666">.</span><span style="color:#4070a0">pop</span><span style="color:#666">(</span><span style="color:#666">)</span><span style="color:#666">;</span><span style="color:#60a0b0;font-style:italic">//pop current page url
-</span><span style="color:#60a0b0;font-style:italic"></span>            <span style="color:#007020;font-weight:700">return</span> mUrls<span style="color:#666">.</span><span style="color:#4070a0">pop</span><span style="color:#666">(</span><span style="color:#666">)</span><span style="color:#666">;</span>
+    <span style="color:#007020;font-weight:700">public</span> String <span style="color:#06287e">popLastPageUrl</span><span style="color:#666">()</span> <span style="color:#666">{</span>
+        <span style="color:#007020;font-weight:700">if</span> <span style="color:#666">(</span>mUrls<span style="color:#666">.</span><span style="color:#4070a0">size</span><span style="color:#666">()</span> <span style="color:#666">&gt;=</span> 2<span style="color:#666">)</span> <span style="color:#666">{</span>
+            mUrls<span style="color:#666">.</span><span style="color:#4070a0">pop</span><span style="color:#666">();</span><span style="color:#60a0b0;font-style:italic">//pop current page url
+</span><span style="color:#60a0b0;font-style:italic"></span>            <span style="color:#007020;font-weight:700">return</span> mUrls<span style="color:#666">.</span><span style="color:#4070a0">pop</span><span style="color:#666">();</span>
         <span style="color:#666">}</span>
         <span style="color:#007020;font-weight:700">return</span> <span style="color:#007020;font-weight:700">null</span><span style="color:#666">;</span>
     <span style="color:#666">}</span>
     
     <span style="color:#555;font-weight:700">@Override</span>
     <span style="color:#007020;font-weight:700">public</span> <span style="color:#902000">void</span> <span style="color:#06287e">onPageFinished</span><span style="color:#666">(</span>WebView view<span style="color:#666">,</span> String url<span style="color:#666">)</span> <span style="color:#666">{</span>
-        <span style="color:#007020;font-weight:700">super</span><span style="color:#666">.</span><span style="color:#4070a0">onPageFinished</span><span style="color:#666">(</span>view<span style="color:#666">,</span> url<span style="color:#666">)</span><span style="color:#666">;</span>
-        <span style="color:#007020;font-weight:700">if</span> <span style="color:#666">(</span><span style="color:#007020;font-weight:700">this</span><span style="color:#666">.</span><span style="color:#4070a0">mIsLoading</span> <span style="color:#666">|</span><span style="color:#666">|</span> url<span style="color:#666">.</span><span style="color:#4070a0">startsWith</span><span style="color:#666">(</span><span style="color:#4070a0">&#34;about:&#34;</span><span style="color:#666">)</span><span style="color:#666">)</span> <span style="color:#666">{</span>
+        <span style="color:#007020;font-weight:700">super</span><span style="color:#666">.</span><span style="color:#4070a0">onPageFinished</span><span style="color:#666">(</span>view<span style="color:#666">,</span> url<span style="color:#666">);</span>
+        <span style="color:#007020;font-weight:700">if</span> <span style="color:#666">(</span><span style="color:#007020;font-weight:700">this</span><span style="color:#666">.</span><span style="color:#4070a0">mIsLoading</span> <span style="color:#666">||</span> url<span style="color:#666">.</span><span style="color:#4070a0">startsWith</span><span style="color:#666">(</span><span style="color:#4070a0">&#34;about:&#34;</span><span style="color:#666">))</span> <span style="color:#666">{</span>
             <span style="color:#007020;font-weight:700">this</span><span style="color:#666">.</span><span style="color:#4070a0">mIsLoading</span> <span style="color:#666">=</span> <span style="color:#007020;font-weight:700">false</span><span style="color:#666">;</span>
         <span style="color:#666">}</span>
     <span style="color:#666">}</span>
@@ -112,9 +112,9 @@
     
     
 <span style="color:#666">}</span>
-</code></pre></div><p>调用方式</p><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">WebView web<span style="color:#666">=</span>getWebView<span style="color:#666">(</span><span style="color:#666">)</span><span style="color:#666">;</span>
-WebClient client <span style="color:#666">=</span> <span style="color:#007020;font-weight:700">new</span> WebClient<span style="color:#666">(</span><span style="color:#666">)</span><span style="color:#666">;</span>
-web<span style="color:#666">.</span><span style="color:#4070a0">setWebViewClient</span><span style="color:#666">(</span>client<span style="color:#666">)</span><span style="color:#666">;</span>
+</code></pre></div><p>调用方式</p><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">WebView web<span style="color:#666">=</span>getWebView<span style="color:#666">();</span>
+WebClient client <span style="color:#666">=</span> <span style="color:#007020;font-weight:700">new</span> WebClient<span style="color:#666">();</span>
+web<span style="color:#666">.</span><span style="color:#4070a0">setWebViewClient</span><span style="color:#666">(</span>client<span style="color:#666">);</span>
 
 
 <span style="color:#60a0b0;font-style:italic">/**
@@ -122,12 +122,12 @@ web<span style="color:#666">.</span><span style="color:#4070a0">setWebViewClient
 </span><span style="color:#60a0b0;font-style:italic">* return True表示处理的网页中返回, False表示没有处理返回需要另行处理
 </span><span style="color:#60a0b0;font-style:italic">**/</span>
 <span style="color:#007020;font-weight:700">public</span> <span style="color:#902000">boolean</span> <span style="color:#06287e">pageGoBack</span><span style="color:#666">(</span>WebView web<span style="color:#666">,</span> WebClient client<span style="color:#666">)</span> <span style="color:#666">{</span>
-    <span style="color:#007020;font-weight:700">final</span> String url <span style="color:#666">=</span> client<span style="color:#666">.</span><span style="color:#4070a0">popLastPageUrl</span><span style="color:#666">(</span><span style="color:#666">)</span><span style="color:#666">;</span>
-    <span style="color:#007020;font-weight:700">if</span> <span style="color:#666">(</span>url <span style="color:#666">!</span><span style="color:#666">=</span> <span style="color:#007020;font-weight:700">null</span><span style="color:#666">)</span> <span style="color:#666">{</span>
-        web<span style="color:#666">.</span><span style="color:#4070a0">loadUrl</span><span style="color:#666">(</span>url<span style="color:#666">)</span><span style="color:#666">;</span>
+    <span style="color:#007020;font-weight:700">final</span> String url <span style="color:#666">=</span> client<span style="color:#666">.</span><span style="color:#4070a0">popLastPageUrl</span><span style="color:#666">();</span>
+    <span style="color:#007020;font-weight:700">if</span> <span style="color:#666">(</span>url <span style="color:#666">!=</span> <span style="color:#007020;font-weight:700">null</span><span style="color:#666">)</span> <span style="color:#666">{</span>
+        web<span style="color:#666">.</span><span style="color:#4070a0">loadUrl</span><span style="color:#666">(</span>url<span style="color:#666">);</span>
         <span style="color:#007020;font-weight:700">return</span> <span style="color:#007020;font-weight:700">true</span><span style="color:#666">;</span>
     <span style="color:#666">}</span>
     <span style="color:#007020;font-weight:700">return</span> <span style="color:#007020;font-weight:700">false</span><span style="color:#666">;</span>
 <span style="color:#666">}</span>
 
-</code></pre></div><div class="article-copyright"><p>文章作者: <a href="https://qbeenslee.com/article/android-webview-302-redirect/"><i>qbeenslee</i></a></p> <a href="/copyright/"><img src="/img/cc-by-nc-nd.svg" height="20px" width="93px" class="nozoom"></a></div></div></article></div><div class="comment-wrap horizontal-safe" style="padding-left:20px;padding-right:20px"><script src="https://utteranc.es/client.js" repo="qbeenslee/comments.qbeenslee.com" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script></div></div></div></main><footer class="section site_footer_grap unselectable"><div class="has-text-centered"><p>&copy; Qbeenslee 2020</p></div></footer><script type="text/javascript" src="https://qbeenslee.com/js/main.js"></script><script type="text/javascript">var imgs=$("img");imgs.on("contextmenu",function(){return!1}),imgs.on("dragstart",function(){return!1})</script><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?58b3c65a09f5aacd0e62efe29897c7e4";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script></body></html>
+</code></pre></div><div class="article-copyright"><p>文章作者: <a href="https://qbeenslee.com/article/android-webview-302-redirect/"><i>qbeenslee</i></a></p> <a href="/copyright/"><img src="https://qbeenslee.com/img/cc-by-nc-nd.svg" height="20px" width="93px" class="nozoom"></a></div></div></article></div><div class="comment-wrap horizontal-safe" style="padding-left:20px;padding-right:20px"><script src="https://utteranc.es/client.js" repo="qbeenslee/comments.qbeenslee.com" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script></div></div></div></main><footer class="section site_footer_grap unselectable"><div class="has-text-centered"><p>&copy;Qbeenslee 2020</p></div></footer><script type="text/javascript" src="https://qbeenslee.com/js/main.js"></script><script type="text/javascript">var imgs=$("img");imgs.on("contextmenu",function(){return!1}),imgs.on("dragstart",function(){return!1})</script><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?58b3c65a09f5aacd0e62efe29897c7e4";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script></body></html>

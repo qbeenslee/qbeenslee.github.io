@@ -6,7 +6,7 @@
     <generator>Hugo - gohugo.io</generator>
     <language>zh-cn</language>
     <contact>qbeenslee@gmail.com</contact>
-    <copyright>&copy; Qbeenslee 2020</copyright>
+    <copyright>&copy;Qbeenslee 2020</copyright>
     
         <atom:link href="https://qbeenslee.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -64,7 +64,7 @@
       <content>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;本来我是想成为一个有幽默感的人, 然而却是一个小逗比&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Developer 腊肠(qbeenslee) @ &lt;a href=&#34;https://www.google.com/maps/place/Hangzhou&#34;&gt;Hangchow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Developer 腊肠(qbeenslee) @ &lt;a href=&#34;https://www.google.com/maps/place/Hangzhou&#34;   target=&#34;_blank&#34;  &gt;Hangchow&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;map-box&#34;&gt;
 &lt;div id=&#34;map-120.14502-30.23386&#34; style=&#34;max-width:400px;height:240px;&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -74,8 +74,8 @@
 &lt;hr /&gt;
 &lt;h3 id=&#34;联系方式&#34;&gt;联系方式&lt;/h3&gt;
 &lt;p&gt;Email: bWVAcWJlZW5zbGVlLmNvbQ==&lt;br /&gt;
-github: &lt;a href=&#34;https://github.com/qbeenslee&#34;&gt;qbeenslee&lt;/a&gt;&lt;br /&gt;
-weibo: &lt;a href=&#34;http://weibo.com/qbeenslee&#34;&gt;qbeenslee&lt;/a&gt;&lt;/p&gt;
+github: &lt;a href=&#34;https://github.com/qbeenslee&#34;   target=&#34;_blank&#34;  &gt;qbeenslee&lt;/a&gt;&lt;br /&gt;
+weibo: &lt;a href=&#34;http://weibo.com/qbeenslee&#34;   target=&#34;_blank&#34;  &gt;qbeenslee&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3 id=&#34;職人の技&#34;&gt;職人の技&lt;/h3&gt;
 &lt;p&gt;编程: java / python / kotlin / c/c++&lt;br /&gt;
@@ -96,8 +96,8 @@ weibo: &lt;a href=&#34;http://weibo.com/qbeenslee&#34;&gt;qbeenslee&lt;/a&gt;&lt
 &lt;/iframe&gt;
 &lt;hr /&gt;
 &lt;h3 id=&#34;版权声明&#34;&gt;版权声明&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://qbeenslee.com/copyright/&#34;&gt;&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2019/06/cc-by-nc-nd.svg&#34; height=&#34;20px&#34; width=&#34;93px&#34; class=&#34;nozoom&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;本站&lt;a href=&#34;http://qbeenslee.com/&#34;&gt;Hey sister&lt;/a&gt;采用&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-nd/4.0/&#34;&gt;「署名-非商业性使用-禁止演绎 4.0 国际许可协议」&lt;/a&gt;进行许可.&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href=&#34;https://qbeenslee.com/copyright/&#34;    &gt;&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2019/06/cc-by-nc-nd.svg&#34; height=&#34;20px&#34; width=&#34;93px&#34; class=&#34;nozoom&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本站&lt;a href=&#34;http://qbeenslee.com/&#34;   target=&#34;_blank&#34;  &gt;Hey sister&lt;/a&gt;采用&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-nd/4.0/&#34;   target=&#34;_blank&#34;  &gt;「署名-非商业性使用-禁止演绎 4.0 国际许可协议」&lt;/a&gt;进行许可.&lt;/p&gt;</content>
       
     </item>
     
@@ -181,9 +181,9 @@ njliangfei@gmail.com
       <description></description>
       
       <content>&lt;p&gt;&lt;strong&gt;技术方案&lt;/strong&gt;&lt;br /&gt;
-静态页面渲染: &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;(0.64.1+)&lt;br /&gt;
-处理后置: &lt;a href=&#34;https://gulpjs.com&#34;&gt;gulpfile&lt;/a&gt;(4.0.2+)&lt;br /&gt;
-托管: &lt;a href=&#34;https://github.com&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+静态页面渲染: &lt;a href=&#34;https://gohugo.io&#34;   target=&#34;_blank&#34;  &gt;Hugo&lt;/a&gt;(0.64.1+)&lt;br /&gt;
+处理后置: &lt;a href=&#34;https://gulpjs.com&#34;   target=&#34;_blank&#34;  &gt;gulpfile&lt;/a&gt;(4.0.2+)&lt;br /&gt;
+托管: &lt;a href=&#34;https://github.com&#34;   target=&#34;_blank&#34;  &gt;github&lt;/a&gt;&lt;/p&gt;
 </content>
       
     </item>
@@ -196,12 +196,12 @@ njliangfei@gmail.com
       <guid>https://qbeenslee.com/copyright/</guid>
       <description></description>
       
-      <content>&lt;p&gt;&lt;strong&gt;本站(&lt;a href=&#34;http://qbeenslee.com&#34;&gt;Hey sister&lt;/a&gt;)，全部内容禁止商业使用。除非注明，本站文章均为原创，转载请以链接形式标明本文地址。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;博客版权声明与基于&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-nd/4.0/&#34;&gt;「署名-非商业性使用-禁止演绎 4.0 国际许可协议」&lt;/a&gt;的开放获取。&lt;/p&gt;
+      <content>&lt;p&gt;&lt;strong&gt;本站(&lt;a href=&#34;http://qbeenslee.com&#34;   target=&#34;_blank&#34;  &gt;Hey sister&lt;/a&gt;)，全部内容禁止商业使用。除非注明，本站文章均为原创，转载请以链接形式标明本文地址。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;博客版权声明与基于&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-nd/4.0/&#34;   target=&#34;_blank&#34;  &gt;「署名-非商业性使用-禁止演绎 4.0 国际许可协议」&lt;/a&gt;的开放获取。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;知识共享协议4.0版本 署名-非商业性使用-禁止演绎  国际许可协议 (by-nc-sa)&lt;/strong&gt;&lt;br /&gt;
 该项许可协议规定，只要他人注明您的姓名并在以您的作品为基础创作的新作品上适用同一类型的许可协议，该他人就可基于非商业目的对您的作品重新编排、节选或者以您的作品为基础进行创作。基于您的作品创作的所有新作品都要适用同一类型的许可协议，因此适用该项协议， 则对任何以您的原作为基础创作的演绎作品自然同样都不得进行商业性使用。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;署名方法&lt;/strong&gt;&lt;br /&gt;
-在转载本站以及附属计划中任何内容时必须给出原页面的URL链接，并注明文章（全文，部分）从&lt;a href=&#34;http://qbeenslee.com&#34;&gt;Hey sister&lt;/a&gt;转载。&lt;/p&gt;
+在转载本站以及附属计划中任何内容时必须给出原页面的URL链接，并注明文章（全文，部分）从&lt;a href=&#34;http://qbeenslee.com&#34;   target=&#34;_blank&#34;  &gt;Hey sister&lt;/a&gt;转载。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;演绎政策&lt;/strong&gt;&lt;br /&gt;
 所有在网络上公开发表的，任何人可访问的作品，如作者无明确声明，视为 允许演绎（通俗地讲，允许进行“二次创作”）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;版权所有者权利&lt;/strong&gt;&lt;br /&gt;
