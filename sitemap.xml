@@ -3,32 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://qbeenslee.com/article/</loc>
+    <lastmod>2020-04-16T21:13:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qbeenslee.com/categories/</loc>
+    <lastmod>2020-04-16T21:13:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qbeenslee.com/tags/</loc>
+    <lastmod>2020-04-16T21:13:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qbeenslee.com/article/why-choose-portable-monitor-2020/</loc>
+    <lastmod>2020-04-16T21:13:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qbeenslee.com/</loc>
+    <lastmod>2020-04-16T21:13:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qbeenslee.com/tags/%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2020-04-16T21:13:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qbeenslee.com/categories/%E6%95%B0%E7%A0%81/</loc>
+    <lastmod>2020-04-16T21:13:53+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://qbeenslee.com/tags/android/</loc>
     <lastmod>2019-10-24T20:33:26+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qbeenslee.com/article/</loc>
-    <lastmod>2019-10-24T20:33:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qbeenslee.com/categories/</loc>
-    <lastmod>2019-10-24T20:33:26+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://qbeenslee.com/article/rxjava-custom-operator-with-bracode-gun/</loc>
-    <lastmod>2019-10-24T20:33:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qbeenslee.com/tags/</loc>
-    <lastmod>2019-10-24T20:33:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qbeenslee.com/</loc>
     <lastmod>2019-10-24T20:33:26+08:00</lastmod>
   </url>
   
@@ -54,11 +69,6 @@
   
   <url>
     <loc>https://qbeenslee.com/tags/mac/</loc>
-    <lastmod>2019-07-10T11:21:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qbeenslee.com/categories/%E6%95%B0%E7%A0%81/</loc>
     <lastmod>2019-07-10T11:21:23+08:00</lastmod>
   </url>
   
@@ -370,6 +380,10 @@
   <url>
     <loc>https://qbeenslee.com/tags/%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86/</loc>
     <lastmod>2013-09-23T01:02:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qbeenslee.com/authors/</loc>
   </url>
   
   <url>
