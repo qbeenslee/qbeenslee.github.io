@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>&amp;copy;Qbeenslee 2020</copyright>
-    <lastBuildDate>Wed, 16 Oct 2019 11:39:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2019 21:43:26 +0800</lastBuildDate>
     
 	<atom:link href="https://qbeenslee.com/bb/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>分享Quantumult X配置</title>
-      <link>https://qbeenslee.com/bb/share-quantumultx-conf/</link>
-      <pubDate>Wed, 16 Oct 2019 11:39:00 +0800</pubDate>
-      
-      <guid>https://qbeenslee.com/bb/share-quantumultx-conf/</guid>
-      <description>&lt;p&gt;早上刷twitter很惊喜的获悉了可以免费从Quantumult升级的Quantumult X, 花了点时间捣鼓了一下新的配置规则.&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>街灯下的文三路</title>
