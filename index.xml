@@ -249,12 +249,14 @@
 &lt;strong&gt;Subscriber&lt;/strong&gt;: 动作的发起者, 结果的获取者&lt;br /&gt;
 &lt;strong&gt;整体过程&lt;/strong&gt;: 下游流向上游, 上游再流回下游的一个过程&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2019/10/15719204624118.jpg&#34; alt=&#34;多次的lift的流程图&#34; width=&#34;450px&#34;/&gt;
+&lt;p&gt;&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2019/10/15719204624118.jpg&#34; alt=&#34;多次的lift的流程图&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;在扫码枪中自定义操作符的应用&#34;&gt;在扫码枪中自定义操作符的应用&lt;/h2&gt;
 &lt;p&gt;将扫码枪输入的一个一个的按键事件(KeyEvent), 缓存起来再达到条件时全部发送出去.&lt;/p&gt;
 &lt;p&gt;本来事情很简单, 只要接受到回车键(ENTER)就发送出去, 但是却存在一些扫码枪一次扫码最后不会发送回车键. 所以可以使用扫码枪共有特征, 就是每个按键事件的间隔很短, 可用找到一个比较合适的时间阈值来鉴别是否为一次扫码.&lt;/p&gt;
 &lt;p&gt;所以, 这个操作符的功能就是&lt;strong&gt;在条件下进行缓存&lt;/strong&gt;, 我们给它起个名字叫&lt;code&gt;BufferWhile&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;bufferwhile&#34;&gt;BufferWhile&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;代码点击展开&lt;/summary&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;/**
 &lt;/span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt; * BufferWhile, buffer while some predicate allows it based on the items.
 &lt;/span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt; * Notice: the operator not emit the last item.
@@ -442,7 +444,8 @@
 &lt;span style=&#34;color:#666&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;思考题&lt;/strong&gt;: 如何区分扫码枪输入和键盘手动输入?&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;/blockquote&gt;
+&lt;/details&gt;</description>
         
       </item>
     <item>
@@ -682,7 +685,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;small&gt;&lt;em&gt;性能测试数据来自《古墓丽影》2560×1080&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;由于机箱选择的是NZXT H200可以容纳的最大显卡高度需小于50mm, 就剩下Vega56, RX590, RX580, RX480, 在价格和性能间取了一个中间点, 选了RX580.&lt;/p&gt;
+&lt;p&gt;由于机箱选择的是机箱选择了NZXT H200可以容纳的最大显卡高度需小于50mm, 就剩下Vega56, RX590, RX580, RX480, 在价格和性能间取了一个中间点, 选了RX580.&lt;/p&gt;
 &lt;h4 id=&#34;主板motherboard&#34;&gt;主板/motherboard&lt;/h4&gt;
 &lt;img src=&#34;https://i.loli.net/2019/09/13/fIveWdD1V9XqpOb.jpg&#34; height=&#34;400px&#34; alt=&#34;Intel CPU发展天梯图(cpu和主板的搭配参考)&#34;/&gt;
 &lt;p&gt;机身不能太大, 为了搭配i7-9700K使用也赶个时髦, 决定选择z390系列的ITX主板. 当下可以选择包括:&lt;/p&gt;
@@ -724,12 +727,9 @@
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; usb 2.0 / 3.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;存在问题&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;macos升级到10.15.3后以下两个问题, 推荐&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; &lt;del&gt;大量文件I/O时(和移动硬盘对拷), 偶尔会出现卡顿&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; &lt;del&gt;播放本地视频文件时, 偶尔会出现&amp;quot;冻屏&amp;quot;现象&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; 大量文件I/O时(和移动硬盘对拷), 偶尔会出现卡顿&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; &lt;del&gt;播放本地视频文件时, 偶尔会出现&amp;quot;冻屏&amp;quot;现象&lt;/del&gt;(macos升级到10.15.3后无此问题,推荐)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;因为是偶现的问题, 并不影响日常使用. 所以没有花太大的精力去解决了&amp;hellip;&lt;/p&gt;
