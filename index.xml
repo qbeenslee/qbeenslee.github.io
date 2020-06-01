@@ -249,14 +249,12 @@
 &lt;strong&gt;Subscriber&lt;/strong&gt;: 动作的发起者, 结果的获取者&lt;br /&gt;
 &lt;strong&gt;整体过程&lt;/strong&gt;: 下游流向上游, 上游再流回下游的一个过程&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2019/10/15719204624118.jpg&#34; alt=&#34;多次的lift的流程图&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2019/10/15719204624118.jpg&#34; alt=&#34;多次的lift的流程图&#34; width=&#34;450px&#34;/&gt;
 &lt;h2 id=&#34;在扫码枪中自定义操作符的应用&#34;&gt;在扫码枪中自定义操作符的应用&lt;/h2&gt;
 &lt;p&gt;将扫码枪输入的一个一个的按键事件(KeyEvent), 缓存起来再达到条件时全部发送出去.&lt;/p&gt;
 &lt;p&gt;本来事情很简单, 只要接受到回车键(ENTER)就发送出去, 但是却存在一些扫码枪一次扫码最后不会发送回车键. 所以可以使用扫码枪共有特征, 就是每个按键事件的间隔很短, 可用找到一个比较合适的时间阈值来鉴别是否为一次扫码.&lt;/p&gt;
 &lt;p&gt;所以, 这个操作符的功能就是&lt;strong&gt;在条件下进行缓存&lt;/strong&gt;, 我们给它起个名字叫&lt;code&gt;BufferWhile&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;bufferwhile&#34;&gt;BufferWhile&lt;/h3&gt;
-&lt;details&gt;
-&lt;summary&gt;代码点击展开&lt;/summary&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;/**
 &lt;/span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt; * BufferWhile, buffer while some predicate allows it based on the items.
 &lt;/span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt; * Notice: the operator not emit the last item.
@@ -444,8 +442,7 @@
 &lt;span style=&#34;color:#666&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;思考题&lt;/strong&gt;: 如何区分扫码枪输入和键盘手动输入?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/details&gt;</description>
+&lt;/blockquote&gt;</description>
         
       </item>
     <item>
