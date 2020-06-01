@@ -724,9 +724,12 @@
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; usb 2.0 / 3.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;存在问题&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;macos升级到10.15.3后以下两个问题, 推荐&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; 大量文件I/O时(和移动硬盘对拷), 偶尔会出现卡顿&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; &lt;del&gt;播放本地视频文件时, 偶尔会出现&amp;quot;冻屏&amp;quot;现象&lt;/del&gt;(macos升级到10.15.3后无此问题,推荐)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; &lt;del&gt;大量文件I/O时(和移动硬盘对拷), 偶尔会出现卡顿&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; &lt;del&gt;播放本地视频文件时, 偶尔会出现&amp;quot;冻屏&amp;quot;现象&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;因为是偶现的问题, 并不影响日常使用. 所以没有花太大的精力去解决了&amp;hellip;&lt;/p&gt;
