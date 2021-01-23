@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <copyright>&amp;copy;Qbeenslee 2020</copyright>
-    <lastBuildDate>Wed, 17 Aug 2016 23:13:45 +0800</lastBuildDate>
-    
-	<atom:link href="https://qbeenslee.com/tags/hotfix/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 17 Aug 2016 23:13:45 +0800</lastBuildDate><atom:link href="https://qbeenslee.com/tags/hotfix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android热修复架构杂谈</title>
       <link>https://qbeenslee.com/article/building-an-android-hotfix-architecture/</link>

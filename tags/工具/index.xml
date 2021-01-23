@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <copyright>&amp;copy;Qbeenslee 2020</copyright>
-    <lastBuildDate>Sat, 07 Nov 2015 21:45:58 +0800</lastBuildDate>
-    
-	<atom:link href="https://qbeenslee.com/tags/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 07 Nov 2015 21:45:58 +0800</lastBuildDate><atom:link href="https://qbeenslee.com/tags/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OSX日常开发工具推荐</title>
       <link>https://qbeenslee.com/article/develop-software-on-mac/</link>

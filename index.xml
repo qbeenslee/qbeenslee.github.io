@@ -8,6 +8,62 @@
     
         <atom:link href="https://qbeenslee.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+        <title>去呼伦贝尔大草原学习骑马</title>
+        <link>https://qbeenslee.com/article/horse-riding-in-hulunbuir-grassland/</link>
+        <pubDate>Wed, 23 Sep 2020 19:31:14 +0800</pubDate>
+        <author>qbeenslee</author>
+        <guid>https://qbeenslee.com/article/horse-riding-in-hulunbuir-grassland/</guid>
+        
+          <description>&lt;p&gt;骑马, 对于我们这些从小生活在城市里的人来说很是有吸引力. 怀着一股兴奋劲儿, 在九月中旬我们一行四个小伙伴冲到了呼伦贝尔大草原, 开启此次纯粹学习骑马的旅程.&lt;/p&gt;
+&lt;h2 id=&#34;寻找马场&#34;&gt;寻找马场&lt;/h2&gt;
+&lt;p&gt;作为还在新手村的玩家, 首先要做就是要向老鸟请教. 几经周折, 从友人那里获知在内蒙古骑马的费用大概在400~500rmb/天(非旺季), 然后推荐我们去呼伦贝尔的黑山头骑马. 并没有认识在黑山头马场的朋友, 我们只能在大众点评上一家家打电话咨询费用, 各种报价千奇百怪要价最高的马场是1500rmb/天. 最终在报价合适的情况下, 以及联系后选择了一家比较实在的马场.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;稍微提一下方式: 打开大众点评或者高德地图, 定位到黑山头, 然后搜周边的马场&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;map-box&#34;&gt;
+&lt;div id=&#34;map-119.4908199-50.2125630&#34; style=&#34;max-width:400px;height:240px;&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+    var mymap = L.map(&#39;map-119.4908199-50.2125630&#39;, { attributionControl:false }).setView([&#34;50.2125630&#34;,&#34;119.4908199&#34;],  8 );
+    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;50.2125630&#34;,&#34;119.4908199&#34;]).addTo(mymap);marker.bindPopup(&#34;黑山头&#34;).openPopup();&lt;/script&gt;
+&lt;p&gt;这里先放一下大家关心的费用明细, 不至于价格过高劝退吧:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;费用&lt;/th&gt;
+&lt;th&gt;备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;骑马&lt;/td&gt;
+&lt;td&gt;450rmb/天&lt;/td&gt;
+&lt;td&gt;作为学员, 有专门的马师带着&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;住宿&lt;/td&gt;
+&lt;td&gt;50rmb/天&lt;/td&gt;
+&lt;td&gt;蒙古包形状的水泥房&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;吃饭&lt;/td&gt;
+&lt;td&gt;75rmb/天&lt;/td&gt;
+&lt;td&gt;中饭+晚饭&lt;small&gt;(和马师们一起吃, 说钱看着给就行)&lt;/small&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;接送机&lt;/td&gt;
+&lt;td&gt;70rmb/趟.每人&lt;/td&gt;
+&lt;td&gt;海拉尔机场-黑山头&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;在路上&#34;&gt;在路上&lt;/h2&gt;
+&lt;p&gt;距离黑山头最近的海拉尔东山机场, 能直达的航班很少. 我们选择从哈尔滨中转, 从海拉尔机场出发去, 开车大约3个小时到达马场.&lt;/p&gt;
+&lt;h2 id=&#34;学习&#34;&gt;学习&lt;/h2&gt;</description>
+        
+      </item>
+    <item>
         <title>从澳大利亚海淘Nitro Team 1920款滑雪板</title>
         <link>https://qbeenslee.com/article/how-to-buy-snowboard-from-australia/</link>
         <pubDate>Fri, 01 May 2020 21:38:26 +0800</pubDate>
@@ -454,7 +510,7 @@
         <guid>https://qbeenslee.com/article/hackintosh-machine-build-tutorial/</guid>
         
           <description>&lt;blockquote&gt;
-&lt;p&gt;折腾黑苹果对于普通使用者是一件没啥意义的事情, 做这个选择的根本原因还是&lt;strong&gt;&lt;ruby&gt;穷&lt;rt&gt;qióng&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt;呀!&lt;/p&gt;
+&lt;p&gt;折腾黑苹果对于普通使用者是一件没啥意义的事情, 做这个选择的根本原因还是**&lt;ruby&gt;穷&lt;rt&gt;qióng&lt;/rt&gt;&lt;/ruby&gt;**呀!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;笔者本身拥有一台2015定制款的13寸rMBP, 经过4年多的战斗后在处理代码编译或者视频渲染时已经捉襟见肘了. 所以根据自己的需求&amp;amp;荷包最终选择搭建一套黑苹果(实力不允许为所欲为呀).&lt;/p&gt;
 &lt;h2 id=&#34;硬件&#34;&gt;硬件&lt;/h2&gt;
@@ -1360,7 +1416,7 @@
 |N|        |____layout
 |O|        |____source
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;修改&lt;strong&gt;Hexo根目录下&lt;/strong&gt;的 &lt;code&gt;_config.yml&lt;/code&gt; (A文件)来应用本主题.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;theme&lt;/span&gt;:&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;sausage&lt;span style=&#34;color:#bbb&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;theme&lt;/span&gt;:&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;sausage&lt;span style=&#34;color:#bbb&#34;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;修改&lt;strong&gt;主题目录下&lt;/strong&gt;的 &lt;code&gt;_config.yml&lt;/code&gt; (M文件)来配置本主题, 这里对几个主要的配置做个说明:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -2277,13 +2333,13 @@ search
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;结果在第二个字符处发现不匹配, 于是要把子串往后移动. 但是该移动多少呢？&lt;br /&gt;
 这就是各种算法各显神通的地方了, 最简单的做法是移动一个字符位置;&lt;/p&gt;
 &lt;p&gt;KMP是利用已经匹配部分的信息来移动;BM算法是做反向比较, 并根据已经匹配的部分来确定移动量.&lt;br /&gt;
-这里要介绍的方法是看紧跟在当前子串之后的那个字符 （第一个字符串中的&amp;rsquo;i&amp;rsquo;).&lt;br /&gt;
+这里要介绍的方法是看紧跟在当前子串之后的那个字符 （第一个字符串中的&amp;rsquo;i&#39;).&lt;br /&gt;
 显然, 不管移动多少, 这个字符是肯定要参加下一步的比较的.&lt;br /&gt;
 也就是说, 如果下一步匹配到了, 这个字符必须在子串内.&lt;/p&gt;
-&lt;p&gt;所以, 可以移动子串, 使子串中的最右边的这个字符与它对齐. 现在子串&amp;rsquo;search&amp;rsquo;中并不存在&amp;rsquo;i&amp;rsquo;, 则说明可以直接跳过一大片, 从&amp;rsquo;i&amp;rsquo;之后的那个字符开始作下一步的比较, 如下:&lt;/p&gt;
+&lt;p&gt;所以, 可以移动子串, 使子串中的最右边的这个字符与它对齐. 现在子串&amp;rsquo;search&amp;rsquo;中并不存在&amp;rsquo;i&#39;, 则说明可以直接跳过一大片, 从&amp;rsquo;i&amp;rsquo;之后的那个字符开始作下一步的比较, 如下:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;substring searching algorithm
 search
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;比较的结果, 第一个字符就不匹配, 再看子串后面的那个字符, 是&amp;rsquo;r&amp;rsquo;,它在子&lt;br /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;比较的结果, 第一个字符就不匹配, 再看子串后面的那个字符, 是&amp;rsquo;r&#39;,它在子&lt;br /&gt;
 串中出现在倒数第三位, 于是把子串向后移动三位, 使两个&amp;rsquo;r&amp;rsquo;对齐, 如下:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;substring searching algorithm
 search
