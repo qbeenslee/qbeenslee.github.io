@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>括号匹配 on Hey sister</title>
+    <link>https://qbeenslee.com/tags/%E6%8B%AC%E5%8F%B7%E5%8C%B9%E9%85%8D/</link>
+    <description>Recent content in 括号匹配 on Hey sister</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <copyright>&amp;copy;Qbeenslee 2021</copyright>
+    <lastBuildDate>Tue, 15 Oct 2013 00:41:56 +0800</lastBuildDate><atom:link href="https://qbeenslee.com/tags/%E6%8B%AC%E5%8F%B7%E5%8C%B9%E9%85%8D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>纯C解决括号匹配问题</title>
+      <link>https://qbeenslee.com/article/deal-brackets-match-problem-by-c/</link>
+      <pubDate>Tue, 15 Oct 2013 00:41:56 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/article/deal-brackets-match-problem-by-c/</guid>
+      <description>&lt;p&gt;先看问题描述&lt;br /&gt;
+描述&lt;br /&gt;
+假设一个算术表达式中可以包含三种括号：圆括号“(”和“)” 、方圆括号“[”和“]”、和花括号“{”和“}”，且这三种括号可按任意的次序嵌套使用(如：…[…{…}…[…]…]…[…]…(…)…)。编写判别给定表达式中所含括号是否正确配对出现的算法。若正确配对则输出yes，否则输出no。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
