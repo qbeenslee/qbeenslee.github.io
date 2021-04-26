@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>相册 on Hey sister</title>
+    <link>https://qbeenslee.com/gallery/</link>
+    <description>Recent content in 相册 on Hey sister</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <copyright>&amp;copy;Qbeenslee 2021</copyright>
+    <lastBuildDate>Wed, 27 Mar 2019 14:46:52 +0800</lastBuildDate><atom:link href="https://qbeenslee.com/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>相册插件测试</title>
+      <link>https://qbeenslee.com/gallery/gallery-plugins-test/</link>
+      <pubDate>Wed, 27 Mar 2019 14:46:52 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/gallery/gallery-plugins-test/</guid>
+      <description>  图1             </description>
+    </item>
+    
+  </channel>
+</rss>
