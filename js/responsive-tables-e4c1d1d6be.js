@@ -1,6 +1,0 @@
-try { 
-$(document).ready(function(){var n=!1,e=function(){if($(window).width()<767&&!n)return n=!0,$("table.responsive").each(function(n,e){!function(n){n.wrap("<div class='table-wrapper' />");var e=n.clone();e.find("td:not(:first-child), th:not(:first-child)").css("display","none"),e.removeClass("responsive"),n.closest(".table-wrapper").append(e),e.wrap("<div class='pinned' />"),n.wrap("<div class='scrollable' />")}($(e))}),!0;n&&767<$(window).width()&&(n=!1,$("table.responsive").each(function(n,e){var i;(i=$(e)).closest(".table-wrapper").find(".pinned").remove(),i.unwrap(),i.unwrap()}))};$(window).load(e),$(window).bind("resize",e)});
- }
- catch (e) { 
- // pass 
- }
