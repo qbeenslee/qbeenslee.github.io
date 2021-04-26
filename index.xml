@@ -1464,7 +1464,7 @@ tags:
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;简洁的多说评论&#34;&gt;简洁的多说评论&lt;/h3&gt;
-&lt;p&gt;登录到&lt;a href=&#34;duoshuo.com&#34;    &gt;多说&lt;/a&gt;后台, 设置 -&amp;gt; 基本设置 -&amp;gt; 自定义css&lt;/p&gt;
+&lt;p&gt;登录到&lt;a href=&#34;http://duoshuo.com&#34;   target=&#34;_blank&#34;  &gt;多说&lt;/a&gt;后台, 设置 -&amp;gt; 基本设置 -&amp;gt; 自定义css&lt;/p&gt;
 &lt;p&gt;拷贝&lt;a href=&#34;https://github.com/qbeenslee/simple-duoshuo&#34;   target=&#34;_blank&#34;  &gt;simple-duoshuo&lt;/a&gt;中的css文件内容, 保存即可.&lt;/p&gt;
 &lt;h3 id=&#34;生成标签页&#34;&gt;生成标签页&lt;/h3&gt;
 &lt;p&gt;需要手动生成一个page, &lt;code&gt;hexo new page &#39;tag&#39; &lt;/code&gt;&lt;/p&gt;
