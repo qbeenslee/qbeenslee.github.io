@@ -830,7 +830,7 @@
 &lt;div id=&#34;map-37.6180-55.7503&#34; style=&#34;max-width:100%;height:360px;&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
-    var mymap = L.map(&#39;map-37.6180-55.7503&#39;, { attributionControl:false }).setView([&#34;55.7503&#34;,&#34;37.6180&#34;],  3 );
+    var mymap = L.map(&#39;map-37.6180-55.7503&#39;, { attributionControl:false ,zoomControl:  false  }).setView([&#34;55.7503&#34;,&#34;37.6180&#34;],  3 );
     L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;55.7503&#34;,&#34;37.6180&#34;]).addTo(mymap);marker.bindPopup(&#34;莫斯科&#34;).openPopup();&lt;/script&gt;
 &lt;pre&gt;&lt;code&gt;俄文: Москва
 英文: Moscow
@@ -948,7 +948,7 @@
 &lt;div id=&#34;map-33.0791-68.9692&#34; style=&#34;max-width:100%;height:360px;&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
-    var mymap = L.map(&#39;map-33.0791-68.9692&#39;, { attributionControl:false }).setView([&#34;68.9692&#34;,&#34;33.0791&#34;],  5 );
+    var mymap = L.map(&#39;map-33.0791-68.9692&#39;, { attributionControl:false ,zoomControl:  false  }).setView([&#34;68.9692&#34;,&#34;33.0791&#34;],  5 );
     L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;68.9692&#34;,&#34;33.0791&#34;]).addTo(mymap);marker.bindPopup(&#34;摩尔曼斯克&#34;).openPopup();&lt;/script&gt;
 &lt;pre&gt;&lt;code&gt;俄文: Мурманск
 英文: Murmansk
@@ -1013,7 +1013,7 @@
 &lt;div id=&#34;map-120.12887-30.26833&#34; style=&#34;max-width:100%;height:320px;&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
-    var mymap = L.map(&#39;map-120.12887-30.26833&#39;, { attributionControl:false }).setView([&#34;30.26833&#34;,&#34;120.12887&#34;],  17 );
+    var mymap = L.map(&#39;map-120.12887-30.26833&#39;, { attributionControl:false ,zoomControl:  false  }).setView([&#34;30.26833&#34;,&#34;120.12887&#34;],  17 );
     L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;30.26833&#34;,&#34;120.12887&#34;]).addTo(mymap);marker.bindPopup(&#34;这里是黄龙体育馆&#34;).openPopup();&lt;/script&gt;
 &lt;p&gt;&lt;strong&gt;markdown文档插入语句&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-hugo&#34; data-lang=&#34;hugo&#34;&gt;{{ &amp;lt;map h=&amp;quot;320px&amp;quot; pos=&amp;quot;120.12887,30.26833&amp;quot; zoom=&amp;quot;17&amp;quot; alt=&amp;quot;这里是黄龙体育馆&amp;quot;&amp;gt; }}
@@ -1072,6 +1072,12 @@
 &lt;td&gt;alert的维度&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;displayZoom&lt;/td&gt;
+&lt;td&gt;显示 &lt;code&gt;放大/缩小&lt;/code&gt; 按钮, &lt;code&gt;true&lt;/code&gt; 显示&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;默认隐藏&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
