@@ -8,6 +8,245 @@
     
         <atom:link href="https://qbeenslee.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+        <title>TEST</title>
+        <link>https://qbeenslee.com/article/test/</link>
+        <pubDate>Wed, 17 Mar 2021 22:34:50 +0800</pubDate>
+        <author>qbeenslee</author>
+        <guid>https://qbeenslee.com/article/test/</guid>
+        
+          <description>&lt;h2 id=&#34;效果&#34;&gt;效果&lt;/h2&gt;
+&lt;div class=&#34;map-box&#34;&gt;
+&lt;div id=&#34;map-120.12887-30.26833&#34; style=&#34;max-width:100%;height:320px;&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+    var mymap = L.map(&#39;map-120.12887-30.26833&#39;, { attributionControl:false ,zoomControl:  false  }).setView([&#34;30.26833&#34;,&#34;120.12887&#34;],  16 );
+    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;30.26833&#34;,&#34;120.12887&#34;]).addTo(mymap);marker.bindPopup(&#34;这里是黄龙体育馆&#34;).openPopup();&lt;/script&gt;
+&lt;p&gt;&lt;strong&gt;markdown文档插入语句&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-hugo&#34; data-lang=&#34;hugo&#34;&gt;{{ &amp;lt;map h=&amp;quot;320px&amp;quot; pos=&amp;quot;120.12887,30.26833&amp;quot; zoom=&amp;quot;16&amp;quot; alt=&amp;quot;这里是黄龙体育馆&amp;quot;&amp;gt; }}
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;{{&lt;/code&gt;和&lt;code&gt;}}&lt;/code&gt;内两端的空格去掉&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;文内标题&#34;&gt;文内标题&lt;/h1&gt;
+&lt;p&gt;$$&lt;br /&gt;
+\begin{align}&lt;br /&gt;
+a^2 + b^2 = c^2&lt;br /&gt;
+\end{align}&lt;br /&gt;
+$$&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-warning&#34; data-lang=&#34;warning&#34;&gt;Hugo是什么? 本博客网站就是使用有Hugo渲染, 关于Hugo的介绍可以看[这里](https://gohugo.io)
+Ps: 在Hugo面前, hexo的渲染速度就是一个**渣渣**!
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;Hugo是什么? 本博客网站就是使用有Hugo渲染, 关于Hugo的介绍可以看&lt;a href=&#34;https://gohugo.io&#34;   target=&#34;_blank&#34;  &gt;这里&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ps: 在Hugo面前, hexo的渲染速度就是一个&lt;strong&gt;渣渣&lt;/strong&gt;!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;details&gt;
+  &lt;summary&gt;页面截图 (点击展开)&lt;/summary&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/JAVClub/core/raw/master/docs/Home.png&#34; alt=&#34;Home&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/JAVClub/core/raw/master/docs/MetadataList.png&#34; alt=&#34;Metadata List&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/JAVClub/core/raw/master/docs/MetadataInfoTop.png&#34; alt=&#34;Metadata Info Top&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/JAVClub/core/raw/master/docs/MetadataInfoBottom.png&#34; alt=&#34;Metadata Info Bottom&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/JAVClub/core/raw/master/docs/BookmarkList.png&#34; alt=&#34;Bookmark List&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/JAVClub/core/raw/master/docs/BookmarkInfo.png&#34; alt=&#34;Bookmark Info&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/JAVClub/core/raw/master/docs/TagList.png&#34; alt=&#34;Tag List&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/JAVClub/core/raw/master/docs/StarList.png&#34; alt=&#34;Star List&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/JAVClub/core/raw/master/docs/SeriesList.png&#34; alt=&#34;Series List&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/JAVClub/core/raw/master/docs/Profile.png&#34; alt=&#34;Profile&#34; /&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;&lt;img data-original=&#34;https://i.loli.net/2019/04/01/5ca0e8f200a4b.jpg&#34; alt=&#34;吃食&#34; height=&#34;400px&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-original=&#34;https://i.loli.net/2019/04/01/5ca0e8f253876.jpg&#34;  width=&#34;600px&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/04/01/5ca0e8f1e64aa.jpg&#34; alt=&#34;IMG_0812&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/04/01/5ca0e8f253f23.jpg&#34; alt=&#34;IMG_0818&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/05/04/5cccfba340c40.jpg&#34; alt=&#34;5ca0e8f200a4b&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/05/08/5cd1ac9c0b56f.jpg&#34; alt=&#34;original&#34; /&gt;&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://qbeenslee.com/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://i.loli.net/2019/04/01/5ca0e8f200a4b.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://i.loli.net/2019/04/01/5ca0e8f200a4b.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://i.loli.net/2019/04/01/5ca0e8f200a4b.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;图1&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://i.loli.net/2019/04/01/5ca0e8f253876.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://i.loli.net/2019/04/01/5ca0e8f253876.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://i.loli.net/2019/04/01/5ca0e8f253876.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://i.loli.net/2019/04/01/5ca0e8f1e64aa.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://i.loli.net/2019/04/01/5ca0e8f1e64aa.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://i.loli.net/2019/04/01/5ca0e8f1e64aa.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dl.kn007.net/directlink/QPST.rar&#34; title=&#34;button&#34;  class=&#34;button-link&#34; &gt;download&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;/kbd&gt;+&lt;kbd&gt;ALT&lt;/kbd&gt;+&lt;kbd&gt;Delete&lt;/kbd&gt;&lt;/kbd&gt; to end the session.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;code test&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://baidu.com&#34;   target=&#34;_blank&#34;  &gt;&lt;code&gt;code&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://l9rw.cn&#34;&gt;https://l9rw.cn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;br /&gt;
+When $a \ne 0$, there are two solutions to &lt;code&gt;\(ax^2 + bx + c = 0\)&lt;/code&gt; and they are:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;x &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; {&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;b &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\pm&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\sqrt&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{b^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;ac} &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\over&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;a}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$&lt;/p&gt;
+&lt;p&gt;$$&lt;br /&gt;
+L(f) = \sum_{i=1}^D(\tilde{y_i}-y_i)^2=\sum_{i=1}^D(wx_i+b-y_i)^2&lt;br /&gt;
+$$&lt;/p&gt;
+&lt;p&gt;$$&lt;br /&gt;
+\begin{array}&lt;br /&gt;
+\overline{a+b+c} \&lt;br /&gt;
+\underline{a+b+c} \&lt;br /&gt;
+\overleftarrow{a+b} \&lt;br /&gt;
+\underleftarrow{a+b} \&lt;br /&gt;
+\underleftrightarrow{a+b} \&lt;br /&gt;
+\vec x = \vec{AB} \&lt;br /&gt;
+\overbrace {a+b}^\text{a,b} \&lt;br /&gt;
+a+\rlap{\overbrace{\phantom{b+c+d}}^m}b+\underbrace{c+d+e}_n+f&lt;br /&gt;
+\end{array}&lt;br /&gt;
+$$&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&#34;https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg&#34; alt=&#34;Hugo logo&#34; width=&#34;400px&#34; class=&#34;nozoom&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hugo是什么? 本博客网站就是使用有Hugo渲染, 关于Hugo的介绍可以看&lt;a href=&#34;https://gohugo.io&#34;   target=&#34;_blank&#34;  &gt;这里&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ps: 在Hugo面前, hexo的渲染速度就是一个&lt;strong&gt;渣渣&lt;/strong&gt;!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
+&lt;p&gt;在博客网站里插入地图容器我觉得是一件很棒的功能, 比如分享自己的旅行记录.&lt;br /&gt;
+所以, 就有了这篇文章 ~ ~&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;&lt;strong&gt;大体实现&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;依赖框架: leaflet.js
+地图源  : openstreetmap.org
+实现方式: hugo shortcode
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;实现&#34;&gt;实现&lt;/h2&gt;
+&lt;h3 id=&#34;模板文件&#34;&gt;模板文件&lt;/h3&gt;
+&lt;p&gt;创建&lt;code&gt;shortcodes&lt;/code&gt;模板文件 &lt;code&gt;layouts/shortcodes/map.html&lt;/code&gt;, 如下:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{- if .IsNamedParams -}}
+{{- $mapPosition := (split (.Get &amp;#34;pos&amp;#34;) &amp;#34;,&amp;#34;) -}}
+{{- $mapLon := default 120 (index $mapPosition 0) -}}
+{{- $mapLat := default 30 (index $mapPosition 1) -}}
+{{- $mapWidth := default &amp;#34;100%&amp;#34; (.Get &amp;#34;w&amp;#34;) -}}
+{{- $mapHeight := default &amp;#34;360px&amp;#34; (.Get &amp;#34;h&amp;#34;) -}}
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;map-box&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;map-{{$mapLon}}-{{$mapLat}}&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;max-width:{{$mapWidth}};height:{{$mapHeight}};&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;mymap&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;L&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;map-{{$mapLon}}-{{$mapLat}}&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;attributionControl&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setView&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([{{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;$mapLat&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}},{{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;$mapLon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}}],&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;zoom&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}{{&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;zoom&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;end&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}});&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;L&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;tileLayer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{}).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addTo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mymap&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;alt&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;altLat&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;altLon&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;
+	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;marker&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;L&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;marker&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([{{.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;altLat&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}},&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{{.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Get&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;altLon&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}}]).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addTo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mymap&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;marker&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;L&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;marker&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([{{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;$mapLat&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}},{{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;$mapLon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}}]).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addTo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mymap&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+	&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;end&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;
+	&lt;span class=&#34;nx&#34;&gt;marker&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;bindPopup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;{{.Get &amp;#34;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;alt&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34; }}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;openPopup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;	
+	&lt;span class=&#34;p&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;end&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+{{- end -}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;依赖&#34;&gt;依赖&lt;/h3&gt;
+&lt;p&gt;在 leafletjs下载页&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;获取相应的&lt;code&gt;js&lt;/code&gt;, &lt;code&gt;css&lt;/code&gt;, &lt;code&gt;image&lt;/code&gt;文件, 存放在主题&lt;code&gt;static&lt;/code&gt;目录下:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;static
+├── css
+│   ├── images
+│   │   ├── layers-2x.png
+│   │   ├── layers.png
+│   │   ├── marker-icon-2x.png
+│   │   ├── marker-icon.png
+│   │   └── marker-shadow.png
+│   ├── leaflet.css
+├── js
+     └── leaflet.js
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;中引入文件:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;text/javascript&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/js/leaflet.js&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/css/leaflet.css&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;参数说明&#34;&gt;参数说明&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;字段&lt;/th&gt;
+&lt;th&gt;含义&lt;/th&gt;
+&lt;th&gt;必填&lt;/th&gt;
+&lt;th&gt;备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;h&lt;/td&gt;
+&lt;td&gt;high, 容易的高度&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;w&lt;/td&gt;
+&lt;td&gt;width, 容器的宽度&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pos&lt;/td&gt;
+&lt;td&gt;position, 地理坐标&lt;/td&gt;
+&lt;td&gt;✓&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;经度,维度&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;zoom&lt;/td&gt;
+&lt;td&gt;缩放系数&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;默认16, 范围: 1~18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt&lt;/td&gt;
+&lt;td&gt;alert, 弹出框文本&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;没有指定位置则为中心点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;altLan&lt;/td&gt;
+&lt;td&gt;alert的经度&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;altLat&lt;/td&gt;
+&lt;td&gt;alert的维度&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://leafletjs.com/download.html&#34;&gt;https://leafletjs.com/download.html&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+        
+      </item>
+    <item>
         <title>从澳大利亚海淘Nitro Team 1920款滑雪板</title>
         <link>https://qbeenslee.com/article/how-to-buy-snowboard-from-australia/</link>
         <pubDate>Fri, 01 May 2020 21:38:26 +0800</pubDate>
