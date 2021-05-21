@@ -732,7 +732,7 @@
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; &lt;del&gt;大量文件I/O时(和移动硬盘对拷), 偶尔会出现卡顿&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34; /&gt; &lt;del&gt;播放本地视频文件时, 偶尔会出现&amp;quot;冻屏&amp;quot;现象&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;clover&#34;&gt;Clover&lt;/h2&gt;
+&lt;h2 id=&#34;clover&#34;&gt;CLOVER&lt;/h2&gt;
 &lt;p&gt;最最重要的是共享一下Clover, 是基于&lt;a href=&#34;https://github.com/icyleaf/EFI-ASRock-Z390-Phantom-Gaming-ITX.git&#34;   target=&#34;_blank&#34;  &gt;EFI-ASRock-Z390-Phantom-Gaming-ITX&lt;/a&gt;修复了usb3.0不能识别, 以及添加了一个Clover启动主题.&lt;/p&gt;
 &lt;p&gt;github仓库: &lt;a href=&#34;https://github.com/qbeenslee/hackintosh-EFI-I7-9700K-RX580-Z390-ITX&#34;   target=&#34;_blank&#34;  &gt;hackintosh-EFI-I7-9700K-RX580-Z390-ITX&lt;/a&gt;&lt;/p&gt;</description>
         
