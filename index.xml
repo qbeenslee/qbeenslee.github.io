@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>姐姐好美! on Hey sister</title>
-    <link>https://qbeenslee.com/</link>
-    <description>Recent content in 姐姐好美! on Hey sister</description>
-    <language>zh-cn</language>
+<channel>
+<title>姐姐好美! on Hey sister</title>
+<link>https://qbeenslee.com/</link>
+<description>Recent content in 姐姐好美! on Hey sister</description>
+<language>zh-cn</language>
+
+    <atom:link href="https://qbeenslee.com/index.xml" rel="self" type="application/rss+xml" />
+<item>
+    <title>从澳大利亚海淘Nitro Team 1920款滑雪板</title>
+    <link>https://qbeenslee.com/article/how-to-buy-snowboard-from-australia/</link>
+    <pubDate>Fri, 01 May 2020 21:38:26 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/how-to-buy-snowboard-from-australia/</guid>
     
-        <atom:link href="https://qbeenslee.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-        <title>从澳大利亚海淘Nitro Team 1920款滑雪板</title>
-        <link>https://qbeenslee.com/article/how-to-buy-snowboard-from-australia/</link>
-        <pubDate>Fri, 01 May 2020 21:38:26 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/how-to-buy-snowboard-from-australia/</guid>
-        
-          <description>&lt;blockquote&gt;
+        <description>&lt;blockquote&gt;
 &lt;p&gt;日前我以&lt;strong&gt;2220rmb&lt;/strong&gt;的价格, 500rmb的运费从澳大利亚购买到了全新的Nitro team 1920款滑雪板. 对比国内四千多的门店价格, 确实便宜不少, 在此我也分享一下海淘滑雪板的经验.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;缘起&#34;&gt;缘起&lt;/h2&gt;
@@ -59,16 +59,16 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
-        
-      </item>
-    <item>
-        <title>作为开发者, 我为什么选择便携式显示器</title>
-        <link>https://qbeenslee.com/article/why-choose-portable-monitor-2020/</link>
-        <pubDate>Thu, 16 Apr 2020 21:13:53 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/why-choose-portable-monitor-2020/</guid>
-        
-          <description>&lt;blockquote&gt;
+    
+    </item>
+<item>
+    <title>作为开发者, 我为什么选择便携式显示器</title>
+    <link>https://qbeenslee.com/article/why-choose-portable-monitor-2020/</link>
+    <pubDate>Thu, 16 Apr 2020 21:13:53 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/why-choose-portable-monitor-2020/</guid>
+    
+        <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;立场声明&lt;/strong&gt;: &lt;em&gt;&lt;strong&gt;所有产品自费自用, 不为任何商家利益服务&lt;font color=&#34;#DDD&#34;&gt;&lt;small&gt;(金主快来找我打广告费呀)&lt;/small&gt;&lt;/font&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;只是分享一个新玩意儿, 顺便交个朋友! &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;br /&gt;
 另, 购买一样东西, 搞清楚自己的需求才能从万千世界中觅得佳物&lt;/p&gt;
@@ -201,16 +201,16 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
-        
-      </item>
-    <item>
-        <title>Rxjava自定义操作符与扫码枪</title>
-        <link>https://qbeenslee.com/article/rxjava-custom-operator-with-bracode-gun/</link>
-        <pubDate>Thu, 24 Oct 2019 20:33:26 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/rxjava-custom-operator-with-bracode-gun/</guid>
-        
-          <description>&lt;p&gt;正是Rxjava丰富的操作符, 简化了我们的日常开发的工作量. 本文将介绍Rxjava自定义操作符在实际开发中的应用.&lt;/p&gt;
+    
+    </item>
+<item>
+    <title>Rxjava自定义操作符与扫码枪</title>
+    <link>https://qbeenslee.com/article/rxjava-custom-operator-with-bracode-gun/</link>
+    <pubDate>Thu, 24 Oct 2019 20:33:26 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/rxjava-custom-operator-with-bracode-gun/</guid>
+    
+        <description>&lt;p&gt;正是Rxjava丰富的操作符, 简化了我们的日常开发的工作量. 本文将介绍Rxjava自定义操作符在实际开发中的应用.&lt;/p&gt;
 &lt;h2 id=&#34;操作符应用举例&#34;&gt;操作符应用举例&lt;/h2&gt;
 &lt;p&gt;下面是一个使用例子:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//加购凑单逻辑
@@ -444,16 +444,16 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;思考题&lt;/strong&gt;: 如何区分扫码枪输入和键盘手动输入?&lt;/p&gt;
 &lt;/blockquote&gt;</description>
-        
-      </item>
-    <item>
-        <title>黑苹果搭建之旅i7-9700K RX580 z390-itx</title>
-        <link>https://qbeenslee.com/article/hackintosh-machine-build-tutorial/</link>
-        <pubDate>Wed, 10 Jul 2019 11:21:23 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/hackintosh-machine-build-tutorial/</guid>
-        
-          <description>&lt;blockquote&gt;
+    
+    </item>
+<item>
+    <title>黑苹果搭建之旅i7-9700K RX580 z390-itx</title>
+    <link>https://qbeenslee.com/article/hackintosh-machine-build-tutorial/</link>
+    <pubDate>Wed, 10 Jul 2019 11:21:23 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/hackintosh-machine-build-tutorial/</guid>
+    
+        <description>&lt;blockquote&gt;
 &lt;p&gt;折腾黑苹果对于普通使用者是一件没啥意义的事情, 做这个选择的根本原因还是**&lt;ruby&gt;穷&lt;rt&gt;qióng&lt;/rt&gt;&lt;/ruby&gt;**呀!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;笔者本身拥有一台2015定制款的13寸rMBP, 经过4年多的战斗后在处理代码编译或者视频渲染时已经捉襟见肘了. 所以根据自己的需求&amp;amp;荷包最终选择搭建一套黑苹果(实力不允许为所欲为呀).&lt;/p&gt;
@@ -735,16 +735,16 @@
 &lt;h2 id=&#34;clover&#34;&gt;CLOVER&lt;/h2&gt;
 &lt;p&gt;最最重要的是共享一下Clover, 是基于&lt;a href=&#34;https://github.com/icyleaf/EFI-ASRock-Z390-Phantom-Gaming-ITX.git&#34;   target=&#34;_blank&#34;  &gt;EFI-ASRock-Z390-Phantom-Gaming-ITX&lt;/a&gt;修复了usb3.0不能识别, 以及添加了一个Clover启动主题.&lt;/p&gt;
 &lt;p&gt;github仓库: &lt;a href=&#34;https://github.com/qbeenslee/hackintosh-EFI-I7-9700K-RX580-Z390-ITX&#34;   target=&#34;_blank&#34;  &gt;hackintosh-EFI-I7-9700K-RX580-Z390-ITX&lt;/a&gt;&lt;/p&gt;</description>
-        
-      </item>
-    <item>
-        <title>终是去不了: 2019年俄罗斯极光之旅筹划文档</title>
-        <link>https://qbeenslee.com/article/a-sad-story-about-russia/</link>
-        <pubDate>Sun, 17 Mar 2019 22:34:50 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/a-sad-story-about-russia/</guid>
-        
-          <description>&lt;blockquote&gt;
+    
+    </item>
+<item>
+    <title>终是去不了: 2019年俄罗斯极光之旅筹划文档</title>
+    <link>https://qbeenslee.com/article/a-sad-story-about-russia/</link>
+    <pubDate>Sun, 17 Mar 2019 22:34:50 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/a-sad-story-about-russia/</guid>
+    
+        <description>&lt;blockquote&gt;
 &lt;p&gt;因为尴尬的原因, 没能去成俄罗斯看极光.&lt;br /&gt;
 下面是一个未完成的攻略, 希望有那么一丢丢的借鉴价值 !&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -827,11 +827,11 @@
 &lt;center&gt;&lt;b&gt;迈进北极圈&lt;/b&gt;&lt;/center&gt;
 &lt;h2 id=&#34;莫斯科&#34;&gt;莫斯科&lt;/h2&gt;
 &lt;div class=&#34;map-box&#34;&gt;
-    &lt;div id=&#34;map-lon37.6180-lat55.7503&#34; style=&#34;max-width:100%;height:360px;&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
-    var mymap = L.map(&#39;map-lon37.6180-lat55.7503&#39;, { attributionControl:false ,zoomControl:  false  }).setView([&#34;55.7503&#34;,&#34;37.6180&#34;],  3 );
-    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;55.7503&#34;,&#34;37.6180&#34;]).addTo(mymap);marker.bindPopup(&#34;莫斯科&#34;).openPopup();&lt;/script&gt;
+        &lt;div id=&#34;map-lon37.6180-lat55.7503&#34; style=&#34;max-width:100%;height:360px;&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+        var mymap = L.map(&#39;map-lon37.6180-lat55.7503&#39;, { attributionControl:false ,zoomControl:  false  }).setView([&#34;55.7503&#34;,&#34;37.6180&#34;],  3 );
+        L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;55.7503&#34;,&#34;37.6180&#34;]).addTo(mymap);marker.bindPopup(&#34;莫斯科&#34;).openPopup();&lt;/script&gt;
 &lt;pre&gt;&lt;code&gt;俄文: Москва
 英文: Moscow
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;住&#34;&gt;住&lt;/h3&gt;
@@ -945,11 +945,11 @@
 &lt;hr /&gt;
 &lt;h2 id=&#34;摩尔曼斯克&#34;&gt;摩尔曼斯克&lt;/h2&gt;
 &lt;div class=&#34;map-box&#34;&gt;
-    &lt;div id=&#34;map-lon33.0791-lat68.9692&#34; style=&#34;max-width:100%;height:360px;&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
-    var mymap = L.map(&#39;map-lon33.0791-lat68.9692&#39;, { attributionControl:false ,zoomControl:  false  }).setView([&#34;68.9692&#34;,&#34;33.0791&#34;],  5 );
-    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;68.9692&#34;,&#34;33.0791&#34;]).addTo(mymap);marker.bindPopup(&#34;摩尔曼斯克&#34;).openPopup();&lt;/script&gt;
+        &lt;div id=&#34;map-lon33.0791-lat68.9692&#34; style=&#34;max-width:100%;height:360px;&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+        var mymap = L.map(&#39;map-lon33.0791-lat68.9692&#39;, { attributionControl:false ,zoomControl:  false  }).setView([&#34;68.9692&#34;,&#34;33.0791&#34;],  5 );
+        L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;68.9692&#34;,&#34;33.0791&#34;]).addTo(mymap);marker.bindPopup(&#34;摩尔曼斯克&#34;).openPopup();&lt;/script&gt;
 &lt;pre&gt;&lt;code&gt;俄文: Мурманск
 英文: Murmansk
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;看极光的时机: 每年冬半年(9月 至 次年4月)都有机会看到极光，其中 &lt;strong&gt;11月&lt;/strong&gt; 到 &lt;strong&gt;2月&lt;/strong&gt;极光出现几率最大&lt;/p&gt;
@@ -987,16 +987,16 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
-        
-      </item>
-    <item>
-        <title>Hugo支持插入地图的shortcode</title>
-        <link>https://qbeenslee.com/article/hugo-support-map-shortcodes/</link>
-        <pubDate>Fri, 22 Feb 2019 20:10:40 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/hugo-support-map-shortcodes/</guid>
-        
-          <description>&lt;p&gt;&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2020/05/hugologowide.svg&#34; alt=&#34;Hugo logo&#34; width=&#34;400px&#34; height=&#34;150px&#34; class=&#34;nozoom&#34; /&gt;&lt;/p&gt;
+    
+    </item>
+<item>
+    <title>Hugo支持插入地图的shortcode</title>
+    <link>https://qbeenslee.com/article/hugo-support-map-shortcodes/</link>
+    <pubDate>Fri, 22 Feb 2019 20:10:40 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/hugo-support-map-shortcodes/</guid>
+    
+        <description>&lt;p&gt;&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2020/05/hugologowide.svg&#34; alt=&#34;Hugo logo&#34; width=&#34;400px&#34; height=&#34;150px&#34; class=&#34;nozoom&#34; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Hugo是什么? 本博客网站就是使用有Hugo渲染, 关于Hugo的介绍可以看&lt;a href=&#34;https://gohugo.io&#34;   target=&#34;_blank&#34;  &gt;这里&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Ps: 在Hugo面前, hexo的渲染速度就是一个&lt;strong&gt;渣渣&lt;/strong&gt;!&lt;/p&gt;
@@ -1010,11 +1010,11 @@
 实现方式: hugo shortcode
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;效果&#34;&gt;效果&lt;/h2&gt;
 &lt;div class=&#34;map-box&#34;&gt;
-    &lt;div id=&#34;map-lon120.12887-lat30.26833&#34; style=&#34;max-width:100%;height:320px;&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
-    var mymap = L.map(&#39;map-lon120.12887-lat30.26833&#39;, { attributionControl:false ,zoomControl:  false  }).setView([&#34;30.26833&#34;,&#34;120.12887&#34;],  17 );
-    L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;30.26833&#34;,&#34;120.12887&#34;]).addTo(mymap);marker.bindPopup(&#34;这里是黄龙体育馆&#34;).openPopup();&lt;/script&gt;
+        &lt;div id=&#34;map-lon120.12887-lat30.26833&#34; style=&#34;max-width:100%;height:320px;&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+        var mymap = L.map(&#39;map-lon120.12887-lat30.26833&#39;, { attributionControl:false ,zoomControl:  false  }).setView([&#34;30.26833&#34;,&#34;120.12887&#34;],  17 );
+        L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;30.26833&#34;,&#34;120.12887&#34;]).addTo(mymap);marker.bindPopup(&#34;这里是黄龙体育馆&#34;).openPopup();&lt;/script&gt;
 &lt;p&gt;&lt;strong&gt;markdown文档插入语句&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-hugo&#34; data-lang=&#34;hugo&#34;&gt;{{ &amp;lt;map h=&amp;quot;320px&amp;quot; pos=&amp;quot;120.12887,30.26833&amp;quot; zoom=&amp;quot;17&amp;quot; alt=&amp;quot;这里是黄龙体育馆&amp;quot;&amp;gt; }}
 &lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
@@ -1130,16 +1130,16 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
-        
-      </item>
-    <item>
-        <title>Android热修复架构杂谈</title>
-        <link>https://qbeenslee.com/article/building-an-android-hotfix-architecture/</link>
-        <pubDate>Wed, 17 Aug 2016 23:13:45 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/building-an-android-hotfix-architecture/</guid>
-        
-          <description>&lt;p&gt;与前后端相比, 移动端对&lt;a href=&#34;https://zh.wikipedia.org/wiki/%e7%83%ad%e4%bf%ae%e5%a4%8d&#34;   target=&#34;_blank&#34;  &gt;热修复&lt;/a&gt;的需求更为迫切和复杂. iOS上已有&lt;a href=&#34;http://dev.qq.com/topic/579efa7083355a9a57a1ac5b&#34;   target=&#34;_blank&#34;  &gt;JSPatch&lt;/a&gt;这套成熟并被官方默许的解决方案. 然而Android上的热修复方案的演进则曲折的多, 简述一下鄙人的心路历程.&lt;/p&gt;
+    
+    </item>
+<item>
+    <title>Android热修复架构杂谈</title>
+    <link>https://qbeenslee.com/article/building-an-android-hotfix-architecture/</link>
+    <pubDate>Wed, 17 Aug 2016 23:13:45 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/building-an-android-hotfix-architecture/</guid>
+    
+        <description>&lt;p&gt;与前后端相比, 移动端对&lt;a href=&#34;https://zh.wikipedia.org/wiki/%e7%83%ad%e4%bf%ae%e5%a4%8d&#34;   target=&#34;_blank&#34;  &gt;热修复&lt;/a&gt;的需求更为迫切和复杂. iOS上已有&lt;a href=&#34;http://dev.qq.com/topic/579efa7083355a9a57a1ac5b&#34;   target=&#34;_blank&#34;  &gt;JSPatch&lt;/a&gt;这套成熟并被官方默许的解决方案. 然而Android上的热修复方案的演进则曲折的多, 简述一下鄙人的心路历程.&lt;/p&gt;
 &lt;h2 id=&#34;dexposed&#34;&gt;Dexposed&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/alibaba/dexposed&#34;   target=&#34;_blank&#34;  &gt;https://github.com/alibaba/dexposed&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;最早是在百川大会上听说这个方案, 但整个接入过程体验了一下真是吐了一口老血. 由于Dexposed不支持ART Runtime一开始就被放弃了.&lt;/p&gt;
@@ -1297,16 +1297,16 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;tinker&#34;&gt;Tinker&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/zzz40500/Tinker_imitator&#34;   target=&#34;_blank&#34;  &gt;https://github.com/zzz40500/Tinker_imitator&lt;/a&gt;&lt;/p&gt;</description>
-        
-      </item>
-    <item>
-        <title>hexo主题sausage</title>
-        <link>https://qbeenslee.com/article/hexo-theme-sausage-help/</link>
-        <pubDate>Tue, 19 Jul 2016 14:23:07 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/hexo-theme-sausage-help/</guid>
-        
-          <description>&lt;p&gt;&lt;a href=&#34;https://github.com/qbeenslee/hexo-theme-sausage&#34;   target=&#34;_blank&#34;  &gt;sausage&lt;/a&gt;是基于&lt;a href=&#34;https://github.com/litten/hexo-theme-yilia&#34;   target=&#34;_blank&#34;  &gt;Yilia&lt;/a&gt;二次开发完成的.&lt;/p&gt;
+    
+    </item>
+<item>
+    <title>hexo主题sausage</title>
+    <link>https://qbeenslee.com/article/hexo-theme-sausage-help/</link>
+    <pubDate>Tue, 19 Jul 2016 14:23:07 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/hexo-theme-sausage-help/</guid>
+    
+        <description>&lt;p&gt;&lt;a href=&#34;https://github.com/qbeenslee/hexo-theme-sausage&#34;   target=&#34;_blank&#34;  &gt;sausage&lt;/a&gt;是基于&lt;a href=&#34;https://github.com/litten/hexo-theme-yilia&#34;   target=&#34;_blank&#34;  &gt;Yilia&lt;/a&gt;二次开发完成的.&lt;/p&gt;
 &lt;p&gt;示例 : &lt;a href=&#34;https://jasmine-na.github.io&#34;   target=&#34;_blank&#34;  &gt;jasmine-na.github.io&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;关于主题&#34;&gt;关于主题&lt;/h2&gt;
 &lt;p&gt;基于Yilia做的主要工作是删减, 包括:&lt;/p&gt;
@@ -1483,16 +1483,16 @@ layout: post
 selectable: false
 ---
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        
-      </item>
-    <item>
-        <title>臺灣·台湾</title>
-        <link>https://qbeenslee.com/article/taiwan-travels-2016/</link>
-        <pubDate>Wed, 27 Apr 2016 21:32:42 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/taiwan-travels-2016/</guid>
-        
-          <description>&lt;blockquote&gt;
+    
+    </item>
+<item>
+    <title>臺灣·台湾</title>
+    <link>https://qbeenslee.com/article/taiwan-travels-2016/</link>
+    <pubDate>Wed, 27 Apr 2016 21:32:42 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/taiwan-travels-2016/</guid>
+    
+        <description>&lt;blockquote&gt;
 &lt;p&gt;台湾, 最美的风景是人&lt;/p&gt;
 &lt;p&gt;恩, 还是台湾的妹纸最美!&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1531,16 +1531,16 @@ selectable: false
 &lt;blockquote&gt;
 &lt;p&gt;&lt;del&gt;腊肠和他的小伙伴们&lt;/del&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</description>
-        
-      </item>
-    <item>
-        <title>Android WebView内处理302重定向</title>
-        <link>https://qbeenslee.com/article/android-webview-302-redirect/</link>
-        <pubDate>Mon, 15 Feb 2016 16:28:51 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/android-webview-302-redirect/</guid>
-        
-          <description>&lt;p&gt;开发中处理WebView有面临着以下几个问题:&lt;/p&gt;
+    
+    </item>
+<item>
+    <title>Android WebView内处理302重定向</title>
+    <link>https://qbeenslee.com/article/android-webview-302-redirect/</link>
+    <pubDate>Mon, 15 Feb 2016 16:28:51 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/android-webview-302-redirect/</guid>
+    
+        <description>&lt;p&gt;开发中处理WebView有面临着以下几个问题:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;H5页面在调用Android系统的&lt;code&gt;WebView.goBack()&lt;/code&gt;会在一些特殊情况下失效;&lt;/li&gt;
@@ -1698,16 +1698,16 @@ selectable: false
 &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        
-      </item>
-    <item>
-        <title>豌豆荚Android混淆字典, 眼睛要瞎了</title>
-        <link>https://qbeenslee.com/article/about-wandoujia-proguard-config/</link>
-        <pubDate>Wed, 27 Jan 2016 10:49:38 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/about-wandoujia-proguard-config/</guid>
-        
-          <description>&lt;p&gt;作为Android开发者, 时常会下载一些制作精良的App学习借鉴(反编译看源码^_^).&lt;/p&gt;
+    
+    </item>
+<item>
+    <title>豌豆荚Android混淆字典, 眼睛要瞎了</title>
+    <link>https://qbeenslee.com/article/about-wandoujia-proguard-config/</link>
+    <pubDate>Wed, 27 Jan 2016 10:49:38 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/about-wandoujia-proguard-config/</guid>
+    
+        <description>&lt;p&gt;作为Android开发者, 时常会下载一些制作精良的App学习借鉴(反编译看源码^_^).&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.wandoujia.com/yilan&#34;   target=&#34;_blank&#34;  &gt;豌豆荚一览&lt;/a&gt;是一款很棒的产品, 它的Android客户端用户体验也优秀, 比如文章的浏览交互, 排版优化, 离线, 以及和其他相关应用的衔接等等.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2019/11/hln4r0g.png&#34; alt=&#34;豌豆荚一览&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;然后, 就去反编译学习学习喽.&lt;/p&gt;
@@ -1725,16 +1725,16 @@ selectable: false
 &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;指定package模糊字典&lt;/span&gt;
 &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;packageobfuscationdictionary&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;filename&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后呢, 宝宝眯着眼睛去复制了一堆&lt;code&gt;奇奇怪怪的逗点&lt;/code&gt;, 制作了一个混淆字典. 字典一共是28个字符包括650词语应该是够用了, 放在&lt;a href=&#34;https://github.com/qbeenslee/gradle-proguard-hehe-dictionary&#34;   target=&#34;_blank&#34;  &gt;github&lt;/a&gt;上, 心疼宝宝的可以star一下.&lt;/p&gt;</description>
-        
-      </item>
-    <item>
-        <title>2015年总结</title>
-        <link>https://qbeenslee.com/article/summary-of-2015/</link>
-        <pubDate>Tue, 26 Jan 2016 10:07:16 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/summary-of-2015/</guid>
-        
-          <description>&lt;blockquote&gt;
+    
+    </item>
+<item>
+    <title>2015年总结</title>
+    <link>https://qbeenslee.com/article/summary-of-2015/</link>
+    <pubDate>Tue, 26 Jan 2016 10:07:16 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/summary-of-2015/</guid>
+    
+        <description>&lt;blockquote&gt;
 &lt;p&gt;给一些事情一个定性的评价是很困难的, 只能感觉过去的一年不是我想要的.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;过去的一年, 经历了实习, 毕业, 车祸以及各种吃喝玩乐, 线下活动. 见识了各色人物, 知道自己的高低.&lt;/p&gt;
@@ -1752,16 +1752,16 @@ selectable: false
 &lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
 &lt;p&gt;这一年, 我得到了一些我想得到的东西, 但我却从未跨出一步勇敢的步伐, 也不曾履行一份坚韧的执着.&lt;/p&gt;
 &lt;p&gt;这是我想要的吗!&lt;/p&gt;</description>
-        
-      </item>
-    <item>
-        <title>一种简洁的Adapter模式实现</title>
-        <link>https://qbeenslee.com/article/super-simple-android-adapter-pattern/</link>
-        <pubDate>Tue, 15 Dec 2015 11:46:43 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/super-simple-android-adapter-pattern/</guid>
-        
-          <description>&lt;p&gt;鄙人觉得做重复的事情就是浪费生命啊(&lt;a href=&#34;https://en.wikipedia.org/wiki/Don%27t_repeat_yourself&#34;   target=&#34;_blank&#34;  &gt;Don&amp;rsquo;t Repeat Yourself原则&lt;/a&gt;), 在Android中&lt;a href=&#34;http://developer.android.com/reference/android/widget/ListView.html&#34;   target=&#34;_blank&#34;  &gt;ListView&lt;/a&gt;的Adapter中有大量重复工作可以被取消掉.&lt;/p&gt;
+    
+    </item>
+<item>
+    <title>一种简洁的Adapter模式实现</title>
+    <link>https://qbeenslee.com/article/super-simple-android-adapter-pattern/</link>
+    <pubDate>Tue, 15 Dec 2015 11:46:43 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/super-simple-android-adapter-pattern/</guid>
+    
+        <description>&lt;p&gt;鄙人觉得做重复的事情就是浪费生命啊(&lt;a href=&#34;https://en.wikipedia.org/wiki/Don%27t_repeat_yourself&#34;   target=&#34;_blank&#34;  &gt;Don&amp;rsquo;t Repeat Yourself原则&lt;/a&gt;), 在Android中&lt;a href=&#34;http://developer.android.com/reference/android/widget/ListView.html&#34;   target=&#34;_blank&#34;  &gt;ListView&lt;/a&gt;的Adapter中有大量重复工作可以被取消掉.&lt;/p&gt;
 &lt;p&gt;首先看看一种已经实现的调用方式:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;adapter&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;
 &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;QuickAdapter&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;GoodsModel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;layout&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;adapter_goods&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
@@ -1941,16 +1941,16 @@ selectable: false
 
 &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在github上搜了一下发现基于RecyclerView的实现方案, 大家也可以参考一下&lt;a href=&#34;https://github.com/LightSun/android-common-utils/blob/master/common-utils/commonutil/src/main/java/org/heaven7/core/adapter/QuickAdapter.java&#34;   target=&#34;_blank&#34;  &gt;QuickAdapter&lt;/a&gt; , &lt;a href=&#34;https://github.com/chenenyu/SuperAdapter&#34;   target=&#34;_blank&#34;  &gt;SuperAdapter&lt;/a&gt;, &lt;a href=&#34;https://github.com/bboyfeiyu/commonadapter&#34;   target=&#34;_blank&#34;  &gt;CommonAdapter&lt;/a&gt; .&lt;/p&gt;</description>
-        
-      </item>
-    <item>
-        <title>OSX日常开发工具推荐</title>
-        <link>https://qbeenslee.com/article/develop-software-on-mac/</link>
-        <pubDate>Sat, 07 Nov 2015 21:45:58 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/develop-software-on-mac/</guid>
-        
-          <description>&lt;p&gt;有些很好用的小众工具, 用着很开心, 然后在这推荐一下!&lt;/p&gt;
+    
+    </item>
+<item>
+    <title>OSX日常开发工具推荐</title>
+    <link>https://qbeenslee.com/article/develop-software-on-mac/</link>
+    <pubDate>Sat, 07 Nov 2015 21:45:58 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/develop-software-on-mac/</guid>
+    
+        <description>&lt;p&gt;有些很好用的小众工具, 用着很开心, 然后在这推荐一下!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;输入法&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://rime.im&#34;   target=&#34;_blank&#34;  &gt;鼠须管&lt;/a&gt; 输入法就应该纯洁可调教, 而且鼠须管(rime)是一款跨平台的输入法.&lt;/p&gt;
 &lt;img src=&#34;https://i.loli.net/2019/03/23/5c963dc26b12c.png&#34; alt=&#34;鼠须管&#34; width=&#34;600px&#34;/&gt;
@@ -1976,16 +1976,16 @@ selectable: false
 &lt;p&gt;&lt;a href=&#34;http://mitmproxy.org&#34;   target=&#34;_blank&#34;  &gt;mitmproxy&lt;/a&gt; 中间人攻击的神器, 当然我只是用来抓包分析而已.&lt;br /&gt;
 &lt;img src=&#34;https://i.loli.net/2019/03/23/5c963dcb2896a.png&#34; alt=&#34;mitmproxy&#34; width=&#34;800px&#34;/&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: 以上工具全部免费, 部分开源.&lt;/p&gt;</description>
-        
-      </item>
-    <item>
-        <title>微猫Android SDK分析</title>
-        <link>https://qbeenslee.com/article/wemart-android-sdk-analyse/</link>
-        <pubDate>Wed, 28 Oct 2015 15:41:40 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/wemart-android-sdk-analyse/</guid>
-        
-          <description>&lt;p&gt;无意中知道&lt;a href=&#34;http://www.wemart.cn&#34;   target=&#34;_blank&#34;  &gt;微猫&lt;/a&gt;这个网站, 他们是这样介绍自己的&lt;/p&gt;
+    
+    </item>
+<item>
+    <title>微猫Android SDK分析</title>
+    <link>https://qbeenslee.com/article/wemart-android-sdk-analyse/</link>
+    <pubDate>Wed, 28 Oct 2015 15:41:40 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/wemart-android-sdk-analyse/</guid>
+    
+        <description>&lt;p&gt;无意中知道&lt;a href=&#34;http://www.wemart.cn&#34;   target=&#34;_blank&#34;  &gt;微猫&lt;/a&gt;这个网站, 他们是这样介绍自己的&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我们，致力于社会化电子商务解决方案的实践。&lt;br /&gt;
 我们的创始团队成员，曾在多家国内知名互联网公司和跨国企业担任高管。&lt;/p&gt;
@@ -2070,16 +2070,16 @@ selectable: false
 &lt;p&gt;&amp;hellip;&amp;hellip;(大概逻辑是这样, 里面的交互细节就不讲了)&lt;/p&gt;
 &lt;h3 id=&#34;总结&#34;&gt;总结&lt;/h3&gt;
 &lt;p&gt;整体实现JsBridge的方式很不错, 功能完备. 但其内部实现过于复杂, 扩展性很差, 性能开销有待优化.&lt;/p&gt;</description>
-        
-      </item>
-    <item>
-        <title>Android网络框架封装的认知</title>
-        <link>https://qbeenslee.com/article/thinking-of-net-framework-on-android/</link>
-        <pubDate>Tue, 27 Oct 2015 15:04:09 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/thinking-of-net-framework-on-android/</guid>
-        
-          <description>&lt;p&gt;在开发应用中网络模块是项目中很重要和复杂的一部分. 从零开始写一个网络请求框架是一件吃力不讨好的事情, 也有重复造轮子的嫌疑. github上有很多优秀的开源网络请求框架例如:&lt;/p&gt;
+    
+    </item>
+<item>
+    <title>Android网络框架封装的认知</title>
+    <link>https://qbeenslee.com/article/thinking-of-net-framework-on-android/</link>
+    <pubDate>Tue, 27 Oct 2015 15:04:09 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/thinking-of-net-framework-on-android/</guid>
+    
+        <description>&lt;p&gt;在开发应用中网络模块是项目中很重要和复杂的一部分. 从零开始写一个网络请求框架是一件吃力不讨好的事情, 也有重复造轮子的嫌疑. github上有很多优秀的开源网络请求框架例如:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/square/retrofit&#34;   target=&#34;_blank&#34;  &gt;retrofit&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/square/okhttp&#34;   target=&#34;_blank&#34;  &gt;okhttp&lt;/a&gt;&lt;/li&gt;
@@ -2186,16 +2186,16 @@ selectable: false
 &lt;hr /&gt;
 &lt;p&gt;20160415更新:&lt;/p&gt;
 &lt;p&gt;网络库封装地址: &lt;a href=&#34;https://github.com/qbeenslee/http-query&#34;   target=&#34;_blank&#34;  &gt;http-query&lt;/a&gt;&lt;/p&gt;</description>
-        
-      </item>
-    <item>
-        <title>使用C#编写的轻量级图片库</title>
-        <link>https://qbeenslee.com/article/a-lightweight-gallery-written-by-c-sharp/</link>
-        <pubDate>Wed, 11 Dec 2013 23:50:01 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/a-lightweight-gallery-written-by-c-sharp/</guid>
-        
-          <description>&lt;p&gt;效果图如下:&lt;/p&gt;
+    
+    </item>
+<item>
+    <title>使用C#编写的轻量级图片库</title>
+    <link>https://qbeenslee.com/article/a-lightweight-gallery-written-by-c-sharp/</link>
+    <pubDate>Wed, 11 Dec 2013 23:50:01 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/a-lightweight-gallery-written-by-c-sharp/</guid>
+    
+        <description>&lt;p&gt;效果图如下:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Rd8Nkz7.jpg&#34; alt=&#34;效果图&#34; width=&#34;400px&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;前段日子编写了一个图片库的小程序,遇到了很多问题.这里罗列一下:&lt;/p&gt;
 &lt;h2 id=&#34;1-如何实现拖动无标题栏窗口&#34;&gt;1. 如何实现拖动无标题栏窗口&lt;/h2&gt;
@@ -2261,16 +2261,16 @@ selectable: false
 还有图片还不支持鼠标滚动条缩放大小,这个我还没有头绪&amp;hellip;&lt;br /&gt;
 知道的朋友可以提醒一下,谢谢&lt;br /&gt;
 源代码及程序,下载链接 &lt;a href=&#34;http://sdrv.ms/IPchCt&#34;   target=&#34;_blank&#34;  &gt;http://sdrv.ms/IPchCt&lt;/a&gt;&lt;/p&gt;</description>
-        
-      </item>
-    <item>
-        <title>sunday算法</title>
-        <link>https://qbeenslee.com/article/algorithm-sunday/</link>
-        <pubDate>Sun, 17 Nov 2013 00:22:43 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/algorithm-sunday/</guid>
-        
-          <description>&lt;p&gt;sunday算法是字符串模式匹配算法,是在BM算法上的优化.&lt;br /&gt;
+    
+    </item>
+<item>
+    <title>sunday算法</title>
+    <link>https://qbeenslee.com/article/algorithm-sunday/</link>
+    <pubDate>Sun, 17 Nov 2013 00:22:43 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/algorithm-sunday/</guid>
+    
+        <description>&lt;p&gt;sunday算法是字符串模式匹配算法,是在BM算法上的优化.&lt;br /&gt;
 &lt;strong&gt;提出者&lt;/strong&gt;: Daniel M.Sunday(1990)&lt;br /&gt;
 &lt;strong&gt;核心思想&lt;/strong&gt;:在匹配过程中, 模式串并不被要求一定要按从左向右进行比较还是从右向左进行比较, 它在发现不匹配时, 算法能跳过尽可能多的字符以进行下一步的匹配, 从而提高了匹配效率.&lt;/p&gt;
 &lt;hr /&gt;
@@ -2355,16 +2355,16 @@ C语言实现:&lt;/p&gt;
 &lt;a href=&#34;http://www.inf.fh-flensburg.de/lang/algorithmen/pattern/sundayen.html&#34;   target=&#34;_blank&#34;  &gt;Sunday algorithm&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www-igm.univ-mlv.fr/~lecroq/string/node19.html&#34;   target=&#34;_blank&#34;  &gt;Quick Search algorithm&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://d.wanfangdata.com.cn/periodical_jsjgc200907042.aspx&#34;   target=&#34;_blank&#34;  &gt;改进的Sunday模式匹配算法&lt;/a&gt;&lt;/p&gt;</description>
-        
-      </item>
-    <item>
-        <title>纯C解决括号匹配问题</title>
-        <link>https://qbeenslee.com/article/deal-brackets-match-problem-by-c/</link>
-        <pubDate>Tue, 15 Oct 2013 00:41:56 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/deal-brackets-match-problem-by-c/</guid>
-        
-          <description>&lt;p&gt;先看问题描述&lt;br /&gt;
+    
+    </item>
+<item>
+    <title>纯C解决括号匹配问题</title>
+    <link>https://qbeenslee.com/article/deal-brackets-match-problem-by-c/</link>
+    <pubDate>Tue, 15 Oct 2013 00:41:56 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/deal-brackets-match-problem-by-c/</guid>
+    
+        <description>&lt;p&gt;先看问题描述&lt;br /&gt;
 描述&lt;br /&gt;
 假设一个算术表达式中可以包含三种括号：圆括号“(”和“)” 、方圆括号“[”和“]”、和花括号“{”和“}”，且这三种括号可按任意的次序嵌套使用(如：…[…{…}…[…]…]…[…]…(…)…)。编写判别给定表达式中所含括号是否正确配对出现的算法。若正确配对则输出yes，否则输出no。&lt;/p&gt;
 &lt;p&gt;输入&lt;/p&gt;
@@ -2475,16 +2475,16 @@ C语言实现:&lt;/p&gt;
 	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        
-      </item>
-    <item>
-        <title>C&#43;&#43;写的文本颠倒代码</title>
-        <link>https://qbeenslee.com/article/reverse-text-file-by-cpp/</link>
-        <pubDate>Mon, 23 Sep 2013 01:02:46 +0800</pubDate>
-        <author>qbeenslee</author>
-        <guid>https://qbeenslee.com/article/reverse-text-file-by-cpp/</guid>
-        
-          <description>&lt;blockquote&gt;
+    
+    </item>
+<item>
+    <title>C&#43;&#43;写的文本颠倒代码</title>
+    <link>https://qbeenslee.com/article/reverse-text-file-by-cpp/</link>
+    <pubDate>Mon, 23 Sep 2013 01:02:46 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/reverse-text-file-by-cpp/</guid>
+    
+        <description>&lt;blockquote&gt;
 &lt;p&gt;（过程：从名为“in.txt”中读取信息，颠倒输出到“out.txt”中。）&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/* C++ */&lt;/span&gt;
@@ -2593,8 +2593,8 @@ C语言实现:&lt;/p&gt;
 	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;测试环境皆为Win XP  professional，VC++6.0&lt;/p&gt;</description>
-        
-      </item>
     
-  </channel>
+    </item>
+
+</channel>
 </rss>
