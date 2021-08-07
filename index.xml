@@ -28,11 +28,11 @@
 板型: &lt;strong&gt;Camber&lt;/strong&gt; &lt;em&gt;(nitro team另有&lt;a href=&#34;https://nitrousa.com/men/snowboards/team-gullwing&#34;   target=&#34;_blank&#34;  &gt;gullwing板型&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 &lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2020/05/nitroteamsnowboard1920feature.jpeg&#34; width=&#34;360px&#34; height=&#34;120px&#34; class=&#34;nozoom&#34;/&gt;
 &lt;blockquote&gt;
-&lt;p&gt;更多查看官网介绍, &lt;a href=&#34;https://nitrousa.com/men/snowboards/team&#34;&gt;https://nitrousa.com/men/snowboards/team&lt;/a&gt;&lt;br /&gt;
-以及THEGOODRIDE的测评, &lt;a href=&#34;https://thegoodride.com/snowboard-reviews/nitro-team-2010-2020-snowboard-review/&#34;&gt;https://thegoodride.com/snowboard-reviews/nitro-team-2010-2020-snowboard-review/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;更多查看官网介绍, &lt;a href=&#34;https://nitrousa.com/men/snowboards/team&#34;   target=&#34;_blank&#34;  &gt;https://nitrousa.com/men/snowboards/team&lt;/a&gt;&lt;br /&gt;
+以及THEGOODRIDE的测评, &lt;a href=&#34;https://thegoodride.com/snowboard-reviews/nitro-team-2010-2020-snowboard-review/&#34;   target=&#34;_blank&#34;  &gt;https://thegoodride.com/snowboard-reviews/nitro-team-2010-2020-snowboard-review/&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;购买途径&#34;&gt;购买途径&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.melbournesnowboard.com.au&#34;&gt;www.melbournesnowboard.com.au&lt;/a&gt;&lt;/strong&gt; (墨尔本滑雪中心)&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.melbournesnowboard.com.au&#34;   target=&#34;_blank&#34;  &gt;www.melbournesnowboard.com.au&lt;/a&gt;&lt;/strong&gt; (墨尔本滑雪中心)&lt;br /&gt;
 一次顺利的海淘需要基本能力,&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;一定基础的书面英文能力&lt;/li&gt;
@@ -213,7 +213,7 @@
         <description>&lt;p&gt;正是Rxjava丰富的操作符, 简化了我们的日常开发的工作量. 本文将介绍Rxjava自定义操作符在实际开发中的应用.&lt;/p&gt;
 &lt;h2 id=&#34;操作符应用举例&#34;&gt;操作符应用举例&lt;/h2&gt;
 &lt;p&gt;下面是一个使用例子:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//加购凑单逻辑
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//加购凑单逻辑
 &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fun&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;shoppingCartGoods&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;act&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;RaiseBuyActBO&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;goods&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ActivityGoodsBO&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;?,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;limit&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Int&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Observable&lt;/span&gt;
         &lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;just&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;goods&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
         &lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;subscribeOn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Schedulers&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;computation&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;())&lt;/span&gt;
@@ -234,7 +234,7 @@
 &lt;p&gt;操作符是如何实现的, 它的调度流程是怎么样的?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;简化&lt;a href=&#34;https://github.com/ReactiveX/RxJava/blob/1.x/src/main/java/rx/internal/operators/OnSubscribeLift.java&#34;   target=&#34;_blank&#34;  &gt;&lt;code&gt;OnSubscribeLift&lt;/code&gt;&lt;/a&gt;只保留核心逻辑如下:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Observable&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;lift&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Operator&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;?&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;operator&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Observable&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;lift&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Operator&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;?&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;operator&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
     &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Observable&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;create&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;OnSubscribe&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
         &lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
         &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;call&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Subscriber&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;subscriber&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
@@ -256,7 +256,7 @@
 &lt;p&gt;本来事情很简单, 只要接受到回车键(ENTER)就发送出去, 但是却存在一些扫码枪一次扫码最后不会发送回车键. 所以可以使用扫码枪共有特征, 就是每个按键事件的间隔很短, 可用找到一个比较合适的时间阈值来鉴别是否为一次扫码.&lt;/p&gt;
 &lt;p&gt;所以, 这个操作符的功能就是&lt;strong&gt;在条件下进行缓存&lt;/strong&gt;, 我们给它起个名字叫&lt;code&gt;BufferWhile&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;bufferwhile&#34;&gt;BufferWhile&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt; * BufferWhile, buffer while some predicate allows it based on the items.
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt; * Notice: the operator not emit the last item.
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt; * Changes: auto start loop checker
@@ -761,7 +761,7 @@
 &lt;h3 id=&#34;签证&#34;&gt;签证&lt;/h3&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;strong&gt;个人旅游签&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;费用: ¥300 - 800
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;费用: ¥300 - 800
 有效期: 30天(出签后30天内到达俄罗斯境内)
 停留天数: 30天(单次, 以进入俄罗斯境内开始计算)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;材料&lt;/strong&gt;&lt;/p&gt;
@@ -911,14 +911,14 @@
 &lt;img src=&#34;https://i.imgur.com/gs3Uhyy.jpg&#34; width=&#34;500px&#34;&gt;
 &lt;img src=&#34;https://i.imgur.com/Y8gVrR0.jpg&#34; width=&#34;500px&#34;&gt;
 &lt;p&gt;价格: 2000~3000卢布&lt;br /&gt;
-官网: &lt;a href=&#34;http://www.cafe-pushkin.ru&#34;&gt;www.cafe-pushkin.ru&lt;/a&gt;&lt;br /&gt;
+官网: &lt;a href=&#34;http://www.cafe-pushkin.ru&#34;   target=&#34;_blank&#34;  &gt;www.cafe-pushkin.ru&lt;/a&gt;&lt;br /&gt;
 地址：Тверской бульвар, 26А（位于林荫环路）&lt;br /&gt;
 搭乘地铁2号线至特维尔站（Тверская），7号线至普希金站（Пушкинская），9号线至契诃夫站（Чеховская）&lt;/p&gt;
 &lt;h4 id=&#34;图兰朵餐厅ресторан-турандот&#34;&gt;图兰朵餐厅(Ресторан Турандот)&lt;/h4&gt;
 &lt;img src=&#34;https://i.imgur.com/sMMdxSM.jpg&#34; width=&#34;500px&#34;&gt;
 &lt;img src=&#34;https://i.imgur.com/jCsYZsS.jpg&#34; width=&#34;500px&#34;&gt;
 &lt;p&gt;价格: 每人3200卢布&lt;br /&gt;
-预订: &lt;a href=&#34;https://www.turandot-palace.ru/zh/e9-a2-84-e5-ae-9a/&#34;&gt;https://www.turandot-palace.ru/zh/e9-a2-84-e5-ae-9a/&lt;/a&gt;&lt;/p&gt;
+预订: &lt;a href=&#34;https://www.turandot-palace.ru/zh/e9-a2-84-e5-ae-9a/&#34;   target=&#34;_blank&#34;  &gt;https://www.turandot-palace.ru/zh/e9-a2-84-e5-ae-9a/&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;my-my餐厅&#34;&gt;MY MY餐厅&lt;/h4&gt;
 &lt;img src=&#34;https://i.imgur.com/RC5vAxt.jpg&#34; width=&#34;500px&#34;&gt;
 &lt;p&gt;高性价比&lt;br /&gt;
@@ -934,12 +934,12 @@
 营业时间: 9:00-18:00，每逢周三、周六跳蚤市场才会热闹&lt;br /&gt;
 门票: 非周三、周六免门票&lt;/p&gt;
 &lt;h4 id=&#34;莫斯科大剧院большой-театр&#34;&gt;莫斯科大剧院(Большой театр)&lt;/h4&gt;
-&lt;p&gt;网上订票: &lt;a href=&#34;http://tickets.bolshoi.ru/en/info/onlineboard/&#34;&gt;http://tickets.bolshoi.ru/en/info/onlineboard/&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;网上订票: &lt;a href=&#34;http://tickets.bolshoi.ru/en/info/onlineboard/&#34;   target=&#34;_blank&#34;  &gt;http://tickets.bolshoi.ru/en/info/onlineboard/&lt;/a&gt;&lt;br /&gt;
 价格: 5000卢布以内&lt;br /&gt;
 提前3个月开始售票&lt;br /&gt;
 信用卡支付&lt;/p&gt;
 &lt;h4 id=&#34;莫斯科科尼库林团马戏表演--莫斯科国家大马戏团&#34;&gt;莫斯科科尼库林团(马戏表演) / 莫斯科国家大马戏团&lt;/h4&gt;
-&lt;p&gt;官网: &lt;a href=&#34;http://en.circusnikulin.ru/lang/rus/file/tickets/index.html&#34;&gt;http://en.circusnikulin.ru/lang/rus/file/tickets/index.html&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;官网: &lt;a href=&#34;http://en.circusnikulin.ru/lang/rus/file/tickets/index.html&#34;   target=&#34;_blank&#34;  &gt;http://en.circusnikulin.ru/lang/rus/file/tickets/index.html&lt;/a&gt;&lt;br /&gt;
 价格: 1000 – 3500 卢布&lt;br /&gt;
 提前两个月可以订票&lt;/p&gt;
 &lt;hr /&gt;
@@ -983,7 +983,7 @@
 &lt;hr /&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.swpc.noaa.gov/products/aurora-3-day-forecast&#34;&gt;https://www.swpc.noaa.gov/products/aurora-3-day-forecast&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.swpc.noaa.gov/products/aurora-3-day-forecast&#34;   target=&#34;_blank&#34;  &gt;https://www.swpc.noaa.gov/products/aurora-3-day-forecast&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
@@ -1005,7 +1005,7 @@
 &lt;p&gt;在博客网站里插入地图容器我觉得是一件很棒的功能, 比如分享自己的旅行记录.&lt;br /&gt;
 所以, 就有了这篇文章 ~ ~&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;大体实现&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;依赖框架: leaflet.js
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;依赖框架: leaflet.js
 地图源  : openstreetmap.org
 实现方式: hugo shortcode
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;效果&#34;&gt;效果&lt;/h2&gt;
@@ -1084,7 +1084,7 @@
 &lt;h2 id=&#34;实现&#34;&gt;实现&lt;/h2&gt;
 &lt;h3 id=&#34;模板文件&#34;&gt;模板文件&lt;/h3&gt;
 &lt;p&gt;创建&lt;code&gt;shortcodes&lt;/code&gt;模板文件 &lt;code&gt;layouts/shortcodes/map.html&lt;/code&gt;, 如下:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{- if .IsNamedParams -}}
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{- if .IsNamedParams -}}
 {{- $mapPosition := (split (.Get &amp;#34;pos&amp;#34;) &amp;#34;,&amp;#34;) -}}
 {{- $mapLon := default 120 (index $mapPosition 0) -}}
 {{- $mapLat := default 30 (index $mapPosition 1) -}}
@@ -1108,7 +1108,7 @@
 {{- end -}}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;依赖&#34;&gt;依赖&lt;/h3&gt;
 &lt;p&gt;在 leafletjs下载页&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;获取相应的&lt;code&gt;js&lt;/code&gt;, &lt;code&gt;css&lt;/code&gt;, &lt;code&gt;image&lt;/code&gt;文件, 存放在主题&lt;code&gt;static&lt;/code&gt;目录下:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;static
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;static
 ├── css
 │   ├── images
 │   │   ├── layers-2x.png
@@ -1120,13 +1120,13 @@
 ├── js
      └── leaflet.js
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;中引入文件:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;text/javascript&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/js/leaflet.js&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;text/javascript&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/js/leaflet.js&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/css/leaflet.css&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://leafletjs.com/download.html&#34;&gt;https://leafletjs.com/download.html&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://leafletjs.com/download.html&#34;   target=&#34;_blank&#34;  &gt;https://leafletjs.com/download.html&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
@@ -1233,7 +1233,7 @@
 &lt;p&gt;&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2020/06/ell6mkj.png&#34; alt=&#34;jspatch safe&#34; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;所以需要在生成补丁后通过&lt;code&gt;SigningConfig&lt;/code&gt;获取本地keystore签名信息并使用&lt;a href=&#34;http://docs.oracle.com/javase/7/docs/technotes/tools/windows/jarsigner.html&#34;   target=&#34;_blank&#34;  &gt;&lt;code&gt;jarsigner&lt;/code&gt;&lt;/a&gt;对补丁进行签名. 为了方便, 使用中直接修改RocooFix的gradle插件模块的代码, 并发布到内网maven服务器上使用.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-groovy&#34; data-lang=&#34;groovy&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-groovy&#34; data-lang=&#34;groovy&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt; * Signing Jar with Android Keystore
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt; * @param patchDir patch temple data directory
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt; * @param variant build.gradle signing configuration 
@@ -1366,7 +1366,7 @@
 |N|        |____layout
 |O|        |____source
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;修改&lt;strong&gt;Hexo根目录下&lt;/strong&gt;的 &lt;code&gt;_config.yml&lt;/code&gt; (A文件)来应用本主题.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;sausage&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;sausage&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;修改&lt;strong&gt;主题目录下&lt;/strong&gt;的 &lt;code&gt;_config.yml&lt;/code&gt; (M文件)来配置本主题, 这里对几个主要的配置做个说明:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1431,7 +1431,7 @@
 &lt;/table&gt;
 &lt;p&gt;单篇文章属性配置&lt;/p&gt;
 &lt;p&gt;举个例子:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;title: 技术博客整理
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;title: 技术博客整理
 date: 2015-10-24 01:29:12
 updated: 2015-10-24 01:29:12
 original: false
@@ -1475,7 +1475,7 @@ tags:
 &lt;h3 id=&#34;生成标签页&#34;&gt;生成标签页&lt;/h3&gt;
 &lt;p&gt;需要手动生成一个page, &lt;code&gt;hexo new page &#39;tag&#39; &lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;编辑markdown文件内容如下:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;title: 标签
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;title: 标签
 original: false
 comments: false
 noDate: true
@@ -1553,7 +1553,7 @@ selectable: false
 &lt;ul&gt;
 &lt;li&gt;onPageStarted&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;* Notify the host application that a page has started loading. This method
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;* is called once for each main frame load so a page with iframes or
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;* framesets will call onPageStarted one time for the main frame. This also
@@ -1570,7 +1570,7 @@ selectable: false
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;onPageFinished&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;* Notify the host application that a page has finished loading. This method
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;* is called only for main frame. When onPageFinished() is called, the
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;* rendering picture may not be updated yet. To get the notification for the
@@ -1584,7 +1584,7 @@ selectable: false
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;shouldOverrideUrlLoading&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;* Give the host application a chance to take over the control when a new
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;* url is about to be loaded in the current WebView. If WebViewClient is not
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;* provided, by default WebView will ask Activity Manager to choose the
@@ -1606,7 +1606,7 @@ selectable: false
 &lt;/blockquote&gt;
 &lt;p&gt;首先确定不可以在&lt;code&gt;onPageFinished&lt;/code&gt;中记录URL, 然后在&lt;code&gt;onPageStarted&lt;/code&gt;中记录会出现多次记录的问题. 通过打印日志发现, 当链接出现一次重定向时方法&lt;code&gt;shouldOverrideUrlLoading&lt;/code&gt;和&lt;code&gt;onPageStarted&lt;/code&gt;都会再次被调用, 但&lt;code&gt;onPageFinished&lt;/code&gt;只会被调用一次, 所以我们可以根据这一点来记录URL栈.&lt;/p&gt;
 &lt;p&gt;以下为代码实例:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;WebClient&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;WebViewClient&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;WebClient&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;WebViewClient&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
    &lt;span class=&#34;cm&#34;&gt;/**
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;    * 记录URL的栈
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;    * 规则:
@@ -1679,7 +1679,7 @@ selectable: false
     
 &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;调用方式&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;WebView&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;web&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;getWebView&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;WebView&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;web&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;getWebView&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;WebClient&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;client&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;WebClient&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;web&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setWebViewClient&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;client&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
 
@@ -1717,7 +1717,7 @@ selectable: false
 &lt;p&gt;成员变量都变成&lt;code&gt;奇奇怪怪的逗点&lt;/code&gt;了, 说好的acbde呢, 看这代码宝宝的眼睛都要瞎掉了&amp;hellip;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/pbJC5CU.gif&#34; alt=&#34;宝宝心里苦,但宝宝不说&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;好吧, 豌豆荚的Android项目中混淆控制都修改了外部模糊字典, 然后还在众千字符中辛辛苦苦找出了一堆&lt;code&gt;奇奇怪怪的逗点&lt;/code&gt;, 哈哈哈&amp;hellip;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;指定外部模糊字典&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;指定外部模糊字典&lt;/span&gt;
 &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;obfuscationdictionary&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dictionary&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;txt&lt;/span&gt;
 
 &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;指定class模糊字典&lt;/span&gt;
@@ -1763,7 +1763,7 @@ selectable: false
     
         <description>&lt;p&gt;鄙人觉得做重复的事情就是浪费生命啊(&lt;a href=&#34;https://en.wikipedia.org/wiki/Don%27t_repeat_yourself&#34;   target=&#34;_blank&#34;  &gt;Don&amp;rsquo;t Repeat Yourself原则&lt;/a&gt;), 在Android中&lt;a href=&#34;http://developer.android.com/reference/android/widget/ListView.html&#34;   target=&#34;_blank&#34;  &gt;ListView&lt;/a&gt;的Adapter中有大量重复工作可以被取消掉.&lt;/p&gt;
 &lt;p&gt;首先看看一种已经实现的调用方式:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;adapter&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;adapter&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;
 &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;QuickAdapter&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;GoodsModel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;layout&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;adapter_goods&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
             &lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
             &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;bindView&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Context&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;AutoViewHolder&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;holder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GoodsDetailModel&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;model&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
@@ -1778,7 +1778,7 @@ selectable: false
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;说明: &lt;code&gt;GoodsModel&lt;/code&gt;是商品的数据模型, &lt;code&gt;R.layout.adapter_goods&lt;/code&gt;是相应的布局文件, 然后在&lt;code&gt;bindView()&lt;/code&gt;方法中将相应的数据和视图绑定.&lt;/p&gt;
 &lt;p&gt;以下是鄙人的实现:&lt;/p&gt;
 &lt;h3 id=&#34;quickadapter&#34;&gt;QuickAdapter&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;com.qbeenslee.base&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;com.qbeenslee.base&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
 
 &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;android.content.Context&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;android.view.LayoutInflater&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
@@ -1880,7 +1880,7 @@ selectable: false
     &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;autoviewholder&#34;&gt;AutoViewHolder&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;com.qbeenslee.base&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;com.qbeenslee.base&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
 
 &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;android.util.SparseArray&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;android.view.View&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
@@ -1992,7 +1992,7 @@ selectable: false
 &lt;/blockquote&gt;
 &lt;p&gt;那就关怀一下, 下载了他们的&lt;a href=&#34;http://www.wemart.cn/v2/static/wm_android_sdk.zip&#34;   target=&#34;_blank&#34;  &gt;Android SDK&lt;/a&gt;看看. 觉得他们处理网页和原生交互的方式设计还是比较不错的.&lt;/p&gt;
 &lt;p&gt;先看一下SDK的调用方式:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;webView&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WemartJSBridgeWebView&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;findViewById&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;webView&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;webView&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WemartJSBridgeWebView&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;findViewById&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;R&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;webView&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ua&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;webView&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getSettings&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;().&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getUserAgentString&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;webView&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getSettings&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;().&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setUserAgentString&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ua&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;; WemartApp/1.0; app=XXX&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;webView&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;initContext&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://www.wemart.cn/v2/sdk/WemartJSBridge.js&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
@@ -2013,7 +2013,7 @@ selectable: false
 &lt;/ul&gt;
 &lt;p&gt;我们就这两个方法展开分析.&lt;/p&gt;
 &lt;h4 id=&#34;onpagefinished&#34;&gt;onPageFinished&lt;/h4&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
 &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;onPageFinished&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WebView&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;view&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
     &lt;span class=&#34;kd&#34;&gt;super&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;onPageFinished&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;view&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
     &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;isCurrentlyLoading&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;||&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;startsWith&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;about:&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
@@ -2040,7 +2040,7 @@ selectable: false
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;shouldoverrideurlloading&#34;&gt;shouldOverrideUrlLoading&lt;/h4&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
 &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;boolean&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;shouldOverrideUrlLoading&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WebView&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;view&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
     &lt;span class=&#34;k&#34;&gt;try&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
         &lt;span class=&#34;n&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;URLDecoder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;decode&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;UTF-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
@@ -2090,7 +2090,7 @@ selectable: false
 &lt;p&gt;项目快速的开发过程中没有认真做框架选型调研, 在后期开发中随着框架不足的暴露, 迫使开发者去使用新的框架. 但替换旧框架的过程肯定是异常艰辛的, 所以有必要在前期就封装一套统一稳健的对外调用接口.&lt;/p&gt;
 &lt;p&gt;这有点类似于BaseActivity的作用, 其实可以理解这层封装是一个&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F&#34;   target=&#34;_blank&#34;  &gt;代理模式&lt;/a&gt;. 实现过程可以更粗暴, 直接将逻辑代码写在调用类中, 如果要替换新的新的网络框架也是粗暴重写.&lt;/p&gt;
 &lt;p&gt;对外调用方式封装可以按开发者喜好来, 比如我比较喜欢链式编程, 那我可以构建一个&lt;a href=&#34;https://en.wikipedia.org/wiki/Fluent_interface&#34;   target=&#34;_blank&#34;  &gt;Fluent interface&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;Query&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;api&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;api&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;n&#34;&gt;Query&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;api&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;api&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
      &lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;put&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
      &lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;put&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;file&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
      &lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;post&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Query&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;OnQuery&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
@@ -2109,7 +2109,7 @@ selectable: false
 &lt;p&gt;关于数据实体类, 我见到的大部分的项目中实体类中有很多get/set的方法，很没有必要. 一是浪费人力(虽然Android Studio可以自动生成代码), 二是新增性能消耗. 在开发中大部分的实体类只是为了读取一下数值, 完全没有必要添加访问控制(真的需要时可以酌情使用), 推荐直接使用public暴露出来(具体可以查看google给出的&lt;a href=&#34;http://developer.android.com/training/articles/perf-tips.html#GettersSetters&#34;   target=&#34;_blank&#34;  &gt;建议&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;这里给出一种外部调用的范例:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;解析类&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;* 登录信息解析类, 包括绑定接口(api)和数据解析(parse)
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;**/&lt;/span&gt;
 &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;LoginQuery&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Query&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;LoginModel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
@@ -2125,7 +2125,7 @@ selectable: false
 &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;数据模型&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;* 登录接口返回数据模型
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;**/&lt;/span&gt;
 &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;LoginModel&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
@@ -2144,7 +2144,7 @@ selectable: false
 &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;调用&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;* 返回的数据类型有泛型约束
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;**/&lt;/span&gt;
 &lt;span class=&#34;n&#34;&gt;LoginQuery&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;with&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
@@ -2163,7 +2163,7 @@ selectable: false
 &lt;p&gt;规范是个好事, 最好还是在做事情之前就定好了(就开发而言).&lt;/p&gt;
 &lt;p&gt;对于http接口的一些规范, 就是数据包规范. 比如: 接口API要拼接在url里; request parameter body里面就好就只存在和业务相关的请求参数, 其他基础数据可以放在header中.&lt;/p&gt;
 &lt;p&gt;还有就是千万不要在Fragment的&lt;code&gt;onCreate()&lt;/code&gt;中发起网络请求, 一般认为网络请求消耗的时间是会远远大于界面绘制的时间. 然后在网络请求返回时以为视图已经初始化完成, 但真的能保证吗?如果我在封装架构里添加一层网络状态检查, 没有网络就直接回调. 接下来会发生什么, 就看个人修养了. 另外提醒一下, 如果是在Fragment里发起的网络请求在回调回来之后最好要做生命周期判断, 否则有可能报&lt;code&gt;IllegalStateException&lt;/code&gt;异常.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Query&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;Callback&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;LoginModel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;(){&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Query&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;Callback&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;LoginModel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;(){&lt;/span&gt;
               &lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
             &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;onFailed&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Error&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
                 &lt;span class=&#34;c1&#34;&gt;//...
@@ -2201,7 +2201,7 @@ selectable: false
 &lt;h2 id=&#34;1-如何实现拖动无标题栏窗口&#34;&gt;1. 如何实现拖动无标题栏窗口&lt;/h2&gt;
 &lt;p&gt;即当form的FormBorderStyle=None时,窗口如何响应鼠标拖动事件.&lt;br /&gt;
 实现代码如下:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span class=&#34;k&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;WM_SYSCOMMAND&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0x0112&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span class=&#34;k&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;WM_SYSCOMMAND&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0x0112&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;k&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;SC_MOVE&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0xF010&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;/*移动信息*/&lt;/span&gt; 
 &lt;span class=&#34;cm&#34;&gt;/*表示鼠标在窗口标题栏时的系统信息*/&lt;/span&gt;
 &lt;span class=&#34;k&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;HTCAPTION&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0x0002&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
@@ -2227,7 +2227,7 @@ selectable: false
 &lt;h2 id=&#34;3-如何缩放图片&#34;&gt;3. 如何缩放图片&lt;/h2&gt;
 &lt;p&gt;使用何种尺寸去裁剪才能尽量的反映原图的效果.我的目标是不改变原图的宽高比例,在外框的限制下成比例缩小,若原图的宽高都小于外框则不进行裁剪.&lt;/p&gt;
 &lt;p&gt;具体代码如下:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;    &lt;span class=&#34;k&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dealPic&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;picPath&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;    &lt;span class=&#34;k&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dealPic&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;picPath&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
     	&lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pictrue&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;FromFile&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;picPath&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
     	&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tmpW&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PIC_WIDTH&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tmpH&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PIC_HEIGHT&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
     	&lt;span class=&#34;cm&#34;&gt;/*PIC_WIDTH为外框的限制宽度,PIC_HEIGHT为外框的限制高度,为全局变量*/&lt;/span&gt;
@@ -2296,7 +2296,7 @@ search
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这次匹配成功了！&lt;br /&gt;
 上面一段例子摘自:http://blog.chinaunix.net/uid-25513153-id-225240.html&lt;br /&gt;
 C语言实现:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/*************************** 
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/*************************** 
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;sunday algorithm
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;By: QbeensLee
 &lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;Date:2013/11/17
@@ -2385,7 +2385,7 @@ C语言实现:&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr /&gt;
 &lt;p&gt;鄙人纯C代码&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt;&lt;span class=&#34;cpf&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt;&lt;span class=&#34;cpf&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt;&lt;span class=&#34;cpf&#34;&gt;&amp;lt;stdlib.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#define MAX 101
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;typedef&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;node&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
@@ -2441,7 +2441,7 @@ C语言实现:&lt;/p&gt;
 &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;还有C++版的代码&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt;&lt;span class=&#34;cpf&#34;&gt;&amp;lt;stack&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt;&lt;span class=&#34;cpf&#34;&gt;&amp;lt;stack&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;kt&#34;&gt;bool&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;GetResult&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
@@ -2487,7 +2487,7 @@ C语言实现:&lt;/p&gt;
         <description>&lt;blockquote&gt;
 &lt;p&gt;（过程：从名为“in.txt”中读取信息，颠倒输出到“out.txt”中。）&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/* C++ */&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/* C++ */&lt;/span&gt;
 &lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;fstream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;ctime&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
@@ -2540,7 +2540,7 @@ C语言实现:&lt;/p&gt;
 &lt;p&gt;//为了验证这种读写方式，请看我写的一个简单的测试过程：&lt;/p&gt;
 &lt;p&gt;为了使影响检测的因素简单化，我把上面代码中一些无关部分删除。&lt;/p&gt;
 &lt;p&gt;测试代码：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;fstream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;ctime&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
@@ -2579,7 +2579,7 @@ C语言实现:&lt;/p&gt;
 &lt;img src=&#34;https://i.imgur.com/fOGzLOv.jpg&#34; alt=&#34;测试结果&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;前三个是使用ios::beg寻址的，后三个是使用ios::cur寻址的，很明显前者要快一点。所以印证了我前面所说的。&lt;/p&gt;
 &lt;p&gt;附测试数据生成代码：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;cstdlib&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
