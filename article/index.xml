@@ -6,7 +6,20 @@
     <description>Recent content in Articles on Hey sister</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Fri, 01 May 2020 21:38:26 +0800</lastBuildDate><atom:link href="https://qbeenslee.com/article/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Apr 2022 00:10:38 +0800</lastBuildDate><atom:link href="https://qbeenslee.com/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>只编写markdown文件模仿keka.io首页</title>
+      <link>https://qbeenslee.com/article/page-that-inmitate-keka/</link>
+      <pubDate>Sat, 16 Apr 2022 00:10:38 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/article/page-that-inmitate-keka/</guid>
+      <description>便捷且强大 您在使用时甚至无需打开 Keka，只需把 Keka 放到 Dock 中，
+然后将文件和文件夹拖放到 Dock 上的 Keka 图标或窗口即可快速创建压缩文件。     注重隐私安全 安全的共享文件只需通过设置密码来创建安全加密的压缩文件即可。
+为您的 7z 文件使用 AES-256 加密，为 Zip 文件使用 Zip 2.0 传统加密。       压缩结果过大&amp;hellip; 如果文件实在太大并且它们不适用于邮件发送或网络传输，请将它们分卷压缩。
+不用担心，它们依然可以解压出原来的文件 :)      Keka 可以创建以下格式的压缩文件： 7Z ZIP TAR GZIP BZIP2 XZ LZIP DMG ISO BROTLI ZSTD LRZIP AAR WIM
+并支持解压这些格式： 7Z ZIP ZIPX RAR TAR GZIP BZIP2 XZ LZIP DMG ISO BROTLI ZSTD LRZIP LZMA EXE CAB WIM MSI PAX JAR WAR IPA XIP APK APPX XPI WPRESS IS3 CPGZ CPIO CPT SPK</description>
+    </item>
+    
     <item>
       <title>从澳大利亚海淘Nitro Team 1920款滑雪板</title>
       <link>https://qbeenslee.com/article/how-to-buy-snowboard-from-australia/</link>
@@ -71,7 +84,7 @@
       <pubDate>Fri, 22 Feb 2019 20:10:40 +0800</pubDate>
       
       <guid>https://qbeenslee.com/article/hugo-support-map-shortcodes/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2020/05/hugologowide.svg&#34; alt=&#34;Hugo logo&#34; width=&#34;400px&#34; height=&#34;150px&#34; class=&#34;nozoom&#34; /&gt;&lt;/p&gt;
+      <description>&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2020/05/hugologowide.svg&#34; alt=&#34;Hugo logo&#34; width=&#34;400px&#34; height=&#34;150px&#34; class=&#34;nozoom&#34; /&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Hugo是什么? 本博客网站就是使用有Hugo渲染, 关于Hugo的介绍可以看&lt;a href=&#34;https://gohugo.io&#34;   target=&#34;_blank&#34;  &gt;这里&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Ps: 在Hugo面前, hexo的渲染速度就是一个&lt;strong&gt;渣渣&lt;/strong&gt;!&lt;/p&gt;
@@ -210,7 +223,7 @@
       
       <guid>https://qbeenslee.com/article/a-lightweight-gallery-written-by-c-sharp/</guid>
       <description>&lt;p&gt;效果图如下:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Rd8Nkz7.jpg&#34; alt=&#34;效果图&#34; width=&#34;400px&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://i.imgur.com/Rd8Nkz7.jpg&#34; alt=&#34;效果图&#34; width=&#34;400px&#34; /&gt;
 &lt;p&gt;前段日子编写了一个图片库的小程序,遇到了很多问题.这里罗列一下:&lt;/p&gt;</description>
     </item>
     
