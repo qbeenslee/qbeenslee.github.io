@@ -24,7 +24,8 @@
       
       <guid>https://qbeenslee.com/about/website/</guid>
       <description>技术方案
-渲染: Hugo(0.64.1+)(主题为自用)
+渲染: Hugo(0.64.1+)
+主题: hugo-theme-heysister (自己开发)
 处理后置: gulpfile(4.0.2+)
 托管: github
 评论插件: valine
