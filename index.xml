@@ -17,13 +17,13 @@
         <description>
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;content&#34;&gt;
-        &lt;div class=&#34;fragment-wrap fragment-scope-normal flex flex-wrap&#34; style=&#34;background:#0000;&#34;&gt;
+        &lt;div class=&#34;fragment-wrap fragment-scope-normal flex &#34; style=&#34;background:#0000;&#34;&gt;
             
-                &lt;div class=&#34;fragment-item flex-auto-wrap&#34;&gt;
+                &lt;div class=&#34;fragment-item flex-auto-fixed&#34;&gt;
                     &lt;img src=&#34;https://www.keka.io/img/demo/dock/Keka-Square-dock-2x.png&#34; width=&#34;245px&#34; height=&#34;245px&#34;/&gt;
                 &lt;/div&gt;
             
-                &lt;div class=&#34;fragment-item flex-auto-wrap&#34;&gt;
+                &lt;div class=&#34;fragment-item flex-auto-fixed&#34;&gt;
                     &lt;h2 id=&#34;便捷且强大&#34;&gt;便捷且强大&lt;/h2&gt;
 &lt;p&gt;您在使用时甚至无需打开 Keka，只需把 Keka 放到 Dock 中，&lt;br /&gt;
 然后将文件和文件夹拖放到 Dock 上的 Keka 图标或窗口即可快速创建压缩文件。
@@ -36,16 +36,19 @@
 &lt;hr /&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;content&#34;&gt;
-        &lt;div class=&#34;fragment-wrap fragment-scope-normal flex flex-wrap&#34; style=&#34;background:#0000;&#34;&gt;
+        &lt;div class=&#34;fragment-wrap fragment-scope-normal flex &#34; style=&#34;background:#0000;&#34;&gt;
             
-                &lt;div class=&#34;fragment-item flex-auto-wrap&#34;&gt;
+                &lt;div class=&#34;fragment-item flex-auto-fixed&#34;&gt;
                     &lt;h2 id=&#34;注重隐私安全&#34;&gt;注重隐私安全&lt;/h2&gt;
 &lt;p&gt;安全的共享文件只需通过设置密码来创建安全加密的压缩文件即可。&lt;br /&gt;
 为您的 7z 文件使用 AES-256 加密，为 Zip 文件使用 Zip 2.0 传统加密。
                 &lt;/div&gt;
             
-                &lt;div class=&#34;fragment-item flex-auto-wrap&#34;&gt;
-                    &lt;img src=&#34;https://www.keka.io/img/demo/tasks/Keka-password-2x.png&#34; class=&#34;nozoom&#34; width=&#34;245px&#34; height=&#34;245px&#34;/&gt;
+                &lt;div class=&#34;fragment-item flex-auto-fixed&#34;&gt;
+                    &lt;div style=&#34;text-align: right;&#34;&gt;
+&lt;img src=&#34;https://www.keka.io/img/demo/tasks/Keka-password-2x.png&#34; class=&#34;nozoom&#34; width=&#34;245px&#34; height=&#34;245px&#34;/&gt;
+&lt;/div&gt;
+
                 &lt;/div&gt;
             
         &lt;/div&gt;
@@ -55,13 +58,13 @@
 &lt;hr /&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;content&#34;&gt;
-        &lt;div class=&#34;fragment-wrap fragment-scope-normal flex flex-wrap&#34; style=&#34;background:#0000;&#34;&gt;
+        &lt;div class=&#34;fragment-wrap fragment-scope-normal flex &#34; style=&#34;background:#0000;&#34;&gt;
             
-                &lt;div class=&#34;fragment-item flex-auto-wrap&#34;&gt;
+                &lt;div class=&#34;fragment-item flex-auto-fixed&#34;&gt;
                     &lt;img src=&#34;https://www.keka.io/img/demo/split/Keka-split-2x.png&#34; class=&#34;nozoom&#34; width=&#34;245px&#34; height=&#34;245px&#34;/&gt;
                 &lt;/div&gt;
             
-                &lt;div class=&#34;fragment-item flex-auto-wrap&#34;&gt;
+                &lt;div class=&#34;fragment-item flex-auto-fixed&#34;&gt;
                     &lt;h2 id=&#34;压缩结果过大&#34;&gt;压缩结果过大&amp;hellip;&lt;/h2&gt;
 &lt;p&gt;如果文件实在太大并且它们不适用于邮件发送或网络传输，请将它们分卷压缩。&lt;br /&gt;
 不用担心，它们依然可以解压出原来的文件 :)
