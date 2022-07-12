@@ -1201,18 +1201,54 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;依赖框架: leaflet.js
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;地图源  : openstreetmap.org
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;实现方式: hugo shortcode
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;效果&#34;&gt;效果&lt;/h2&gt;
-&lt;div class=&#34;map-box&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;示例&#34;&gt;示例&lt;/h2&gt;
+&lt;div class=&#34;switcher-wrapper&#34;&gt;
+    
+    
+    
+     
+        
+        
+        
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-75795&#34; id=&#34;switcher-75795-0&#34; checked=&#34;checked&#34; /&gt;
+        &lt;label for=&#34;switcher-75795-0&#34;&gt;
+            
+                
+                效果
+            
+        &lt;/label&gt;
+        &lt;div class=&#34;switcher-content markdown-inner&#34;&gt;
+            
+                &lt;div class=&#34;map-box&#34;&gt;
         &lt;div id=&#34;map-lon120.12887-lat30.26833&#34; style=&#34;max-width:100%;height:320px;&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;script&gt;
         var mymap = L.map(&#39;map-lon120.12887-lat30.26833&#39;, { attributionControl:false ,zoomControl:  false  }).setView([&#34;30.26833&#34;,&#34;120.12887&#34;],  17 );
         L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;30.26833&#34;,&#34;120.12887&#34;]).addTo(mymap);marker.bindPopup(&#34;这里是黄龙体育馆&#34;).openPopup();&lt;/script&gt;
-&lt;p&gt;&lt;strong&gt;markdown文档插入语句&lt;/strong&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-hugo&#34; data-lang=&#34;hugo&#34;&gt;{{ &amp;lt;map h=&amp;#34;320px&amp;#34; pos=&amp;#34;120.12887,30.26833&amp;#34; zoom=&amp;#34;17&amp;#34; alt=&amp;#34;这里是黄龙体育馆&amp;#34;&amp;gt; }}
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;{{&lt;/code&gt;和&lt;code&gt;}}&lt;/code&gt;内两端的空格去掉&lt;/p&gt;
-&lt;/blockquote&gt;
+            
+        &lt;/div&gt;
+     
+        
+        
+        
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-75795&#34; id=&#34;switcher-75795-1&#34;  /&gt;
+        &lt;label for=&#34;switcher-75795-1&#34;&gt;
+            
+                
+                代码
+            
+        &lt;/label&gt;
+        &lt;div class=&#34;switcher-content markdown-inner&#34;&gt;
+            
+                
+                    &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;map&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;320px&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pos&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;120.12887,30.26833&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;zoom&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;17&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;alt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;这里是黄龙体育馆&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+                
+            
+        &lt;/div&gt;
+    
+&lt;/div&gt;
+
 &lt;h3 id=&#34;参数说明&#34;&gt;参数说明&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
