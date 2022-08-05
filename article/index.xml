@@ -114,8 +114,8 @@
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-7c0a9&#34; id=&#34;switcher-7c0a9-0&#34; checked=&#34;checked&#34; /&gt;
-        &lt;label for=&#34;switcher-7c0a9-0&#34;&gt;
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-aec1a&#34; id=&#34;switcher-aec1a-0&#34; checked=&#34;checked&#34; /&gt;
+        &lt;label for=&#34;switcher-aec1a-0&#34;&gt;
             
                 
                 代码
@@ -140,8 +140,8 @@
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-7c0a9&#34; id=&#34;switcher-7c0a9-1&#34;  /&gt;
-        &lt;label for=&#34;switcher-7c0a9-1&#34;&gt;
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-aec1a&#34; id=&#34;switcher-aec1a-1&#34;  /&gt;
+        &lt;label for=&#34;switcher-aec1a-1&#34;&gt;
             
                 
                 PREVIEW
@@ -166,8 +166,8 @@
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-f5ea3&#34; id=&#34;switcher-f5ea3-0&#34; checked=&#34;checked&#34; /&gt;
-        &lt;label for=&#34;switcher-f5ea3-0&#34;&gt;
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-f567c&#34; id=&#34;switcher-f567c-0&#34; checked=&#34;checked&#34; /&gt;
+        &lt;label for=&#34;switcher-f567c-0&#34;&gt;
             
                 
                 tip
@@ -185,8 +185,8 @@
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-f5ea3&#34; id=&#34;switcher-f5ea3-1&#34;  /&gt;
-        &lt;label for=&#34;switcher-f5ea3-1&#34;&gt;
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-f567c&#34; id=&#34;switcher-f567c-1&#34;  /&gt;
+        &lt;label for=&#34;switcher-f567c-1&#34;&gt;
             
                 
                 info
@@ -204,8 +204,8 @@
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-f5ea3&#34; id=&#34;switcher-f5ea3-2&#34;  /&gt;
-        &lt;label for=&#34;switcher-f5ea3-2&#34;&gt;
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-f567c&#34; id=&#34;switcher-f567c-2&#34;  /&gt;
+        &lt;label for=&#34;switcher-f567c-2&#34;&gt;
             
                 
                 error
@@ -223,8 +223,8 @@
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-f5ea3&#34; id=&#34;switcher-f5ea3-3&#34;  /&gt;
-        &lt;label for=&#34;switcher-f5ea3-3&#34;&gt;
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-f567c&#34; id=&#34;switcher-f567c-3&#34;  /&gt;
+        &lt;label for=&#34;switcher-f567c-3&#34;&gt;
             
                 
                 warming
@@ -280,7 +280,7 @@ It gives you the ability to share colors with everyone and link them between the
                 &lt;/div&gt;
             
                 &lt;div class=&#34;fragment-item flex-auto-wrap&#34;&gt;
-                    &lt;div style=&#34;text-align:center;margin:auto;vertical-align:middle;display:block;&#34;&gt;
+                    &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
     &lt;img height=&#34;300px&#34; width=&#34;300px&#34; src=&#34;https://sipapp.io/assets/img/home/color-picker.png&#34;/&gt;
 &lt;/div&gt;
 
@@ -300,7 +300,7 @@ It gives you the ability to share colors with everyone and link them between the
                 &lt;/div&gt;
             
                 &lt;div class=&#34;fragment-item flex-auto-fixed&#34;&gt;
-                    &lt;div style=&#34;text-align:center;margin:auto;vertical-align:middle;display:block;&#34;&gt;
+                    &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
     &lt;h1 id=&#34;黑夜-br放马过来&#34;&gt;黑夜， &lt;br/&gt;放马过来。&lt;/h1&gt;
 &lt;p&gt;哪怕是昏暗的地方，也照样是 iPhone 13 Pro 的舞台。它的广角摄像头采用更大光圈，以及 iPhone 迄今最大的感光元件，在拍摄夜间模式人像时，还有激光雷达扫描仪这个得力帮手。超广角摄像头也加大了光圈，配备更快的感光元件，并拥有全新的自动对焦功能。此外，长焦摄像头现在也支持夜间模式。
 &lt;/div&gt;
@@ -311,7 +311,7 @@ It gives you the ability to share colors with everyone and link them between the
     &lt;/div&gt;
 &lt;/section&gt;
 
-&lt;div style=&#34;text-align:center;margin:auto;vertical-align:middle;display:block;&#34;&gt;
+&lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
     &lt;h2 id=&#34;apple-trade-in-换购计划&#34;&gt;Apple Trade In 换购计划&lt;/h2&gt;
 &lt;h1 id=&#34;把你手里现有的设备br变成心里想要的&#34;&gt;把你手里现有的设备，&lt;br/&gt;变‍成‍心‍里‍想‍要的。&lt;/h1&gt;
 &lt;h6 id=&#34;你可以轻松折抵符合条件的设备在换购新设备时享受折抵优惠1如果你的设备不符合折抵条件我们会免费帮你将它回收处理不论设备型号或状况如何我们都可以物尽其用让你和地球都从中受益&#34;&gt;你可以轻松折抵符合条件的设备，在换购新设备时享受折抵优惠1。如果你的设备不符合折抵条件，我们会免费帮你将它回收处理。不论设备型号或状况如何，我们都可以物尽其用，让你和地球都从中受益。&lt;/h6&gt;
