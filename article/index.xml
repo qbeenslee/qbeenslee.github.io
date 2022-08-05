@@ -114,8 +114,8 @@
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-aec1a&#34; id=&#34;switcher-aec1a-0&#34; checked=&#34;checked&#34; /&gt;
-        &lt;label for=&#34;switcher-aec1a-0&#34;&gt;
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-c5ca5&#34; id=&#34;switcher-c5ca5-0&#34; checked=&#34;checked&#34; /&gt;
+        &lt;label for=&#34;switcher-c5ca5-0&#34;&gt;
             
                 
                 代码
@@ -140,8 +140,8 @@
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-aec1a&#34; id=&#34;switcher-aec1a-1&#34;  /&gt;
-        &lt;label for=&#34;switcher-aec1a-1&#34;&gt;
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-c5ca5&#34; id=&#34;switcher-c5ca5-1&#34;  /&gt;
+        &lt;label for=&#34;switcher-c5ca5-1&#34;&gt;
             
                 
                 PREVIEW
@@ -166,8 +166,8 @@
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-f567c&#34; id=&#34;switcher-f567c-0&#34; checked=&#34;checked&#34; /&gt;
-        &lt;label for=&#34;switcher-f567c-0&#34;&gt;
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-851ca&#34; id=&#34;switcher-851ca-0&#34; checked=&#34;checked&#34; /&gt;
+        &lt;label for=&#34;switcher-851ca-0&#34;&gt;
             
                 
                 tip
@@ -185,8 +185,8 @@
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-f567c&#34; id=&#34;switcher-f567c-1&#34;  /&gt;
-        &lt;label for=&#34;switcher-f567c-1&#34;&gt;
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-851ca&#34; id=&#34;switcher-851ca-1&#34;  /&gt;
+        &lt;label for=&#34;switcher-851ca-1&#34;&gt;
             
                 
                 info
@@ -204,8 +204,8 @@
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-f567c&#34; id=&#34;switcher-f567c-2&#34;  /&gt;
-        &lt;label for=&#34;switcher-f567c-2&#34;&gt;
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-851ca&#34; id=&#34;switcher-851ca-2&#34;  /&gt;
+        &lt;label for=&#34;switcher-851ca-2&#34;&gt;
             
                 
                 error
@@ -223,8 +223,8 @@
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-f567c&#34; id=&#34;switcher-f567c-3&#34;  /&gt;
-        &lt;label for=&#34;switcher-f567c-3&#34;&gt;
+        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-851ca&#34; id=&#34;switcher-851ca-3&#34;  /&gt;
+        &lt;label for=&#34;switcher-851ca-3&#34;&gt;
             
                 
                 warming
