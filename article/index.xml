@@ -28,7 +28,7 @@
       <guid>https://qbeenslee.com/article/test/</guid>
       <description>&lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
                     &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
@@ -69,8 +69,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-53189&#34; id=&#34;switcher-53189-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-53189-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-3757c&#34; id=&#34;switcher-3757c-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-3757c-0&#34;&gt;
                 
                     
                     代码
@@ -82,7 +82,7 @@
                         
                             &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
                     &lt;div class=&#34;fragment-cell&#34;&gt;
                         &lt;h2 id=&#34;wrap-content&#34;&gt;wrap Content&lt;/h2&gt;
 &lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat&lt;br /&gt;
@@ -103,8 +103,8 @@ Miseratus fonte Ditis conubia.
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-53189&#34; id=&#34;switcher-53189-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-53189-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-3757c&#34; id=&#34;switcher-3757c-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-3757c-1&#34;&gt;
                 
                     
                     PREVIEW
@@ -124,7 +124,7 @@ Miseratus fonte Ditis conubia.
 
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
                     &lt;div class=&#34;fragment-cell&#34;&gt;
                         &lt;h2 id=&#34;wrap-content&#34;&gt;wrap Content&lt;/h2&gt;
 &lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat&lt;br /&gt;
@@ -199,7 +199,7 @@ It gives you the ability to share colors with everyone and link them between the
 
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
                     &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
@@ -222,7 +222,7 @@ It gives you the ability to share colors with everyone and link them between the
 
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-align-left&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
                     &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
