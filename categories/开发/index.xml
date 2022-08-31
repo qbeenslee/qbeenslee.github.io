@@ -14,9 +14,9 @@
       
       <guid>https://qbeenslee.com/article/page-that-inmitate-keka/</guid>
       <description>便捷且强大 您在使用时甚至无需打开 Keka，只需把 Keka 放到 Dock 中，
-然后将文件和文件夹拖放到 Dock 上的 Keka 图标或窗口即可快速创建压缩文件。      注重隐私安全 安全的共享文件只需通过设置密码来创建安全加密的压缩文件即可。
-为您的 7z 文件使用 AES-256 加密，为 Zip 文件使用 Zip 2.0 传统加密。         压缩结果过大&amp;hellip; 如果文件实在太大并且它们不适用于邮件发送或网络传输，请将它们分卷压缩。
-不用担心，它们依然可以解压出原来的文件 :)       Keka 可以创建以下格式的压缩文件： 7Z ZIP TAR GZIP BZIP2 XZ LZIP DMG ISO BROTLI ZSTD LRZIP AAR WIM
+然后将文件和文件夹拖放到 Dock 上的 Keka 图标或窗口即可快速创建压缩文件。 注重隐私安全 安全的共享文件只需通过设置密码来创建安全加密的压缩文件即可。
+为您的 7z 文件使用 AES-256 加密，为 Zip 文件使用 Zip 2.0 传统加密。 压缩结果过大&amp;hellip; 如果文件实在太大并且它们不适用于邮件发送或网络传输，请将它们分卷压缩。
+不用担心，它们依然可以解压出原来的文件 :) Keka 可以创建以下格式的压缩文件： 7Z ZIP TAR GZIP BZIP2 XZ LZIP DMG ISO BROTLI ZSTD LRZIP AAR WIM
 并支持解压这些格式： 7Z ZIP ZIPX RAR TAR GZIP BZIP2 XZ LZIP DMG ISO BROTLI ZSTD LRZIP LZMA EXE CAB WIM MSI PAX JAR WAR IPA XIP APK APPX XPI WPRESS IS3 CPGZ CPIO CPT SPK</description>
     </item>
     

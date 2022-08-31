@@ -14,9 +14,9 @@
       
       <guid>https://qbeenslee.com/article/page-that-inmitate-keka/</guid>
       <description>便捷且强大 您在使用时甚至无需打开 Keka，只需把 Keka 放到 Dock 中，
-然后将文件和文件夹拖放到 Dock 上的 Keka 图标或窗口即可快速创建压缩文件。      注重隐私安全 安全的共享文件只需通过设置密码来创建安全加密的压缩文件即可。
-为您的 7z 文件使用 AES-256 加密，为 Zip 文件使用 Zip 2.0 传统加密。         压缩结果过大&amp;hellip; 如果文件实在太大并且它们不适用于邮件发送或网络传输，请将它们分卷压缩。
-不用担心，它们依然可以解压出原来的文件 :)       Keka 可以创建以下格式的压缩文件： 7Z ZIP TAR GZIP BZIP2 XZ LZIP DMG ISO BROTLI ZSTD LRZIP AAR WIM
+然后将文件和文件夹拖放到 Dock 上的 Keka 图标或窗口即可快速创建压缩文件。 注重隐私安全 安全的共享文件只需通过设置密码来创建安全加密的压缩文件即可。
+为您的 7z 文件使用 AES-256 加密，为 Zip 文件使用 Zip 2.0 传统加密。 压缩结果过大&amp;hellip; 如果文件实在太大并且它们不适用于邮件发送或网络传输，请将它们分卷压缩。
+不用担心，它们依然可以解压出原来的文件 :) Keka 可以创建以下格式的压缩文件： 7Z ZIP TAR GZIP BZIP2 XZ LZIP DMG ISO BROTLI ZSTD LRZIP AAR WIM
 并支持解压这些格式： 7Z ZIP ZIPX RAR TAR GZIP BZIP2 XZ LZIP DMG ISO BROTLI ZSTD LRZIP LZMA EXE CAB WIM MSI PAX JAR WAR IPA XIP APK APPX XPI WPRESS IS3 CPGZ CPIO CPT SPK</description>
     </item>
     
@@ -28,8 +28,8 @@
       <guid>https://qbeenslee.com/article/test/</guid>
       <description>&lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;
-            &lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;&lt;div class=&#34;flex &#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;img src=&#34;https://i.loli.net/2019/04/01/5ca0e8f200a4b.jpg&#34; width=&#34;250px&#34; height=&#34;250px&#34; style=&#34;object-fit:cover;&#34;&gt;
@@ -43,129 +43,89 @@
                                 &lt;img src=&#34;https://i.loli.net/2019/04/01/5ca0e8f1e64aa.jpg&#34; width=&#34;250px&#34; height=&#34;250px&#34; style=&#34;object-fit:cover;&#34;&gt;
                             &lt;/div&gt;
                         
-                    &lt;/div&gt;&lt;/div&gt;
-        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
 &lt;section class=&#34;fragment&#34;&gt;
-    &lt;div class=&#34;fragment-wrap scope-safe-full&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;
-            &lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;&lt;div class=&#34;flex &#34;&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://sipapp.io/assets/img/home/google.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://sipapp.io/assets/img/home/disney.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://sipapp.io/assets/img/home/adobe.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://sipapp.io/assets/img/home/netflix.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://sipapp.io/assets/img/home/airbnb.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://sipapp.io/assets/img/home/dropbox.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://sipapp.io/assets/img/home/ibm.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://sipapp.io/assets/img/home/twitter.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://sipapp.io/assets/img/home/dropbox.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://sipapp.io/assets/img/home/dropbox.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://sipapp.io/assets/img/home/dropbox.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://sipapp.io/assets/img/home/dropbox.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                
-                            &lt;/div&gt;
-                        
-                    &lt;/div&gt;&lt;/div&gt;
-        &lt;/div&gt;
+    &lt;div class=&#34;fragment-wrap scope-match&#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background: #9c8f8f;&#34;&gt;
+                    &lt;div class=&#34;fragment-cell&#34;&gt;
+                        &lt;h2 id=&#34;牛津高阶英汉双解词典第9版完整免费下载&#34;&gt;牛津高阶英汉双解词典（第9版）完整免费下载&lt;/h2&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
-&lt;div class=&#34;switcher-wrapper&#34;&gt;
-    
-    
-    
-     
+&lt;section class=&#34;switcher&#34;&gt;
+    &lt;div class=&#34;switcher-wrapper&#34;&gt;
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-9575c&#34; id=&#34;switcher-9575c-0&#34; checked=&#34;checked&#34; /&gt;
-        &lt;label for=&#34;switcher-9575c-0&#34;&gt;
+         
             
+            
+            
+            
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-53189&#34; id=&#34;switcher-53189-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-53189-0&#34;&gt;
                 
-                代码
-            
-        &lt;/label&gt;
-        &lt;div class=&#34;switcher-content markdown-inner&#34;&gt;
-            
+                    
+                    代码
                 
-                    &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;fragment&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://sipapp.io/assets/img/home/google.svg&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://sipapp.io/assets/img/home/disney.svg&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://sipapp.io/assets/img/home/dropbox.svg&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;fragment&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+            &lt;/label&gt;
+            &lt;div class=&#34;switcher-content markdown-inner&#34;&gt;
                 
-            
-        &lt;/div&gt;
-     
-        
-        
-        
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-9575c&#34; id=&#34;switcher-9575c-1&#34;  /&gt;
-        &lt;label for=&#34;switcher-9575c-1&#34;&gt;
-            
+                    
+                        
+                            &lt;section class=&#34;fragment&#34;&gt;
+    &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;
+                    &lt;div class=&#34;fragment-cell&#34;&gt;
+                        &lt;h2 id=&#34;wrap-content&#34;&gt;wrap Content&lt;/h2&gt;
+&lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat&lt;br /&gt;
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa&lt;br /&gt;
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui &lt;em&gt;quid&lt;/em&gt;, ignes.&lt;br /&gt;
+Miseratus fonte Ditis conubia.
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+                    
                 
-                PREVIEW
+            &lt;/div&gt;
+         
             
-        &lt;/label&gt;
-        &lt;div class=&#34;switcher-content markdown-inner&#34;&gt;
+                &lt;span class=&#34;separator&#34; aria-hidden=&#34;true&#34;&gt;/&lt;/span&gt;
             
-                &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tip&#34; data-lang=&#34;tip&#34;&gt;导演: 黄东赫
+            
+            
+            
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-53189&#34; id=&#34;switcher-53189-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-53189-1&#34;&gt;
+                
+                    
+                    PREVIEW
+                
+            &lt;/label&gt;
+            &lt;div class=&#34;switcher-content markdown-inner&#34;&gt;
+                
+                    &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-tip&#34; data-lang=&#34;tip&#34;&gt;导演: 黄东赫
 编剧: 黄东赫
 主演: 李政宰 / 朴海秀 / 许成泰 / 魏化俊 / 金周灵 / 李政宰 
 &lt;/code&gt;&lt;/pre&gt;
-            
-        &lt;/div&gt;
-    
-&lt;/div&gt;
+                
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/section&gt;
 
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;
-            &lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;&lt;div class=&#34;fragment-cell&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;
+                    &lt;div class=&#34;fragment-cell&#34;&gt;
                         &lt;h2 id=&#34;wrap-content&#34;&gt;wrap Content&lt;/h2&gt;
 &lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat&lt;br /&gt;
 stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa&lt;br /&gt;
@@ -174,15 +134,15 @@ Miseratus fonte Ditis conubia.&lt;/p&gt;
 &lt;p&gt;qui &lt;em&gt;quid&lt;/em&gt;, ignes.&lt;br /&gt;
 Miseratus fonte Ditis conubia.&lt;/p&gt;
 
-                    &lt;/div&gt;&lt;/div&gt;
-        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-full&#34;&gt;
-        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;
-            &lt;div class=&#34;fragment-style&#34; style=&#34;background: #24003c url(https://sipapp.io/assets/img/home/color-picker-bg.png) no-repeat center left 50vw;background-size: 1300px;&#34;&gt;&lt;div class=&#34;flex flex-wrap&#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background: #24003c url(https://sipapp.io/assets/img/home/color-picker-bg.png) no-repeat center left 50vw;background-size: 1300px;&#34;&gt;
+                    &lt;div class=&#34;flex flex-wrap&#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
                                 &lt;div style=&#34;margin: 0 1rem&#34;&gt;
@@ -203,15 +163,15 @@ It gives you the ability to share colors with everyone and link them between the
 
                             &lt;/div&gt;
                         
-                    &lt;/div&gt;&lt;/div&gt;
-        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-full&#34;&gt;
-        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;
-            &lt;div class=&#34;fragment-style&#34; style=&#34;background:#000;&#34;&gt;&lt;div class=&#34;flex &#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#000;&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;img width=&#34;100%&#34; class=&#34;nozoom&#34; src=&#34;https://www.apple.com.cn/v/iphone-13-pro/a/images/overview/camera/low-light/night_mode_photography_1__benvdg76737m_large_2x.jpg&#34;/&gt;
@@ -225,8 +185,8 @@ It gives you the ability to share colors with everyone and link them between the
 
                             &lt;/div&gt;
                         
-                    &lt;/div&gt;&lt;/div&gt;
-        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
@@ -237,78 +197,10 @@ It gives you the ability to share colors with everyone and link them between the
 
 &lt;/div&gt;
 
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-echarts&#34; data-lang=&#34;echarts&#34;&gt;option = {
-  &amp;#34;title&amp;#34;: {
-    &amp;#34;text&amp;#34;: &amp;#34;Summary Line Chart&amp;#34;,
-    &amp;#34;top&amp;#34;: &amp;#34;2%&amp;#34;,
-    &amp;#34;left&amp;#34;: &amp;#34;center&amp;#34;
-  },
-  &amp;#34;tooltip&amp;#34;: {
-    &amp;#34;trigger&amp;#34;: &amp;#34;axis&amp;#34;
-  },
-  &amp;#34;legend&amp;#34;: {
-    &amp;#34;data&amp;#34;: [&amp;#34;Email Marketing&amp;#34;, &amp;#34;Affiliate Advertising&amp;#34;, &amp;#34;Video Advertising&amp;#34;, &amp;#34;Direct View&amp;#34;, &amp;#34;Search Engine&amp;#34;],
-    &amp;#34;top&amp;#34;: &amp;#34;10%&amp;#34;
-  },
-  &amp;#34;grid&amp;#34;: {
-    &amp;#34;left&amp;#34;: &amp;#34;5%&amp;#34;,
-    &amp;#34;right&amp;#34;: &amp;#34;5%&amp;#34;,
-    &amp;#34;bottom&amp;#34;: &amp;#34;5%&amp;#34;,
-    &amp;#34;top&amp;#34;: &amp;#34;20%&amp;#34;,
-    &amp;#34;containLabel&amp;#34;: true
-  },
-  &amp;#34;toolbox&amp;#34;: {
-    &amp;#34;feature&amp;#34;: {
-      &amp;#34;saveAsImage&amp;#34;: {
-        &amp;#34;title&amp;#34;: &amp;#34;Save as Image&amp;#34;
-      }
-    }
-  },
-  &amp;#34;xAxis&amp;#34;: {
-    &amp;#34;type&amp;#34;: &amp;#34;category&amp;#34;,
-    &amp;#34;boundaryGap&amp;#34;: false,
-    &amp;#34;data&amp;#34;: [&amp;#34;Monday&amp;#34;, &amp;#34;Tuesday&amp;#34;, &amp;#34;Wednesday&amp;#34;, &amp;#34;Thursday&amp;#34;, &amp;#34;Friday&amp;#34;, &amp;#34;Saturday&amp;#34;, &amp;#34;Sunday&amp;#34;]
-  },
-  &amp;#34;yAxis&amp;#34;: {
-    &amp;#34;type&amp;#34;: &amp;#34;value&amp;#34;
-  },
-  &amp;#34;series&amp;#34;: [
-    {
-      &amp;#34;name&amp;#34;: &amp;#34;Email Marketing&amp;#34;,
-      &amp;#34;type&amp;#34;: &amp;#34;line&amp;#34;,
-      &amp;#34;stack&amp;#34;: &amp;#34;Total&amp;#34;,
-      &amp;#34;data&amp;#34;: [120, 132, 101, 134, 90, 230, 210]
-    },
-    {
-      &amp;#34;name&amp;#34;: &amp;#34;Affiliate Advertising&amp;#34;,
-      &amp;#34;type&amp;#34;: &amp;#34;line&amp;#34;,
-      &amp;#34;stack&amp;#34;: &amp;#34;Total&amp;#34;,
-      &amp;#34;data&amp;#34;: [220, 182, 191, 234, 290, 330, 310]
-    },
-    {
-      &amp;#34;name&amp;#34;: &amp;#34;Video Advertising&amp;#34;,
-      &amp;#34;type&amp;#34;: &amp;#34;line&amp;#34;,
-      &amp;#34;stack&amp;#34;: &amp;#34;Total&amp;#34;,
-      &amp;#34;data&amp;#34;: [150, 232, 201, 154, 190, 330, 410]
-    },
-    {
-      &amp;#34;name&amp;#34;: &amp;#34;Direct View&amp;#34;,
-      &amp;#34;type&amp;#34;: &amp;#34;line&amp;#34;,
-      &amp;#34;stack&amp;#34;: &amp;#34;Total&amp;#34;,
-      &amp;#34;data&amp;#34;: [320, 332, 301, 334, 390, 330, 320]
-    },
-    {
-      &amp;#34;name&amp;#34;: &amp;#34;Search Engine&amp;#34;,
-      &amp;#34;type&amp;#34;: &amp;#34;line&amp;#34;,
-      &amp;#34;stack&amp;#34;: &amp;#34;Total&amp;#34;,
-      &amp;#34;data&amp;#34;: [820, 932, 901, 934, 1290, 1330, 1320]
-    }
-  ]
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;section class=&#34;fragment&#34;&gt;
+&lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;
-            &lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;&lt;div class=&#34;flex &#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;div style=&#34;text-align: right;&#34;&gt;
@@ -323,15 +215,15 @@ It gives you the ability to share colors with everyone and link them between the
                                 &lt;img width=&#34;100%&#34; src=&#34;https://www.apple.com.cn/v/iphone-13-pro/a/images/overview/camera/low-light/night_mode_photography_2__ehwbgu52pjiq_large_2x.jpg&#34;/&gt;
                             &lt;/div&gt;
                         
-                    &lt;/div&gt;&lt;/div&gt;
-        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-align-left&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;
-            &lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;&lt;div class=&#34;flex &#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;h2 id=&#34;left-content&#34;&gt;Left Content&lt;/h2&gt;
@@ -355,53 +247,12 @@ protulit, sed sed aere valvis inhaesuro Pallas animam: qui &lt;em&gt;quid&lt;/em
 Miseratus fonte Ditis conubia.
                             &lt;/div&gt;
                         
-                    &lt;/div&gt;&lt;/div&gt;
-        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;graph TB
-    sq[Square shape] --&amp;gt; ci((Circle shape))
-
-    subgraph A
-        od&amp;gt;Odd shape]-- Two line&amp;lt;br/&amp;gt;edge comment --&amp;gt; ro
-        di{Diamond with &amp;lt;br/&amp;gt; line break} -.-&amp;gt; ro(Rounded&amp;lt;br&amp;gt;square&amp;lt;br&amp;gt;shape)
-        di==&amp;gt;ro2(Rounded square shape)
-    end
-
-    %% Notice that no text in shape are added here instead that is appended further down
-    e --&amp;gt; od3&amp;gt;Really long text with linebreak&amp;lt;br&amp;gt;in an Odd shape]
-
-    %% Comments after double percent signs
-    e((Inner / circle&amp;lt;br&amp;gt;and some odd &amp;lt;br&amp;gt;special characters)) --&amp;gt; f(,.?!+-*ز)
-
-    cyr[Cyrillic]--&amp;gt;cyr2((Circle shape Начало));
-
-     classDef green fill:#9f6,stroke:#333,stroke-width:2px;
-     classDef orange fill:#f96,stroke:#333,stroke-width:4px;
-     class sq,e green
-     class di orange
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;graph TB
-         subgraph one
-         a1--&amp;gt;a2
-         end
-         subgraph two
-         b1--&amp;gt;b2
-         end
-         subgraph three
-         c1--&amp;gt;c2
-         end
-         c1--&amp;gt;a2
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
-&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;map-box&#34;&gt;
+&lt;div class=&#34;map-box&#34;&gt;
         &lt;div id=&#34;map-lon120.12887-lat30.26833&#34; style=&#34;max-width:100%;height:320px;&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;script&gt;
@@ -413,11 +264,6 @@ Miseratus fonte Ditis conubia.
 &lt;p&gt;&lt;code&gt;{{&lt;/code&gt;和&lt;code&gt;}}&lt;/code&gt;内两端的空格去掉&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;文内标题&#34;&gt;文内标题&lt;/h1&gt;
-&lt;p&gt;$$&lt;br /&gt;
-\begin{align}&lt;br /&gt;
-a^2 + b^2 = c^2&lt;br /&gt;
-\end{align}&lt;br /&gt;
-$$&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-warning&#34; data-lang=&#34;warning&#34;&gt;Hugo是什么? 本博客网站就是使用有Hugo渲染, 关于Hugo的介绍可以看[这里](https://gohugo.io)
 Ps: 在Hugo面前, hexo的渲染速度就是一个**渣渣**!
 &lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
@@ -426,11 +272,15 @@ Ps: 在Hugo面前, hexo的渲染速度就是一个**渣渣**!
 &lt;p&gt;Ps: 在Hugo面前, hexo的渲染速度就是一个&lt;strong&gt;渣渣&lt;/strong&gt;!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;details&gt;
-  &lt;summary&gt;页面截图 (点击展开)&lt;/summary&gt;
-&lt;p&gt;导演: 黄东赫&lt;/p&gt;
-&lt;p&gt;编剧: 黄东赫&lt;br /&gt;
-主演: 李政宰 / 朴海秀 / 许成泰 / 魏化俊 / 金周灵 / 更多&amp;hellip;&lt;br /&gt;
-类型: 悬疑 / 惊悚&lt;br /&gt;
+&lt;summary&gt;页面截图 (点击展开)&lt;/summary&gt;
+导演: 黄东赫
+&lt;details&gt;
+&lt;summary&gt;主刀&lt;/summary&gt;
+编剧: 黄东赫
+主演: 李政宰 / 朴海秀 / 许成泰 / 魏化俊 / 金周灵 / 更多...
+&lt;details&gt;
+&lt;summary&gt;电影数据&lt;/summary&gt;
+&lt;p&gt;类型: 悬疑 / 惊悚&lt;br /&gt;
 制片国家/地区: 韩国&lt;br /&gt;
 语言: 韩语&lt;br /&gt;
 首播: 2021-09-17(韩国)&lt;br /&gt;
@@ -438,6 +288,8 @@ Ps: 在Hugo面前, hexo的渲染速度就是一个**渣渣**!
 单集片长: 50分钟&lt;br /&gt;
 又名: 第六轮 / Squid Game / Round Six&lt;br /&gt;
 IMDb: tt10919420&lt;/p&gt;
+&lt;/details&gt;
+&lt;/details&gt;
 &lt;/details&gt;
 &lt;img data-original=&#34;https://i.loli.net/2019/04/01/5ca0e8f200a4b.jpg&#34; alt=&#34;吃食&#34; height=&#34;400px&#34; /&gt;
 &lt;img data-original=&#34;https://i.loli.net/2019/04/01/5ca0e8f253876.jpg&#34;  width=&#34;600px&#34; /&gt;

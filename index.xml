@@ -17,8 +17,8 @@
         <description>
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;
-            &lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;&lt;div class=&#34;flex &#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#000;&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;img src=&#34;https://www.keka.io/img/demo/dock/Keka-Square-dock-2x.png&#34; width=&#34;245px&#34; height=&#34;245px&#34;/&gt;
@@ -30,16 +30,16 @@
 然后将文件和文件夹拖放到 Dock 上的 Keka 图标或窗口即可快速创建压缩文件。
                             &lt;/div&gt;
                         
-                    &lt;/div&gt;&lt;/div&gt;
-        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
 &lt;hr /&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;
-            &lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;&lt;div class=&#34;flex &#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#000;&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;h2 id=&#34;注重隐私安全&#34;&gt;注重隐私安全&lt;/h2&gt;
@@ -54,16 +54,16 @@
 
                             &lt;/div&gt;
                         
-                    &lt;/div&gt;&lt;/div&gt;
-        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
 &lt;hr /&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;
-            &lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;&lt;div class=&#34;flex &#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#000;&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;img src=&#34;https://www.keka.io/img/demo/split/Keka-split-2x.png&#34; class=&#34;nozoom&#34; width=&#34;245px&#34; height=&#34;245px&#34;/&gt;
@@ -75,8 +75,8 @@
 不用担心，它们依然可以解压出原来的文件 :)
                             &lt;/div&gt;
                         
-                    &lt;/div&gt;&lt;/div&gt;
-        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
@@ -89,8 +89,8 @@
 &lt;/center&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-full&#34;&gt;
-        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;
-            &lt;div class=&#34;fragment-style&#34; style=&#34;background-color:#333;background-image: url(https://www.keka.io/css/img/overlay.png),url(https://www.keka.io/css/img/circles.svg);background-position: top left,center center;background-size: auto,cover;&#34;&gt;&lt;div class=&#34;fragment-cell&#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background-color:#333;background-image: url(https://www.keka.io/css/img/overlay.png),url(https://www.keka.io/css/img/circles.svg);background-position: top left,center center;background-size: auto,cover;&#34;&gt;
+                    &lt;div class=&#34;fragment-cell&#34;&gt;
                         &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
     &lt;br/&gt;
 &lt;h2 id=&#34;keka-测试版&#34;&gt;Keka 测试版&lt;/h2&gt;
@@ -101,16 +101,16 @@
 &lt;/p&gt;
 &lt;/div&gt;
 
-                    &lt;/div&gt;&lt;/div&gt;
-        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
 &lt;h2 id=&#34;center为上千家企业级客户提供服务center&#34;&gt;&lt;center&gt;为上千家企业级客户提供服务&lt;/center&gt;&lt;/h2&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;
-            &lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;&lt;div class=&#34;flex &#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#000;&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;img src=&#34;https://sipapp.io/assets/img/home/google.svg&#34;&gt;
@@ -148,8 +148,8 @@
                                 &lt;img src=&#34;https://sipapp.io/assets/img/home/dropbox.svg&#34;&gt;
                             &lt;/div&gt;
                         
-                    &lt;/div&gt;&lt;/div&gt;
-        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
@@ -171,8 +171,8 @@
 &lt;p&gt;作为一个很凑合的佛系单板选手, 我以一块DC的单板滑雪板入门一直使用了三个雪季直到1920雪季&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;结束. 那个陪我走过3个雪季伤痕累累的老伙计, 已经不再适合陪我一起踏上新的征程了.&lt;/p&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;
-            &lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;&lt;div class=&#34;flex &#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#0000;&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;h2 id=&#34;购买&#34;&gt;购买&lt;/h2&gt;
@@ -184,8 +184,8 @@
 
                             &lt;/div&gt;
                         
-                    &lt;/div&gt;&lt;/div&gt;
-        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
@@ -222,7 +222,7 @@
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;1920雪季: 降雪季节是从今年的冬季开始到明年的春季结束, 比如2019年-2020年雪季就简写成1920雪季&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -377,7 +377,7 @@
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;原句: &lt;a href=&#34;https://jikipedia.com/definition/804220099&#34;  target=&#34;_blank&#34;&gt;钱不钱的无所谓，我就是想跟你交个朋友&lt;/a&gt;
 &amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1201,7 +1201,7 @@
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.swpc.noaa.gov/products/aurora-3-day-forecast&#34;  target=&#34;_blank&#34;&gt;https://www.swpc.noaa.gov/products/aurora-3-day-forecast&lt;/a&gt;
 &amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -1230,52 +1230,63 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;地图源  : openstreetmap.org
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;实现方式: hugo shortcode
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;示例&#34;&gt;示例&lt;/h2&gt;
-&lt;div class=&#34;switcher-wrapper&#34;&gt;
-    
-    
-    
-     
+&lt;section class=&#34;switcher&#34;&gt;
+    &lt;div class=&#34;switcher-wrapper&#34;&gt;
         
         
         
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-53ae8&#34; id=&#34;switcher-53ae8-0&#34; checked=&#34;checked&#34; /&gt;
-        &lt;label for=&#34;switcher-53ae8-0&#34;&gt;
+         
             
+            
+            
+            
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-a76c8&#34; id=&#34;switcher-a76c8-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-a76c8-0&#34;&gt;
                 
-                效果
-            
-        &lt;/label&gt;
-        &lt;div class=&#34;switcher-content markdown-inner&#34;&gt;
-            
-                &lt;div class=&#34;map-box&#34;&gt;
+                    
+                    效果
+                
+            &lt;/label&gt;
+            &lt;div class=&#34;switcher-content markdown-inner&#34;&gt;
+                
+                    &lt;div class=&#34;map-box&#34;&gt;
         &lt;div id=&#34;map-lon120.12887-lat30.26833&#34; style=&#34;max-width:100%;height:320px;&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;script&gt;
         var mymap = L.map(&#39;map-lon120.12887-lat30.26833&#39;, { attributionControl:false ,zoomControl:  false  }).setView([&#34;30.26833&#34;,&#34;120.12887&#34;],  17 );
         L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;30.26833&#34;,&#34;120.12887&#34;]).addTo(mymap);marker.bindPopup(&#34;这里是黄龙体育馆&#34;).openPopup();&lt;/script&gt;
-            
-        &lt;/div&gt;
-     
-        
-        
-        
-        &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-53ae8&#34; id=&#34;switcher-53ae8-1&#34;  /&gt;
-        &lt;label for=&#34;switcher-53ae8-1&#34;&gt;
-            
                 
-                代码
+            &lt;/div&gt;
+         
             
-        &lt;/label&gt;
-        &lt;div class=&#34;switcher-content markdown-inner&#34;&gt;
+                &lt;span class=&#34;separator&#34; aria-hidden=&#34;true&#34;&gt;/&lt;/span&gt;
             
+            
+            
+            
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-a76c8&#34; id=&#34;switcher-a76c8-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-a76c8-1&#34;&gt;
                 
-                    &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;map&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;h&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;320px&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pos&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;120.12887,30.26833&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;zoom&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;17&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;alt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;这里是黄龙体育馆&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+                    
+                    代码
+                
+            &lt;/label&gt;
+            &lt;div class=&#34;switcher-content markdown-inner&#34;&gt;
+                
+                    
+                        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;div class=&#34;map-box&#34;&gt;
+        &lt;div id=&#34;map-lon120.12887-lat30.26833&#34; style=&#34;max-width:100%;height:320px;&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+        var mymap = L.map(&#39;map-lon120.12887-lat30.26833&#39;, { attributionControl:false ,zoomControl:  false  }).setView([&#34;30.26833&#34;,&#34;120.12887&#34;],  17 );
+        L.tileLayer(&#39;http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {}).addTo(mymap);var marker = L.marker([&#34;30.26833&#34;,&#34;120.12887&#34;]).addTo(mymap);marker.bindPopup(&#34;这里是黄龙体育馆&#34;).openPopup();&lt;/script&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+                    
                 
-            
-        &lt;/div&gt;
-    
-&lt;/div&gt;
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/section&gt;
 
 &lt;h3 id=&#34;参数说明&#34;&gt;参数说明&lt;/h3&gt;
 &lt;table&gt;
@@ -1382,7 +1393,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://leafletjs.com/download.html&#34;  target=&#34;_blank&#34;&gt;https://leafletjs.com/download.html&lt;/a&gt;
 &amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
