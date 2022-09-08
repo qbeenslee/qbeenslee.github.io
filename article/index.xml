@@ -15,7 +15,7 @@
       <guid>https://qbeenslee.com/article/page-that-inmitate-keka/</guid>
       <description>便捷且强大 您在使用时甚至无需打开 Keka，只需把 Keka 放到 Dock 中，
 然后将文件和文件夹拖放到 Dock 上的 Keka 图标或窗口即可快速创建压缩文件。 注重隐私安全 安全的共享文件只需通过设置密码来创建安全加密的压缩文件即可。
-为您的 7z 文件使用 AES-256 加密，为 Zip 文件使用 Zip 2.0 传统加密。 压缩结果过大&amp;hellip; 如果文件实在太大并且它们不适用于邮件发送或网络传输，请将它们分卷压缩。
+为您的 7z 文件使用 AES-256 加密，为 Zip 文件使用 Zip 2.0 传统加密。 压缩结果过大 如果文件实在太大并且它们不适用于邮件发送或网络传输，请将它们分卷压缩。
 不用担心，它们依然可以解压出原来的文件 :) Keka 可以创建以下格式的压缩文件： 7Z ZIP TAR GZIP BZIP2 XZ LZIP DMG ISO BROTLI ZSTD LRZIP AAR WIM
 并支持解压这些格式： 7Z ZIP ZIPX RAR TAR GZIP BZIP2 XZ LZIP DMG ISO BROTLI ZSTD LRZIP LZMA EXE CAB WIM MSI PAX JAR WAR IPA XIP APK APPX XPI WPRESS IS3 CPGZ CPIO CPT SPK</description>
     </item>
@@ -69,8 +69,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-196e7&#34; id=&#34;switcher-196e7-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-196e7-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-788c6&#34; id=&#34;switcher-788c6-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-788c6-0&#34;&gt;
                 
                     
                     代码
@@ -103,8 +103,8 @@ Miseratus fonte Ditis conubia.
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-196e7&#34; id=&#34;switcher-196e7-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-196e7-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-788c6&#34; id=&#34;switcher-788c6-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-788c6-1&#34;&gt;
                 
                     
                     PREVIEW
@@ -157,9 +157,11 @@ It gives you the ability to share colors with everyone and link them between the
                             &lt;/div&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
-                                &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
-    &lt;img height=&#34;300px&#34; width=&#34;300px&#34; src=&#34;https://sipapp.io/assets/img/home/color-picker.png&#34;/&gt;
-&lt;/div&gt;
+                                &lt;section class=&#34;center&#34;&gt;
+    &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
+        &lt;img height=&#34;300px&#34; width=&#34;300px&#34; src=&#34;https://sipapp.io/assets/img/home/color-picker.png&#34;/&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
 
                             &lt;/div&gt;
                         
@@ -170,7 +172,7 @@ It gives you the ability to share colors with everyone and link them between the
 
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-full&#34;&gt;
-        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#000;&#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:#000; height:100vh;&#34;&gt;
                     &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
@@ -178,10 +180,12 @@ It gives you the ability to share colors with everyone and link them between the
                             &lt;/div&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
-    &lt;h1 id=&#34;黑夜-br放马过来&#34;&gt;黑夜， &lt;br/&gt;放马过来。&lt;/h1&gt;
+                                &lt;section class=&#34;center&#34;&gt;
+    &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
+        &lt;h1 id=&#34;黑夜-br放马过来&#34;&gt;黑夜， &lt;br/&gt;放马过来。&lt;/h1&gt;
 &lt;p&gt;哪怕是昏暗的地方，也照样是 iPhone 13 Pro 的舞台。它的广角摄像头采用更大光圈，以及 iPhone 迄今最大的感光元件，在拍摄夜间模式人像时，还有激光雷达扫描仪这个得力帮手。超广角摄像头也加大了光圈，配备更快的感光元件，并拥有全新的自动对焦功能。此外，长焦摄像头现在也支持夜间模式。
-&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
 
                             &lt;/div&gt;
                         
@@ -190,12 +194,14 @@ It gives you the ability to share colors with everyone and link them between the
     &lt;/div&gt;
 &lt;/section&gt;
 
-&lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
-    &lt;h2 id=&#34;apple-trade-in-换购计划&#34;&gt;Apple Trade In 换购计划&lt;/h2&gt;
+&lt;section class=&#34;center&#34;&gt;
+    &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
+        &lt;h2 id=&#34;apple-trade-in-换购计划&#34;&gt;Apple Trade In 换购计划&lt;/h2&gt;
 &lt;h1 id=&#34;把你手里现有的设备br变成心里想要的&#34;&gt;把你手里现有的设备，&lt;br/&gt;变‍成‍心‍里‍想‍要的。&lt;/h1&gt;
 &lt;h6 id=&#34;你可以轻松折抵符合条件的设备在换购新设备时享受折抵优惠1如果你的设备不符合折抵条件我们会免费帮你将它回收处理不论设备型号或状况如何我们都可以物尽其用让你和地球都从中受益&#34;&gt;你可以轻松折抵符合条件的设备，在换购新设备时享受折抵优惠1。如果你的设备不符合折抵条件，我们会免费帮你将它回收处理。不论设备型号或状况如何，我们都可以物尽其用，让你和地球都从中受益。&lt;/h6&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
 
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;

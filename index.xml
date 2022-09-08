@@ -25,7 +25,7 @@
                             &lt;/div&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;h2 id=&#34;便捷且强大&#34;&gt;便捷且强大&lt;/h2&gt;
+                                &lt;h3 id=&#34;便捷且强大&#34;&gt;便捷且强大&lt;/h3&gt;
 &lt;p&gt;您在使用时甚至无需打开 Keka，只需把 Keka 放到 Dock 中，&lt;br /&gt;
 然后将文件和文件夹拖放到 Dock 上的 Keka 图标或窗口即可快速创建压缩文件。
                             &lt;/div&gt;
@@ -42,7 +42,7 @@
                     &lt;div class=&#34;flex &#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;h2 id=&#34;注重隐私安全&#34;&gt;注重隐私安全&lt;/h2&gt;
+                                &lt;h3 id=&#34;注重隐私安全&#34;&gt;注重隐私安全&lt;/h3&gt;
 &lt;p&gt;安全的共享文件只需通过设置密码来创建安全加密的压缩文件即可。&lt;br /&gt;
 为您的 7z 文件使用 AES-256 加密，为 Zip 文件使用 Zip 2.0 传统加密。
                             &lt;/div&gt;
@@ -70,7 +70,7 @@
                             &lt;/div&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;h2 id=&#34;压缩结果过大&#34;&gt;压缩结果过大&amp;hellip;&lt;/h2&gt;
+                                &lt;h3 id=&#34;压缩结果过大&#34;&gt;压缩结果过大&lt;/h3&gt;
 &lt;p&gt;如果文件实在太大并且它们不适用于邮件发送或网络传输，请将它们分卷压缩。&lt;br /&gt;
 不用担心，它们依然可以解压出原来的文件 :)
                             &lt;/div&gt;
@@ -89,25 +89,26 @@
 &lt;/center&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-full&#34;&gt;
-        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background-color:#333;background-image: url(https://www.keka.io/css/img/overlay.png),url(https://www.keka.io/css/img/circles.svg);background-position: top left,center center;background-size: auto,cover;&#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background-color:#333;background-image: url(https://www.keka.io/css/img/overlay.png),url(https://www.keka.io/css/img/circles.svg);background-position: top left,center center;background-size: auto,cover;padding:1rem;&#34;&gt;
                     &lt;div class=&#34;fragment-cell&#34;&gt;
-                        &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
-    &lt;br/&gt;
+                        &lt;center&gt;
 &lt;h2 id=&#34;keka-测试版&#34;&gt;Keka 测试版&lt;/h2&gt;
-&lt;h4 id=&#34;您可以在正式版发布之前测试-keka-的最新功能br如果您发现了错误或要提交某些内容请转到--缺陷&#34;&gt;您可以在正式版发布之前测试 Keka 的最新功能。&lt;br/&gt;如果您发现了错误或要提交某些内容，请转到  缺陷.&lt;/h4&gt;
+&lt;br/&gt;
+&lt;h6 id=&#34;您可以在正式版发布之前测试-keka-的最新功能br如果您发现了错误或要提交某些内容请转到--缺陷br&#34;&gt;您可以在正式版发布之前测试 Keka 的最新功能。&lt;br/&gt;如果您发现了错误或要提交某些内容，请转到  缺陷.&lt;br/&gt;&lt;/h6&gt;
 &lt;hr /&gt;
 &lt;p&gt;目前没有测试版。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.keka.io/zh-cn/#header&#34; title=&#34;button&#34;  class=&#34;button-link&#34;&gt;获取最新版本&lt;/a&gt;
 &lt;/p&gt;
-&lt;/div&gt;
+&lt;/center&gt;
 
                     &lt;/div&gt;
                 &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
-&lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
-    &lt;section class=&#34;fragment&#34;&gt;
+&lt;section class=&#34;center&#34;&gt;
+    &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
+        &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
         &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;border-radius: .5rem;padding: 2.5rem;background-image: url(https://raw.githubusercontent.com/qbeenslee/CDN/master/screenshot/2022/09-01/1044176ba-seed_textured_background_green.jpg);margin: 5rem 0;background-attachment: fixed;background-size: cover;&#34;&gt;
                     &lt;div class=&#34;fragment-cell&#34;&gt;
@@ -118,9 +119,16 @@
     &lt;/div&gt;
 &lt;/section&gt;
 
-&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
 
-&lt;h2 id=&#34;center为上千家企业级客户提供服务center&#34;&gt;&lt;center&gt;为上千家企业级客户提供服务&lt;/center&gt;&lt;/h2&gt;
+&lt;section class=&#34;center&#34;&gt;
+    &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
+        &lt;h2 id=&#34;为上千家企业级客户提供服务&#34;&gt;为上千家企业级客户提供服务&lt;/h2&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
         &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
@@ -1254,8 +1262,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-71d28&#34; id=&#34;switcher-71d28-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-71d28-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-e72c7&#34; id=&#34;switcher-e72c7-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-e72c7-0&#34;&gt;
                 
                     
                     效果
@@ -1278,8 +1286,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-71d28&#34; id=&#34;switcher-71d28-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-71d28-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-e72c7&#34; id=&#34;switcher-e72c7-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-e72c7-1&#34;&gt;
                 
                     
                     代码
