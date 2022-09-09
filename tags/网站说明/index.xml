@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网站说明 on Hey sister</title>
+    <link>https://qbeenslee.com/tags/%E7%BD%91%E7%AB%99%E8%AF%B4%E6%98%8E/</link>
+    <description>Recent content in 网站说明 on Hey sister</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Sat, 22 May 2021 03:24:19 +0800</lastBuildDate><atom:link href="https://qbeenslee.com/tags/%E7%BD%91%E7%AB%99%E8%AF%B4%E6%98%8E/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>隐私条款</title>
+      <link>https://qbeenslee.com/privacy/</link>
+      <pubDate>Sat, 22 May 2021 03:24:19 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/privacy/</guid>
+      <description>&lt;p&gt;本网站(&lt;a href=&#34;https://qbeenslee.com&#34;  target=&#34;_blank&#34;&gt;qbeenslee.com&lt;/a&gt;
+)尊重并保护所有使用服务用户的个人隐私权。为了给您提供更准确、更有个性化的服务，本网站会按照本隐私权政策的规定使用和披露您的个人信息。但本网站将以高度的勤勉、审慎义务对待这些信息。除本隐私权政策另有规定外，在未征得您事先许可的情况下，本网站不会将这些信息对外披露或向第三方提供。本网站会不时更新本隐私权政策。您在同意本网站服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于本网站服务使用协议不可分割的一部分。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>版权声明</title>
+      <link>https://qbeenslee.com/copyright/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qbeenslee.com/copyright/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;本站(&lt;a href=&#34;https://qbeenslee.com&#34;  target=&#34;_blank&#34;&gt;qbeenslee.com&lt;/a&gt;
+)，全部内容禁止商业使用。除非注明，本站文章均为原创，转载请以链接形式标明本文地址。&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于腊肠(qbeenslee)</title>
+      <link>https://qbeenslee.com/about/me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qbeenslee.com/about/me/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;长得丑, 人又懒, 胆子小, 还猥琐. 腊肠是也 ~&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>技术说明</title>
+      <link>https://qbeenslee.com/about/website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qbeenslee.com/about/website/</guid>
+      <description>技术方案
+渲染: Hugo (0.64.1+)
+主题: hugo-theme-fragment (自用)
+处理后置: gulpfile (4.0.2+)
+托管: github 评论插件: valine CDN: Tencent COS </description>
+    </item>
+    
+    <item>
+      <title>友情链接</title>
+      <link>https://qbeenslee.com/friends/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qbeenslee.com/friends/</guid>
+      <description>Anyi Chen
+宇宙超级无敌的anyi
+梁老师
+職人になる男だ
+小宫泽洋
+Talk is cheap,show me the code.
+†少女癌†
+大声 BB，小声填坑。
+贤民
+贤民的比特记忆</description>
+    </item>
+    
+  </channel>
+</rss>
