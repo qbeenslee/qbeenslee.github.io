@@ -14,11 +14,12 @@
     <author>qbeenslee</author>
     <guid>https://qbeenslee.com/article/best-iphone-apps-2022/</guid>
     
-        <description>&lt;p&gt;推荐几个在用的iOS端工具类应用, 都是精品且具有高度的可扩展性, 这也增加了可玩性.&lt;/p&gt;
+        <description>&lt;p&gt;推荐几个在用的iOS端工具类应用, 都是精品且具有高度的可扩展性, 这也增加了可玩性.&lt;br /&gt;
+评价很主观, 显示价格为购买完成版本的价格&lt;/p&gt;
 &lt;h4 id=&#34;--9800--欧陆词典-pro&#34;&gt;★★★☆☆ / ¥98.00 / 欧陆词典 Pro&lt;/h4&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;black&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
                     &lt;div class=&#34;flex flex-wrap&#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
@@ -36,13 +37,25 @@
     &lt;/div&gt;
 &lt;/section&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;免费版: YES&lt;br /&gt;
+Pro版: 自定义语音库, &lt;del&gt;AD&lt;/del&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;离线扩展词库下载&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mdx.mdict.org&#34;  target=&#34;_blank&#34;&gt;https://mdx.mdict.org&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://downloads.freemdict.com&#34;  target=&#34;_blank&#34;&gt;https://downloads.freemdict.com&lt;/a&gt;
+ &lt;small&gt;(推荐)&lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://apps.apple.com/cn/app/apple-store/id393670998&#34;  target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/appstore-download-5f6.svg&#34; width=&#34;135px&#34; height=&#34;40px&#34;&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;hr /&gt;
 &lt;h4 id=&#34;--1200--stay-supsmall2smallsup&#34;&gt;★★★★☆ / ¥12.00 / Stay &lt;sup&gt;&lt;small&gt;2&lt;/small&gt;&lt;/sup&gt;&lt;/h4&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;black&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
                     &lt;div class=&#34;flex flex-wrap&#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
@@ -60,13 +73,25 @@
     &lt;/div&gt;
 &lt;/section&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;免费版: YES&lt;br /&gt;
+Pro版: 网页暗黑模式/iCloud同步&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;脚本下载&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://openuserjs.org&#34;  target=&#34;_blank&#34;&gt;https://openuserjs.org&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://greasyfork.org/zh-CN&#34;  target=&#34;_blank&#34;&gt;https://greasyfork.org/zh-CN&lt;/a&gt;
+ &lt;small&gt;(推荐)&lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://apps.apple.com/cn/app/apple-store/id1591620171&#34;  target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/appstore-download-5f6.svg&#34; width=&#34;135px&#34; height=&#34;40px&#34;&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;hr /&gt;
 &lt;h4 id=&#34;--1200--adguard&#34;&gt;★★★★☆ / ¥12.00 / AdGuard&lt;/h4&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;black&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
                     &lt;div class=&#34;flex flex-wrap&#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
@@ -84,13 +109,29 @@
     &lt;/div&gt;
 &lt;/section&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;免费版: YES&lt;br /&gt;
+Pro版: 自定义过滤器&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;iOS端需要非国区app store帐号下载&lt;/strong&gt;&lt;br /&gt;
+推荐在淘宝购买 &lt;em&gt;&lt;strong&gt;个人永久版&lt;/strong&gt;&lt;/em&gt; 的授权码(3台设备), 绑定在官网注册的帐号上用于激活.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;p&gt;应用自带丰富的过滤规则, 下面是推荐的规则&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://anti-ad.net/adguard.txt&#34;  target=&#34;_blank&#34;&gt;https://anti-ad.net/adguard.txt&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt&#34;  target=&#34;_blank&#34;&gt;https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://apps.apple.com/app/apple-store/id1047223162&#34;  target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/appstore-download-5f6.svg&#34; width=&#34;135px&#34; height=&#34;40px&#34;&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;hr /&gt;
 &lt;h4 id=&#34;--499--loon&#34;&gt;★★★★☆ / $4.99 / Loon&lt;/h4&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;black&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
                     &lt;div class=&#34;flex flex-wrap&#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
@@ -108,13 +149,26 @@
     &lt;/div&gt;
 &lt;/section&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;免费版: NO&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;telegram社群&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://t.me/LoonNews&#34;  target=&#34;_blank&#34;&gt;https://t.me/LoonNews&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://t.me/LoonTutorial&#34;  target=&#34;_blank&#34;&gt;https://t.me/LoonTutorial&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://t.me/Loon0x00&#34;  target=&#34;_blank&#34;&gt;https://t.me/Loon0x00&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://apps.apple.com/us/app/loon/id1373567447&#34;  target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/appstore-download-5f6.svg&#34; width=&#34;135px&#34; height=&#34;40px&#34;&gt;&lt;/a&gt;
 &lt;/p&gt;
 &lt;hr /&gt;
 &lt;h4 id=&#34;--free--scriptable&#34;&gt;★★★☆☆ / Free / Scriptable&lt;/h4&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
-        &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;black&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
                     &lt;div class=&#34;flex flex-wrap&#34;&gt;
                         
                             &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
@@ -132,8 +186,20 @@
     &lt;/div&gt;
 &lt;/section&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;免费版: YES&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;telegram社群&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://t.me/Scriptable&#34;  target=&#34;_blank&#34;&gt;https://t.me/Scriptable&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://apps.apple.com/us/app/scriptable/id1405459188&#34;  target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/appstore-download-5f6.svg&#34; width=&#34;135px&#34; height=&#34;40px&#34;&gt;&lt;/a&gt;
-&lt;/p&gt;</description>
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;继续更新中&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     
     </item>
 <item>
@@ -1395,8 +1461,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-b8706&#34; id=&#34;switcher-b8706-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-b8706-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-d81b2&#34; id=&#34;switcher-d81b2-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-d81b2-0&#34;&gt;
                 
                     
                     效果
@@ -1421,8 +1487,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-b8706&#34; id=&#34;switcher-b8706-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-b8706-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-d81b2&#34; id=&#34;switcher-d81b2-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-d81b2-1&#34;&gt;
                 
                     
                     代码
