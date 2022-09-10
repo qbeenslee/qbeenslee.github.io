@@ -21,13 +21,13 @@
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
         &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;black&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
-                    &lt;div class=&#34;flex flex-wrap&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;img class=&#34;nozoom&#34; src=&#34;https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/app-oulu-dict-434x0w-2ef4.png&#34; width=&#34;80px&#34; height=&#34;80px&#34;&gt;
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 支持多种扩展词库的离线词典工具&lt;br /&gt;
 &lt;strong&gt;大小&lt;/strong&gt;: 241.5 MB&lt;br /&gt;
 &lt;strong&gt;平台&lt;/strong&gt;: iPhone/iPad/Mac
@@ -59,13 +59,13 @@ Pro版: 自定义语音库, &lt;del&gt;AD&lt;/del&gt;&lt;/p&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
         &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;black&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
-                    &lt;div class=&#34;flex flex-wrap&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;img class=&#34;nozoom&#34; src=&#34;https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/app-stay2-434x0w-2-a81f.png&#34; width=&#34;80px&#34; height=&#34;80px&#34;&gt;
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 Safari浏览器扩展, 用户脚本扩展管理&lt;br /&gt;
 &lt;strong&gt;大小&lt;/strong&gt;: 5.7 MB&lt;br /&gt;
 &lt;strong&gt;平台&lt;/strong&gt;: iPhone/iPad/Mac
@@ -97,13 +97,13 @@ Pro版: 网页暗黑模式/iCloud同步&lt;/p&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
         &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;black&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
-                    &lt;div class=&#34;flex flex-wrap&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;img class=&#34;nozoom&#34; src=&#34;https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/app-AdGuard-434x0w-0ab3.png&#34; width=&#34;80px&#34; height=&#34;80px&#34;&gt;
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 Safari浏览器扩展, 摆脱恼人广告&lt;br /&gt;
 &lt;strong&gt;大小&lt;/strong&gt;: 110.4 MB&lt;br /&gt;
 &lt;strong&gt;平台&lt;/strong&gt;: 全平台
@@ -129,6 +129,7 @@ Pro版: 自定义过滤器&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt&#34;  target=&#34;_blank&#34;&gt;https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;AdGuard还附带用户脚本扩展管理的功能, 在相应浏览器上启用插件后可以共享脚本, 做到一次安装多处使用&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;折腾技能树: html/css/AdGuard规则&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -139,13 +140,13 @@ Pro版: 自定义过滤器&lt;/p&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
         &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;black&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
-                    &lt;div class=&#34;flex flex-wrap&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;img class=&#34;nozoom&#34; src=&#34;https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/app-Loon-434x0w-b097.png&#34; width=&#34;80px&#34; height=&#34;80px&#34;&gt;
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 科学冲浪, 高性价比的网络调试工具&lt;br /&gt;
 &lt;strong&gt;大小&lt;/strong&gt;: 33.2 MB&lt;br /&gt;
 &lt;strong&gt;平台&lt;/strong&gt;: iPhone/iPad/Mac
@@ -178,13 +179,13 @@ Pro版: 自定义过滤器&lt;/p&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
         &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;black&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
-                    &lt;div class=&#34;flex flex-wrap&#34;&gt;
+                    &lt;div class=&#34;flex &#34;&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 &lt;img class=&#34;nozoom&#34; src=&#34;https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/app-Scriptable-434x0w-4f84.png&#34; width=&#34;80px&#34; height=&#34;80px&#34;&gt;
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
                                 支持运行JavaScript的widgets&lt;br /&gt;
 &lt;strong&gt;大小&lt;/strong&gt;: 20.6 MB&lt;br /&gt;
 &lt;strong&gt;平台&lt;/strong&gt;: iPhone/iPad
@@ -296,8 +297,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
 &lt;/center&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-full&#34;&gt;
-        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background-color:#333;background-image: url(https://www.keka.io/css/img/overlay.png),url(https://www.keka.io/css/img/circles.svg);background-position: top left,center center;background-size: auto,cover;padding:1rem;&#34;&gt;
-                    &lt;div class=&#34;fragment-cell&#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;flex fragment-style&#34; style=&#34;background-color:#333;background-image: url(https://www.keka.io/css/img/overlay.png),url(https://www.keka.io/css/img/circles.svg);background-position: top left,center center;background-size: auto,cover;padding:1rem;&#34;&gt;
+                    &lt;div class=&#34;fragment-cell&#34;  style=&#34;flex:%!s(&amp;lt;nil&amp;gt;);&#34;&gt;
                         &lt;center&gt;
 &lt;h2 id=&#34;keka-测试版&#34;&gt;Keka 测试版&lt;/h2&gt;
 &lt;br/&gt;
@@ -317,8 +318,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
     &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
         &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
-        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;border-radius: .5rem;padding: 2.5rem;background-image: url(https://raw.githubusercontent.com/qbeenslee/CDN/master/screenshot/2022/09-01/1044176ba-seed_textured_background_green.jpg);margin: 5rem 0;background-attachment: fixed;background-size: cover;&#34;&gt;
-                    &lt;div class=&#34;fragment-cell&#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;flex fragment-style&#34; style=&#34;border-radius: .5rem;padding: 2.5rem;background-image: url(https://raw.githubusercontent.com/qbeenslee/CDN/master/screenshot/2022/09-01/1044176ba-seed_textured_background_green.jpg);margin: 5rem 0;background-attachment: fixed;background-size: cover;&#34;&gt;
+                    &lt;div class=&#34;fragment-cell&#34; &gt;
                         🧑‍🚀 Runjuu:&lt;br /&gt;
 &lt;strong&gt;作为文件解压缩用户，keka帮助了我很多大忙。❤️&lt;/strong&gt;
                     &lt;/div&gt;
@@ -341,39 +342,39 @@ Pro版: 自定义过滤器&lt;/p&gt;
         &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
                     &lt;div class=&#34;flex &#34;&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
+                            &lt;div class=&#34;fragment-cell&#34; style=&#34;ZgotmplZ;&#34;&gt;
                                 &lt;img src=&#34;https://sipapp.io/assets/img/home/google.svg&#34;&gt;
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
+                            &lt;div class=&#34;fragment-cell&#34; style=&#34;ZgotmplZ;&#34;&gt;
                                 &lt;img src=&#34;https://sipapp.io/assets/img/home/disney.svg&#34;&gt;
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
+                            &lt;div class=&#34;fragment-cell&#34; style=&#34;ZgotmplZ;&#34;&gt;
                                 &lt;img src=&#34;https://sipapp.io/assets/img/home/adobe.svg&#34;&gt;
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
+                            &lt;div class=&#34;fragment-cell&#34; style=&#34;ZgotmplZ;&#34;&gt;
                                 &lt;img src=&#34;https://sipapp.io/assets/img/home/netflix.svg&#34;&gt;
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
+                            &lt;div class=&#34;fragment-cell&#34; style=&#34;ZgotmplZ;&#34;&gt;
                                 &lt;img src=&#34;https://sipapp.io/assets/img/home/airbnb.svg&#34;&gt;
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
+                            &lt;div class=&#34;fragment-cell&#34; style=&#34;ZgotmplZ;&#34;&gt;
                                 &lt;img src=&#34;https://sipapp.io/assets/img/home/dropbox.svg&#34;&gt;
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
+                            &lt;div class=&#34;fragment-cell&#34; style=&#34;ZgotmplZ;&#34;&gt;
                                 &lt;img src=&#34;https://sipapp.io/assets/img/home/ibm.svg&#34;&gt;
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
+                            &lt;div class=&#34;fragment-cell&#34; style=&#34;ZgotmplZ;&#34;&gt;
                                 &lt;img src=&#34;https://sipapp.io/assets/img/home/twitter.svg&#34;&gt;
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
+                            &lt;div class=&#34;fragment-cell&#34; style=&#34;ZgotmplZ;&#34;&gt;
                                 &lt;img src=&#34;https://sipapp.io/assets/img/home/dropbox.svg&#34;&gt;
                             &lt;/div&gt;
                         
@@ -403,12 +404,12 @@ Pro版: 自定义过滤器&lt;/p&gt;
         &lt;div class=&#34;content&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
                     &lt;div class=&#34;flex &#34;&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
+                            &lt;div class=&#34;fragment-cell&#34; style=&#34;ZgotmplZ;&#34;&gt;
                                 &lt;h2 id=&#34;购买&#34;&gt;购买&lt;/h2&gt;
 &lt;p&gt;在看到&lt;strong&gt;NITRO TEAM 1920款&lt;/strong&gt;的第一眼时就被其颜值(看个人的审美啦)吸引, 了解到其均衡的性能以及在问过雪友使用后的体验都是给了正向评价, 我便对NITRO TEAM 1920款种草[^zhong-cao]了
                             &lt;/div&gt;
                         
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
+                            &lt;div class=&#34;fragment-cell&#34; style=&#34;ZgotmplZ;&#34;&gt;
                                 &lt;center&gt;&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2020/05/nitroteamsnowboard19203colors.jpeg&#34; alt=&#34;NITRO TEAM 1920款(三色随机发货)&#34; width=&#34;450px&#34;/&gt;&lt;/center&gt;
 
                             &lt;/div&gt;
@@ -1473,8 +1474,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-97f88&#34; id=&#34;switcher-97f88-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-97f88-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-98ee8&#34; id=&#34;switcher-98ee8-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-98ee8-0&#34;&gt;
                 
                     
                     效果
@@ -1499,8 +1500,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-97f88&#34; id=&#34;switcher-97f88-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-97f88-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-98ee8&#34; id=&#34;switcher-98ee8-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-98ee8-1&#34;&gt;
                 
                     
                     代码
