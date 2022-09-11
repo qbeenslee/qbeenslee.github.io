@@ -1,0 +1,1512 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>* {
+	margin: 0;
+	padding: 0;
+	// -webkit-print-color-adjust: exact
+}
+
+* {
+	font-family: source sans pro,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,STHeiti,Microsoft YaHei,WenQuanYi Micro Hei;
+	word-break: normal;
+	overflow-wrap: break-word
+}
+
+ .mweb-charts {
+        background: #000;
+ }
+
+
+body {
+	box-sizing: border-box;
+        margin: 0 auto;
+        padding: 4px !important;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+}
+
+@media screen and (min-width:914px) {
+	body {
+		margin: 10px auto;
+		width: 854px;
+                 font-size: 14px;
+	}
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 900
+}
+
+h1 {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0;
+	color: #000;
+	text-align: center;
+	font-size: 28px
+}
+
+h2 {
+	margin: 10px 0;
+	color: #2b2b2b;
+	font-size: 24px
+}
+
+h3 {
+	margin: 8px 0;
+	color: #000;
+	font-size: 20px
+}
+
+h4 {
+	margin: 6px 0;
+	color: #6aa7e0;
+	font-size: 16px
+}
+
+h5 {
+	margin: 4px 0;
+	color: #6a80e0;
+	font-size: 14px
+}
+
+h6 {
+	margin: 2px 0;
+	color: #8d6ae0;
+	font-size: 12px
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	line-height: 1.75em
+}
+
+table {
+	overflow-x: scroll;
+	margin: 10px 0;
+	padding-right: 2px;
+	max-width: 100%;
+	border: 0;
+	border-collapse: collapse;
+	text-align: left;
+	white-space: nowrap;
+	font-size: 0.85em;
+	border-spacing: 0
+}
+
+table td,table th {
+	padding: 8px 12px;
+	vertical-align: top;
+	font-size: 13px
+}
+
+table th {
+	border: 1px solid #c2c4c5;
+	background-color: #e4e6e8
+}
+
+table td {
+	height: 15px;
+	border: 1px solid #ddd;
+	vertical-align: top
+}
+table td:first-child {
+	white-space: normal;
+}
+
+table td,table td>a {
+	word-wrap: break-word
+}
+
+table td>a {
+	font-size: 13px
+}
+.markdown-body table {
+	display: block;
+	overflow: auto;
+	width: 100%
+}
+
+table img {
+	max-width: 200px
+}
+/*
+table tr {
+	border-top: 1px solid #c6cbd1;
+	background-color: #fff
+}
+
+table td,.markdown-body table th {
+	border: 1px solid #dfe2e5
+}
+*/
+
+li table {
+	margin-bottom: 1.5em
+}
+
+a {
+	color: #1b69b6;
+	text-decoration: none;
+	word-wrap: break-word;
+	word-break: break-all
+}
+
+a:hover {
+	color: #0050a3
+}
+
+a img {
+	border: none
+}
+
+img {
+	margin: 10px 0;
+	max-width: 100%;
+	height: auto;
+}
+
+hr {
+	margin: 0 0 10px;
+	border: 0;
+	border-bottom: 1px solid #f0f0f0
+}
+
+p+div[class=footnotes],p+hr {
+	margin: 10px 0
+}
+
+ul {
+	margin: 2px 10px;
+	padding: 0 0 0 10px;
+	list-style-type: disc
+}
+
+ul li a {
+	line-height: 21px
+}
+
+ul>li>a[href^="#toc_"] {
+	font-size: 12px;
+	line-height: 18px
+}
+
+ol,ul li p {
+	line-height: 1.75
+}
+
+ol {
+	margin: 8px 10px;
+	padding: 0 0 0 10px
+}
+
+ol,ol li {
+	list-style-type: decimal
+}
+
+.markdown-body>ul {
+	margin: 8px 10px;
+	padding: 0 0 0 10px;
+	list-style-type: disc
+}
+
+blockquote {
+	margin: 12px 0;
+	padding: 0 10px;
+	border-left: 4px solid #eee;
+	color: #555;
+	font-style: italic
+}
+
+blockquote:before {
+	margin-left: -10px;
+	color: #eee;
+	font-family: georgia,serif
+}
+
+blockquote>:first-child {
+	margin-top: 0
+}
+
+blockquote>:last-child,blockquote p {
+	margin-bottom: 0
+}
+
+blockquote p {
+	font-weight: 300
+}
+
+.task-list-item {
+	margin-left: -16px;
+	list-style: none;
+	line-height: 1.75
+}
+
+input[type=checkbox] {
+	padding: 0
+}
+
+kbd {
+	display: inline-block;
+	padding: .25em;
+	border-radius: 3px;
+	background-color: #fafafa;
+	-webkit-box-shadow: inset 0 -1px 0 #b5b5b5;
+	box-shadow: inset 0 -1px 0 #b5b5b5;
+	color: #4a4a4a;
+	font-size: .8em;
+	font-family: SFMono-Regular,Liberation Mono,Roboto Mono,Menlo,Monaco,Consolas,Courier New,Courier,monospace;
+	line-height: 1.25;
+	border: 1px solid #dbdbdb;
+	border-bottom-color: #b5b5b5
+}
+
+.token.cdata,.token.comment,.token.doctype,.token.prolog {
+	color: #708090
+}
+
+.token.punctuation {
+	color: #999
+}
+
+.namespace {
+	opacity: .7
+}
+
+.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag {
+	color: #905
+}
+
+.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string {
+	color: #690
+}
+
+.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url {
+	color: #9a6e3a
+}
+
+.token.atrule,.token.attr-value,.token.keyword {
+	color: #07a
+}
+
+.token.class-name,.token.function {
+	color: #dd4a68
+}
+
+.token.important,.token.regex,.token.variable {
+	color: #e90
+}
+
+.token.bold,.token.important {
+	font-weight: 700
+}
+
+.token.italic {
+	font-style: italic
+}
+
+.token.entity {
+	cursor: help
+}
+
+pre[class*=language-].line-numbers {
+	position: relative;
+	padding-left: 3.8em;
+	counter-reset: linenumber
+}
+
+pre[class*=language-].line-numbers>code {
+	position: relative;
+	white-space: inherit
+}
+
+.line-numbers .line-numbers-rows {
+	position: absolute;
+	top: 0;
+	left: -3.8em;
+	width: 3em;
+	border-right: 1px solid #999;
+	letter-spacing: -1px;
+	font-size: 100%;
+	pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.line-numbers-rows>span {
+	display: block;
+	counter-increment: linenumber;
+	pointer-events: none
+}
+
+.line-numbers-rows>span:before {
+	display: block;
+	padding-right: .8em;
+	color: #999;
+	content: counter(linenumber);
+	text-align: right
+}
+
+code {
+	font-size: 12px;
+	font-family: monospace,Monaco,Andale Mono,Courier New
+}
+
+:not(pre)>code {
+	padding: 2px 4px;
+	border-radius: 3px;
+	background-color: #fcefed;
+	color: #c0341d;
+	white-space: normal;
+	font-size: 90%
+}
+
+pre {
+	display: block;
+	margin: 0 0 18px;
+	padding: 14px;
+	border: 1px solid #e4e4e4;
+	border-radius: 1px;
+	background-color: #f0f0f0;
+	color: #686868;
+	text-align: left;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	font-size: 11px;
+	line-height: 1.5;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none
+}
+
+code[class*=language-],pre[class*=language-] {
+	overflow: auto;
+	word-spacing: normal;
+	word-wrap: normal;
+	word-break: normal
+}
+
+code[class*=language-text],pre[class*=language-text] {
+	overflow: auto;
+	white-space: pre-wrap;
+	word-spacing: normal;
+	word-wrap: break-word;
+	word-break: normal
+}
+
+code[class*=language-]::-moz-selection,code[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none
+}
+
+code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection {
+	background: #b3d4fc;
+	text-shadow: none
+}
+
+
+sup {
+	vertical-align: super;
+	font-size: .83em;
+	line-height: 0
+}
+
+@media print {
+	code[class*=language-],pre[class*=language-] {
+		text-shadow: none
+	}
+	body,code,h1,h2,h3,h4,h5,h6,pre code {
+		color: #000
+	}
+
+	pre,table {
+		page-break-inside: avoid
+	}
+}</style> <style>.mweb-charts{background:#fff;}
+body{ box-sizing: border-box;
+    margin: 0 auto;
+    padding: 28px}
+@media print{
+    pre, code, pre code {
+     overflow: visible !important;
+     white-space: pre-wrap !important;       /* css-3 */
+     white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+     white-space: -pre-wrap !important;      /* Opera 4-6 */
+     white-space: -o-pre-wrap !important;    /* Opera 7 */
+     word-wrap: break-word !important;       /* Internet Explorer 5.5+ */
+    }
+    html,body{margin:0;padding:4px;}
+}
+
+</style><script src="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/prism.min.js"></script><script src="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/plugins/line-numbers/prism-line-numbers.min.js"></script><script src="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/plugins/autoloader/prism-autoloader.min.js"></script><script>window.MathJax = {     tex: { tags: 'ams', inlineMath: [ ['$','$'], ['\\(','\\)'] ] },     startup: {     pageReady() {       return MathJax.startup.defaultPageReady().then(function () {          window.mweb_mathjax_ready_val = 'yes';          if(window.mweb_mathjax_ready !== undefined){ mweb_mathjax_ready(); }       });     }   }};document.addEventListener('DOMContentLoaded', function(event) {    if (typeof Prism != 'undefined') {         Prism.highlightAll();     }});window.mweb_mathjax_ready_val = '';function theMWebMathJaxRenderIsReady(key){ return window.mweb_mathjax_ready_val; }</script><script>document.addEventListener('DOMContentLoaded', function(event) {window.mweb_mathjax_ready_val = 'yes';})</script></head><body><div id='markdown_content' class='markdown-body'><h1><a id="adguard%E8%AF%AD%E6%B3%95%E8%A7%84%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>AdGuard 语法规则</h1>
+<blockquote>
+<p>来源  <a href="https://www.leeyiding.com/archives/50/">https://www.leeyiding.com/archives/50/</a></p>
+</blockquote>
+<h2><a id="adguard%E8%AF%AD%E6%B3%95%E8%A7%84%E5%88%99%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E5%B1%9E%E4%BA%8E%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B9%BF%E5%91%8A%E8%BF%87%E6%BB%A4%E5%99%A8" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>AdGuard 语法规则 —— 如何创建属于你自己的广告过滤器</h2>
+<h2><a id="%E5%A3%B0%E6%98%8E" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>声明</h2>
+<p>本文翻译自 AdGuard 官方文档 <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9rYi5hZGd1YXJkLmNvbS9lbi9nZW5lcmFsL2hvdy10by1jcmVhdGUteW91ci1vd24tYWQtZmlsdGVycw==">How to create your own ad filters</a>，原文链接：<code>https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters</code></p>
+<p>考虑到 AdGuard 官方文档没有中文简体的 AdGuard 语法规则，故翻译此文档，本人非专业翻译，部分专业词汇可能存在歧义或错误，若果您在阅读文档过程中发现语法或其他错误，请通过邮箱联系本人进行勘误。</p>
+<p><strong>如果本文侵犯到了您的权益，请联系本人删除；未经本人允许，请勿转载本文到其他平台或以此文牟利。</strong></p>
+<h2><a id="%E4%BB%8B%E7%BB%8D" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>介绍</h2>
+<p>过滤器是适用于特定内容 (横幅、弹出窗口等) 的一组过滤规则。AdGuard 有一份由我们团队创建的标准过滤器列表。我们的团队不断改进和更新它们，我们希望我们的过滤器能满足大多数用户的需求</p>
+<p>同时，AdGuard 允许您使用与我们的筛选器中相同类型的规则创建您自己的自定义筛选器</p>
+<p>为了描述过滤规则的语法，我们使用了语法规范的增强 BNF，但我们并不总是严格遵循此规范</p>
+<blockquote>
+<p>AdGuard 语法最初基于 Adblock Plus 规则的语法，但为了更好地过滤广告，扩展了新类型的规则。本文中有关 AdGuard 和 ABP 通用规则的部分内容摘自本文</p>
+</blockquote>
+<h2><a id="%E6%B3%A8%E9%87%8A" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>注释</h2>
+<p>任何以感叹号开头的行都是注释。在规则列表中，它显示为灰色。AdGuard 将忽略此行，因此您可以随心所欲地编写任何内容。注释通常放在规则之上，用于描述规则的作用</p>
+<p>示例：</p>
+<pre><code class="language-plain_text">* ! 这是一条注释，在这条行下面有一条生效的规则
+* ||example.org^
+
+</code></pre>
+<h2><a id="%E7%A4%BA%E4%BE%8B" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>示例</h2>
+<h3><a id="%E9%80%9A%E8%BF%87%E5%9F%9F%E5%90%8D%E6%8B%A6%E6%88%AA" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>通过域名拦截</h3>
+<img src="https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/upload_c6e555d06ce15861ee742bfbe36f370a-8fa1.jpg" width="300px">
+<p><strong>这条规则拦截：</strong></p>
+<ul>
+<li><code>http://example.org/ad1.gif</code></li>
+<li><code>http://subdomain.example.org/ad1.gif</code></li>
+<li><code>https://ads.example.org:8000/</code></li>
+</ul>
+<p><strong>这条规则不拦截：</strong></p>
+<ul>
+<li><code>http://ads.example.org.us/ad1.gif</code></li>
+<li><code>http://example.org/redirect/http://ads.example.org/</code></li>
+</ul>
+<h3><a id="%E6%8B%A6%E6%88%AA%E7%A1%AE%E5%88%87%E5%9C%B0%E5%9D%80" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>拦截确切地址</h3>
+<img src="https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/upload_34f0b200c9942bc606d2ec95501a4f6b-7480.jpg" width="400px">
+<p><strong>这条规则拦截：</strong>* <code>http://example.org/</code></p>
+<p><strong>这条规则不拦截：</strong></p>
+<ul>
+<li><code>https://example.org/banner/img</code></li>
+</ul>
+<h3><a id="%E5%9F%BA%E6%9C%AC%E8%A7%84%E5%88%99%E4%BF%AE%E9%A5%B0%E7%AC%A6" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>基本规则修饰符</h3>
+<p>过滤规则支持许多修饰符，使您可以微调规则行为。以下是带有一些简单修饰符的规则示例。</p>
+<img src="https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/upload_ff7ad5c4bd30e0b0250ef08a7ea43b83-0cc3.jpg" width="500px">
+<p><strong>这条规则拦截：</strong></p>
+<ul>
+<li><code>http://example.org/script.js</code> 如果这个脚本从 <code>example.com</code> 加载</li>
+</ul>
+<p><strong>这条规则不会拦截：</strong></p>
+<ul>
+<li><code>https://example.org/script.js</code> 如果这个脚本从 <code>example.org</code> 加载</li>
+<li><code>https://example.org/banner.png</code> 因为这不是一个脚本</li>
+</ul>
+<h3><a id="%E5%8F%96%E6%B6%88%E6%8B%A6%E6%88%AA%E5%9C%B0%E5%9D%80" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>取消拦截地址</h3>
+<img src="https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/upload_4849ad86c95ab3daf00dc7114eaa8449-68fa.jpg" width="500px">
+<p><strong>这条规则不拦截：</strong>* <code>http://example.org/banner.png</code> 即使这个地址已经有了一条拦截规则</p>
+<blockquote>
+<p>使用 <code>$important</code> 修饰符的拦截规则可以覆盖异常。</p>
+</blockquote>
+<h3><a id="%E5%8F%96%E6%B6%88%E6%8B%A6%E6%88%AA%E7%BD%91%E7%AB%99%E4%B8%8A%E6%89%80%E6%9C%89%E7%9A%84%E5%86%85%E5%AE%B9" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>取消拦截网站上所有的内容</h3>
+<img src="https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/upload_1745d6ea2c9213a5ed0625fced435938-532e.jpg" width="500px">
+<p><strong>这条规则不拦截：</strong></p>
+<ul>
+<li>它将禁用 <code>example.com</code> 的所有修饰规则</li>
+<li>它会解除拦截此网站发送的所有请求，即使存在拦截规则匹配这些请求</li>
+</ul>
+<h3><a id="%E4%BF%AE%E9%A5%B0%E8%A7%84%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>修饰规则</h3>
+<img src="https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/upload_a0f1f18e18b053db4e9b8cb166bcb6ef-6a67.jpg" width="500px">  
+<p>修饰规则基于一种使用名为 CSS 的特殊语言，每个浏览器都能理解。基本上，它为网站添加了一种新的 CSS 样式，其目的是隐藏特定的元素。您可以在<a href="https://www.leeyiding.com/go/aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9MZWFybi9DU1MvQnVpbGRpbmdfYmxvY2tzL1NlbGVjdG9ycw==">这里</a>了解更多关于 CSS 的一般信息</p>
+<blockquote>
+<p>AdGuard 扩展了 CSS，并让过滤器的开发人员处理更复杂的情况。但是，要使用这些扩展规则，您需要流利地使用常规 CSS</p>
+</blockquote>
+<h4><a id="%E5%B8%B8%E8%A7%81%E7%9A%84css%E9%80%89%E6%8B%A9%E5%99%A8" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>常见的 CSS 选择器</h4>
+<table>
+<thead>
+<tr>
+<th>CSS 选择器</th>
+<th>示例</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ID 选择器</td>
+<td><code>#banners</code></td>
+<td>匹配 <code>id</code> 属性等于 <code>banners</code> 的所有元素<br/><figure><img src="https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/upload_21fc41279adfb977e2cce6865789b535-d0f5.jpg" alt="" /></figure></td>
+</tr>
+<tr>
+<td>Class 选择器</td>
+<td><code>.banners</code></td>
+<td>匹配包含 <code>banners</code> 的 <code>class</code> 属性的所有元素<br/><figure><img src="https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/upload_d4fa7bd6320029b553fc12ceeaf7e52b-43ea.jpg" alt="" /></figure></td>
+</tr>
+<tr>
+<td>属性选择器</td>
+<td><code>div[class=&quot;banners&quot;]</code></td>
+<td>匹配 <code>class</code> 属性与 <code>banners</code> 完全相同的所有 <code>div</code> 元素<br/><figure><img src="https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/upload_040bbded0f96702164cb76eeb6a41bb0-9442.jpg" alt="" /></figure></td>
+</tr>
+<tr>
+<td>属性子字符串选择器</td>
+<td><code>div[class^=&quot;advert1&quot;]</code></td>
+<td>匹配 <code>class</code> 属性以 <code>advert1</code> 字符串开头的所有 <code>div</code> 元素<br/><figure><img src="https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/upload_92fdc46af6c7f2fb21c5cf0e74e1507e-7341.jpg" alt="" /></figure></td>
+</tr>
+<tr>
+<td>属性子字符串选择器</td>
+<td><code>div[class$=&quot;banners_ads&quot;]</code></td>
+<td>匹配 <code>class</code> 属性以 <code>banners_ads</code>字符串结尾的所有 <code>div</code> 元素<br/><figure><img src="https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/upload_4486707924a080f99d01e66b66ab3393-63be.jpg" alt="" /></figure></td>
+</tr>
+<tr>
+<td>属性子字符串选择器</td>
+<td><code>a[href^=&quot;http://example.com/&quot;]</code></td>
+<td>匹配从 <code>http://example.com/</code> 域加载的所有链接<br/> <figure><img src="https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/upload_d509dce5e2652471251912962e825ee7-dcef.jpg" alt="" /></figure></td>
+</tr>
+<tr>
+<td>属性选择器</td>
+<td><code>a[href=&quot;http://example.com/&quot;]</code></td>
+<td>精确匹配地址为 <code>http://example.com/</code> 的链接<br/> <figure><img src="https://raw.githubusercontent.com/qbeenslee/CDN/master/img/2022/upload_92b081fda67dabd384c7e7f0ad0e5af2-66e5.jpg" alt="" /></figure></td>
+</tr>
+</tbody>
+</table>
+<h2><a id="%E5%9F%BA%E6%9C%AC%E8%A7%84%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>基本规则</h2>
+<p>最简单的规则就是所谓的 “基本规则”。它们用于拦截对特定 URL 的请求。或者，如果规则开头有特殊标记 “@@”，则取消拦截它。这类规则的基本原则非常简单：您必须指定限制或扩展规则范围的地址和附加参数</p>
+<blockquote>
+<p><strong>子请求</strong></p>
+<p>拦截请求的基本规则仅适用于<strong>子请求</strong>。这意味着它们不会阻止页面加载</p>
+<p><strong>响应状态</strong></p>
+<p>Browser detects a blocked request as completed with an error.</p>
+<p>浏览器检测到被拦截的请求已完成，并返回 error 状态</p>
+</blockquote>
+<h3><a id="%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E8%A7%84%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>基本语法规则</h3>
+<pre><code class="language-plain_text">* rule = [&quot;@@&quot;] pattern [ &quot;$&quot; modifiers ]
+* modifiers = [modifier0, modifier1[, ...[, modifierN]]]
+
+</code></pre>
+<ul>
+<li><strong><code>pattern</code></strong> — 地址掩码，每个请求的 URL 都根据此掩码进行整理。您也可以在模板中使用特殊字符，其说明<a href="https://www.leeyiding.com/go/Iw==">如下</a></li>
+<li><strong><code>@@</code></strong> — 在排除规则中使用的标记。要关闭对请求的过滤，请在您的规则开头使用此标记</li>
+<li><strong><code>modifiers</code></strong> — “阐明” 基本规则的参数。其中一些限制了规则的范围，一些可以完全改变其工作方式</li>
+</ul>
+<h3><a id="%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>特殊字符</h3>
+<ul>
+<li><code>*</code> — 通配符，通配符。它用来表示 “任何一组字符”。这也可以是空字符串或任意长度的字符串</li>
+<li><strong><code>||</code></strong> — 匹配地址的开头，用此字符，您不必在地址中指定特定的协议和子域。 它意味着 <code>||</code> 代表 <code>http://*.</code>, <code>https://*.</code>, <code>ws://*.</code>, <code>wss://*.</code> 中的一个</li>
+<li><strong><code>^</code></strong> — 分隔字符标记，分隔符可以是任意字符，可以是字母、数字或以下字符之一： <code>_</code> <code>-``.</code> <code>%</code>. 在本例中，分隔符以粗体显示： <code>http:</code><strong><code>//</code></strong><code>example.com</code><strong><code>/?</code></strong><code>t=1</code><strong><code>&amp;</code></strong><code>t2=t3</code>. 地址末尾也可以使用分隔符</li>
+<li><strong><code>|</code></strong> — 指向地址开始或结束的指针，该值取决于地址中的字符位置，例如，规则 <code>swf|</code> 对应于 <code>http://example.com/annoyingflash.swf</code> ，而不对应于 <code>http://example.com/swf/index.html</code>. <code>|http://example.org</code> 对应于 <code>http://example.org</code>，而不对应于 <code>http://domain.com?url=http://example.org</code></li>
+</ul>
+<blockquote>
+<p><strong>视觉表现</strong></p>
+<p>我们建议您熟悉<a href="https://www.leeyiding.com/go/aHR0cHM6Ly9hZGJsb2NrcGx1cy5vcmcvZmlsdGVyLWNoZWF0c2hlZXQjYmxvY2tpbmc=">这篇文章</a>，以便更好地理解应该如何制定这样的规则。</p>
+</blockquote>
+<h3><a id="%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%94%AF%E6%8C%81" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>正则表达式支持</h3>
+<p>如果您想要更灵活地制定规则，可以使用<a href="https://www.leeyiding.com/go/aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSmF2YVNjcmlwdC9HdWlkZS9SZWd1bGFyX0V4cHJlc3Npb25z">正则表达式</a>，而不是带有特殊字符的默认简化网址。</p>
+<blockquote>
+<p><strong>性能</strong></p>
+<p>使用正则表达式的规则工作较慢，因此建议避免使用它们或将它们的范围限制在特定的域中。</p>
+</blockquote>
+<p>如果你想使用确切的正则表达式拦截，则 <code>pattern</code> 必须如下所示</p>
+<pre><code class="language-plain_text">* pattern = &quot;/&quot; regexp &quot;/&quot;
+
+</code></pre>
+<p>例如，<code>/banner\d+/$third-party</code> 这条规则将对所有第三方请求应用正则表达式 <code>banner\d+</code>。正则表达式的排除规则如下所示 <code>@@/banner\d+/</code></p>
+<blockquote>
+<p><strong>不同版本 AdGuard 的兼容性</strong></p>
+<p>由于<a href="https://www.leeyiding.com/go/aHR0cHM6Ly93ZWJraXQub3JnL2Jsb2cvMzQ3Ni9jb250ZW50LWJsb2NrZXJzLWZpcnN0LWxvb2sv">内容阻止 API 限制</a>，用于 Safari 的 AdGuard 浏览器扩展和用于 iOS 的 AdGuard 浏览器扩展不完全支持正则表达式 (请参阅 “正则表达式格式” 部分)</p>
+</blockquote>
+<h3><a id="tld%EF%BC%88%E9%A1%B6%E7%BA%A7%E5%9F%9F%EF%BC%89%E7%9A%84%E9%80%9A%E9%85%8D%E7%AC%A6%E6%94%AF%E6%8C%81" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>TLD（顶级域）的通配符支持</h3>
+<p>域的顶级域名（TLD）以修饰符，html 和 javascript 规则的模式支持通配符</p>
+<p>例如，修饰规则 <code>example.*##.banner</code> 将匹配任何 <code>example.TLD</code> 的请求 (<code>example.ru</code>、<code>example.com</code>、<code>example.net</code>、<code>example.org</code>、等)</p>
+<p>对于基本规则，所描述的逻辑将仅适用于 $domain 修饰符中指定的域 (例如：<code>||*/banners/*$image,domain=example.*</code>)</p>
+<h3><a id="%E5%9F%BA%E6%9C%AC%E8%A7%84%E5%88%99%E7%A4%BA%E4%BE%8B" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>基本规则示例</h3>
+<ul>
+<li><code>||example.com/ads/*</code> — 一个简单的规则对应于像这样的地址 <code>http://example.com/ads/banner.jpg</code> 甚至是 <code>http://subdomain.example.com/ads/otherbanner.jpg</code></li>
+<li><code>||example.org^$third-party</code> — 一条拦截第三方请求 <code>example.org</code> 及其子域名的规则</li>
+<li><code>@@||example.com$document</code> — 常规的排除规则。它完全禁止对 <code>example.com</code> 及其子域名的过滤。排除规则中可以使用多个修饰符.。想要了解更多细节，请点击下面的 <a href="">链接</a></li>
+</ul>
+<h3><a id="%E4%BF%AE%E9%A5%B0%E7%AC%A6" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>修饰符</h3>
+<blockquote>
+<p><strong>注意</strong></p>
+<p>本节中介绍的功能面向有经验的用户。它们扩展了 “基本规则” 的功能，但是为了使用它们，您需要对浏览器的工作方式有一个基本的了解。</p>
+</blockquote>
+<p>您可以使用其他修饰符更改 “基本规则” 的行为。修饰符应位于规则末尾的 <code>$</code> 符号之后，并用逗号分隔。</p>
+<p>示例：</p>
+<pre><code class="language-plain_text">* ||domain.com^$popup,third-party
+
+</code></pre>
+<h4><a id="%E5%9F%BA%E6%9C%AC%E4%BF%AE%E9%A5%B0%E7%AC%A6" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>基本修饰符</h4>
+<p>以下修饰符是最简单且经常使用的修饰符</p>
+<h5><a id="domain" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>domain</code></h5>
+<p><code>domain</code> 将规则应用区域限制为域（及其子域）。要将多个域添加到一个规则，请使用 <code>|</code> 字符作为分隔符。</p>
+<p><code>domain</code> 示例：</p>
+<ul>
+<li><code>||baddomain.com^$domain=example.org</code> — 拦截匹配指定地址的请求的规则，请求来自于 <code>example.org</code> 域及其子域</li>
+<li><code>||baddomain.com^$domain=example.org|example.com</code> — 相同的规则，但是同时对 <code>example.org</code> 和 <code>example.com</code> 生效</li>
+</ul>
+<p>如果希望规则对某些域不生效，请将域名以 <code>~</code> 开头</p>
+<p><code>domain</code> 和 <code>~</code> 示例：</p>
+<ul>
+<li><code>||baddomain.com^$domain=~example.org</code> — 排除拦截匹配指定地址的请求的规则，请求来自于 <code>example.org</code> 域及其子域</li>
+<li><code>||baddomain.com^$domain=example.org|~foo.example.org</code> — 这条规则拦截 <code>example.org</code> 及其所有子域发送的请求，排除子域 <code>foo.example.org</code>.</li>
+</ul>
+<h5><a id="third-party" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>third-party</code></h5>
+<p>对第三方和自己的请求的限制。第三方请求是来自不同域的请求。例如，从 <code>domain.com</code> 到 <code>example.org</code> 的请求是第三方请求。</p>
+<blockquote>
+<p><strong>子域名</strong></p>
+<p>请注意，从域到其子域的请求 (反之亦然) 不被视为第三方请求。例如，从域 <code>example.org</code>发送到 <code>subdomain.example.org</code> 的请求不是第三方请求。</p>
+</blockquote>
+<p>如果存在 <code>third-party</code> 修饰符，则规则仅适用于第三方请求</p>
+<p><code>third-party</code> 示例：</p>
+<ul>
+<li><code>||domain.com^$third-party</code> — 规则适用于所有域，除了 <code>domain.com</code> 及其子域。第三方请求示例：<code>http://example.org/banner.jpg</code></li>
+</ul>
+<p>如果存在 <code>~third-party</code> 修饰符，则规则仅适用于不来自第三方的请求，这意味着，请求来自同一域名</p>
+<p><code>~third-party</code> 示例：</p>
+<ul>
+<li><code>||domain.com$~third-party</code> — 这条规则适用于 <code>domain.com</code>，但不适用于其它域。例如一个不是来自第三方的请求： <code>http://domain.com/icon.ico</code>.</li>
+</ul>
+<h5><a id="popup" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>popup</code></h5>
+<p>AdGuard 将尝试关闭任何匹配到使用这个修饰符的拦截规则的浏览器选项卡。请注意，这并不会使所有的选项卡关闭</p>
+<p><code>popup</code> 示例：</p>
+<ul>
+<li><code>||domain.com^$popup</code> — 如果你在浏览器从任意页面访问 <code>http://domain.com/</code>，通过这条规则会将特定网站打开的新标签页关闭</li>
+</ul>
+<h5><a id="match-case" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>match-case</code></h5>
+<p>此修饰符定义仅适用于与大小写匹配的地址的规则。默认规则不区分大小写</p>
+<p><code>match-case</code> 示例：</p>
+<ul>
+<li><code>*/BannerAd.gif$match-case</code> — 这条规则将拦截 <code>http://example.com/BannerAd.gif</code>, 但不会拦截 <code>http://example.com/bannerad.gif</code>.</li>
+</ul>
+<h4><a id="%E5%86%85%E5%AE%B9%E7%B1%BB%E5%9E%8B%E4%BF%AE%E9%A5%B0%E7%AC%A6" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>内容类型修饰符</h4>
+<p>有一组可适用于将规则的应用区域限制为特定类型的内容的修饰符，还可以组合这些修饰符覆盖例如图像和脚本</p>
+<blockquote>
+<h4><a id="%E4%B8%8D%E5%90%8C%E7%89%88%E6%9C%ACadguard%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>不同版本 AdGuard 的兼容性</h4>
+<p>请注意，AdGuard 在不同平台上确定内容类型的方式存在很大差异。对于浏览器扩展，每个请求的内容类型由浏览器提供。适用于 Windows、Mac 和 Android 的 AdGuard 使用以下方法：首先尝试通过文件扩展名确定请求类型。如果此阶段的请求无法被拦截，将使用服务端响应开头的 <code>Content-Type</code> 头部来确定类型。</p>
+</blockquote>
+<p>内容类型修饰符示例：</p>
+<ul>
+<li><code>||example.org^$image</code> — 对应 来自于 <code>example.org</code> 的所有图像</li>
+<li><code>||example.org^$script,stylesheet</code> — 对应来自于 <code>example.org</code> 的所有脚本和样式</li>
+<li><code>||example.org^$~image,~script,~stylesheet</code> — 对应来自于 <code>example.org</code> 除了图像、脚本和样式的所有请求</li>
+</ul>
+<h5><a id="image" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>image</code></h5>
+<p>该规则对应于对图像的请求</p>
+<h5><a id="stylesheet" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>stylesheet</code></h5>
+<p>该规则对应于对 CSS 文件请求</p>
+<h5><a id="script" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>script</code></h5>
+<p>该规则对应于对脚本请求（例如 JavaScript、VBscript）</p>
+<h5><a id="object" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>object</code></h5>
+<p>该规则对应于浏览器插件资源（例如 Java、Flash）</p>
+<h5><a id="object-subrequest" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>object-subrequest</code></h5>
+<p>该规则对应于对浏览器插件的请求（通常是 Flash）</p>
+<blockquote>
+<p><strong>不同版本 AdGuard 的兼容性</strong></p>
+<p>适用于 Windows、MacOS 和 Android 的 AdGuard 通常无法准确确定这种类型，并将其定义为其他类型。</p>
+</blockquote>
+<h5><a id="font" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>font</code></h5>
+<p>该规则对应于对字体请求（例如.woff 文件扩展名）</p>
+<h5><a id="media" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>media</code></h5>
+<p>该规则对应于对媒体文件请求（音乐和视频，例如.mp4 文件）</p>
+<h5><a id="subdocument" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>subdocument</code></h5>
+<p>该规则对应于对内置页面的请求（HTML 标签 <code>frame</code> 和 <code>iframe</code>）</p>
+<h5><a id="ping" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>ping</code></h5>
+<p>该规则对应于由 <code>navigator.sendBeacon()</code> 或链接上的 <code>ping</code> 属性引起的请求</p>
+<blockquote>
+<p><strong>不同版本 AdGuard 的兼容性</strong></p>
+<p>此修饰符仅在 AdGuard 浏览器扩展中受支持</p>
+</blockquote>
+<h5><a id="xmlhttprequest" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>xmlhttprequest</code></h5>
+<p>该规则仅适用于 Ajax 请求（通过 javascript 对象 XMLHttpRequest 发送的请求）</p>
+<blockquote>
+<p><strong>不同版本 AdGuard 的兼容性</strong></p>
+<p>适用于 Windows、MacOS 和 Android 的 AdGuard 通常无法准确确定此类型，并将其定义为 <code>other</code> 或 <code>script</code></p>
+</blockquote>
+<h5><a id="websocket" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>websocket</code></h5>
+<p>该规则仅适用于 WebSocket 连接</p>
+<h5><a id="other" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>other</code></h5>
+<p>该规则适用于尚未确定类型或与上面列出的类型不匹配的请求</p>
+<h4><a id="%E6%8E%92%E9%99%A4%E4%BF%AE%E9%A5%B0%E7%AC%A6" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>排除修饰符</h4>
+<p>排除规则对应于禁止其它基本规则，他们以 <code>@@</code>标记，上面列出的所有基本修饰符都可以应用于它们，它们也有一些特殊的修饰符。</p>
+<blockquote>
+<p><strong>视觉表现</strong></p>
+<p>我们建议您熟悉<a href="https://www.leeyiding.com/go/aHR0cHM6Ly9hZGJsb2NrcGx1cy5vcmcvZmlsdGVyLWNoZWF0c2hlZXQjYmxvY2tpbmc=">本文</a>，以便更好地理解如何制定例外规则。</p>
+</blockquote>
+<h5><a id="elemhide" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>elemhide</code></h5>
+<p>禁用页面上与规则匹配的任何修饰规则，您将进一步找到有关修修饰规则的信息</p>
+<p><code>elemhide</code> 示例：</p>
+<ul>
+<li><code>@@||example.com^$elemhide</code> — 在 <code>example.com</code> 及其所有子域名的页面禁用所有修饰规则</li>
+</ul>
+<h5><a id="content" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>content</code></h5>
+<p>禁用页面上与规则匹配的 HTML 过滤规则，您将进一步找到有关 HTML 过滤规则的信息</p>
+<p><code>content</code> 示例：</p>
+<ul>
+<li><code>@@||example.com^$content</code> — 在 <code>example.com</code> 及其所有子域名的页面禁用所有 HTML 过滤规则</li>
+</ul>
+<h5><a id="jsinject" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>jsinject</code></h5>
+<p>禁止将 javascript 代码添加到页面。您可以进一步阅读有关 javascript 规则的内容</p>
+<p><code>jsinject</code> 示例：</p>
+<ul>
+<li><code>@@||example.com^$jsinject</code> — 在 <code>example.com</code> 及其所有子域名的页面禁用 JavaScript</li>
+</ul>
+<h5><a id="urlblock" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>urlblock</code></h5>
+<p>禁用拦截从与规则匹配的页面发送的所有请求</p>
+<p><code>urlblock</code> 示例：</p>
+<ul>
+<li><code>@@||example.com^$urlblock</code> — 从 <code>example.com</code> 及其所有子域页面发送的任何请求都不会被拦截。</li>
+</ul>
+<h5><a id="extension" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>extension</code></h5>
+<p>禁用与此规则匹配的页面上的所有用户脚本</p>
+<p><code>extension</code> 示例：</p>
+<ul>
+<li><code>@@||example.com^$extension</code> — 在网站 <code>example.com</code> 的任何界面，用户的脚本都不会起作用</li>
+</ul>
+<h5><a id="ducument" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>ducument</code></h5>
+<p>完全禁用页面上的拦截，相当于同时使用 <code>elemhide</code>、<code>content</code>、<code>urlblock</code>、<code>jsinject</code> 和 <code>extension</code></p>
+<p><code>document</code> 示例：</p>
+<ul>
+<li><code>@@||example.com^$document</code> — 在 <code>example.com</code> 及其所有子域名的所有页面完全禁用拦截</li>
+<li><code>@@||example.com^$document,~extension</code> — 在 <code>example.com</code> 及其所有子域名的所有页面完全禁用拦截，但是会继续运行用户脚本</li>
+</ul>
+<h5><a id="stealth" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>stealth</code></h5>
+<p>禁用所有相应页面和请求的隐藏模式</p>
+<blockquote>
+<p><strong>不同版本 AdGuard 的兼容性</strong></p>
+<p>隐形模式目前在用于 Windows 的 AdGuard、用于 Mac 的 AdGuard 和用于 Android 的 AdGuard 中可用。我们计划将来把它添加到我们所有的产品中。目前，不支持隐形模式的产品将忽略带有此修饰符的规则。</p>
+</blockquote>
+<p><code>stealth</code> 示例：</p>
+<ul>
+<li><code>@@||example.com^$stealth</code> — 禁用 <code>example.com</code> 及其所有子域名的所有页面的 <code>Stealth Mode</code> ，也包括所有请求和子请求</li>
+</ul>
+<h5><a id="generic-rules" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generic rules</h5>
+<p>在我们继续下一个修饰符之前，我们必须定义通用规则。如果该规则不限于特定的域，则该规则是通用的</p>
+<p>例如，这些规则是通用的：</p>
+<pre><code class="language-plain_text">* ###banner
+* ~domain.com###banner
+* ||domain.com^
+* ||domain.com^$domain=~example.com
+
+</code></pre>
+<p>并且这些规则是不通用的：</p>
+<pre><code class="language-plain_text">* domain.com###banner
+* ||domain.com^$domain=example.com
+
+</code></pre>
+<h6><a id="generichide" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>generichide</code></h6>
+<p>在排除规则中禁用页面所有的通用修饰规则</p>
+<ul>
+<li><code>@@||example.com^generichide</code> — 在 <code>example.com</code> 及其所有子域名的所有页面禁用通用的修饰规则</li>
+</ul>
+<h6><a id="genericblock" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>genericblock</code></h6>
+<p>在排除规则中禁用页面所有的通用基础规则</p>
+<ul>
+<li><code>@@||example.com^$genericblock</code> — 在 <code>example.com</code> 及其所有子域名的所有页面禁用通用的基础规则</li>
+</ul>
+<h4><a id="%E8%BF%9B%E9%98%B6%E4%BF%AE%E9%A5%B0%E7%AC%A6" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>进阶修饰符</h4>
+<p>这些修饰符能够完全改变基本规则的行为</p>
+<h5><a id="important" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>important</code></h5>
+<p>应用于规则的 <code>$important</code> 修饰符提高了规则的优先级，，胜过没有 <code>$important</code> 修饰符的任何其他规则，甚至超过了基本的排除规则</p>
+<p>示例 1：</p>
+<pre><code class="language-plain_text">* ||example.org^$important
+* @@||example.org^
+
+</code></pre>
+<p><code>||example.org^$important</code> 将会拦截所有请求，尽管有排除规则</p>
+<p>示例 2：</p>
+<pre><code class="language-plain_text">* ||example.org^$important
+* @@||example.org^$important
+
+</code></pre>
+<p>现在排除规则也有 <code>$important</code> 修饰符，所以它将占上风</p>
+<p>示例 3:</p>
+<p>如果对文档排除规则应用了 <code>document</code> 修饰符，那么 <code>$important</code> 修饰符将会被忽略</p>
+<pre><code class="language-plain_text">* ||example.org^$important
+* @@||test.org^$document
+
+</code></pre>
+<p>如果从 <code>test.org</code> 域发送了对 <code>example.org</code> 的请求，那么尽管该规则有 <code>$important</code> 修饰符，但是它将不会被应用</p>
+<h5><a id="badfilter" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>badfilter</code></h5>
+<blockquote>
+<p><strong>不同版本 AdGuard 的兼容性</strong></p>
+<p><code>badfilter</code> 修饰符当前仅在 AdGuard 浏览器扩展中可用。它将在稍后添加到其他 AdGuard 产品中。</p>
+</blockquote>
+<p>带有 <code>badfilter</code> 修饰符的规则禁用它们所引用的其他基本规则。这意味着禁用规则的文本应该与 <code>badfilter</code> 规则的文本匹配 (不带 <code>badfilter</code> 修饰符)。</p>
+<p><code>badfilter</code> 示例：</p>
+<ul>
+<li><code>||example.com$badfilter</code> 禁用 <code>||example.com</code></li>
+<li><code>||example.com$image,badfilter</code> 禁用 <code>||example.com,image</code></li>
+<li><code>@@||example.com$badfilter</code> 禁用 <code>@@||example.com</code></li>
+<li><code>||example.com$domain=domain.com,badfilter</code> 禁用 <code>||example.com$domain=domain.com</code></li>
+</ul>
+<blockquote>
+<p><strong>不同版本 AdGuard 的兼容性</strong></p>
+<p>本节中的以下修饰符仅在适用于 Windows、MacOS 和 Android 的 AdGuard 中可用。浏览器扩展功能受到浏览器本身的限制，有些方法对它们是不可用的。</p>
+</blockquote>
+<h5><a id="empty" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>empty</code></h5>
+<p>通常，被拦截的请求在浏览器中看起来像是服务器错误。如果您使用 <code>empty</code> 修饰符，AdGuard 将模拟来自服务器的空响应，状态为 <code>200 OK</code></p>
+<p><code>empty</code> 示例：</p>
+<ul>
+<li><code>||example.org^$empty</code> — 对来自 <code>example.org</code> 及其所有子域名的所有请求返回一个空响应</li>
+</ul>
+<h5><a id="mp4" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>mp4</code></h5>
+<p>作为一个对被拦截请求的响应，AdGuard 返回一个短视频占位符</p>
+<p><code>mp4</code> 示例：</p>
+<ul>
+<li><code>||example.com/videos/$mp4</code> — 拦截从 <code>||example.com/videos/*</code> 的视频下载，并改变响应为一个视频占位符</li>
+</ul>
+<h5><a id="replace" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>replace</code></h5>
+<p>此修饰符完全更改了规则行为。如果应用了该规则，该规则将不会阻止该请求。相反，响应将被修改。</p>
+<blockquote>
+<p><strong>请注意</strong></p>
+<p>您需要一些正则表达式的知识才能使用此修饰符</p>
+<p><strong>不同版本 AdGuard 的兼容性</strong></p>
+<p>规则受适用于 Windows、Mac、Android 的 AdGuard 和 AdGuard 的 Firefox 插件支持<br />
+这种类型的规则在其他浏览器的扩展中不起作用，因为它们不能修改网络级别的内容</p>
+</blockquote>
+<p><code>$replace</code> 规则特性</p>
+<ul>
+<li><code>$replace</code> 规则适用于任何文本响应，但不适用于二进制 (<code>media</code>、<code>image</code>、<code>object</code> 等)</li>
+<li>如果原始响应的大小超过 3MB，则不适用 <code>$replace</code> 规则</li>
+<li><code>$replace</code> 规则优先于其他基础规则 (<strong>包括</strong>排除规则)。因此，如果一个请求对应两个不同的规则，其中一个规则带有 <code>$replace</code> 修饰符，则会应用此规则。</li>
+<li>带有 <code>$content</code> 或 <code>$document</code> 修饰符的文档级排除规则会对匹配的请求禁用 <code>$replace</code> 规则</li>
+<li>其他文档级排除规则 (<code>$generichide</code>、<code>$elemhide</code> 或 <code>$jsject</code> 修饰符) 与 <code>$replace</code> 规则一起应用。这意味着您可以使用 <code>$replace</code> 规则修改页面内容，同时关闭页面中的修饰规则。</li>
+</ul>
+<blockquote>
+<p>排除规则情况下，<code>$replace</code> 值可以为空。有关详细信息，请参阅示例部分。</p>
+<p><strong>匹配单个请求的多个规则</strong></p>
+<p>如果有多条 <code>$replace</code> 规则匹配一个请求，我们会逐条应用。<strong>顺序按字母顺序定义</strong></p>
+</blockquote>
+<p><code>$replace</code> 语法</p>
+<p>一般来说，<code>$replace</code> 语法类似于<a href="https://www.leeyiding.com/go/aHR0cDovL3Blcmxkb2MucGVybC5vcmcvcGVybHJlcXVpY2suaHRtbCNTZWFyY2gtYW5kLXJlcGxhY2U=">在 Perl 中</a>用正则表达式替换</p>
+<pre><code class="language-plain_text">* replace = &quot;/&quot; regex &quot;/&quot; replacement &quot;/&quot; modifiers
+
+</code></pre>
+<ul>
+<li><code>regex</code> — 正则表达式</li>
+<li><code>replacement</code> — 将用于替换与 <code>regex</code> 对应的字符串的字符串</li>
+<li><code>modifiers</code> — 正则表达式标志。例如，<code>i</code>- 不敏感搜索，或者 <code>s</code>- 单行模式。</li>
+</ul>
+<p>在 <code>$replace</code> 值中，必须转义两个字符：逗号 <code>,</code> 和 <code>$</code>。使用 <code>\</code> 来转义它。例如，转义逗号如下所示：<code>\,</code></p>
+<p><code>$replace</code> 示例：</p>
+<pre><code class="language-plain_text">* ||example.org^$replace=/(&lt;VAST[\s\S]\*?&gt;)[\s\S]\*&lt;\/VAST&gt;/\$1&lt;\/VAST&gt;/
+
+</code></pre>
+<p>在这条规则中有三部分：</p>
+<ul>
+<li>正则表达式：<code>(&lt;VAST(.|\s)*?&gt;)(.|\s)*&lt;\/VAST&gt;</code></li>
+<li>代替者：<code>\$1&lt;\/VAST&gt;</code> (请注意，<code>$</code> 已经被转义了)</li>
+<li>正则表达式标志: <code>i</code> (不敏感搜索)</li>
+</ul>
+<p>你可以在<a href="https://www.leeyiding.com/go/aHR0cHM6Ly9yZWdleHIuY29tLzNjZXNr">这里</a>了解这些规则 如何运作</p>
+<p>多个 <code>$replace</code> 规则示例：</p>
+<ol>
+<li><code>||example.org^$replace=/X/Y/</code></li>
+<li><code>||example.org^$replace=/Z/Y/</code></li>
+<li><code>@@||example.org/page/*$replace=/Z/Y/</code></li>
+</ol>
+<ul>
+<li>规则 1 和规则 2 都适用于发送到 <code>example.org</code> 的所有请求</li>
+<li>规则 3 禁用匹配 <code>||example.org/page/</code> 的请求，但是规则 1 仍然有效</li>
+</ul>
+<p>禁用 <code>$replace</code> 规则示例：</p>
+<ul>
+<li><code>@@||example.org^$replace</code> 将会禁用所有匹配到 <code>||example.org^</code> 的 <code>$replace</code> 规则</li>
+<li><code>@@||example.org^$document</code> 或  <code>@@||example.org^$content</code> 将会禁用所有的来自于 <code>example.org</code> 页面的 <code>$replace</code> 规则，包括页面本身</li>
+</ul>
+<h5><a id="csp" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>csp</code></h5>
+<p>此修饰符完全更改了规则行为。如果将其应用于规则，则不会拦截匹配到的请求。相反，响应头将被修改。</p>
+<blockquote>
+<p>为了使用这种类型的规则，需要对 Content Security Policy 安全层有基本的了解。</p>
+</blockquote>
+<p>对于与 <code>$csp</code> 规则匹配的请求，我们将通过添加与 <code>$csp</code> 修饰符内容相等的附加内容安全策略来加强响应的安全策略。<code>$csp</code> 规则独立于任何其他规则类型应用。除文档级排除规则外，其他基本规则对其没有影响 (请参阅示例部分)</p>
+<blockquote>
+<p>匹配单个请求的多个规则。<br />
+如果多个 <code>$csp</code> 规则与单个请求匹配，我们将分别应用它们。</p>
+</blockquote>
+<p>csp 语法</p>
+<p><code>$csp</code> 值语法类似于 Content Security Policy 头语法</p>
+<p>在排除规则的情况下，<code>$csp</code> 的值可以为空。有关详细信息，请参阅示例部分</p>
+<blockquote>
+<p>局限性</p>
+<ol>
+<li>请注意，在 <code>$csp</code> 值中有几个禁止使用的字符: <code>,</code>、 <code>$</code></li>
+<li><code>$csp</code> 规则支持限定的修饰符列表： <code>domain</code>, <code>important</code>, <code>subdocument</code></li>
+<li>带有 <code>report-*</code> 指令的规则视为无效</li>
+</ol>
+</blockquote>
+<p><code>csp</code> 示例：</p>
+<ul>
+<li><code>||example.org^$csp=frame-src 'none'</code> — 禁止 <code>example.org</code> 及其子域的所有 frame</li>
+<li><code>@@||example.org/page/*$csp=frame-src 'none'</code> — 在与规则模式匹配的所有页面上禁用 <code>$csp</code> 修饰符完全匹配 <code>frame-src‘NONE’</code>的所有规则。例如，上面的规则。</li>
+<li><code>@@||example.org/page/*$csp</code> — disables all the <code>$csp</code> rules on all the pages matching the rule pattern.</li>
+<li><code>||example.org^$csp=script-src 'self' 'unsafe-eval' http: https:</code> — disables inline scripts on all the pages matching the rule pattern.</li>
+<li><code>@@||example.org^$document</code> 或 <code>@@||example.org^$urlblock</code> — 禁用匹配规则模式的所有页面上的所有 <code>$csp</code> 规则。</li>
+</ul>
+<h5><a id="cookie" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>cookie</code></h5>
+<p><code>$cookie</code> 修饰符完全改变了规则行为。这个修饰符不会拦截请求，而是让我们隐藏或修改 <code>Cookie</code> 和 <code>Set-Cookie</code> 头部。</p>
+<blockquote>
+<p><strong>匹配单个请求的多个规则</strong></p>
+<p>如果有多条 <code>$cookie</code> 规则匹配一个请求，我们会逐条应用。</p>
+</blockquote>
+<p><code>$cookie</code> 语法：</p>
+<p>规则语法取决于我们是要拦截所有 Cookie 还是删除单个 Cookie。可以使用 <code>maxAge</code> 和 <code>sameSite</code> 修饰符更改规则行为。</p>
+<ul>
+<li>
+<p><code>||example.org^$cookie=NAME;maxAge=3600;sameSite=lax</code> — AdGuard 每次在对 <code>example.org</code> 的请求中遇到名为 <code>NAME</code> 的 cookie 时，都会执行以下操作：</p>
+<ul>
+<li>将过期日期设置为当前时间加 <code>3600</code> 秒</li>
+<li>使 Cookie 使用 <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvSFRUUC9Db29raWVzI1NhbWVTaXRlX2Nvb2tpZXM=">Same-Site</a> 的” 宽松 “策略</li>
+</ul>
+</li>
+<li>
+<p><code>||example.org^$cookie</code> — 拦截 <code>example.org</code> 设置的所有 cookie，这相当于将 <code>maxAge</code>设置为零</p>
+</li>
+<li>
+<p><code>||example.org^$cookie=NAME</code> — 拦截名为 <code>NAME</code> 的单个 Cookie</p>
+</li>
+<li>
+<p><code>||example.org^$cookie=/regular_expression/</code> — 拦截与给定正则表达式匹配的每个 Cookie</p>
+</li>
+</ul>
+<blockquote>
+<p>**重要提示：**如果是正则表达式匹配，必须转义逗号 <code>,</code> 和 <code>$</code> 两个字符。请使用 <code>\</code>。例如，转义逗号如下所示：<code>\,</code></p>
+</blockquote>
+<p><code>$cookie</code> 规则不受常规排除规则 <code>@@</code>的影响，除非是 <code>$document</code> 排除。要禁用 <code>$cookie</code> 规则，排除规则还需要有 <code>$cookie</code> 修饰符。它是这样运作的：</p>
+<ul>
+<li><code>@@||example.org^$cookie</code> — 取消拦截由 <code>example.org</code> 设置的所有 Cookie</li>
+<li><code>@@||example.org^$cookie=NAME</code> — 取消拦截名为 <code>Name</code> 的单个 Cookie</li>
+<li><code>@@||example.org^$cookie=/regular_expression/</code> — 取消拦截与给定正则表达式匹配的每个 Cookie</li>
+</ul>
+<blockquote>
+<p><strong>局限性</strong></p>
+<p><code>$cookie</code> 规则支持限定的修饰符列表：<code>domain</code>、<code>~domain</code>、<code>important</code>、<code>third-party</code>、<code>~third-party</code></p>
+</blockquote>
+<p>现实生活中的示例：</p>
+<ul>
+<li><code>$cookie=__cfduid</code> — 到处拦截 CloudFlare 的 Cookie</li>
+<li><code>$cookie=/__utm[a-z]/</code> — 到处拦截 Google Analytics 的 Cookie</li>
+<li><code>||facebook.com^$third-party,cookie=c_user</code> — 阻止 Facebook 跟踪您，即使您已登录</li>
+</ul>
+<h5><a id="network" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>network</code></h5>
+<p>这基本上是一种防火墙类型的规则，允许完全拦截或解除拦截对指定远程地址的访问。</p>
+<blockquote>
+<p><strong>不同版本 AdGuard 的兼容性</strong></p>
+<p>从技术上讲，只有 Windows、Mac 和 Android 版的 AdGuard 才能使用这种类型的规则。</p>
+</blockquote>
+<ol>
+<li><code>$network</code> 规则仅匹配 <strong>IP 地址</strong>！您不能使用它来拦截或解除拦截对域的访问。</li>
+<li>要匹配 IPv6 地址，必须使用折叠的语法，例如使用 <code>[2001:4860:4860::8888]$network</code> 代替 <code>[2001:4860:4860:0:0:0:0:8888]$network</code></li>
+<li>白名单 <code>$network</code> 规则使 AdGuard 将数据绕过到匹配的端点，例如，根本不会有进一步的过滤。</li>
+</ol>
+<p><code>network</code> 示例：</p>
+<ul>
+<li><code>174.129.166.49:3478^$network</code> — 阻止访问 <code>174.129.166.49:3478</code> (但不阻止访问 <code>174.129.166.49:34788</code>)</li>
+<li><code>[2001:4860:4860::8888]:443^$network</code> — 阻止访问 <code>[2001:4860:4860::8888]:443</code>.</li>
+<li><code>174.129.166.49$network</code> — 阻止访问 <code>174.129.166.49:*</code>.</li>
+<li><code>@@174.129.166.49$network</code> — 使 AdGuard 将数据绕过端点。不会应用任何其他规则。</li>
+</ul>
+<h5><a id="app" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>app</code></h5>
+<p>此修饰符允许您将规则覆盖范围缩小到特定应用程序 (或应用程序列表)。这在 Windows 和 Mac 上可能不太重要，但在手机上非常重要，其中一些过滤规则必须是特定于应用程序的。</p>
+<ul>
+<li>Android — 使用 APP 的包名 (例如 <code>org.example.app</code>)</li>
+<li>Windows — 使用进程名称 (例如 <code>chrome.exe</code>)</li>
+<li>Mac — 使用进程名称 (例如 <code>firefox-bin</code>).</li>
+</ul>
+<p><code>app</code> 示例：</p>
+<ul>
+<li><code>||baddomain.com^$app=org.example.app</code> — 屏蔽来自 <code>com.adGud.android</code>Android APP 中与指定地址匹配的请求的规则</li>
+<li><code>||baddomain.com^$app=org.example.app1|org.example.app2</code> — 规则相同，但 <code>org.example.app1</code> 和 <code>org.example.app2</code> 应用都适用。</li>
+</ul>
+<p>如果希望规则不应用于某些应用程序，请以 <code>~</code> 符号应用程序名称的开头</p>
+<p><code>app</code> 和 <code>~</code> 示例：</p>
+<ul>
+<li><code>||baddomain.com^$app=~org.example.app</code> — 屏蔽除 <code>org.example.app</code> 外，从任何 APP 发送的与指定地址匹配的请求的规则则，<code>||baddomain.com^$domain=~org.example.app1|~org.example.app2</code> — 同上，但现在排除了 <code>org.example.app1</code> 和 <code>org.example.app2</code> 两个 APP</li>
+</ul>
+<h2><a id="%E4%BF%AE%E9%A5%B0%E8%A7%84%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>修饰规则</h2>
+<p>顾名思义，修饰规则不是用来阻止广告请求的，而是用来改变页面外观的。它们可以隐藏元素，甚至可以转换页面的整体样式。</p>
+<blockquote>
+<p>使用修饰规则需要 HTML 和 CSS 的基本知识。因此，如果您想了解如何制定这样的规则，我们建议您熟悉<a href="https://www.leeyiding.com/go/aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvR3VpZGUvQ1NTL0dldHRpbmdfc3RhcnRlZC9XaGF0X2lzX0NTUw==">本文档</a></p>
+</blockquote>
+<h3><a id="%E5%85%83%E7%B4%A0%E9%9A%90%E8%97%8F%E8%A7%84%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>元素隐藏规则</h3>
+<p>元素隐藏规则用于隐藏网页中的元素，类似于对选中的元素应用 <code>{display：None；}</code> 样式。</p>
+<h4><a id="%E5%85%83%E7%B4%A0%E9%9A%90%E8%97%8F%E8%A7%84%E5%88%99%E8%AF%AD%E6%B3%95" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>元素隐藏规则语法</h4>
+<pre><code class="language-plain_text">* rule = [domains] &quot;##&quot; selector
+* domains = [domain0, domain1[, ...[, domainN]]]
+
+</code></pre>
+<ul>
+<li><strong><code>selector</code></strong> — <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvR3VpZGUvQ1NTL0dldHRpbmdfU3RhcnRlZC9TZWxlY3RvcnM=">CSS 选择器</a>，定义要隐藏的元素。</li>
+<li><strong><code>domains</code></strong> — 规则的域限制</li>
+</ul>
+<p>如果要将规则应用区域限制为某些域，只需输入它们，用逗号分隔即可。例如：<code>example.org,example.com##selector</code></p>
+<blockquote>
+<p>需要注意的是，该规则同样适用于 <code>example.org</code> 和 <code>example.com</code> 的所有子域名。</p>
+</blockquote>
+<p>如果您不想将规则应用于某些域名，请使用 <code>~</code> 符号作为域名的开头。例如：<code>~example.org##selector</code>.</p>
+<p>您可以在单个规则中使用这两种方法。例如 <code>example.org，~subdomain.example.org##domain</code>将会在 <code>example.org</code> 及其所有子域运作，<strong>除了 <code>subdomain.example.org</code></strong>.</p>
+<blockquote>
+<p><strong>请注意</strong></p>
+<p>元素隐藏规则彼此不依赖。如果过滤器中有 <code>example.org##selector</code> 规则，并且您添加了 <code>~example.org##selector</code>，则这两个规则将独立应用。</p>
+</blockquote>
+<h4><a id="%E5%85%83%E7%B4%A0%E9%9A%90%E8%97%8F%E8%A7%84%E5%88%99%E7%A4%BA%E4%BE%8B" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>元素隐藏规则示例</h4>
+<ul>
+<li><code>example.com##.textad</code> — 在 <code>example.com</code> 及其所有子域中隐藏 <code>class</code> 名为 <code>textad</code> 的 <code>div</code> 元素</li>
+<li><code>example.com,example.org###adblock</code> - hides an element with attribute <code>id</code> equals <code>adblock</code> at <code>example.com</code>, <code>example.org</code> and all subdomains.</li>
+<li><code>~example.com##.textad</code> — 在除 <code>example.com</code> 及其所有子域外的所有域名中隐藏 <code>class</code>名为 <code>textad</code> 的 <code>div</code> 元素</li>
+</ul>
+<h4><a id="%E5%85%83%E7%B4%A0%E9%9A%90%E8%97%8F%E8%A7%84%E5%88%99%E4%BE%8B%E5%A4%96" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>元素隐藏规则例外</h4>
+<p>Exceptions 可以禁用特定域上的某些规则。它们与通常的排除规则非常相似，但是您必须使用<code>#@#</code>而不是<code>##</code></p>
+<p>例如，过滤器中有一条规则：</p>
+<pre><code class="language-plain_text">* ##.textad
+
+</code></pre>
+<p>如果你想对 <code>example.com</code> 禁用，你可以创建排除规则：</p>
+<pre><code class="language-plain_text">* example.com#@#.textad
+
+</code></pre>
+<p>我们建议仅在无法更改隐藏规则本身的情况下才使用此类例外。在其他情况下，最好使用域限制更改原始规则</p>
+<blockquote>
+<p><strong>请注意</strong></p>
+<p>没有任何特定域的排除规则没有意义，将被忽略</p>
+</blockquote>
+<h3><a id="%E4%BF%AE%E9%A5%B0css%E8%A7%84%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>修饰 CSS 规则</h3>
+<p>有时，简单地隐藏一个元素并不足以处理广告。例如，阻止广告元素只会破坏页面布局。在这种情况下，AdGuard 可以使用比隐藏规则灵活得多的规则。使用此规则，您基本上可以向页面添加任何 CSS 样式</p>
+<blockquote>
+<p><strong>局限性</strong></p>
+<p>禁止使用导致加载任何资源的样式。基本上，这意味着您不能在样式中使用任何 <code>&lt;url&gt;</code>类型值。</p>
+</blockquote>
+<h4><a id="%E4%BF%AE%E9%A5%B0css%E8%A7%84%E5%88%99%E8%AF%AD%E6%B3%95" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>修饰 CSS 规则语法</h4>
+<pre><code class="language-plain_text">* rule = [domains] &quot;#$#&quot; selector &quot;{&quot; style &quot;}&quot;
+* domains = [domain0, domain1[, ...[, domainN]]]
+
+</code></pre>
+<ul>
+<li><strong><code>selector</code></strong> — <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvR3VpZGUvQ1NTL0dldHRpbmdfU3RhcnRlZC9TZWxlY3RvcnM=">CSS 选择器</a>，定义我们要将样式应用到的元素</li>
+<li><strong><code>domains</code></strong> — 规则的域限制</li>
+<li><strong><code>style</code></strong> — 要应用于选定元素的 CSS 样式。</li>
+</ul>
+<h4><a id="%E4%BF%AE%E9%A5%B0css%E8%A7%84%E5%88%99%E7%A4%BA%E4%BE%8B" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>修饰 CSS 规则示例</h4>
+<pre><code class="language-plain_text">* example.com#$#body { background-color: #333!important; }
+
+</code></pre>
+<p>这条规则将对 <code>example.com</code> 及其所有子域的 <code>body</code> 元素应用 <code>back-color：#333！Important；</code>样式</p>
+<h4><a id="css%E9%9A%90%E8%97%8F%E8%A7%84%E5%88%99%E4%BE%8B%E5%A4%96" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>CSS 隐藏规则例外</h4>
+<p>与元素隐藏一样，有一类规则可以禁用特定域的选定 CSS 样式规则。<br />
+排除规则大同小异，只需要将 <code>#$#</code> 改为 <code>#@$#</code>即可</p>
+<p>例如，过滤器中有一条规则：</p>
+<pre><code class="language-plain_text">* #$#.textad { visibility: hidden; }
+
+</code></pre>
+<p>如果你想对 <code>example.com</code> 禁用，你可以创建排除规则：</p>
+<pre><code class="language-plain_text">* example.com#@$#.textad { visibility: hidden; }
+
+</code></pre>
+<p>我们建议仅在无法更改 CSS 规则本身的情况下才使用此类例外。在其他情况下，最好使用域限制更改原始规则</p>
+<h3><a id="%E6%89%A9%E5%B1%95css%E9%80%89%E6%8B%A9%E5%99%A8" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>扩展 CSS 选择器</h3>
+<p>CSS3.0 并不足以屏蔽广告。为了解决此问题，AdGuard 通过添加对新伪元素的支持来扩展 CSS 功能。为了使用扩展的 CSS 选择器，我们开发了一个单独的开源<a href="https://www.leeyiding.com/go/aHR0cHM6Ly9naXRodWIuY29tL0FkZ3VhcmRUZWFtL0V4dGVuZGVkQ3Nz">模块</a>.</p>
+<blockquote>
+<p><strong>向后兼容性</strong></p>
+<p>在普通过滤器中，我们使用所谓的向后兼容语法。问题是，扩展的伪类可能会破坏先前版本的 AdGuard 或其他不支持扩展 CSS 的广告拦截器中的美化规则。例如，可以使用 <code>[-ext-has=“selector”]</code> 属性来代替伪类<code>：has(Selector)</code>。</p>
+<p><strong>应用区域</strong></p>
+<p>扩展选择器可以在任何修饰规则中使用，无论它们是元素隐藏规则还是修饰 CSS 规则。</p>
+</blockquote>
+<p>扩展 CSS 规则语法</p>
+<p>不管您在规则中使用的是什么 CSS 伪类，您都可以使用特殊标记来使这些规则使用 “扩展 CSS” 引擎。建议将这些标记用于所有 “扩展 CSS” 修饰规则，以便更容易找到它们</p>
+<ul>
+<li><code>#?#</code> — 用于元素隐藏 (<code>#@?#</code> — 用于排除 )</li>
+<li><code>#$?#</code> — 用于 CSS 注入 (<code>#@$?#</code> — 用于排除)</li>
+</ul>
+<p>扩展 CSS 规则示例：</p>
+<ul>
+<li><code>example.org#?#div:has(&gt; a[target=&quot;_blank&quot;][rel=&quot;nofollow&quot;])</code> — 此规则会拦截所有子类的链接中包含 <code>[target=&quot;_blank&quot;][rel=&quot;nofollow&quot;]</code> 属性的 <code>div</code> 元素，该规则仅对 <code>example.org</code> 及其所有子域名有效</li>
+<li><code>example.com#$?#h3:contains(cookies) { display: none!important; }</code> — 此规则将为所有包含 <code>cookies</code> 字符串的 <code>h3</code> 元素设置样式 <code>display：None！Important</code>。该规则仅对 <code>example.com</code> 及其所有子域名有效。</li>
+<li><code>example.net#?#.banner:matches-css(width: 360px)</code> — 此规则将拦截所有包含 <code>width：360px</code> 样式属性的<code>.banner</code> 元素。该规则仅对 <code>example.net</code> 及其所有子域名有效。</li>
+<li><code>example.net#@?#.banner:matches-css(width: 360px)</code> — 此规则将禁用上一规则</li>
+</ul>
+<blockquote>
+<p>请注意，现在您可以使用如下规则使用 ExtCss 引擎应用简单选择器：</p>
+<p><code>#?#div</code></p>
+</blockquote>
+<h4><a id="%E4%BC%AA%E7%B1%BBhas" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>伪类<code>:has()</code></h4>
+<p>CSS4.0 规范草案描述了<a href="https://www.leeyiding.com/go/aHR0cHM6Ly9kcmFmdHMuY3Nzd2cub3JnL3NlbGVjdG9ycy8jcmVsYXRpb25hbA==">伪类</a><code>:has</code>。不幸的是，浏览器还不支持它</p>
+<p><code>:has()</code> 语法：</p>
+<pre><code class="language-plain_text">* :has(selector)
+
+</code></pre>
+<p>向后兼容语法：</p>
+<pre><code class="language-plain_text">* [-ext-has=&quot;selector&quot;]
+
+</code></pre>
+<p>支持同义词以提高兼容性：<code>:-abp-has</code>, <code>:if</code></p>
+<p>伪类<code>:has()</code> 选择包含适合 <code>selector</code> 的元素</p>
+<p><code>:has()</code> 示例：</p>
+<p>选择一个子元素的 <code>class</code> 为 <code>banner</code> 的所有 <code>div</code> 元素</p>
+<p><strong>HTML 代码</strong></p>
+<pre><code class="language-plain_text">* &lt;div&gt;Do not select this div&lt;/div&gt;
+* &lt;div&gt;Select this div&lt;span class=&quot;banner&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+
+</code></pre>
+<p><strong>选择器</strong></p>
+<pre><code class="language-plain_text">* div:has(.banner)
+
+</code></pre>
+<p><strong>向后兼容语法</strong></p>
+<pre><code class="language-plain_text">* div[-ext-has=&quot;.banner&quot;]
+
+</code></pre>
+<h4><a id="%E4%BC%AA%E7%B1%BBif-not" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>伪类<code>:if-not()</code></h4>
+<p>这个伪类基本上是<code>:not(:has())</code> 的快捷方式。ExtendedCss 支持它，以便与某些筛选器订阅更好地兼容，但不建议在 AdGuard 筛选器中使用它。其基本原理是，总有一天浏览器会添加<code>：has</code> 原生支持，但这永远不会发生在这个伪类上。</p>
+<h4><a id="%E4%BC%AA%E7%B1%BBcontains" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>伪类<code>:contains()</code></h4>
+<p>这个伪类原则非常简单：它允许选择包含指定文本或内容与指定正则表达式匹配的元素。需要注意的是，这个伪类使用的是 <code>innerText</code> 元素属性进行匹配 (而不是 <code>innerHTML</code>)。</p>
+<p><code>:contains()</code> 语法：</p>
+<pre><code class="language-plain_text">* // 按纯文本匹配
+* :contains(text)
+* 
+* // 按正则表达式匹配
+* :contains(/regex/)
+
+</code></pre>
+<p>向后兼容语法：</p>
+<pre><code class="language-plain_text">* // 按纯文本匹配
+* [-ext-contains=&quot;text&quot;]
+* 
+* // 按正则表达式匹配
+* [-ext-contains=&quot;/regex/&quot;]
+
+</code></pre>
+<p>支持的同义词以实现更好的兼容性： <code>:-abp-contains</code>, <code>:has-text</code>.</p>
+<p><code>:contains()</code> 示例：</p>
+<p>选择所有包含 <code>banner</code> 文本的 <code>div</code> 元素</p>
+<p><strong>HTML 代码：</strong></p>
+<pre><code class="language-plain_text">* &lt;div&gt;Do not select this div&lt;/div&gt;
+* &lt;div id=&quot;selected&quot;&gt;Select this div (banner)&lt;/div&gt;
+* &lt;div&gt;Do not select this div &lt;div class=&quot;banner&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+
+</code></pre>
+<p><strong>选择器：</strong></p>
+<pre><code class="language-plain_text">* // 按纯文本匹配
+* div:contains(banner)
+* 
+* // 按正则表达式匹配
+* div:contains(/this .\* banner/)
+
+</code></pre>
+<p><strong>向后兼容语法：</strong></p>
+<pre><code class="language-plain_text">* // 按纯文本匹配
+* div[-ext-contains=&quot;banner&quot;]
+* 
+* // 按正则表达式匹配
+* div[-ext-contains=&quot;/this .\* banner/&quot;]
+
+</code></pre>
+<p>需要注意的是，本例中只会选择 <code>id=selected</code> 的 <code>div</code>，因为下一个元素不包含任何文本 (<code>banner</code> 是代码的一部分，不是文本)</p>
+<h4><a id="%E4%BC%AA%E7%B1%BBmatches-css" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>伪类<code>:matches-css()</code></h4>
+<p>这些伪类允许根据元素的当前样式属性选择元素。这个伪类的工作基于使用 <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4tVVMvZG9jcy9XZWIvQVBJL1dpbmRvdy9nZXRDb21wdXRlZFN0eWxl"><code>window.getComputedStyle</code></a>函数</p>
+<p><code>:matches-css()</code> 语法：</p>
+<pre><code class="language-plain_text">* /\* 元素样式匹配 \*/
+* selector:matches-css(property-name &quot;:&quot; pattern)
+* 
+* /\* ::before伪类元素样式匹配 \*/
+* selector:matches-css-before(property-name &quot;:&quot; pattern)
+* 
+* /\* ::after伪类元素样式匹配 \*/
+* selector:matches-css-after(property-name &quot;:&quot; pattern)
+
+</code></pre>
+<p>向后兼容语法</p>
+<pre><code class="language-plain_text">* selector[-ext-matches-css=&quot;property-name &quot;:&quot; pattern&quot;]
+* selector[-ext-matches-css-after=&quot;property-name &quot;:&quot; pattern&quot;]
+* selector[-ext-matches-css-before=&quot;property-name &quot;:&quot; pattern&quot;]
+
+</code></pre>
+<h6><a id="property-name" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>property-name</code></h6>
+<p>要检查元素的 CSS 属性的名称</p>
+<h6><a id="pattern" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>pattern</code></h6>
+<p>这可以是使用与基本 URL 过滤规则中相同的简单通配符匹配的值模式，也可以是正则表达式。对于这种类型的匹配，AdGuard 始终以不区分大小写的方式进行匹配。</p>
+<p>对于正则表达式，模式类似于 <code>/regex/</code></p>
+<blockquote>
+<ul>
+<li>对于非正则表达式模式，<code>,</code> 必须未转义，因为我们要求在过滤规则中对它们进行转义。</li>
+<li>对于正则表达式模式，应该转义 <code>&quot;</code>、<code>,</code>、<code>\</code> 因为我们手动转义 Extended-css-selector.js 中的那些。</li>
+</ul>
+</blockquote>
+<p><code>:matches-css()</code> 示例：</p>
+<p>选择所有<code>::before</code> 伪类包含指定内容的 <code>div</code> 元素</p>
+<p><strong>HTML 代码：</strong></p>
+<pre><code class="language-plain_text">* &lt;style type=&quot;text/css&quot;&gt;
+* #to-be-blocked::before {
+* content: &quot;Block me&quot;
+* }
+* &lt;/style&gt;
+* &lt;div id=&quot;to-be-blocked&quot; class=&quot;banner&quot;&gt;&lt;/div&gt;
+* &lt;div id=&quot;not-to-be-blocked&quot; class=&quot;banner&quot;&gt;&lt;/div&gt;
+
+</code></pre>
+<p><strong>选择器：</strong></p>
+<pre><code class="language-plain_text">* // 简单匹配
+* div.banner:matches-css-before(content: block me)
+* 
+* // 正则匹配
+* div.banner:matches-css-before(content: /block me/)
+
+</code></pre>
+<p><strong>向后兼容语法：</strong></p>
+<pre><code class="language-plain_text">* // 简单匹配
+* div.banner[-ext-matches-css-before=&quot;content: block me&quot;]
+* 
+* // 正则匹配
+* div.banner[-ext-matches-css-before=&quot;content: /block me/&quot;]
+
+</code></pre>
+<h4><a id="%E9%80%89%E6%8B%A9%E5%99%A8%E8%B0%83%E8%AF%95%E6%A8%A1%E5%BC%8F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>选择器调试模式</h4>
+<p>有时，您可能需要检查给定选择器或样式表的性能。为了不与 javascript 直接交互，可以使用特殊的 <code>debug</code> 样式属性。当 <code>ExtendedCss</code> 满足此属性时，将根据 <code>debug</code> 值为单个选择器或所有选择器启用 debug 模式。</p>
+<p><strong>调试单个选择器</strong></p>
+<pre><code class="language-plain_text">* #$#.banner { display: none; debug: true; }
+
+</code></pre>
+<p><strong>启用全局调试</strong></p>
+<pre><code class="language-plain_text">* #$#.banner { display: none; debug: global; }
+
+</code></pre>
+<h4><a id="%E6%B5%8B%E8%AF%95%E6%89%A9%E5%B1%95%E9%80%89%E6%8B%A9%E5%99%A8" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>测试扩展选择器</h4>
+<p>要将 ExtendedCss 加载到当前页，请在浏览器控制台中copy并执行以下代码：</p>
+<pre><code class="language-plain_text">* !function(E,x,t,C,s,s\_){C=E.createElement(x),s=E.getElementsByTagName(x)[0],C.src=t,
+* C.onload=function(){alert('ExtCss loaded successfully')},s.parentNode.insertBefore(C,s)}
+* (document,'script','https://AdguardTeam.github.io/ExtendedCss/extended-css.min.js')
+
+</code></pre>
+<p>或者，安装 “ExtendedCssDebugger” 用户脚本：<a href="https://www.leeyiding.com/go/aHR0cHM6Ly9naXRodWIuY29tL0FkZ3VhcmRUZWFtL1VzZXJzY3JpcHRzL2Jsb2IvbWFzdGVyL2V4dGVuZGVkQ3NzRGVidWdnZXIvZXh0ZW5kZWQtY3NzLmRlYnVnZ2VyLnVzZXIuanM=">点击访问</a></p>
+<p>现在可以在全局范围内使用 <code>ExtendedCss</code> 构造函数，其方法 <code>ExtendedCss.query</code> 作为 <code>document ent.querySelectorAll</code></p>
+<pre><code class="language-plain_text">* var selectorText = &quot;div.block[-ext-has='.header:matches-css-after(content: Anzeige)']&quot;;
+* 
+* ExtendedCss.query(selectorText) // 返回与selectorText匹配的元素数组
+
+</code></pre>
+<h2><a id="html%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>HTML 过滤规则</h2>
+<p>在大多数情况下，基础规则和修饰规则足以过滤广告。但有时需要在加载页面之前更改页面本身的 HTML 代码。这时候您需要 HTML 内容过滤规则。它们允许在浏览器加载页面之前指定要剪切的 HTML 元素</p>
+<blockquote>
+<h4><a id="%E4%B8%8D%E5%90%8C%E7%89%88%E6%9C%ACadguard%E5%85%BC%E5%AE%B9%E6%80%A7" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>不同版本 AdGuard 兼容性</h4>
+<p>规则受适用于 Windows、Mac、Android 的 AdGuard 和 AdGuard 的 Firefox 插件支持。<br />
+这种类型的规则在其他浏览器的扩展中不起作用，因为它们不能修改网络级别的内容</p>
+</blockquote>
+<h3><a id="html%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%E8%AF%AD%E6%B3%95" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>HTML 过滤规则语法</h3>
+<pre><code class="language-plain_text">* rule = [domains] &quot;$$&quot; tagName [attributes]
+* domains = [domain0, domain1[, ...[, domainN]]]
+* attributes = &quot;[&quot; name0 = value0 &quot;]&quot; &quot;[&quot; name1 = value2 &quot;]&quot; ... &quot;[&quot; nameN = valueN &quot;]&quot;
+
+</code></pre>
+<ul>
+<li><strong><code>tagName</code></strong> — 元素的小写名称，例如 <code>div</code> 或 <code>script</code></li>
+<li><strong><code>domains</code></strong> — 规则中的域限制 ，与元素隐藏规则语法相似的原则</li>
+<li><strong><code>attributes</code></strong> — 限制元素选择的属性列表。<code>name</code>- 属性名称，<code>value</code>- 子字符串，这些包含在属性值中</li>
+</ul>
+<h3><a id="html%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%E7%A4%BA%E4%BE%8B" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>HTML 过滤规则示例</h3>
+<p><strong>HTML 代码</strong></p>
+<pre><code class="language-plain_text">* &lt;script data-src=&quot;/banner.js&quot;&gt;&lt;/script&gt;
+
+</code></pre>
+<p><strong>规则</strong></p>
+<pre><code class="language-plain_text">* example.org$$script[data-src=&quot;banner&quot;]
+
+</code></pre>
+<p>该规则将删除所有具有 <code>data-src</code> 属性且包含 <code>banner</code> 子串的 <code>script</code> 元素。该规则仅对 <code>example.org</code> 及其所有子域名有效</p>
+<h3><a id="%E7%89%B9%E6%AE%8A%E5%B1%9E%E6%80%A7" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>特殊属性</h3>
+<p>除了通常的属性 (值为检查的每个元素) 外，还有一组特殊属性可以更改规则的工作方式。下面是这些属性的列表：</p>
+<h5><a id="tag-content" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>tag-content</code></h5>
+<p>这是最常用的特殊属性。它限制选择 innerHTML 代码包含指定子字符串的元素</p>
+<p>例如，让我们看一下这段 HTML 代码：</p>
+<pre><code class="language-plain_text">* &lt;script type=&quot;text/javascript&quot;&gt;
+* document.write('&lt;div&gt;banner text&lt;/div&gt;&quot; /&gt;');
+* &lt;/script&gt;
+
+</code></pre>
+<p>以下规则将删除代码中所有带有 <code>banner</code> 子字符串的 <code>script</code> 元素：</p>
+<pre><code class="language-plain_text">* $$script[tag-content=&quot;banner&quot;]
+
+</code></pre>
+<blockquote>
+<h4><a id="%E5%B5%8C%E5%A5%97%E5%85%83%E7%B4%A0" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>嵌套元素</h4>
+<p>如果我们要处理多个嵌套元素，并且它们都属于相同的 HTML 过滤规则，则它们都将被删除</p>
+</blockquote>
+<h5><a id="wildcard" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>wildcard</code></h5>
+<p>这个特殊属性的作用类似于 <code>tag-content</code>，允许您检查文档的 innerHTML 代码。规则将检查元素的 Html 代码是否适合 <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvR2xvYl8ocHJvZ3JhbW1pbmc=">Search pattern</a>)</p>
+<p>示例：</p>
+<pre><code class="language-plain_text">* $$script[wildcard=&quot;\*banner\*text\*&quot;]
+
+</code></pre>
+<p>它将检查元素的代码是否包含两个连续的子字符串 <code>banner</code> 和 <code>text</code></p>
+<h5><a id="max-length" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>max-length</code></h5>
+<p>指定 HTML 元素内容的最大长度。如果设置了此参数，并且内容长度超过该值，则规则不适用于元素</p>
+<blockquote>
+<p><strong>默认设定</strong></p>
+<p>如果不指定该参数，则认为 <code>max-Length</code> 为 8192。</p>
+</blockquote>
+<p>示例：</p>
+<pre><code class="language-plain_text">* $$div[tag-content=&quot;banner&quot;][max-length=&quot;400&quot;]
+
+</code></pre>
+<p>此规则将删除代码包含子 <code>banner</code> 且长度不超过 <code>400</code> 个字符的所有 <code>div</code> 元素</p>
+<h5><a id="min-length" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>min-length</code></h5>
+<p>指定 HTML 元素内容的最小长度。如果设置了此参数，并且内容长度小于预设值 - 则规则不适用于元素</p>
+<p>示例：</p>
+<pre><code class="language-plain_text">* $$div[tag-content=&quot;banner&quot;][min-length=&quot;400&quot;]
+
+</code></pre>
+<p>此规则将删除代码包含子 <code>banner</code> 且长度超过 <code>400</code> 个字符的所有 <code>div</code> 元素</p>
+<h3><a id="html%E6%8E%92%E9%99%A4%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>HTML 排除过滤规则</h3>
+<p>与隐藏规则类似，有一种特殊类型的规则可以禁用特定域的选定 HTML 过滤规则<br />
+语法相同，只需将 <code>$$</code> 改为 <code>$@$</code> 即可。</p>
+<p>例如，过滤器中有一条规则：</p>
+<pre><code class="language-plain_text">* $$script[tag-content=&quot;banner&quot;]
+
+</code></pre>
+<p>如果你想在 <code>example.com</code> 禁用它，可以创建排除规则：</p>
+<pre><code class="language-plain_text">* example.com$@$script[tag-content=&quot;banner&quot;]
+
+</code></pre>
+<h2><a id="javascript%E8%A7%84%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>JavaScript 规则</h2>
+<p>AdGuard 支持一种特殊类型的规则，允许您将任何 javascript 代码注入网站页面。</p>
+<blockquote>
+<p><strong>限制</strong></p>
+<p>请注意，此类规则<strong>仅适用于可信过滤器</strong>。此类别包括您自己的<strong>用户筛选器</strong>和 AdGuard 团队创建的所有筛选器。</p>
+</blockquote>
+<h3><a id="javascript%E8%A7%84%E5%88%99%E8%AF%AD%E6%B3%95" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>JavaScript 规则语法</h3>
+<pre><code class="language-plain_text">* rule = [domains] &quot;#%#&quot; script
+
+</code></pre>
+<ul>
+<li><strong><code>domains</code></strong> — 规则的域限制 ，与元素隐藏规则类似</li>
+<li><strong><code>script</code></strong> — 任意 javascript 代码<strong>在一个字符串中</strong>。</li>
+</ul>
+<h3><a id="javascript%E8%A7%84%E5%88%99%E7%A4%BA%E4%BE%8B" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>JavaScript 规则示例</h3>
+<ul>
+<li><code>example.org#%#window.__gaq = undefined;</code> — 在 <code>example.org</code> 和所有子域的所有页面上执行代码 <code>window.__gaq=unfined;</code></li>
+</ul>
+<h3><a id="javascript%E6%8E%92%E9%99%A4%E8%A7%84%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>JavaScript 排除规则</h3>
+<p>与隐藏规则类似，有一种特殊类型的规则可以禁用特定域的选定 javascript 规则<br />
+语法相同，只需将<code>#%#</code>改为<code>#@%#</code>即可</p>
+<p>例如，过滤器中有一条规则：</p>
+<pre><code class="language-plain_text">* #%#window.\_\_gaq = undefined;
+
+</code></pre>
+<p>如果你想在 <code>example.com</code> 禁用它，可以创建排除规则：</p>
+<pre><code class="language-plain_text">* example.com#@%#window.\_\_gaq = undefined;
+
+</code></pre>
+<h2><a id="%E8%BF%87%E6%BB%A4%E5%99%A8%E7%BB%B4%E6%8A%A4%E4%BA%BA%E5%91%98%E7%9A%84%E4%BF%A1%E6%81%AF" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>过滤器维护人员的信息</h2>
+<p>如果您维护 AdGuard 已知的第三方筛选器，您可能会对本节中提供的信息感兴趣。请注意，提示将仅应用于已注册的筛选器。如果该筛选器存在于<a href="https://www.leeyiding.com/go/aHR0cHM6Ly9maWx0ZXJzLmFkdGlkeS5vcmcvZXh0ZW5zaW9uL2Nocm9taXVtL2ZpbHRlcnMuanNvbg==">已知筛选器索引</a>中，则认为该筛选器已由 AdGuard 注册和识别。如果您希望注册您的筛选器，请将问题提交给 <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9naXRodWIuY29tL0FkZ3VhcmRUZWFtL0FkZ3VhcmRGaWx0ZXJz">AdGuardFilters repo</a></p>
+<h3><a id="%E9%A2%84%E5%A4%84%E7%90%86%E6%8C%87%E4%BB%A4" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>预处理指令</h3>
+<p>我们提供多个预处理器指令，过滤器维护人员可以使用这些指令来提高与不同广告拦截器的兼容性</p>
+<h4><a id="%E8%AF%AD%E6%B3%95" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>语法</h4>
+<pre><code class="language-plain_text">* !#if condition
+* Anything goes here
+* !#include URL\_or\_a\_relative\_path
+* !#endif
+
+</code></pre>
+<ul>
+<li><code>!#if</code>, <code>!#endif</code> — 过滤器维护人员可以使用这些条件根据广告拦截器类型提供不同的规则</li>
+<li><code>condition</code> — 就像在一些流行的编程语言中一样，预处理条件基于广告拦截器声明的常量。广告拦截器作者自己定义他们声明的确切常量</li>
+<li><code>!#include</code> — 此指令允许将指定文件的内容包括到筛选器中</li>
+</ul>
+<h4><a id="%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>条件判断</h4>
+<p>当广告拦截器遇到 <code>!#if</code> 指令，最后是 <code>!#endif</code> 指令时，只有在指定的条件为真时，它才会编译指令之间的代码。条件判断支持所有基本逻辑运算符。</p>
+<p><strong>示例：</strong></p>
+<pre><code class="language-plain_text">* !#if (adguard &amp;&amp; !adguard\_ext\_safari)
+* ||example.org^$third-party
+* !#endif
+
+</code></pre>
+<h4><a id="%E5%BC%95%E5%85%A5%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>引入一个文件</h4>
+<p><code>!#include</code>指令只支持来自同一来源的文件，以确保过滤器维护程序控制指定的文件。包含的文件还可以包含预处理器指令 (甚至其他 <code>!#include</code> 指令)</p>
+<p>广告拦截器应考虑递归 <code>!#include</code> 的情况，并实现保护机制。</p>
+<p><strong>示例</strong></p>
+<p>过滤器 URL: <code>https://example.org/path/filter.txt</code></p>
+<pre><code class="language-plain_text">* !
+* ! 有效的 (相同来源):
+* !#include https://example.org/path/includedfile.txt
+* !
+* ! 有效的 (相对路径):
+* !#include /includedfile.txt
+* !#include ../path2/includedfile.txt
+* !
+* ! 无效的 (其他来源):
+* !#include https://example.com/path/includedfile.txt
+
+</code></pre>
+<h4><a id="%E5%A4%87%E6%B3%A8" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>备注</h4>
+<ul>
+<li>如果未找到引入的文件或该文件不可用，则整个过滤器更新会失败</li>
+<li>以 <code>!#if</code> 指令开头的条件指令必须以 <code>!#endif</code> 指令显式终止</li>
+<li>空格很重要， <code>!#if</code> 是有效的指令， 而 <code>!# if</code> 不是</li>
+</ul>
+<h4><a id="%E7%89%B9%E5%AE%9A%E4%BA%8E%E7%AE%A1%E7%90%86%E5%91%98%E7%9A%84" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>特定于管理员的</h4>
+<ul>
+<li>预处理器指令中的任何错误都将导致 AdGuard 无法执行过滤器更新，就像过滤器 URL 不可用一样</li>
+<li>预处理器指令可以在用户过滤器 (或自定义本地过滤器) 中使用，应为本地过滤器禁用同源限制</li>
+</ul>
+<h4><a id="%E6%88%91%E4%BB%AC%E8%A6%81%E5%A3%B0%E6%98%8E%E5%93%AA%E4%BA%9B%E5%B8%B8%E9%87%8F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>我们要声明哪些常量</h4>
+<ul>
+<li><code>adguard</code> — 声明总是如此，让维护人员知道这是 AdGuard 产品之一，在 95% 的情况下应该足够了。</li>
+</ul>
+<p>当您只需要某个规则在特定产品中工作 (或不工作) 时，某些极少数情况下的特定于产品的常量：</p>
+<ul>
+<li><code>adguard_app_windows</code> -- AG for Windows</li>
+<li><code>adguard_app_mac</code> -- AG for Mac</li>
+<li><code>adguard_app_android</code> -- AG for Android</li>
+<li><code>adguard_app_ios</code> -- AG for iOS</li>
+<li><code>adguard_ext_chromium</code> -- AG browser extension for Chrome</li>
+<li><code>adguard_ext_firefox</code> -- AG browser extension for Firefox</li>
+<li><code>adguard_ext_edge</code> -- AG browser extension for Edge</li>
+<li><code>adguard_ext_safari</code> -- AG browser extension for Safari</li>
+<li><code>adguard_ext_opera</code> -- AG browser extension for Opera</li>
+<li><code>adguard_ext_android_cb</code> -- AG content blocker for Samsung/Yandex</li>
+</ul>
+<blockquote>
+<p>特殊情况：<code>ext_ublock</code>。此常量是在 <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9naXRodWIuY29tL0FkZ3VhcmRUZWFtL0ZpbHRlcnNSZWdpc3RyeQ==">FiltersRegistry</a>，编译过滤器的 uBlock 版本时声明的</p>
+</blockquote>
+<h3><a id="%E6%8F%90%E7%A4%BA" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>提示</h3>
+<p>“提示” 是对服务器端使用的过滤器编译器的特殊注释和指令 (请参阅 <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9naXRodWIuY29tL0FkZ3VhcmRUZWFtL0ZpbHRlcnNSZWdpc3RyeQ==">FiltersRegistry</a>)</p>
+<h4><a id="%E6%8F%90%E7%A4%BA%E8%AF%AD%E6%B3%95" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>提示语法</h4>
+<pre><code class="language-plain_text">* !+ HINT\_NAME1(PARAMS) HINT\_NAME2(PARAMS)
+
+</code></pre>
+<p>请注意，您可以应用多个提示</p>
+<h4><a id="%E7%A6%81%E6%AD%A2%E4%BC%98%E5%8C%96%E6%8F%90%E7%A4%BA" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>禁止优化提示</h4>
+<p>对于大型过滤器，AdGuard 编译了两个版本：完全版和优化版。优化版本要小得多，并且不包含根本不使用或很少使用的规则。有关规则优化的更多信息，您可以在<a href="https://www.leeyiding.com/go/aHR0cHM6Ly9hZGd1YXJkLmNvbS9lbi9maWx0ZXItcnVsZXMtc3RhdGlzdGljcy5odG1s">这篇文章</a>.] 中找到</p>
+<p>英语过滤器的优化版本示例： <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9maWx0ZXJzLmFkdGlkeS5vcmcvZXh0ZW5zaW9uL2VkZ2UvZmlsdGVycy8yX29wdGltaXplZC50eHQ=">点击访问</a></p>
+<p>示例：</p>
+<p>此规则将不会优化：</p>
+<pre><code class="language-plain_text">* !+ NOT\_OPTIMIZED
+* ||example.org^
+
+</code></pre>
+<p>此规则不会进行优化，仅适用于 Android：</p>
+<pre><code class="language-plain_text">* !+ NOT\_OPTIMIZED PLATFORM(android)
+* ||example.org^
+
+</code></pre>
+<h4><a id="platform%E5%92%8C-not-platform%E6%8F%90%E7%A4%BA" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>PLATFORM 和 NOT_PLATFORM 提示</h4>
+<p>指定哪些平台可以应用此规则。现有平台列表：</p>
+<ul>
+<li><code>windows</code> - 示例：Windows 的英语筛选器 - <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9maWx0ZXJzLmFkdGlkeS5vcmcvd2luZG93cy9maWx0ZXJzLzIudHh0">点击访问</a></li>
+<li><code>mac</code> - 示例：Mac 的英语过滤器 - <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9maWx0ZXJzLmFkdGlkeS5vcmcvbWFjX3YyL2ZpbHRlcnMvMi50eHQ=">点击访问</a></li>
+<li><code>android</code> - 示例：Android 英语过滤器 - <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9maWx0ZXJzLmFkdGlkeS5vcmcvYW5kcm9pZC9maWx0ZXJzLzIudHh0">点击访问</a></li>
+<li><code>ios</code> - 示例：iOS 的英语过滤器 - <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9maWx0ZXJzLmFkdGlkeS5vcmcvaW9zL2ZpbHRlcnMvMi50eHQ=">点击访问</a></li>
+<li><code>ext_chromium</code> - 示例：适用于 Chrome 的 AdGuard 浏览器扩展 - <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9maWx0ZXJzLmFkdGlkeS5vcmcvZXh0ZW5zaW9uL2Nocm9taXVtL2ZpbHRlcnMvMi50eHQ=">点击访问</a></li>
+<li><code>ext_ff</code> - 示例：适用于 Firefox 的 AdGuard 浏览器扩展 - <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9maWx0ZXJzLmFkdGlkeS5vcmcvZXh0ZW5zaW9uL2ZpcmVmb3gvZmlsdGVycy8yLnR4dA==">点击访问</a></li>
+<li><code>ext_edge</code> - 示例：适用于 Edge 的 AdGuard 浏览器扩展 - <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9maWx0ZXJzLmFkdGlkeS5vcmcvZXh0ZW5zaW9uL2VkZ2UvZmlsdGVycy8yLnR4dA==">点击访问</a></li>
+<li><code>ext_opera</code> - 示例：适用于 Opera 的 AdGuard 浏览器扩展 - <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9maWx0ZXJzLmFkdGlkeS5vcmcvZXh0ZW5zaW9uL29wZXJhL2ZpbHRlcnMvMi50eHQ=">点击访问</a></li>
+<li><code>ext_ublock</code> - 示例：uBlock 源 - <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9maWx0ZXJzLmFkdGlkeS5vcmcvZXh0ZW5zaW9uL3VibG9jay9maWx0ZXJzLzIudHh0">点击访问</a></li>
+<li><code>ext_safari</code> - 示例：适用于 Safari 的 AdGuard 浏览器扩展 - <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9maWx0ZXJzLmFkdGlkeS5vcmcvZXh0ZW5zaW9uL3NhZmFyaS9maWx0ZXJzLzIudHh0">点击访问</a></li>
+<li><code>ext_android_cb</code> - 示例：AdGuard 内容阻止程序 - <a href="https://www.leeyiding.com/go/aHR0cHM6Ly9maWx0ZXJzLmFkdGlkeS5vcmcvZXh0ZW5zaW9uL2FuZHJvaWQtY29udGVudC1ibG9ja2VyL2ZpbHRlcnMvMi50eHQ=">点击访问</a></li>
+</ul>
+<p>示例：</p>
+<p>此规则仅适用于 Windows、Mac 和 Android：</p>
+<pre><code class="language-plain_text">* !+ PLATFORM(windows,mac,android)
+* ||example.org^
+
+</code></pre>
+<p>此规则将适用于除 Safari 扩展、iOS 和 Android 内容阻止程序之外的所有平台：</p>
+<pre><code class="language-plain_text">* !+ NOT\_PLATFORM(ext\_safari, ext\_android\_cb, ios)
+* ||example.org^
+</code></pre>
+</div></body></html>
