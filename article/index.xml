@@ -59,6 +59,63 @@
     &lt;/div&gt;
 &lt;/section&gt;
 
+&lt;section class=&#34;switcher&#34;&gt;
+    &lt;div class=&#34;switcher-wrapper&#34;&gt;
+        
+        
+        
+         
+            
+            
+            
+            
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-74088&#34; id=&#34;switcher-74088-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-74088-0&#34;&gt;
+                
+                    
+                    代码
+                
+            &lt;/label&gt;
+            &lt;div class=&#34;switcher-content markdown-inner&#34;&gt;
+                
+                    
+                        
+                            &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;导演: 黄东赫
+编剧: 黄东赫
+主演: 李政宰 / 朴海秀 / 许成泰 / 魏化俊 / 金周灵 / 李政宰 
+&lt;/code&gt;&lt;/pre&gt;
+                    
+                
+            &lt;/div&gt;
+         
+            
+                &lt;span class=&#34;separator&#34; aria-hidden=&#34;true&#34;&gt;/&lt;/span&gt;
+            
+            
+            
+            
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-74088&#34; id=&#34;switcher-74088-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-74088-1&#34;&gt;
+                
+                    
+                    PREVIEW
+                
+            &lt;/label&gt;
+            &lt;div class=&#34;switcher-content markdown-inner&#34;&gt;
+                
+                    &lt;section class=&#34;code-tip&#34; data-lang=&#34;tip&#34;&gt;
+&lt;div class=&#34;prefix&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;render-content&#34; &gt;导演: 黄东赫&lt;br /&gt;
+编剧: 黄东赫&lt;br /&gt;
+主演: 李政宰 / 朴海秀 / 许成泰 / 魏化俊 / 金周灵 / 李政宰&lt;/div&gt;
+&lt;/section&gt;
+
+                
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/section&gt;
+
 &lt;blockquote&gt;
 &lt;p&gt;免费版: YES&lt;br /&gt;
 Pro版: 自定义过滤器&lt;/p&gt;
@@ -188,8 +245,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-e88e1&#34; id=&#34;switcher-e88e1-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-e88e1-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-df627&#34; id=&#34;switcher-df627-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-df627-0&#34;&gt;
                 
                     
                     代码
@@ -213,8 +270,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-e88e1&#34; id=&#34;switcher-e88e1-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-e88e1-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-df627&#34; id=&#34;switcher-df627-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-df627-1&#34;&gt;
                 
                     
                     PREVIEW
