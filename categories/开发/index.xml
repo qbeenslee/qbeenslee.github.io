@@ -36,7 +36,7 @@
       <pubDate>Fri, 22 Feb 2019 20:10:40 +0800</pubDate>
       
       <guid>https://qbeenslee.com/article/hugo-support-map-shortcodes/</guid>
-      <description>&lt;img src=&#34;https://qbeenslee-1259354687.cos.ap-shanghai.myqcloud.com/2020/05/hugologowide.svg&#34; alt=&#34;Hugo logo&#34; width=&#34;400px&#34; height=&#34;150px&#34; class=&#34;nozoom&#34; /&gt;
+      <description>&lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/img/master/svg/hugologo.svg&#34; alt=&#34;Hugo logo&#34; width=&#34;400px&#34; height=&#34;150px&#34; class=&#34;nozoom&#34; /&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Hugo是什么? 本博客网站就是使用有Hugo渲染, 关于Hugo的介绍可以看&lt;a href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34;&gt;这里&lt;/a&gt;
 &lt;/p&gt;
@@ -150,7 +150,7 @@
       
       <guid>https://qbeenslee.com/article/a-lightweight-gallery-written-by-c-sharp/</guid>
       <description>&lt;p&gt;效果图如下:&lt;/p&gt;
-&lt;img src=&#34;https://i.imgur.com/Rd8Nkz7.jpg&#34; alt=&#34;效果图&#34; width=&#34;400px&#34; /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/img/master/202209/17_f3188a.jpg&#34; alt=&#34;效果图&#34; width=&#34;400px&#34; /&gt;
 &lt;p&gt;前段日子编写了一个图片库的小程序,遇到了很多问题.这里罗列一下:&lt;/p&gt;</description>
     </item>
     
