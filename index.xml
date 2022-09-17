@@ -302,15 +302,13 @@ Pro版: 自定义过滤器&lt;/p&gt;
     &lt;div class=&#34;fragment-wrap scope-full&#34;&gt;
         &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;flex fragment-style&#34; style=&#34;background-color:#333;background-image: url(https://www.keka.io/css/img/overlay.png),url(https://www.keka.io/css/img/circles.svg);background-position: top left,center center;background-size: auto,cover;padding:1rem;&#34;&gt;
                     &lt;div class=&#34;fragment-cell&#34; &gt;
-                        &lt;center&gt;
-&lt;h2 id=&#34;keka-测试版&#34;&gt;Keka 测试版&lt;/h2&gt;
+                        &lt;h2 id=&#34;keka-测试版&#34;&gt;Keka 测试版&lt;/h2&gt;
 &lt;br/&gt;
 &lt;h6 id=&#34;您可以在正式版发布之前测试-keka-的最新功能br如果您发现了错误或要提交某些内容请转到--缺陷br&#34;&gt;您可以在正式版发布之前测试 Keka 的最新功能。&lt;br/&gt;如果您发现了错误或要提交某些内容，请转到  缺陷.&lt;br/&gt;&lt;/h6&gt;
 &lt;hr /&gt;
 &lt;p&gt;目前没有测试版。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.keka.io/zh-cn/#header&#34; title=&#34;button&#34;  class=&#34;button-link&#34;&gt;获取最新版本&lt;/a&gt;
 &lt;/p&gt;
-&lt;/center&gt;
 
                     &lt;/div&gt;
                 &lt;/div&gt;&lt;/div&gt;
@@ -330,59 +328,6 @@ Pro版: 自定义过滤器&lt;/p&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
-    &lt;/div&gt;
-&lt;/section&gt;
-
-&lt;section class=&#34;center&#34;&gt;
-    &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
-        &lt;h2 id=&#34;为上千家企业级客户提供服务&#34;&gt;为上千家企业级客户提供服务&lt;/h2&gt;
-
-    &lt;/div&gt;
-&lt;/section&gt;
-
-&lt;section class=&#34;fragment&#34;&gt;
-    &lt;div class=&#34;fragment-wrap scope-normal&#34;&gt;
-        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;fragment-style&#34; style=&#34;background:transparent;&#34;&gt;
-                    &lt;div class=&#34;flex &#34;&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/img/master/202209/17_da1f63.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/img/master/202209/17_722356.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/img/master/202209/17_25aad3.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/img/master/202209/17_b71055.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/img/master/202209/17_d51d6b.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/img/master/202209/17_33c7ef.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/img/master/202209/17_da6a76.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/img/master/202209/17_96ff44.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                            &lt;div class=&#34;fragment-cell flex-auto-fixed&#34;&gt;
-                                &lt;img src=&#34;https://raw.githubusercontent.com/qbeenslee/img/master/202209/17_33c7ef.svg&#34;&gt;
-                            &lt;/div&gt;
-                        
-                    &lt;/div&gt;
-                &lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;
 
@@ -1480,8 +1425,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-2d27e&#34; id=&#34;switcher-2d27e-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-2d27e-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-122ce&#34; id=&#34;switcher-122ce-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-122ce-0&#34;&gt;
                 
                     
                     效果
@@ -1506,8 +1451,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-2d27e&#34; id=&#34;switcher-2d27e-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-2d27e-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-122ce&#34; id=&#34;switcher-122ce-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-122ce-1&#34;&gt;
                 
                     
                     代码
