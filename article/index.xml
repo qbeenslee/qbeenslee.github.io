@@ -69,8 +69,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-79d78&#34; id=&#34;switcher-79d78-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-79d78-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-b8c28&#34; id=&#34;switcher-b8c28-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-b8c28-0&#34;&gt;
                 
                     
                     代码
@@ -97,8 +97,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-79d78&#34; id=&#34;switcher-79d78-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-79d78-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-b8c28&#34; id=&#34;switcher-b8c28-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-b8c28-1&#34;&gt;
                 
                     
                     PREVIEW
@@ -249,8 +249,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-9c77b&#34; id=&#34;switcher-9c77b-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-9c77b-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-c786d&#34; id=&#34;switcher-c786d-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-c786d-0&#34;&gt;
                 
                     
                     代码
@@ -274,8 +274,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-9c77b&#34; id=&#34;switcher-9c77b-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-9c77b-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-c786d&#34; id=&#34;switcher-c786d-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-c786d-1&#34;&gt;
                 
                     
                     PREVIEW
