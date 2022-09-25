@@ -300,8 +300,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
 &lt;/center&gt;
 &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-full&#34;&gt;
-        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;flex fragment-style&#34; style=&#34;background-color:#333;background-image: url(https://www.keka.io/css/img/overlay.png),url(https://www.keka.io/css/img/circles.svg);background-position: top left,center center;background-size: auto,cover;padding:1rem;&#34;&gt;
-                    &lt;div class=&#34;fragment-cell&#34; &gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;flex fragment-style&#34; style=&#34;background-color:#333;background-image: url(https://www.keka.io/css/img/overlay.png),url(https://www.keka.io/css/img/circles.svg);background-position: top left,center center;background-size: auto,cover;padding:1rem;text-align: center;&#34;&gt;
+                    &lt;div class=&#34;fragment-cell&#34;  style=&#34;flex:1 1 auto;&#34;&gt;
                         &lt;h2 id=&#34;keka-测试版&#34;&gt;Keka 测试版&lt;/h2&gt;
 &lt;br/&gt;
 &lt;h6 id=&#34;您可以在正式版发布之前测试-keka-的最新功能br如果您发现了错误或要提交某些内容请转到--缺陷br&#34;&gt;您可以在正式版发布之前测试 Keka 的最新功能。&lt;br/&gt;如果您发现了错误或要提交某些内容，请转到  缺陷.&lt;br/&gt;&lt;/h6&gt;
@@ -319,7 +319,7 @@ Pro版: 自定义过滤器&lt;/p&gt;
     &lt;div class=&#34;flex align-items-center justify-content-center flex-direction-column&#34; style=&#34;height:100%&#34;&gt;
         &lt;section class=&#34;fragment&#34;&gt;
     &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
-        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;flex fragment-style&#34; style=&#34;border-radius: .5rem;padding: 2.5rem;background-image: url(https://raw.githubusercontent.com/qbeenslee/CDN/master/screenshot/2022/09-01/1044176ba-seed_textured_background_green.jpg);margin: 5rem 0;background-attachment: fixed;background-size: cover;&#34;&gt;
+        &lt;div class=&#34;content fixed-data-mode&#34; data-mode=&#34;dark&#34;&gt;&lt;div class=&#34;flex fragment-style&#34; style=&#34;border-radius: .5rem;padding: 2.5rem;background-image: url(https://raw.githubusercontent.com/qbeenslee/img/master/202209/25_259ba1.jpg);margin: 5rem 0;background-size: cover;&#34;&gt;
                     &lt;div class=&#34;fragment-cell&#34; &gt;
                         🧑‍🚀 Runjuu:&lt;br /&gt;
 &lt;strong&gt;作为文件解压缩用户，keka帮助了我很多大忙。❤️&lt;/strong&gt;
@@ -1429,8 +1429,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-2ee46&#34; id=&#34;switcher-2ee46-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-2ee46-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-8c876&#34; id=&#34;switcher-8c876-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-8c876-0&#34;&gt;
                 
                     
                     效果
@@ -1455,8 +1455,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-2ee46&#34; id=&#34;switcher-2ee46-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-2ee46-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-8c876&#34; id=&#34;switcher-8c876-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-8c876-1&#34;&gt;
                 
                     
                     代码
