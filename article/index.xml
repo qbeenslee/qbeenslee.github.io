@@ -69,8 +69,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-c1c1f&#34; id=&#34;switcher-c1c1f-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-c1c1f-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-c26d9&#34; id=&#34;switcher-c26d9-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-c26d9-0&#34;&gt;
                 
                     
                     代码
@@ -97,8 +97,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-c1c1f&#34; id=&#34;switcher-c1c1f-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-c1c1f-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-c26d9&#34; id=&#34;switcher-c26d9-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-c26d9-1&#34;&gt;
                 
                     
                     PREVIEW
@@ -249,8 +249,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-88861&#34; id=&#34;switcher-88861-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-88861-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-823d8&#34; id=&#34;switcher-823d8-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-823d8-0&#34;&gt;
                 
                     
                     代码
@@ -274,8 +274,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-88861&#34; id=&#34;switcher-88861-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-88861-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-823d8&#34; id=&#34;switcher-823d8-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-823d8-1&#34;&gt;
                 
                     
                     PREVIEW
