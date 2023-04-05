@@ -23,7 +23,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://qbeenslee.com/about/website/</guid>
-      <description> 项目 技术方案 渲染 Hugo (0.93.0 +) 主题 hugo-theme-fragment (自用) 处理后置 gulpfile (4.0.2+) 托管 github-pages 评论插件 valine CDN Tencent COS img CDN github </description>
+      <description> 项目 技术方案 渲染 Hugo (0.93.0 +) 主题 hugo-theme-fragment (自用) 处理后置 gulpfile (4.0.2+) 托管 github-pages 评论插件 valine CDN github content img CDN github </description>
     </item>
     
   </channel>
