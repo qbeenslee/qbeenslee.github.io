@@ -6,7 +6,19 @@
     <description>Recent content in 小声BB on Hey sister</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 27 Jun 2020 00:20:20 +0800</lastBuildDate><atom:link href="https://qbeenslee.com/bb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Apr 2023 11:50:01 +0800</lastBuildDate><atom:link href="https://qbeenslee.com/bb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>接入CF的warp之后优化代理分流规则</title>
+      <link>https://qbeenslee.com/bb/better-proxy-rule-with-warp-used/</link>
+      <pubDate>Wed, 26 Apr 2023 11:50:01 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/bb/better-proxy-rule-with-warp-used/</guid>
+      <description>体验了免费的WARP之后真香 ! 免费 ! 量大 ! 管饱 !
+但是它存在一个问题, 延迟比较高, 但基于它免费且无线流量的特性很适合用于加载视频内容.
+拿油管举例:
+# 优先将大流量规则分配给WARP DOMAIN-SUFFIX,googlevideo.com,Warp # API请求使用Proxy指向快速代理 DOMAIN-KEYWORD,google,Proxy USER-AGENT,YouTube*,Proxy USER-AGENT,com.google.ios.youtube*,Proxy DOMAIN,youtubei.googleapis.com,Proxy DOMAIN-SUFFIX,youtu.be,Proxy DOMAIN-SUFFIX,youtube.com,Proxy DOMAIN-SUFFIX,ytimg.com,Proxy DOMAIN,yt3.ggpht.com,Proxy 这样做的好处十分明显,可以做到快速打开网页(App)又可以节省视频观看带来的大量流量消耗</description>
+    </item>
+    
     <item>
       <title>有位朋友不更新朋友圈一年后, 发现他已不在人世</title>
       <link>https://qbeenslee.com/bb/lost-a-friend/</link>
