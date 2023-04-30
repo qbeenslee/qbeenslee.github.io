@@ -332,8 +332,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-782ce&#34; id=&#34;switcher-782ce-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-782ce-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-49c98&#34; id=&#34;switcher-49c98-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-49c98-0&#34;&gt;
                 
                     
                     代码
@@ -358,8 +358,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-782ce&#34; id=&#34;switcher-782ce-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-782ce-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-49c98&#34; id=&#34;switcher-49c98-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-49c98-1&#34;&gt;
                 
                     
                     PREVIEW
@@ -510,8 +510,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-c7488&#34; id=&#34;switcher-c7488-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-c7488-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-03e42&#34; id=&#34;switcher-03e42-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-03e42-0&#34;&gt;
                 
                     
                     代码
@@ -535,8 +535,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-c7488&#34; id=&#34;switcher-c7488-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-c7488-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-03e42&#34; id=&#34;switcher-03e42-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-03e42-1&#34;&gt;
                 
                     
                     PREVIEW
