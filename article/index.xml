@@ -6,7 +6,16 @@
     <description>Recent content in 姐姐好美! on Hey sister</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Fri, 09 Sep 2022 11:04:08 +0800</lastBuildDate><atom:link href="https://qbeenslee.com/article/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Apr 2023 21:45:00 +0800</lastBuildDate><atom:link href="https://qbeenslee.com/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>阅读和书源规则编写建议</title>
+      <link>https://qbeenslee.com/article/legado-site-rules/</link>
+      <pubDate>Sun, 30 Apr 2023 21:45:00 +0800</pubDate>
+      
+      <guid>https://qbeenslee.com/article/legado-site-rules/</guid>
+      <description>&lt;p&gt;阅读（legado）是一款很酷的应用，它可以让网络小说和漫画的爱好者导入自定义阅读源后享受便捷的阅读体验。但是阅读其实是一个灰色地带的应用，虽然并不违法，但是也不也上不了台面。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>移动端上一些可以折腾的APP</title>
       <link>https://qbeenslee.com/article/best-iphone-apps-2022/</link>
@@ -323,8 +332,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-7f8e6&#34; id=&#34;switcher-7f8e6-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-7f8e6-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-782ce&#34; id=&#34;switcher-782ce-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-782ce-0&#34;&gt;
                 
                     
                     代码
@@ -349,8 +358,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-7f8e6&#34; id=&#34;switcher-7f8e6-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-7f8e6-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-782ce&#34; id=&#34;switcher-782ce-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-782ce-1&#34;&gt;
                 
                     
                     PREVIEW
@@ -501,8 +510,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-b18db&#34; id=&#34;switcher-b18db-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-b18db-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-c7488&#34; id=&#34;switcher-c7488-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-c7488-0&#34;&gt;
                 
                     
                     代码
@@ -526,8 +535,8 @@ Pro版: 自定义过滤器&lt;/p&gt;
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-b18db&#34; id=&#34;switcher-b18db-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-b18db-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-c7488&#34; id=&#34;switcher-c7488-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-c7488-1&#34;&gt;
                 
                     
                     PREVIEW

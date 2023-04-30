@@ -8,6 +8,97 @@
 
     <atom:link href="https://qbeenslee.com/index.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>阅读和书源规则编写建议</title>
+    <link>https://qbeenslee.com/article/legado-site-rules/</link>
+    <pubDate>Sun, 30 Apr 2023 21:45:00 +0800</pubDate>
+    <author>qbeenslee</author>
+    <guid>https://qbeenslee.com/article/legado-site-rules/</guid>
+    
+        <description>&lt;p&gt;阅读（legado）是一款很酷的应用，它可以让网络小说和漫画的爱好者导入自定义阅读源后享受便捷的阅读体验。但是阅读其实是一个灰色地带的应用，虽然并不违法，但是也不也上不了台面。&lt;/p&gt;
+&lt;p&gt;本质上，阅读就是一个网络浏览器，根据书源规则，把那些小说和漫画的网站更加方便地解析展示给大家。要说有罪，那任何网页浏览器都可以被定罪，但它和盗版是强相关的。虽然在法律上有争议，但我还是认为阅读是 Android 手机上不可或缺的阅读神器。阅读确实很方便舒适，但是我还是建议大家通过正规渠道购买和阅读网络小说和漫画，这样不仅能尊重和支持作者，还能维护整个行业的生态环境。&lt;/p&gt;
+&lt;p&gt;所以，下文的介绍都不基于对盗版资源的抓取，特此说明。&lt;/p&gt;
+&lt;section class=&#34;fragment&#34;&gt;
+    &lt;div class=&#34;fragment-wrap scope-wrap&#34;&gt;
+        &lt;div class=&#34;content&#34;&gt;&lt;div style=&#34;background:transparent;&#34; role=&#34;fragment-style&#34;&gt;
+                    &lt;div class=&#34;flex flex-wrap&#34;&gt;
+                        
+                            &lt;div  class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                                &lt;img src=&#34;https://raw.githubusercontent.com/gedoor/legado/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png&#34; width=&#34;110px&#34; height=&#34;110px&#34;&gt;
+                            &lt;/div&gt;
+                        
+                            &lt;div  class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                                &lt;section class=&#34;admonition code-info&#34; data-lang=&#34;info&#34;&gt;
+    &lt;div class=&#34;render-content&#34; &gt;&lt;strong&gt;作者&lt;/strong&gt;: &lt;a href=&#34;https://github.com/gedoor&#34;  target=&#34;_blank&#34;&gt;kunfei&lt;/a&gt;
+&lt;br /&gt;
+&lt;strong&gt;平台&lt;/strong&gt;: Android[only]&lt;br /&gt;
+&lt;strong&gt;免费&lt;/strong&gt;: YES&lt;br /&gt;
+&lt;strong&gt;开源&lt;/strong&gt;: &lt;a href=&#34;https://github.com/gedoor/legado&#34;  target=&#34;_blank&#34;&gt;gedoor/legado&lt;/a&gt;&lt;/div&gt;
+&lt;/section&gt;
+
+                            &lt;/div&gt;
+                        
+                            &lt;div  class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                                &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;下载地址&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gedoor/legado/releases/latest&#34;  target=&#34;_blank&#34;&gt;github release&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=io.legado.play.release&#34;  target=&#34;_blank&#34;&gt;&lt;del&gt;google play(已被下架)&lt;/del&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coolapk.com/apk/io.legado.app.release&#34;  target=&#34;_blank&#34;&gt;酷安&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+                            &lt;/div&gt;
+                        
+                            &lt;div  class=&#34;fragment-cell flex-auto-wrap&#34;&gt;
+                                &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;推荐书源&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://legado.cn/forum-rssSources-1.html&#34;  target=&#34;_blank&#34;&gt;阅读论坛 • 书源专区&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.yckceo.com/yuedu/shuyuan/index.html&#34;  target=&#34;_blank&#34;&gt;源仓库&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yuedu.miaogongzi.net/gx.html&#34;  target=&#34;_blank&#34;&gt;喵公子&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+                            &lt;/div&gt;
+                        
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;h2 id=&#34;关于书源&#34;&gt;关于书源&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;熟悉python爬虫框架Scrapy的人, 可以把书源规则认作Scrapy的&lt;strong&gt;Spider类&lt;/strong&gt;. 书源规则定义了如何搜索书籍, 然后抓取书籍的详情/目录/内容.&lt;br /&gt;
+阅读还包括订阅源规则不在本文的讨论之列, 它只是简化版的书源规则&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;入门书源规则编写的教程, 推荐如下:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://alanskycn.gitee.io/teachme/Rule/source.html&#34;  target=&#34;_blank&#34;&gt;https://alanskycn.gitee.io/teachme/Rule/source.html&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;另外, 还需要掌握知识包括不仅限于: 正则表达式, CSS元素选择器, XPath, JsonPath , HTML, JS, HTTP.&lt;/p&gt;
+&lt;p&gt;基于你熟悉这些后, 我们开始讨论&amp;quot;如何更加优雅的编写书源规则&amp;quot;:&lt;/p&gt;
+&lt;h3 id=&#34;编写建议&#34;&gt;编写建议&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;不要依赖sourceUrl/不要修改sourceUrl&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;精确coverUrl/bookUrl&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;优先使用@html获取长段文本&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+    
+    </item>
+<item>
     <title>移动端上一些可以折腾的APP</title>
     <link>https://qbeenslee.com/article/best-iphone-apps-2022/</link>
     <pubDate>Fri, 09 Sep 2022 11:04:08 +0800</pubDate>
@@ -1445,8 +1536,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-d88ee&#34; id=&#34;switcher-d88ee-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-d88ee-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-688fb&#34; id=&#34;switcher-688fb-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-688fb-0&#34;&gt;
                 
                     
                     效果
@@ -1471,8 +1562,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-d88ee&#34; id=&#34;switcher-d88ee-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-d88ee-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-688fb&#34; id=&#34;switcher-688fb-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-688fb-1&#34;&gt;
                 
                     
                     代码
