@@ -14,7 +14,7 @@
     <author>qbeenslee</author>
     <guid>https://qbeenslee.com/article/legado-site-rules/</guid>
     
-        <description>&lt;p&gt;阅读（legado）是一款很酷的应用，它可以让网络小说和漫画的爱好者导入自定义阅读源后享受便捷的阅读体验。但是阅读其实是一个灰色地带的应用，虽然并不违法，但是也不也上不了台面。&lt;/p&gt;
+        <description>&lt;p&gt;阅读（legado）是一款很酷的应用，它可以让网络小说和漫画的爱好者导入自定义阅读源后享受便捷的阅读体验。但是阅读其实是一个灰色地带的应用，虽然并不违法，但是也上不了台面。&lt;/p&gt;
 &lt;p&gt;本质上，阅读就是一个网络浏览器，根据书源规则，把那些小说和漫画的网站更加方便地解析展示给大家。要说有罪，那任何网页浏览器都可以被定罪，但它和盗版是强相关的。虽然在法律上有争议，但我还是认为阅读是 Android 手机上不可或缺的阅读神器。阅读确实很方便舒适，但是我还是建议大家通过正规渠道购买和阅读网络小说和漫画，这样不仅能尊重和支持作者，还能维护整个行业的生态环境。&lt;/p&gt;
 &lt;p&gt;所以，下文的介绍都不基于对盗版资源的抓取，特此说明。&lt;/p&gt;
 &lt;section class=&#34;fragment&#34;&gt;
@@ -86,15 +86,11 @@
 &lt;p&gt;基于你熟悉这些后, 我们开始讨论&amp;quot;如何更加优雅的编写书源规则&amp;quot;:&lt;/p&gt;
 &lt;h3 id=&#34;编写建议&#34;&gt;编写建议&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;不要依赖sourceUrl/不要修改sourceUrl&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;精确coverUrl/bookUrl&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;优先使用@html获取长段文本&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;不要依赖sourceUrl&lt;/li&gt;
+&lt;li&gt;不要修改sourceUrl&lt;/li&gt;
+&lt;li&gt;精确coverUrl/bookUrl&lt;/li&gt;
+&lt;li&gt;优先使用@html获取长段文本&lt;/li&gt;
+&lt;li&gt;下一页目录和下一页内容优先一次性获取&lt;/li&gt;
 &lt;/ol&gt;</description>
     
     </item>
@@ -1536,8 +1532,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-cb376&#34; id=&#34;switcher-cb376-0&#34; checked=&#34;checked&#34; /&gt;
-            &lt;label for=&#34;switcher-cb376-0&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-11877&#34; id=&#34;switcher-11877-0&#34; checked=&#34;checked&#34; /&gt;
+            &lt;label for=&#34;switcher-11877-0&#34;&gt;
                 
                     
                     效果
@@ -1562,8 +1558,8 @@
             
             
             
-            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-cb376&#34; id=&#34;switcher-cb376-1&#34;  /&gt;
-            &lt;label for=&#34;switcher-cb376-1&#34;&gt;
+            &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;switcher-11877&#34; id=&#34;switcher-11877-1&#34;  /&gt;
+            &lt;label for=&#34;switcher-11877-1&#34;&gt;
                 
                     
                     代码
